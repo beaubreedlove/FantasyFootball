@@ -91,7 +91,7 @@
     1.  <a id="ties">Ties</a>
         1.  Tied games may exist during the regular season.
         1.  In the event of a tie during the postseason, a win will be awarded to the team with the better head-to-head record from the regular season. If there is still a tie, the win will go to the team that started the playoffs with the better seed.
-1.  <a if="drafts>Draft</a>
+1.  <a if="draft">Draft</a>
     1.  Draft day
         1.  The draft will start at 9:00 pm EST and run until all teams have drafted a full roster.
     1.  Each manager will have up to 90 seconds to draft a single player to his/her team for each round.
@@ -292,7 +292,7 @@
 1.  <a id="rules-not-stated">Rules Not Stated</a>
     1.  All rules not stated in this document will be settled by our league configuration on Yahoo! Sports.
     1.  Anything still left ambiguous may be determined by a majority league vote.
-1.  <a id="managers">Manager responsibilities</a>
+1.  <a id="responsibilities">Manager responsibilities</a>
     1.  Managers should do their best to win each and every matchup.
     1.  Managers should look out for actions which seem to break the rules and call them out to the commissioner or veto.
     1.  Managers should be respectful of all other managers in the league and the rules of the league.
