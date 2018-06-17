@@ -91,7 +91,7 @@
     1.  <a id="ties">Ties</a>
         1.  Tied games may exist during the regular season.
         1.  In the event of a tie during the postseason, a win will be awarded to the team with the better head-to-head record from the regular season. If there is still a tie, the win will go to the team that started the playoffs with the better seed.
-1.  <a if="draft">Draft</a>
+1.  <a id="draft">Draft</a>
     1.  Draft day
         1.  The draft will start at 9:00 pm EST and run until all teams have drafted a full roster.
     1.  Each manager will have up to 90 seconds to draft a single player to his/her team for each round.
