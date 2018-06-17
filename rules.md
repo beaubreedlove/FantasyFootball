@@ -1,30 +1,30 @@
 1.  Table of contents
     1.  [TLDR](#tldr)
-    1.  [Teams](https://docs.google.com/document/d/1sXQeg9bKuEtbMPk8pjDOfzxZjxkqlFHeqlyG6bU-1YA/edit#bookmark=id.2y7d13q41eu0)
-        1.  [Managers](#bookmark=id.jh8v5tkgwbsx)
-        1.  [Roster](#bookmark=id.gg5ny143na9p)
-    1.  [Games (aka matchups)](#bookmark=id.j30gykdbie03)
-        1.  [Scoring](#bookmark=id.ee27wgj9592j)
-        1.  [Ties](#bookmark=kix.31t7j6lyftqh)
-    1.  [Draft](#bookmark=id.9n4hj8b31jwg)
-    1.  [Waivers](#bookmark=id.lvv5snv57w3j)
-    1.  [League Structure](#bookmark=id.xli49yks42tl)
-    1.  [Schedule](#bookmark=id.rb25cu5omxtx)
-        1.  [Regular Season](#bookmark=id.wgef01tqitz2)
-        1.  [Playoffs](#bookmark=id.fyp66jk0silm)
-    1.  [Money](#bookmark=id.dwft8lz0ukr1)
-        1.  [League Fees](#bookmark=id.oa8l8p5yehhn)
-        1.  [Payouts ($2,800 total)](#bookmark=kix.k2qjzmrm2sym)
-    1.  [Moves](#bookmark=id.iqjdgwbyh270)
-        1.  [Trades](#bookmark=id.lhc155sejd58)
-    1.  [Vetoing](#bookmark=id.s2jfbo39llgq)
-        1.  [Suspending Moves](#bookmark=id.52h4d1urnks5)
-    1.  [Voting](#bookmark=id.gmpx5apdv7r)
-    1.  [Seeding](#bookmark=id.5emr86yguiak)
-    1.  [Outside Influence](#bookmark=id.2k9p9g2h0zx8)
-    1.  [Rules Not Stated](#bookmark=id.2qcon3oi322l)
-    1.  [Manager Responsibilities](#bookmark=id.65zv1y8s11lz)
-    1.  [Commissioner Responsibilities](#bookmark=id.a9lwsdrnck9)
+    1.  [Teams](#teams)
+        1.  [Managers](#managers)
+        1.  [Roster](#roster)
+    1.  [Games (aka matchups)](#matchups)
+        1.  [Scoring](#scoring)
+        1.  [Ties](#ties)
+    1.  [Draft](#draft)
+    1.  [Waivers](#waivers)
+    1.  [League Structure](#structure)
+    1.  [Schedule](#schedule)
+        1.  [Regular Season](#regular-season)
+        1.  [Playoffs](#playoffs)
+    1.  [Money](#money)
+        1.  [League Fees](#fees)
+        1.  [Payouts ($2,800 total)](#payouts)
+    1.  [Moves](#moves)
+        1.  [Trades](#trades)
+    1.  [Vetoing](#vetoes)
+        1.  [Suspending Moves](#suspending-moves)
+    1.  [Voting](#voting)
+    1.  [Seeding](#seeding)
+    1.  [Outside Influence](#outside-influence)
+    1.  [Rules Not Stated](#rules-not-stated)
+    1.  [Manager Responsibilities](#responsibilities)
+    1.  [Commissioner Responsibilities](#commissioner)
 1.  <a id="tldr">TLDR</a>
     1.  Disclaimer
         1.  These are a brief summary of the rules.
@@ -49,8 +49,8 @@
         1.  People shouldn't create conflicts of interest with the league.
         1.  If a rule isn't here, we listen to Yahoo! Sports.
         1.  Managers, especially the commissioner, should be competitive, but friendly.
-1.  Teams
-    1.  Managers
+1.  <a id="teams">Teams</a>
+    1.  <a id="managers">Managers</a>
         1.  Each team must have one manager.
         1.  Each manager must have one team.
         1.  Managers are responsible for making all decisions pertaining to his or her team including but not limited to:
@@ -62,7 +62,7 @@
             1.  Voting
         1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
         1.  Managers may give advice to other managers.
-    1.  Roster
+    1.  <a id="roster">Roster</a>
         1.  Each team may have up to 14 players.
             1.  Up to 9 players will be considered in-play; meaning eligible for scoring.
             1.  The remaining players on a team are considered to be on the bench.
@@ -79,19 +79,19 @@
             1.  1 Defense + Special Teams (DST)
             1.  1 Flex (W/R/T)
                 1.  A WR, RB or TE may fill this slot.
-1.  Games (aka matchups)
+1.  <a id="matchups">Games (aka matchups)</a>
     1.  Each team will play against exactly one other team every week.
-    1.  Scoring
+    1.  <a id="scoring">Scoring</a>
         1.  Scoring will be clearly defined by the league settings on Yahoo! Sports
         1.  We will use fractional scoring in some cases to avoid ties.
         1.  Negative scoring will penalize poor players.
     1.  Results
         1.  The higher scoring team will receive a win each week and the other will receive a loss.
         1.  If both teams have the same score, each will receive a tie.
-    1.  Ties
+    1.  <a id="ties">Ties</a>
         1.  Tied games may exist during the regular season.
         1.  In the event of a tie during the postseason, a win will be awarded to the team with the better head-to-head record from the regular season. If there is still a tie, the win will go to the team that started the playoffs with the better seed.
-1.  Draft
+1.  <a if="drafts>Draft</a>
     1.  Draft day
         1.  The draft will start at 9:00 pm EST and run until all teams have drafted a full roster.
     1.  Each manager will have up to 90 seconds to draft a single player to his/her team for each round.
@@ -103,7 +103,7 @@
             1.  Each of the even numbered rounds will draft in reverse order.
         1.  Determining draft order.
             1.  Draft order will be determined randomly by the commissioner, who will also provide proof that it was fairly chosen.
-1.  Waivers
+1.  <a id="waivers">Waivers</a>
     1.  Free Agent Acquisition Budget (FAAB)
         1.  Each team will be allotted 10,000 FAAB immediately after the draft.
         1.  No additional FAAB will be introduced to the game at any point.
@@ -114,16 +114,16 @@
         1.  If two or more teams tie for the highest FAAB bid, the Continuing Rolling List tie-breaker method will be used, which is configured and determined by Yahoo! Sports.
     1.  Players may be dropped from a team at any time in order to make room for incoming players.
     1.  During a waiver request, managers may opt to conditionally drop a player if their request succeeds.
-1.  League Structure
+1.  <a id="structure">League Structure</a>
     1.  There will be no divisions or conferences.
     1.  There will be 14 teams.
-1.  Schedule
-    1.  Regular Season
+1.  <a id="schedule">Schedule</a>
+    1.  <a id="regular-season">Regular Season</a>
         1.  The schedule will determined by Yahoo! Sports.
         1.  There will be 13 games for each team in the regular season, corresponding to the first 13 weeks of the NFL regular season.
         1.  Each team will play one game every week.
         1.  Each team will play against each other team once.
-    1.  Playoffs
+    1.  <a id="playoffs">Playoffs</a>
         1.  7 Teams will qualify for the playoffs.
             1.  Yahoo Sports! Limits leagues to an 8 team playoff format, so the real playoff schedule will be announced by the commissioner each week.
         1.  The highest seed in the regular season will receive a bye on week 14.
@@ -145,15 +145,15 @@
                     1.  Winner is 3rd place
                     1.  Loser is 4th place
         1.  For the sake of prizes, the 3 losing teams in week 14 will be considered 5th, 6th, and 7th place in no particular order.
-1.  Money
-    1.  League Fees
+1.  <a id="money">Money</a>
+    1.  <a id="fees">League Fees</a>
         1.  Payment
             1.  A one time payment of $200 will be collected by the commissioner from each team manager.
         1.  Deadline
             1.  Initial payment must be paid on or before August 17, 2017.
             1.  Managers will have a chance to review the rules before committing to the league.
                 1.  If 14 managers do not commit, the initial payment will be refunded.
-    1.  Payouts
+    1.  <a id="payouts">Payouts</a>
         1.  Playoffs ($1,900 total)
             1.  1st place - $1,000
             1.  2nd place - $400
@@ -199,12 +199,12 @@
                     1.  The deadline to make picks in the League Pick'em is kickoff of the first game each week.
         1.  All prizes will be paid out no later than the real NFL Super Bowl.
         1.  After week 14, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
-1.  Moves
+1.  <a id="moves">Moves</a>
     1.  Moves are defined as player adds, trades, and drops.
     1.  A player may not be added from waivers by the same team that dropped him immediately before the waiver period began.
         1.  The team who dropped the player must wait until the waiver period ends before placing a claim on the dropped player.
     1.  Players may only be dropped by a manager if the manager intends to immediately replace the slot on his or her roster.
-    1.  Trades
+    1.  <a id="trades">Trades</a>
         1.  Trade deadline
             1.  The trade deadline is November 11, 2017
         1.  Trades may only involve two teams.
@@ -223,7 +223,7 @@
             1.  To propose a trade in the league message board, clearly state the team that the trade is proposed to along with all players and FAAB to be given and received.
             1.  The trade will only be considered initialized when the manager that the trade was proposed to replies with the phrase "I accept" unconditionally and unnegated.
             1.  In the case that a trade is proposed via the message board, vetoes may be initiated in the same thread.
-1.  Vetoing
+1.  <a id="vetoes">Vetoing</a>
     1.  Any move may be vetoed by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
     1.  Setting a roster in a way that is obviously not intended to beat the other team may be vetoed.
@@ -246,13 +246,13 @@
     1.  If a veto vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the veto.
         1.  In some cases, this may include reversing other actions by other teams, if they are determined by a majority league vote to have been responses to the original vetoed action.
         1.  In the case that multiple actions need to be reversed, they will be determined in chronological order.
-    1.  In order to prevent multiple vetoes, the commissioner may suspend certain actions, including but not limited to moves, during a league vote until the vote is complete.
+    1.  <a id="suspending-moves">In order to prevent multiple vetoes, the commissioner may suspend certain actions, including but not limited to moves, during a league vote until the vote is complete.</a>
         1.  The commissioner will do his best to act quickly to finish a veto vote, in an attempt to avoid suspending moves.
         1.  In the event moves are suspended, managers may request to conditionally, based on the outcome of the veto vote, make a move.
         1.  Conditional moves can be made by stating them clearly in the league message board or communicating them to the commissioner who will then publically add them to the league message board.
         1.  Conditional moves during a suspension will be processed after the veto vote in the order which they were publicly communicated to the league message board. For this reason, managers are encouraged to post it themselves, rather than wait for the commissioner.
         1.  Managers should not consider specific conditional moves when casting their veto vote on the original.
-1.  Voting
+1.  <a id="voting">Voting</a>
     1.  For any reasonable dispute that requires a league vote, the commissioner will gather and post all relevant information and make an initial ruling which shall be binding unless any manager objects in a reasonable time.
     1.  If any manager objects to the commissioner's initial ruling, a league vote shall be initiated.
     1.  League votes should be completed during before 24 hours period with each team manager voting yes (to make some change) or no (to keep things as they are.
@@ -272,7 +272,7 @@
             1.  Managers gaining or losing players in a trade.
             1.  Managers matched up against a team that's being accused of making poor roster decisions.
         1.  Managers disqualified from voting will implicitly abstain from the vote.
-1.  Seeding
+1.  <a id="seeding">Seeding</a>
     1.  Regular Season
         1.  Seeding in the regular season will order teams from most to least games won.
     1.  Post season
@@ -285,20 +285,20 @@
     1.  Tie breakers (3+ teams)
         1.  As soon as a team is eliminated from the group of tied teams, tie breaking procedures start over with the remaining players.
         1.  Eliminate lowest rank in each of the 2-team tie breaking contests in order. (i.e. eliminate least ties, then worst head-to-head, etc.)
-1.  Outside influence
+1.  <a id="outside-influence">Outside influence</a>
     1.  No external value to the league, including monetary value, may be exchanged between managers for moves or any other manager decision.
     1.  No side bets or games of chance shall be wagered by a manager, aside from those outlined by these rules, that rewards that manager for making a decision that reduces his or her team's chance of winning a match up.
     1.  Breaking rules related to "Outside influence" may result in a majority league vote for disqualification from playoffs, withholding of prizes and/or expulsion from the league.
-1.  Rules Not Stated
+1.  <a id="rules-not-stated">Rules Not Stated</a>
     1.  All rules not stated in this document will be settled by our league configuration on Yahoo! Sports.
     1.  Anything still left ambiguous may be determined by a majority league vote.
-1.  Manager responsibilities
+1.  <a id="managers">Manager responsibilities</a>
     1.  Managers should do their best to win each and every matchup.
     1.  Managers should look out for actions which seem to break the rules and call them out to the commissioner or veto.
     1.  Managers should be respectful of all other managers in the league and the rules of the league.
     1.  Managers should use common sense and ethics when presented with a questionably legal or moral decision.
     1.  Managers should not celebrate the injury of a real life player.
-1.  Commissioner responsibilities
+1.  <a id="commissioner">Commissioner responsibilities</a>
     1.  Commissioner will do his best to explain the rules and consequences of any event or action.
     1.  Commissioner will be the sole interpreter of all rules.
     1.  Commissioner will make himself available to answer all reasonable questions in a reasonable time frame.
