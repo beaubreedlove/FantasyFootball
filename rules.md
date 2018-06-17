@@ -25,7 +25,7 @@
     1.  [Rules Not Stated](#bookmark=id.2qcon3oi322l)
     1.  [Manager Responsibilities](#bookmark=id.65zv1y8s11lz)
     1.  [Commissioner Responsibilities](#bookmark=id.a9lwsdrnck9)
-1.  <a id="tldr">TLDR</a>
+1.  TLDR
     1.  Disclaimer
         1.  These are a brief summary of the rules.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
