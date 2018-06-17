@@ -1,5 +1,5 @@
 1.  Table of contents
-    1.  [TLDR](https://docs.google.com/document/d/1sXQeg9bKuEtbMPk8pjDOfzxZjxkqlFHeqlyG6bU-1YA/edit#bookmark=id.wvylwj8movp8)
+    1.  [TLDR](#tldr)
     1.  [Teams](https://docs.google.com/document/d/1sXQeg9bKuEtbMPk8pjDOfzxZjxkqlFHeqlyG6bU-1YA/edit#bookmark=id.2y7d13q41eu0)
         1.  [Managers](#bookmark=id.jh8v5tkgwbsx)
         1.  [Roster](#bookmark=id.gg5ny143na9p)
@@ -25,7 +25,7 @@
     1.  [Rules Not Stated](#bookmark=id.2qcon3oi322l)
     1.  [Manager Responsibilities](#bookmark=id.65zv1y8s11lz)
     1.  [Commissioner Responsibilities](#bookmark=id.a9lwsdrnck9)
-1.  TLDR
+<a id="tldr">1.  TLDR</a>
     1.  Disclaimer
         1.  These are a brief summary of the rules.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
