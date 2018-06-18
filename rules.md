@@ -255,7 +255,7 @@
 1.  <a id="voting">Voting</a>
     1.  For any reasonable dispute that requires a league vote, the commissioner will gather and post all relevant information and make an initial ruling which shall be binding unless any manager objects in a reasonable time.
     1.  If any manager objects to the commissioner's initial ruling, a league vote shall be initiated.
-    1.  League votes should be completed during before 24 hours period with each team manager voting yes (to make some change) or no (to keep things as they are.
+    1.  League votes should be completed within 24 hours with each team manager voting yes (to make some change) or no (to keep things as they are).
     1.  Managers may abstain from a vote. In this case their vote will not count for or against the proposal.
     1.  Majority votes shall pass if at least half of the teams who didn't abstain, vote yes.
     1.  Unanimous votes shall pass if all managers vote yes or abstain.
