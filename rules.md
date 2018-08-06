@@ -263,7 +263,7 @@
     1.  A majority vote will be required for:
         1.  Vetos.
         1.  Disambiguating any rules.
-            1.  The commissioner will determine upon request if the rule is ambiguous or not. Non-ambiguous rules will only be changed upon unanimous vote.
+            1.  The commissioner will determine upon request whether the rule is ambiguous or not. Non-ambiguous rules will only be changed upon unanimous vote.
         1.  Replacing the commissioner.
         1.  Anything else that doesn't require a unanimous vote.
     1.  Managers are disqualified from voting on a particular issue if they are directly involved with what is being voted upon.
