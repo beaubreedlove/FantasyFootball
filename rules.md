@@ -228,9 +228,13 @@
             1.  Trades involving FAAB must be proposed and accepted via the league message board.
             1.  At no point may a manager have any combination of proposed trades, accepted trades or WW bids outstanding that could lead to a situation where his or her FAAB falls below 0.
         1.  If Yahoo! Sports can't accommodate a legal trade, the trade may be proposed in the league message board and the commissioner will manually make the moves at the end of the trade period.
-            1.  To propose a trade in the league message board, clearly state the team that the trade is proposed to along with all players and FAAB to be given and received.
+            1.  To propose a trade in the league message board, clearly and unambiguously state the team that the trade is proposed to along with all players and FAAB to be given and received.
             1.  The trade will only be considered initialized when the manager that the trade was proposed to replies with the phrase "I accept" unconditionally and unnegated.
             1.  In the case that a trade is proposed via the message board, vetoes may be initiated in the same thread.
+            1. Managers who propose trades via the message board may withdraw their proposal before a trade is accepted by unambiguously posting their intent to do so.
+            1. Managers may designate a time that their trade expires by posting it unambiguously in the message board.
+                1. This time may be changed by the proposing manager.
+                1. Times that don't include a timezone will be assumed to be Pacific Time.
 1.  <a id="vetoes">Vetoing</a>
     1.  Any move may be vetoed by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
@@ -249,7 +253,8 @@
     1.  A manager may initiate a veto by indicating to the league that he or she wishes to do so through any of the following means:
         1.  Posting a new thread in the league message board stating the intent to veto.
         1.  Using the trade veto button provided by Yahoo! Sports.
-        1.  Contacting the commissioner digitally, verbally, or in writing and stating the manager's intention to veto and receiving an acknowledgement of such intention.
+        1.  Contacting the commissioner and stating the manager's intention to veto and receiving an acknowledgement of such intention.
+            1. Commissioner gives no guarentee that he will respond promptly. For this reason, it's recommended that managers use the message board if they'd like a fast decision.
     1.  Whenever a veto is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
     1.  When a veto is initiated, each manager in the league will have whichever is later of 24 hours after the time the veto is initiated or 48 hours after the time the vetoed action occurred to perform a majority league vote to determine the outcome of the veto.
     1.  If a veto vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the veto.
@@ -258,7 +263,8 @@
     1.  <a id="suspending-moves">In order to prevent multiple vetoes, the commissioner may suspend certain actions, including but not limited to moves, during a league vote until the vote is complete.</a>
         1.  The commissioner will do his best to act quickly to finish a veto vote, in an attempt to avoid suspending moves.
         1.  In the event moves are suspended, managers may request to conditionally, based on the outcome of the veto vote, make a move.
-        1.  Conditional moves can be made by stating them clearly in the league message board or communicating them to the commissioner who will then publically add them to the league message board.
+        1.  Conditional moves can be made by stating them clearly in the league message board or by communicating them to the commissioner who will then publically add them to the league message board.
+            1. Commissioner gives no guarentee that he will act quickly in this situation as his number 1 priority will be to lift the suspension.
         1.  Conditional moves during a suspension will be processed after the veto vote in the order which they were publicly communicated to the league message board. For this reason, managers are encouraged to post it themselves, rather than wait for the commissioner.
         1.  Managers should not consider specific conditional moves when casting their veto vote on the original.
 1.  <a id="voting">Voting</a>
