@@ -298,8 +298,8 @@
         1.  Most points in regular season
         1.  Coin flip
     1.  Tie breakers (3+ teams)
-        1.  As soon as a team is eliminated from the group of tied teams, tie breaking procedures start over with the remaining players.
-        1.  Eliminate lowest rank in each of the 2-team tie breaking contests in order. (i.e. eliminate least ties, then worst head-to-head, etc.)
+        1.  Determine highest rank by scoring each of the 2-team tie breaking contests in order. (i.e. most ties, then best 3+ way head-to-head, etc.)
+        1.  As soon as a team wins tie breaking procedures among the group of tied teams, tie breaking procedures start over with the remaining teams.
 1.  <a id="outside-influence">Outside influence</a>
     1.  No external value to the league, including monetary value, may be exchanged between managers for moves or any other manager decision.
     1.  No side bets or games of chance shall be wagered by a manager, aside from those outlined by these rules, that rewards that manager for making a decision that reduces his or her team's chance of winning a match up.
