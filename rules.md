@@ -19,7 +19,7 @@
         1.  [Payouts ($2,800 total)](#payouts)
     1.  [Moves](#moves)
         1.  [Trades](#trades)
-    1.  [Vetoing](#vetoes)
+    1.  [Objections](#objections)
         1.  [Suspending Moves](#suspending-moves)
     1.  [Voting](#voting)
     1.  [Seeding](#seeding)
@@ -44,7 +44,7 @@
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline is 11/11.
         1.  FAAB may be used in trades with some restrictions.
-        1.  Anything can be vetoed and a majority vote will determine the outcome.
+        1.  Anything can be objected and a majority vote will determine the outcome.
         1.  Rules changes require a unanimous vote.
         1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $400, $250, and $100.
         1.  There are 5 weekly prizes of $80 each to be split between 2 teams each week.
@@ -61,7 +61,7 @@
             1.  Draft Picks
             1.  Setting Roster
             1.  Proposing and Accepting Trades
-            1.  Vetoing
+            1.  Objections
             1.  Voting
         1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
         1.  Managers may give advice to other managers.
@@ -217,10 +217,10 @@
             1.  The trade deadline is November 11, 2017
         1.  Trades may only involve two teams.
             1.  Threeway trades may be proposed or discussed, but the managers must work out a way to execute the trade in multiple steps using only two managers at a time.
-            1.  During the multipart execution of a threeway trade, managers may veto any component trade, independant of the other trades. For this reason, threeway trades are not guaranteed to be "all or none".
+            1.  During the multipart execution of a threeway trade, managers may object to any component trade, independant of the other trades. For this reason, threeway trades are not guaranteed to be "all or none".
         1.  Tradebacks
             1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away.
-            1.  Tradebacks are not strictly against the rules, but they are discouraged and are valid reasons for a manager to veto despite not vetoing the original trade.
+            1.  Tradebacks are not strictly against the rules, but they are discouraged and are valid reasons for a manager to object despite not objecting to the original trade.
         1.  At least one player must be transferred by each team involved in a trade.
         1.  Trades may include a transfer of FAAB from one team to another, with some exceptions, as a means to balance the trade.
             1.  A team may not make a trade that results in either team holding more than 10,000 FAAB.
@@ -230,43 +230,44 @@
         1.  If Yahoo! Sports can't accommodate a legal trade, the trade may be proposed in the league message board and the commissioner will manually make the moves at the end of the trade period.
             1.  To propose a trade in the league message board, clearly and unambiguously state the team that the trade is proposed to along with all players and FAAB to be given and received.
             1.  The trade will only be considered initialized when the manager that the trade was proposed to replies with the phrase "I accept" unconditionally and unnegated.
-            1.  In the case that a trade is proposed via the message board, vetoes may be initiated in the same thread.
+            1.  In the case that a trade is proposed via the message board, objections may be initiated in the same thread.
             1. Managers who propose trades via the message board may withdraw their proposal before such trade is accepted by unambiguously posting their intent to do so.
             1. Managers may designate a time that their trade expires by posting it unambiguously in the message board.
                 1. This time may be changed by the proposing manager.
                 1. Times that don't include a timezone will be assumed to be Pacific Time.
-1.  <a id="vetoes">Vetoing</a>
-    1.  Any move may be vetoed by any manager within 24 hours after the move is made.
+1.  <a id="objections">Objections</a>
+    1.  Any move may be objected by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
-    1.  Setting a roster in a way that is obviously not intended to beat the other team may be vetoed.
+    1.  Setting a roster in a way that is obviously not intended to beat the other team may be objected.
         1.  This includes, but is not limited to:
             1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
-            1.  Putting a player in play that has been long known to not be participating in the given week.
+            1.  Putting a player in play that has been long known to be not participating in the given week.
         1.  Exceptions may include:
-            1.  Pulling (or not pulling) a player from in-play after his team has gained a lead that would be at risk if the player scored negative points.
+            1.  Pulling (or not pulling) a player from active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
             1.  In rare cases, leaving a roster position empty because no alternative exists on the bench and no benched player is worth dropping.
-        1.  A successful veto regarding a roster decision to play a specific player shall always result in that player being substituted for the player on the bench with the highest projection that's capable of filling that position. In the case that no player is available, a move to pick up a suitable player from FA may be forced.
+        1.  A successful objection regarding a roster decision to play a specific player shall always result in that player being substituted for the player on the bench with the highest projection who's capable of filling that position. In the case that no player is available, a move to pick up a suitable player from FA may be forced.
     1.  Waiver abuse
-        1.  If a player is suspected of dropping and picking up players from FA for the sole significant purpose of moving players to waivers, any moves made to accomplish this may be vetoed.
+        1.  If a player is suspected of dropping and picking up players from FA for the sole significant purpose of moving players to waivers, any moves made to accomplish this may be objected.
         1.  An exception may be made if the league determines by a majority vote that the player was scrambling "last-minute" to assemble a viable scoring team with incomplete information.
         1. Dropping a player to waivers shall never be considered waiver abuse if the player has already started their game for the week or would have otherwise been placed on waivers automatically by Yahoo.
-    1.  A manager may initiate a veto by indicating to the league that he or she wishes to do so through any of the following means:
-        1.  Posting a new thread in the league message board stating the intent to veto.
+    1.  A manager may initiate an objection by indicating to the league that he or she wishes to do so through any of the following means:
+        1.  Posting a new thread in the league message board stating the intent to object.
         1.  Using the trade veto button provided by Yahoo! Sports.
-        1.  Contacting the commissioner and stating the manager's intention to veto and receiving an acknowledgement of such intention.
+        1.  Contacting the commissioner and stating the manager's intention to object and receiving an acknowledgement of such intention.
             1. Commissioner gives no guarentee that he will respond promptly. For this reason, it's recommended that managers use the message board when they'd like a fast decision.
-    1.  Whenever a veto is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
-    1.  When a veto is initiated, each manager in the league will have whichever is later of 24 hours after the time the veto is initiated or 48 hours after the time the vetoed action occurred to perform a majority league vote to determine the outcome of the veto.
-    1.  If a veto vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the veto.
-        1.  In some cases, this may include reversing other actions by other teams, if they are determined by a majority league vote to have been responses to the original vetoed action.
-        1.  In the case that multiple actions need to be reversed, they will be determined in chronological order.
-    1.  <a id="suspending-moves">In order to prevent multiple vetoes, the commissioner may suspend certain actions, including but not limited to moves, during a league vote until the vote is complete.</a>
-        1.  The commissioner will do his best to act quickly to finish a veto vote, in an attempt to avoid suspending moves.
-        1.  In the event moves are suspended, managers may request to conditionally, based on the outcome of the veto vote, make a move.
+    1.  Whenever an objection is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
+    1.  When an objection is initiated, each manager in the league will have whichever is later of 24 hours after the time the objection is initiated or 48 hours after the time the objected action occurred to perform a majority league vote to determine the outcome of the objection.
+    1.  If an objection vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the objection.
+        1.  In some cases, this may include reversing other actions by other teams, if they are determined by a majority league vote to have been responses to the original objected action.
+        1.  In the case that multiple actions need to be reversed, they will be determined in ascending chronological order.
+    1.  <a id="suspending-moves">In order to prevent multiple objections, the commissioner may suspend certain actions, including but not limited to moves, during a league vote until the vote is complete.</a>
+        1.  The commissioner will do his best to act quickly to finish an objection vote, in an attempt to avoid suspending moves.
+        1.  In the event moves are suspended, managers may request to conditionally, based on the outcome of the objection vote, make a move.
         1.  Conditional moves can be made by stating them clearly in the league message board or by communicating them to the commissioner who will then publically add them to the league message board.
             1. Commissioner gives no guarentee that he will act quickly in this situation as his number 1 priority will be to lift the suspension.
-        1.  Conditional moves during a suspension will be processed after the veto vote in the order which they were publicly communicated to the league message board. For this reason, managers are encouraged to post it themselves, rather than wait for the commissioner.
-        1.  Managers should not consider specific conditional moves when casting their veto vote on the original.
+        1.  Conditional moves during a suspension will be processed after the objection vote in the order which they were publicly communicated to the league message board. For this reason, managers are encouraged to post it themselves, rather than wait for the commissioner.
+        1.  Managers should not consider specific conditional moves when casting their vote on the original objection.
+    1. Any use of the word "veto" or derivations thereof in this document or in the Yahoo interface including the message board shall be interpreted as having the same meaning as an objection unless otherwise stated.
 1.  <a id="voting">Voting</a>
     1.  For any reasonable dispute that requires a league vote, the commissioner will gather and post all relevant information and make an initial ruling which shall be binding unless any manager objects in a reasonable time.
     1.  If any manager objects to the commissioner's initial ruling, a league vote shall be initiated.
@@ -276,7 +277,7 @@
     1.  Unanimous votes shall pass if all managers vote yes or abstain.
     1.  A unanimous vote will be required for any changes to the rules that may in anyway affect the chances for a manager to win a cash prize.
     1.  A majority vote will be required for:
-        1.  Vetos.
+        1.  Objections.
         1.  Disambiguating any rules.
             1.  The commissioner will determine upon request whether the rule is ambiguous or not. Non-ambiguous rules will only be changed upon unanimous vote.
         1.  Replacing the commissioner.
@@ -309,7 +310,7 @@
     1.  Anything still left ambiguous may be determined by a majority league vote.
 1.  <a id="responsibilities">Manager responsibilities</a>
     1.  Managers should do their best to win each and every matchup.
-    1.  Managers should look out for actions which seem to break the rules and call them out to the commissioner or veto.
+    1.  Managers should look out for actions which seem to break the rules and call them out to the commissioner or publicly object.
     1.  Managers should be respectful of all other managers in the league and the rules of the league.
     1.  Managers should use common sense and ethics when presented with a questionably legal or moral decision.
     1.  Managers should not celebrate the injury of a real life player.
