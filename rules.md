@@ -249,7 +249,7 @@
     1.  Waiver abuse
         1.  If a player is suspected of dropping and picking up players from FA for the sole significant purpose of moving players to waivers, any moves made to accomplish this may be vetoed.
         1.  An exception may be made if the league determines by a majority vote that the player was scrambling "last-minute" to assemble a viable scoring team with incomplete information.
-        1. Dropping a player to waivers, shall never be considered waiver abuse if the player has already started their game for the week or would have otherwise been placed on waivers automatically by Yahoo.
+        1. Dropping a player to waivers shall never be considered waiver abuse if the player has already started their game for the week or would have otherwise been placed on waivers automatically by Yahoo.
     1.  A manager may initiate a veto by indicating to the league that he or she wishes to do so through any of the following means:
         1.  Posting a new thread in the league message board stating the intent to veto.
         1.  Using the trade veto button provided by Yahoo! Sports.
