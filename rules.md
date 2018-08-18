@@ -162,49 +162,35 @@
             1.  Managers will have a chance to review the rules before committing to the league.
                 1.  If 14 managers do not commit, the initial payment will be refunded.
     1.  <a id="payouts">Payouts</a>
-        1.  Playoffs ($1,900 total)
+        1.  Playoffs ($2,000 total)
             1.  1st place - $1,000
-            1.  2nd place - $400
+            1.  2nd place - $500
             1.  3rd place - $250
             1.  4th place - $100
             1.  5th through 7th place - $50 each (x3)
         1.  Points ($200)
-            1.  Most Points in the regular season - $200
+            1.  Most points in the regular season - $200
         1.  Weekly Prizes ($400 total)
             1.  For each of the final 5 weeks of the regular season, $80 will be awarded to the two teams faced off in the matchup that has the highest total score of both teams.
             1.  The $80 will be split among the two managers proportionally, rounding to the nearest $1 in favor of the winner.
             1.  If two or more matchups tie for this prize, it will be divided further and rounding in all cases will favor teams with higher scores.
-        1.  Other achievement prizes ($300)
-            1.  Determining contests
-                1.  Each of the following contests will be put up to a majority league vote before the draft.
-                1.  If less than three contests receive seven votes, the top three will be prizes. The commissioner will break any ties that arise when determining these three prizes.
-                1.  The $300 will be distributed evenly among each of these prizes, resulting in either six prizes for $50, five prizes for $60, four prizes for $75, or three prizes for $100.
-            1.  Contests
-                1.  Best worst player
-                    1.  Each team will have a chance to win best worst player every week.
-                    1.  In a single week, a team's "worst player" is the in-play player that scores the least points on a team that fills all roster positions for that week.
-                    1.  The best worst player award will go to the manager of the team who had the highest scoring worst player in any single week of the year.
-                    1.  Ties will be go to the team with the better 2nd worst player on the given week, then 3rd, 4th, and so on.
-                1.  Best worst week
-                    1.  At the end of the year, each team's "worst week" will be defined as the week that they scored their minimum score.
-                    1.  A manager will win best worst week if their team's worst week had a higher score than any other team.
-                    1.  Ties will go to the team with the better 2nd worst week, then 3rd, 4th, and so on.
-                1.  Longest Winning Streak
-                    1.  The team that has the longest consecutive streak of matches won in the regular season, wins this contest.
-                    1.  Ties will go to the team with the longest 2nd winning streak, then 3rd, 4th, and so on.
-                    1.  Remaining ties will go to the team that finishes the regular season with the higher seed.
-                1.  Best week
-                    1.  Each team will have a chance to win best week every week.
-                    1.  The team with the highest scoring single week will win.
-                    1.  Ties will go to the team with the 2nd highest scoring week, then 3rd, 4th, and so on.
-                1.  Week 1
-                    1.  This prize, intended to be a proxy for best draft, will go to the team who scores the highest score on week 1.
-                    1.  Ties will be split evenly between the tied teams.
-                1.  League Pickem
-                    1.  Yahoo! Sports offers a side game within Fantasy football call League Pick'em in which managers may pick the teams they expect to win each week.
-                    1.  To win this contest a manager must pick the most games correct in the League Pick'em for the whole regular season.
-                    1.  Managers must choose their own team each week and if another team or no team is chosen, it will be scored as if they had chosen their own team.
-                    1.  The deadline to make picks in the League Pick'em is kickoff of the first game each week.
+        1.  Best worst player ($50)
+            1.  Each team will have a chance to win best worst player every week.
+            1.  In a single week, a team's "worst player" is the in-play player that scores the least points on a team that fills all roster positions for that week.
+            1.  The best worst player award will go to the manager of the team who had the highest scoring worst player in any single week of the year.
+            1.  Ties will be go to the team with the better 2nd worst player on the given week, then 3rd, 4th, and so on.
+        1.  Best worst week ($50)
+            1.  At the end of the year, each team's "worst week" will be defined as the week that they scored their minimum score.
+            1.  A manager will win best worst week if their team's worst week had a higher score than any other team.
+            1.  Ties will go to the team with the better 2nd worst week, then 3rd, 4th, and so on.
+        1.  Longest Winning Streak ($50)
+            1.  The team that has the longest consecutive streak of matches won in the regular season, wins this contest.
+            1.  Ties will go to the team with the longest 2nd winning streak, then 3rd, 4th, and so on.
+            1.  Remaining ties will go to the team that finishes the regular season with the higher seed.
+        1.  Best week ($50)
+            1.  Each team will have a chance to win best week every week.
+            1.  The team with the highest scoring single week will win.
+            1.  Ties will go to the team with the 2nd highest scoring week, then 3rd, 4th, and so on.
         1.  All prizes will be paid out no later than the real NFL Super Bowl.
         1.  After week 14, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
 1.  <a id="moves">Moves</a>
