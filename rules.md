@@ -256,6 +256,8 @@
     1. Any use of the word "veto" or derivations thereof in this document or in the Yahoo interface including the message board shall be interpreted as having the same meaning as an objection unless otherwise stated.
 1.  <a id="voting">Voting</a>
     1.  For any reasonable dispute that requires a league vote, the commissioner will gather and post all relevant information and make an initial ruling which shall be binding unless any manager objects in a reasonable time.
+    1. A league vote will only occur following an objection or other dispute if seconded by another manager.
+        1. In the case that a manager seconds an objection, that manager must vote in favor of the objection.
     1.  If any manager objects to the commissioner's initial ruling, a league vote shall be initiated.
     1.  League votes should be completed within 24 hours with each team manager voting yes (to make some change) or no (to keep things as they are).
     1.  Managers may abstain from a vote. In this case their vote will not count for or against the proposal.
