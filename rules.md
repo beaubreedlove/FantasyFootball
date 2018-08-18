@@ -254,7 +254,7 @@
         1.  Posting a new thread in the league message board stating the intent to veto.
         1.  Using the trade veto button provided by Yahoo! Sports.
         1.  Contacting the commissioner and stating the manager's intention to veto and receiving an acknowledgement of such intention.
-            1. Commissioner gives no guarentee that he will respond promptly. For this reason, it's recommended that managers use the message board if they'd like a fast decision.
+            1. Commissioner gives no guarentee that he will respond promptly. For this reason, it's recommended that managers use the message board when they'd like a fast decision.
     1.  Whenever a veto is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
     1.  When a veto is initiated, each manager in the league will have whichever is later of 24 hours after the time the veto is initiated or 48 hours after the time the vetoed action occurred to perform a majority league vote to determine the outcome of the veto.
     1.  If a veto vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the veto.
@@ -299,7 +299,7 @@
         1.  Coin flip
     1.  Tie breakers (3+ teams)
         1.  Determine highest rank by scoring each of the 2-team tie breaking contests in order. (i.e. most ties, then best 3+ way head-to-head, etc.)
-        1.  As soon as a team wins tie breaking procedures among the group of tied teams, tie breaking procedures start over with the remaining teams.
+        1.  As soon as a team wins tie breaking procedures among the group of tied teams, tie breaking procedures start over with the remaining teams vying for the next highest seed.
 1.  <a id="outside-influence">Outside influence</a>
     1.  No external value to the league, including monetary value, may be exchanged between managers for moves or any other manager decision.
     1.  No side bets or games of chance shall be wagered by a manager, aside from those outlined by these rules, that rewards that manager for making a decision that reduces his or her team's chance of winning a match up.
