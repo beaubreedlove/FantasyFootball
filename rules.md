@@ -29,7 +29,8 @@
     1.  [Commissioner Responsibilities](#commissioner)
 1.  <a id="tldr">TLDR</a>
     1.  Disclaimer
-        1.  These are a brief summary of the rules.
+        1.  TLDR stands for "too long didn't read".
+        1.  This section is intended to be a brief summary of the rules.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
     1.  Summary
         1.  There are 14 teams.
@@ -39,18 +40,19 @@
         1.  The playoffs will have 7 teams, one with a bye, and take place on weeks 14 through 16.
         1.  The draft is on 9/4 at 9pm EDT.
         1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
-        1. The winner of waiver wire auctions will pay the price that the second highest bidder bid.
+        1.  The winner of waiver wire auctions will pay the price that the second highest bidder bid.
         1.  There are no divisions.
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline is 11/11.
         1.  FAAB may be used in trades with some restrictions.
         1.  Anything can be objected and a majority vote will determine the outcome.
         1.  Rules changes require a unanimous vote.
-        1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $400, $250, and $100.
-        1.  There are 4 weekly prizes of $100 each to be split between 2 teams each week.
-        1.  There are 3-6 other prizes of equal amounts of either $100, $75, $60, or $50 for various other achievements. Each of these prizes will be approved or rejected by a majority league vote.
+        1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $500, $250, and $100.
+        1.  The team who scores the most points wins $200.
+        1.  Starting on week 10, there are 4 weekly prizes of $100 each to be split between 2 teams each week.
+        1.  There are 4 other prizes of $50 each.
         1.  People shouldn't create conflicts of interest with the league.
-        1.  If a rule isn't here, we listen to Yahoo! Sports.
+        1.  If a rule isn't defined well here, we fall back to Yahoo rules. If it's still not clear, we use a league vote.
         1.  Managers, especially the commissioner, should be competitive, but friendly.
 1.  <a id="teams">Teams</a>
     1.  <a id="managers">Managers</a>
@@ -73,7 +75,7 @@
         1.  Each player is assigned a position by Yahoo! Sports.
             1.  If a player is assigned two positions, his team's manager may determine which position he plays at any given time.
             1.  Any changes to a player's position will be made by Yahoo! Sports.
-        1.  Each of the players in-play on a team must fit into one of following slots, and no slot may hold more than one player:
+        1.  Each of the players on a team's active roster must fit into one of following slots, and no slot may hold more than one player:
             1.  1 Quarterback (QB)
             1.  2 Wide Receivers (WR)
             1.  2 Running Backs (RB)
@@ -229,7 +231,7 @@
     1.  Setting a roster in a way that is obviously not intended to beat the other team may be objected.
         1.  This includes, but is not limited to:
             1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
-            1.  Putting a player in play that has been long known to be not participating in the given week.
+            1.  Putting a player on active roster that has been long known to be not participating in the given week.
         1.  Exceptions may include:
             1.  Pulling (or not pulling) a player from active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
             1.  In rare cases, leaving a roster position empty because no alternative exists on the bench and no benched player is worth dropping.
@@ -260,6 +262,7 @@
     1.  For any reasonable dispute that requires a league vote, the commissioner will gather and post all relevant information and make an initial ruling which shall be binding unless any manager objects in a reasonable time.
     1. A league vote will only occur following an objection or other dispute if seconded by another manager.
         1. In the case that a manager seconds an objection, that manager must vote in favor of the objection.
+        1. The league vote shall be considered initated at the time the objection occured.
     1.  If any manager objects to the commissioner's initial ruling, a league vote shall be initiated.
     1.  League votes should be completed within 24 hours with each team manager voting yes (to make some change) or no (to keep things as they are).
     1.  Managers may abstain from a vote. In this case their vote will not count for or against the proposal.
