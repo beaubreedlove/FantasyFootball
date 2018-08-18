@@ -47,7 +47,7 @@
         1.  Anything can be objected and a majority vote will determine the outcome.
         1.  Rules changes require a unanimous vote.
         1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $400, $250, and $100.
-        1.  There are 5 weekly prizes of $80 each to be split between 2 teams each week.
+        1.  There are 4 weekly prizes of $100 each to be split between 2 teams each week.
         1.  There are 3-6 other prizes of equal amounts of either $100, $75, $60, or $50 for various other achievements. Each of these prizes will be approved or rejected by a majority league vote.
         1.  People shouldn't create conflicts of interest with the league.
         1.  If a rule isn't here, we listen to Yahoo! Sports.
@@ -93,8 +93,8 @@
         1.  If both teams have the same score, each will receive a tie.
     1.  <a id="ties">Ties</a>
         1.  Tied games may exist during the regular season.
-        1.  In the event of a tie during the postseason, a win will be awarded to the team with the highest score from a single bench player.
-            1. If the highest bench players are tied, the winner will be determined by the next highest bench playres. This process should repeat through the entire bench until a win is determined.
+        1.  In the event of a tie during the postseason, a win will be awarded to the team with the highest score from a single bench player that week.
+            1. If the highest bench players are tied, the winner will be determined by the next highest bench players. This process should repeat through the entire bench until a win is determined.
             1. If there is still a tie, the win will go to the team that ended the regular season with the better seed.
 1.  <a id="draft">Draft</a>
     1.  Draft day
@@ -173,8 +173,8 @@
         1.  Points ($200)
             1.  Most points in the regular season - $200
         1.  Weekly Prizes ($400 total)
-            1.  For each of the final 5 weeks of the regular season, $80 will be awarded to the two teams faced off in the matchup that has the highest total score of both teams.
-            1.  The $80 will be split among the two managers proportionally, rounding to the nearest $1 in favor of the winner.
+            1.  For each of the final 4 weeks of the regular season, $100 will be awarded to the two teams faced off in the matchup that has the highest total score of both teams.
+            1.  The $100 will be split among the two managers proportionally, rounding to the nearest $1 in favor of the winner.
             1.  If two or more matchups tie for this prize, it will be divided further and rounding in all cases will favor teams with higher scores.
         1.  Best worst player ($50)
             1.  Each team will have a chance to win best worst player every week.
@@ -202,7 +202,7 @@
     1.  Players may only be dropped by a manager if the manager intends to immediately replace the slot on his or her roster.
     1.  <a id="trades">Trades</a>
         1.  Trade deadline
-            1.  The trade deadline is November 11, 2017
+            1.  The trade deadline will be the default set by Yahoo.
         1.  Trades may only involve two teams.
             1.  Threeway trades may be proposed or discussed, but the managers must work out a way to execute the trade in multiple steps using only two managers at a time.
             1.  During the multipart execution of a threeway trade, managers may object to any component trade, independant of the other trades. For this reason, threeway trades are not guaranteed to be "all or none".
