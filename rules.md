@@ -231,7 +231,7 @@
             1.  To propose a trade in the league message board, clearly and unambiguously state the team that the trade is proposed to along with all players and FAAB to be given and received.
             1.  The trade will only be considered initialized when the manager that the trade was proposed to replies with the phrase "I accept" unconditionally and unnegated.
             1.  In the case that a trade is proposed via the message board, vetoes may be initiated in the same thread.
-            1. Managers who propose trades via the message board may withdraw their proposal before a trade is accepted by unambiguously posting their intent to do so.
+            1. Managers who propose trades via the message board may withdraw their proposal before such trade is accepted by unambiguously posting their intent to do so.
             1. Managers may designate a time that their trade expires by posting it unambiguously in the message board.
                 1. This time may be changed by the proposing manager.
                 1. Times that don't include a timezone will be assumed to be Pacific Time.
