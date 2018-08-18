@@ -93,7 +93,9 @@
         1.  If both teams have the same score, each will receive a tie.
     1.  <a id="ties">Ties</a>
         1.  Tied games may exist during the regular season.
-        1.  In the event of a tie during the postseason, a win will be awarded to the team with the better head-to-head record from the regular season. If there is still a tie, the win will go to the team that started the playoffs with the better seed.
+        1.  In the event of a tie during the postseason, a win will be awarded to the team with the highest score from a single bench player.
+            1. If the highest bench players are tied, the winner will be determined by the next highest bench playres. This process should repeat through the entire bench until a win is determined.
+            1. If there is still a tie, the win will go to the team that ended the regular season with the better seed.
 1.  <a id="draft">Draft</a>
     1.  Draft day
         1.  The draft will start at 9:00 pm EST and run until all teams have drafted a full roster.
