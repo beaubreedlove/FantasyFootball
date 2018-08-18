@@ -142,10 +142,13 @@
         1.  Playoffs will take place during weeks 14 through 16.
             1.  Week 14 matchups
                 1.  Seed 2 chooses a team among seeds 4 though 7, that they will play against.
+                    1. This choice must be made on or before 1pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  Seed 3 chooses a team among seeds 4 though 7 excluding the team chosen by seed 2, that they will play against.
+                    1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  The remaining two teams between seeds 4 and 7 play against each other.
             1.  Week 15 matchups
                 1.  Seed 1 chooses a team among the winners of week 14 to play against.
+                    1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  Remaining two winners of week 14 faceoff.
             1.  Week 16 matchups
                 1.  Superbowl
