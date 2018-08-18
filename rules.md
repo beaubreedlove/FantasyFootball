@@ -125,7 +125,7 @@
         1. The team that wins the FAAB auction that takes place on Yahoo wins the player and is forced to drop any other players if specificed on Yahoo, but must only pay the price of the second highest bid on the same player.
             1. If there is no second bidder, the second highest bid will be considered 0.
         1. The Yahoo interface will take the full FAAB from the highest bidder and the difference between this bid and the second highest bid will not be returned until the final game is played for the week, but no later than Tuesday at 1pm (EST).
-        1. Managers may not make any claim to nor recieve FAAB returned as a difference between the first and second highest bids in a second price auction until 1pm (EST).
+        1. Managers may not make any claim to nor recieve FAAB returned as a difference between the first and second highest bids in a second price auction until the end of the aforementioned period of time.
 1.  <a id="structure">League Structure</a>
     1.  There will be no divisions or conferences.
     1.  There will be 14 teams.
