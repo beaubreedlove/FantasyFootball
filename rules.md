@@ -212,7 +212,7 @@
             1.  A team may not make a trade that results in either team holding more than 10,000 FAAB.
             1.  No more than 2,500 FAAB may be transferred in a single trade.
             1.  Trades involving FAAB must be proposed and accepted via the league message board.
-            1.  At no point may a manager have any combination of proposed trades, accepted trades or WW bids outstanding that could lead to a situation where his or her FAAB falls below 0.
+            1.  At no point may a manager have any combination of proposed trades, accepted trades or WW bids outstanding that could lead to a situation where his or her FAAB falls below 0 or in debt of the same player multiple times.
         1.  If Yahoo! Sports can't accommodate a legal trade, the trade may be proposed in the league message board and the commissioner will manually make the moves at the end of the trade period.
             1.  To propose a trade in the league message board, clearly and unambiguously state the team that the trade is proposed to along with all players and FAAB to be given and received.
             1.  The trade will only be considered initialized when the manager that the trade was proposed to replies with the phrase "I accept" unconditionally and unnegated.
@@ -262,8 +262,10 @@
     1.  League votes should be completed within 24 hours with each team manager voting yes (to make some change) or no (to keep things as they are).
     1.  Managers may abstain from a vote. In this case their vote will not count for or against the proposal.
     1.  Majority votes shall pass if at least half of the teams who didn't abstain, vote yes.
-    1.  Unanimous votes shall pass if all managers vote yes or abstain.
+    1.  Unanimous votes shall pass if a majority of managers vote yes and all other managers abstain.
     1.  A unanimous vote will be required for any changes to the rules that may in anyway affect the chances for a manager to win a cash prize.
+    1. An objection shall constitute a yes vote to reverse the objected action.
+    1. All votes must be cast publicly, in the message board, and by the manager who's vote it is.
     1.  A majority vote will be required for:
         1.  Objections.
         1.  Disambiguating any rules.
