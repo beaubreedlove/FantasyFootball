@@ -68,8 +68,8 @@
         1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
         1.  Managers may give advice to other managers.
     1.  <a id="roster">Roster</a>
-        1.  Each team may have up to 14 players on the active roster, plus 1 player designated as Injury Reserve (IR).
-            1.  Up to 9 players will be considered in-play; meaning eligible for scoring.
+        1.  Each team may have up to 14 players on their roster, plus 1 player designated as Injury Reserve (IR).
+            1.  Up to 9 players will be considered active; meaning eligible for scoring.
             1.  One player on each team may be put in the IR slot, if Yahoo allows it.
             1.  The remaining players on each team are considered to be on the bench.
         1.  Each player is assigned a position by Yahoo! Sports.
