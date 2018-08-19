@@ -38,7 +38,7 @@
         1.  A team can play 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, and 1 DST each week.
         1.  The regular season is 13 weeks, with each team playing each other team exactly once.
         1.  The playoffs will have 7 teams, one with a bye, and take place on weeks 14 through 16.
-        1.  The draft is on 9/4 at 9pm EDT.
+        1.  The draft time has yet to be determined.
         1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
         1.  The winner of waiver wire auctions will pay the price that the second highest bidder bid.
         1.  There are no divisions.
