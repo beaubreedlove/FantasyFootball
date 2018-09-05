@@ -8,6 +8,8 @@
         1.  [Ties](#ties)
     1.  [Draft](#draft)
     1.  [Waivers](#waivers)
+        1. [FAAB](#faab)
+        1. [Second Price Auctions](#second-price)
     1.  [League Structure](#structure)
     1.  [Schedule](#schedule)
         1.  [Regular Season](#regular-season)
@@ -17,7 +19,7 @@
         1.  [Payouts ($2,800 total)](#payouts)
     1.  [Moves](#moves)
         1.  [Trades](#trades)
-    1.  [Vetoing](#vetoes)
+    1.  [Objections](#objections)
         1.  [Suspending Moves](#suspending-moves)
     1.  [Voting](#voting)
     1.  [Seeding](#seeding)
@@ -27,27 +29,30 @@
     1.  [Commissioner Responsibilities](#commissioner)
 1.  <a id="tldr">TLDR</a>
     1.  Disclaimer
-        1.  These are a brief summary of the rules.
+        1.  TLDR stands for "too long didn't read".
+        1.  This section is intended to be a brief summary of the rules.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
     1.  Summary
         1.  There are 14 teams.
-        1.  Each team has 14 players.
+        1.  Each team has 14 players + 1 IR.
         1.  A team can play 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, and 1 DST each week.
         1.  The regular season is 13 weeks, with each team playing each other team exactly once.
         1.  The playoffs will have 7 teams, one with a bye, and take place on weeks 14 through 16.
-        1.  The draft is on 9/4 at 9pm EDT.
+        1.  The draft time has yet to be determined.
         1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
+        1.  The winner of waiver wire auctions will pay the price that the second highest bidder bid.
         1.  There are no divisions.
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline is 11/11.
         1.  FAAB may be used in trades with some restrictions.
-        1.  Anything can be vetoed and a majority vote will determine the outcome.
+        1.  Anything can be objected and a majority vote will determine the outcome.
         1.  Rules changes require a unanimous vote.
-        1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $400, $250, and $100.
-        1.  There are 5 weekly prizes of $80 each to be split between 2 teams each week.
-        1.  There are 3-6 other prizes of equal amounts of either $100, $75, $60, or $50 for various other achievements. Each of these prizes will be approved or rejected by a majority league vote.
+        1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $500, $250, and $100.
+        1.  The team who scores the most points wins $200.
+        1.  Starting on week 10, there are 4 weekly prizes of $100 each to be split between 2 teams each week.
+        1.  There are 4 other prizes of $50 each.
         1.  People shouldn't create conflicts of interest with the league.
-        1.  If a rule isn't here, we listen to Yahoo! Sports.
+        1.  If a rule isn't defined well here, we fall back to Yahoo rules. If it's still not clear, we use a league vote.
         1.  Managers, especially the commissioner, should be competitive, but friendly.
 1.  <a id="teams">Teams</a>
     1.  <a id="managers">Managers</a>
@@ -58,19 +63,19 @@
             1.  Draft Picks
             1.  Setting Roster
             1.  Proposing and Accepting Trades
-            1.  Vetoing
+            1.  Objections
             1.  Voting
         1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
         1.  Managers may give advice to other managers.
     1.  <a id="roster">Roster</a>
-        1.  Each team may have up to 14 players.
-            1.  Up to 9 players will be considered in-play; meaning eligible for scoring.
-            1.  The remaining players on a team are considered to be on the bench.
-            1.  There will be no additional Injury Reserve (IR) position on the roster.
+        1.  Each team may have up to 14 players on their roster, plus 1 player designated as Injury Reserve (IR).
+            1.  Up to 9 players will be considered active; meaning eligible for scoring.
+            1.  One player on each team may be put in the IR slot, if Yahoo allows it.
+            1.  The remaining players on each team are considered to be on the bench.
         1.  Each player is assigned a position by Yahoo! Sports.
             1.  If a player is assigned two positions, his team's manager may determine which position he plays at any given time.
             1.  Any changes to a player's position will be made by Yahoo! Sports.
-        1.  Each of the players in-play on a team must fit into one of following slots, and no slot may hold more than one player:
+        1.  Each of the players on a team's active roster must fit into one of following slots, and no slot may hold more than one player:
             1.  1 Quarterback (QB)
             1.  2 Wide Receivers (WR)
             1.  2 Running Backs (RB)
@@ -90,7 +95,9 @@
         1.  If both teams have the same score, each will receive a tie.
     1.  <a id="ties">Ties</a>
         1.  Tied games may exist during the regular season.
-        1.  In the event of a tie during the postseason, a win will be awarded to the team with the better head-to-head record from the regular season. If there is still a tie, the win will go to the team that started the playoffs with the better seed.
+        1.  In the event of a tie during the postseason, a win will be awarded to the team with the highest score from a single bench player that week.
+            1. If the highest bench players are tied, the winner will be determined by the next highest bench players. This process should repeat through the entire bench until a win is determined.
+            1. If there is still a tie, the win will go to the team that ended the regular season with the better seed.
 1.  <a id="draft">Draft</a>
     1.  Draft day
         1.  The draft will start at 9:00 pm EST and run until all teams have drafted a full roster.
@@ -104,7 +111,7 @@
         1.  Determining draft order.
             1.  Draft order will be determined randomly by the commissioner, who will also provide proof that it was fairly chosen.
 1.  <a id="waivers">Waivers</a>
-    1.  Free Agent Acquisition Budget (FAAB)
+    1.  <a id="faab">Free Agent Acquisition Budget (FAAB)</a>
         1.  Each team will be allotted 10,000 FAAB immediately after the draft.
         1.  No additional FAAB will be introduced to the game at any point.
     1.  Each week teams will have a chance to pick up new players from the waiver wire, as long as they do not exceed the limit of their team size.
@@ -114,6 +121,11 @@
         1.  If two or more teams tie for the highest FAAB bid, the Continuing Rolling List tie-breaker method will be used, which is configured and determined by Yahoo! Sports.
     1.  Players may be dropped from a team at any time in order to make room for incoming players.
     1.  During a waiver request, managers may opt to conditionally drop a player if their request succeeds.
+    1. <a id="second-price">FAAB bids follow a Second Price Auction format.</a>
+        1. The team that wins the FAAB auction that takes place on Yahoo wins the player and is forced to drop any other players if specificed on Yahoo, but must only pay the price of the second highest bid on the same player.
+            1. If there is no second bidder, the second highest bid will be considered 0.
+        1. The Yahoo interface will take the full FAAB from the highest bidder and the difference between this bid and the second highest bid will not be returned until the final game is played for the week, but no later than Tuesday at 1pm (EST).
+        1. Managers may not make any claim to nor recieve FAAB returned as a difference between the first and second highest bids in a second price auction until the end of the aforementioned period of time.
 1.  <a id="structure">League Structure</a>
     1.  There will be no divisions or conferences.
     1.  There will be 14 teams.
@@ -129,11 +141,14 @@
         1.  The highest seed in the regular season will receive a bye on week 14.
         1.  Playoffs will take place during weeks 14 through 16.
             1.  Week 14 matchups
-                1.  Seed 2 vs. Seed 7
-                1.  Seed 3 vs. Seed 6
-                1.  Seed 4 vs. Seed 5
+                1.  Seed 2 chooses a team among seeds 4 though 7, that they will play against.
+                    1. This choice must be made on or before 1pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
+                1.  Seed 3 chooses a team among seeds 4 though 7 excluding the team chosen by seed 2, that they will play against.
+                    1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
+                1.  The remaining two teams between seeds 4 and 7 play against each other.
             1.  Week 15 matchups
-                1.  Seed 1 vs. lowest seeded winner of week 14
+                1.  Seed 1 chooses a team among the winners of week 14 to play against.
+                    1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  Remaining two winners of week 14 faceoff.
             1.  Week 16 matchups
                 1.  Superbowl
@@ -154,49 +169,35 @@
             1.  Managers will have a chance to review the rules before committing to the league.
                 1.  If 14 managers do not commit, the initial payment will be refunded.
     1.  <a id="payouts">Payouts</a>
-        1.  Playoffs ($1,900 total)
+        1.  Playoffs ($2,000 total)
             1.  1st place - $1,000
-            1.  2nd place - $400
+            1.  2nd place - $500
             1.  3rd place - $250
             1.  4th place - $100
             1.  5th through 7th place - $50 each (x3)
         1.  Points ($200)
-            1.  Most Points in the regular season - $200
+            1.  Most points in the regular season - $200
         1.  Weekly Prizes ($400 total)
-            1.  For each of the final 5 weeks of the regular season, $80 will be awarded to the two teams faced off in the matchup that has the highest total score of both teams.
-            1.  The $80 will be split among the two managers proportionally, rounding to the nearest $1 in favor of the winner.
+            1.  For each of the final 4 weeks of the regular season, $100 will be awarded to the two teams faced off in the matchup that has the highest total score of both teams.
+            1.  The $100 will be split among the two managers proportionally, rounding to the nearest $1 in favor of the winner.
             1.  If two or more matchups tie for this prize, it will be divided further and rounding in all cases will favor teams with higher scores.
-        1.  Other achievement prizes ($300)
-            1.  Determining contests
-                1.  Each of the following contests will be put up to a majority league vote before the draft.
-                1.  If less than three contests receive seven votes, the top three will be prizes. The commissioner will break any ties that arise when determining these three prizes.
-                1.  The $300 will be distributed evenly among each of these prizes, resulting in either six prizes for $50, five prizes for $60, four prizes for $75, or three prizes for $100.
-            1.  Contests
-                1.  Best worst player
-                    1.  Each team will have a chance to win best worst player every week.
-                    1.  In a single week, a team's "worst player" is the in-play player that scores the least points on a team that fills all roster positions for that week.
-                    1.  The best worst player award will go to the manager of the team who had the highest scoring worst player in any single week of the year.
-                    1.  Ties will be go to the team with the better 2nd worst player on the given week, then 3rd, 4th, and so on.
-                1.  Best worst week
-                    1.  At the end of the year, each team's "worst week" will be defined as the week that they scored their minimum score.
-                    1.  A manager will win best worst week if their team's worst week had a higher score than any other team.
-                    1.  Ties will go to the team with the better 2nd worst week, then 3rd, 4th, and so on.
-                1.  Longest Winning Streak
-                    1.  The team that has the longest consecutive streak of matches won in the regular season, wins this contest.
-                    1.  Ties will go to the team with the longest 2nd winning streak, then 3rd, 4th, and so on.
-                    1.  Remaining ties will go to the team that finishes the regular season with the higher seed.
-                1.  Best week
-                    1.  Each team will have a chance to win best week every week.
-                    1.  The team with the highest scoring single week will win.
-                    1.  Ties will go to the team with the 2nd highest scoring week, then 3rd, 4th, and so on.
-                1.  Week 1
-                    1.  This prize, intended to be a proxy for best draft, will go to the team who scores the highest score on week 1.
-                    1.  Ties will be split evenly between the tied teams.
-                1.  League Pickem
-                    1.  Yahoo! Sports offers a side game within Fantasy football call League Pick'em in which managers may pick the teams they expect to win each week.
-                    1.  To win this contest a manager must pick the most games correct in the League Pick'em for the whole regular season.
-                    1.  Managers must choose their own team each week and if another team or no team is chosen, it will be scored as if they had chosen their own team.
-                    1.  The deadline to make picks in the League Pick'em is kickoff of the first game each week.
+        1.  Best worst player ($50)
+            1.  Each team will have a chance to win best worst player every week.
+            1.  In a single week, a team's "worst player" is the in-play player that scores the least points on a team that fills all roster positions for that week.
+            1.  The best worst player award will go to the manager of the team who had the highest scoring worst player in any single week of the year.
+            1.  Ties will be go to the team with the better 2nd worst player on the given week, then 3rd, 4th, and so on.
+        1.  Best worst week ($50)
+            1.  At the end of the year, each team's "worst week" will be defined as the week that they scored their minimum score.
+            1.  A manager will win best worst week if their team's worst week had a higher score than any other team.
+            1.  Ties will go to the team with the better 2nd worst week, then 3rd, 4th, and so on.
+        1.  Longest Winning Streak ($50)
+            1.  The team that has the longest consecutive streak of matches won in the regular season, wins this contest.
+            1.  Ties will go to the team with the longest 2nd winning streak, then 3rd, 4th, and so on.
+            1.  Remaining ties will go to the team that finishes the regular season with the higher seed.
+        1.  Best week ($50)
+            1.  Each team will have a chance to win best week every week.
+            1.  The team with the highest scoring single week will win.
+            1.  Ties will go to the team with the 2nd highest scoring week, then 3rd, 4th, and so on.
         1.  All prizes will be paid out no later than the real NFL Super Bowl.
         1.  After week 14, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
 1.  <a id="moves">Moves</a>
@@ -206,64 +207,77 @@
     1.  Players may only be dropped by a manager if the manager intends to immediately replace the slot on his or her roster.
     1.  <a id="trades">Trades</a>
         1.  Trade deadline
-            1.  The trade deadline is November 11, 2017
+            1.  The trade deadline will be the default set by Yahoo.
         1.  Trades may only involve two teams.
             1.  Threeway trades may be proposed or discussed, but the managers must work out a way to execute the trade in multiple steps using only two managers at a time.
-            1.  During the multipart execution of a threeway trade, managers may veto any component trade, independant of the other trades. For this reason, threeway trades are not guaranteed to be "all or none".
+            1.  During the multipart execution of a threeway trade, managers may object to any component trade, independant of the other trades. For this reason, threeway trades are not guaranteed to be "all or none".
         1.  Tradebacks
             1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away.
-            1.  Tradebacks are not strictly against the rules, but they are discouraged and are valid reasons for a manager to veto despite not vetoing the original trade.
+            1.  Tradebacks are not strictly against the rules, but they are discouraged and are valid reasons for a manager to object despite not objecting to the original trade.
         1.  At least one player must be transferred by each team involved in a trade.
         1.  Trades may include a transfer of FAAB from one team to another, with some exceptions, as a means to balance the trade.
             1.  A team may not make a trade that results in either team holding more than 10,000 FAAB.
             1.  No more than 2,500 FAAB may be transferred in a single trade.
             1.  Trades involving FAAB must be proposed and accepted via the league message board.
-            1.  At no point may a manager have any combination of proposed trades, accepted trades or WW bids outstanding that could lead to a situation where his or her FAAB falls below 0.
+            1.  At no point may a manager have any combination of proposed trades, accepted trades or WW bids outstanding that could lead to a situation where his or her FAAB falls below 0 or in debt of the same player multiple times.
         1.  If Yahoo! Sports can't accommodate a legal trade, the trade may be proposed in the league message board and the commissioner will manually make the moves at the end of the trade period.
-            1.  To propose a trade in the league message board, clearly state the team that the trade is proposed to along with all players and FAAB to be given and received.
+            1.  To propose a trade in the league message board, clearly and unambiguously state the team that the trade is proposed to along with all players and FAAB to be given and received.
             1.  The trade will only be considered initialized when the manager that the trade was proposed to replies with the phrase "I accept" unconditionally and unnegated.
-            1.  In the case that a trade is proposed via the message board, vetoes may be initiated in the same thread.
-1.  <a id="vetoes">Vetoing</a>
-    1.  Any move may be vetoed by any manager within 24 hours after the move is made.
+            1.  In the case that a trade is proposed via the message board, objections may be initiated in the same thread.
+            1. Managers who propose trades via the message board may withdraw their proposal before such trade is accepted by unambiguously posting their intent to do so.
+            1. Managers may designate a time that their trade expires by posting it unambiguously in the message board.
+                1. This time may be changed by the proposing manager.
+                1. Times that don't include a timezone will be assumed to be Pacific Time.
+1.  <a id="objections">Objections</a>
+    1.  Any move may be objected by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
-    1.  Setting a roster in a way that is obviously not intended to beat the other team may be vetoed.
+    1.  Setting a roster in a way that is obviously not intended to beat the other team may be objected.
         1.  This includes, but is not limited to:
             1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
-            1.  Putting a player in play that has been long known to not be participating in the given week.
+            1.  Putting a player on active roster that has been long known to be not participating in the given week.
         1.  Exceptions may include:
-            1.  Pulling (or not pulling) a player from in-play after his team has gained a lead that would be at risk if the player scored negative points.
+            1.  Pulling (or not pulling) a player from active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
             1.  In rare cases, leaving a roster position empty because no alternative exists on the bench and no benched player is worth dropping.
-        1.  A successful veto regarding a roster decision to play a specific player shall always result in that player being substituted for the player on the bench with the highest projection that's capable of filling that position. In the case that no player is available, a move to pick up a suitable player from FA may be forced.
+        1.  A successful objection regarding a roster decision to play a specific player shall always result in that player being substituted for the player on the bench with the highest projection who's capable of filling that position. In the case that no player is available, a move to pick up a suitable player from FA may be forced.
     1.  Waiver abuse
-        1.  If a player is suspected of dropping and picking up players from FA for the sole significant purpose of moving players to waivers, any moves made to accomplish this may be vetoed.
+        1.  If a player is suspected of dropping and picking up players from FA for the sole significant purpose of moving players to waivers, any moves made to accomplish this may be objected.
         1.  An exception may be made if the league determines by a majority vote that the player was scrambling "last-minute" to assemble a viable scoring team with incomplete information.
-    1.  A manager may initiate a veto by indicating to the league that he or she wishes to do so through any of the following means:
-        1.  Posting a new thread in the league message board stating the intent to veto.
+        1. Dropping a player to waivers shall never be considered waiver abuse if the player has already started their game for the week or would have otherwise been placed on waivers automatically by Yahoo.
+    1.  A manager may initiate an objection by indicating to the league that he or she wishes to do so through any of the following means:
+        1.  Posting a new thread in the league message board stating the intent to object.
         1.  Using the trade veto button provided by Yahoo! Sports.
-        1.  Contacting the commissioner digitally, verbally, or in writing and stating the manager's intention to veto and receiving an acknowledgement of such intention.
-    1.  Whenever a veto is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
-    1.  When a veto is initiated, each manager in the league will have whichever is later of 24 hours after the time the veto is initiated or 48 hours after the time the vetoed action occurred to perform a majority league vote to determine the outcome of the veto.
-    1.  If a veto vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the veto.
-        1.  In some cases, this may include reversing other actions by other teams, if they are determined by a majority league vote to have been responses to the original vetoed action.
-        1.  In the case that multiple actions need to be reversed, they will be determined in chronological order.
-    1.  <a id="suspending-moves">In order to prevent multiple vetoes, the commissioner may suspend certain actions, including but not limited to moves, during a league vote until the vote is complete.</a>
-        1.  The commissioner will do his best to act quickly to finish a veto vote, in an attempt to avoid suspending moves.
-        1.  In the event moves are suspended, managers may request to conditionally, based on the outcome of the veto vote, make a move.
-        1.  Conditional moves can be made by stating them clearly in the league message board or communicating them to the commissioner who will then publically add them to the league message board.
-        1.  Conditional moves during a suspension will be processed after the veto vote in the order which they were publicly communicated to the league message board. For this reason, managers are encouraged to post it themselves, rather than wait for the commissioner.
-        1.  Managers should not consider specific conditional moves when casting their veto vote on the original.
+        1.  Contacting the commissioner and stating the manager's intention to object and receiving an acknowledgement of such intention.
+            1. Commissioner gives no guarentee that he will respond promptly. For this reason, it's recommended that managers use the message board when they'd like a fast decision.
+    1.  Whenever an objection is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
+    1.  When an objection is initiated, each manager in the league will have whichever is later of 24 hours after the time the objection is initiated or 48 hours after the time the objected action occurred to perform a majority league vote to determine the outcome of the objection.
+    1.  If an objection vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the objection.
+        1.  In some cases, this may include reversing other actions by other teams, if they are determined by a majority league vote to have been responses to the original objected action.
+        1.  In the case that multiple actions need to be reversed, they will be determined in ascending chronological order.
+    1.  <a id="suspending-moves">In order to prevent multiple objections, the commissioner may suspend certain actions, including but not limited to moves, during a league vote until the vote is complete.</a>
+        1.  The commissioner will do his best to act quickly to finish an objection vote, in an attempt to avoid suspending moves.
+        1.  In the event moves are suspended, managers may request to conditionally, based on the outcome of the objection vote, make a move.
+        1.  Conditional moves can be made by stating them clearly in the league message board or by communicating them to the commissioner who will then publically add them to the league message board.
+            1. Commissioner gives no guarentee that he will act quickly in this situation as his number 1 priority will be to lift the suspension.
+        1.  Conditional moves during a suspension will be processed after the objection vote in the order which they were publicly communicated to the league message board. For this reason, managers are encouraged to post it themselves, rather than wait for the commissioner.
+        1.  Managers should not consider specific conditional moves when casting their vote on the original objection.
+    1. Any use of the word "veto" or derivations thereof in this document or in the Yahoo interface including the message board shall be interpreted as having the same meaning as an objection unless otherwise stated.
 1.  <a id="voting">Voting</a>
     1.  For any reasonable dispute that requires a league vote, the commissioner will gather and post all relevant information and make an initial ruling which shall be binding unless any manager objects in a reasonable time.
+    1. A league vote will only occur following an objection or other dispute if seconded by another manager.
+        1. In the case that a manager seconds an objection, that manager must vote in favor of the objection.
+        1. The league vote shall be considered initated at the time the objection occured.
     1.  If any manager objects to the commissioner's initial ruling, a league vote shall be initiated.
-    1.  League votes should be completed during before 24 hours period with each team manager voting yes (to make some change) or no (to keep things as they are.
+    1.  League votes should be completed within 24 hours with each team manager voting yes (to make some change) or no (to keep things as they are).
     1.  Managers may abstain from a vote. In this case their vote will not count for or against the proposal.
     1.  Majority votes shall pass if at least half of the teams who didn't abstain, vote yes.
-    1.  Unanimous votes shall pass if all managers vote yes or abstain.
+    1.  Unanimous votes shall pass if a majority of managers vote yes and all other managers abstain.
     1.  A unanimous vote will be required for any changes to the rules that may in anyway affect the chances for a manager to win a cash prize.
+    1. An objection shall constitute a yes vote to reverse the objected action.
+    1. All votes must be cast publicly, in the message board, and by the manager who's vote it is.
     1.  A majority vote will be required for:
-        1.  Vetos.
+        1.  Objections.
         1.  Disambiguating any rules.
-            1.  The commissioner will determine upon request if the rule is ambiguous or not. Non-ambiguous rules will only be changed upon unanimous vote.
+            1.  The commissioner will determine upon request whether the rule is ambiguous or not. Non-ambiguous rules will only be changed upon unanimous vote.
         1.  Replacing the commissioner.
         1.  Anything else that doesn't require a unanimous vote.
     1.  Managers are disqualified from voting on a particular issue if they are directly involved with what is being voted upon.
@@ -283,8 +297,8 @@
         1.  Most points in regular season
         1.  Coin flip
     1.  Tie breakers (3+ teams)
-        1.  As soon as a team is eliminated from the group of tied teams, tie breaking procedures start over with the remaining players.
-        1.  Eliminate lowest rank in each of the 2-team tie breaking contests in order. (i.e. eliminate least ties, then worst head-to-head, etc.)
+        1.  Determine highest rank by scoring each of the 2-team tie breaking contests in order. (i.e. most ties, then best 3+ way head-to-head, etc.)
+        1.  As soon as a team wins tie breaking procedures among the group of tied teams, tie breaking procedures start over with the remaining teams vying for the next highest seed.
 1.  <a id="outside-influence">Outside influence</a>
     1.  No external value to the league, including monetary value, may be exchanged between managers for moves or any other manager decision.
     1.  No side bets or games of chance shall be wagered by a manager, aside from those outlined by these rules, that rewards that manager for making a decision that reduces his or her team's chance of winning a match up.
@@ -294,7 +308,7 @@
     1.  Anything still left ambiguous may be determined by a majority league vote.
 1.  <a id="responsibilities">Manager responsibilities</a>
     1.  Managers should do their best to win each and every matchup.
-    1.  Managers should look out for actions which seem to break the rules and call them out to the commissioner or veto.
+    1.  Managers should look out for actions which seem to break the rules and call them out to the commissioner or publicly object.
     1.  Managers should be respectful of all other managers in the league and the rules of the league.
     1.  Managers should use common sense and ethics when presented with a questionably legal or moral decision.
     1.  Managers should not celebrate the injury of a real life player.
