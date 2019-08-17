@@ -22,6 +22,7 @@
         1.  [Suspending Moves](#suspending-moves)
     1.  [Voting](#voting)
     1.  [Seeding](#seeding)
+        1.  [Tie Breakers](#tie-breakers)
     1.  [Outside Influence](#outside-influence)
     1.  [Rules Not Stated](#rules-not-stated)
     1.  [Manager Responsibilities](#responsibilities)
@@ -116,7 +117,7 @@
     1.  When placing a request for a waiver wire pick up, a team must enter a bid in FAAB, which may be any integer inclusively between 0 and their remaining budget.
         1.  Each player sought via a waiver request will be awarded to the team that placed the highest FAAB and the FAAB will be deducted from that team's FAAB budget.
         1.  FAAB will not be deducted for losing bids.
-        1.  If two or more teams tie for the highest FAAB bid, the Continuing Rolling List tie-breaker method will be used, which is configured and determined by Yahoo! Sports.
+        1.  If two or more teams tie for the highest FAAB bid, the Continuing Rolling List tie breaker method will be used, which is configured and determined by Yahoo! Sports.
     1.  Players may be dropped from a team at any time in order to make room for incoming players.
     1.  During a waiver request, managers may opt to conditionally drop a player if their request succeeds.
 1.  <a id="structure">League Structure</a>
@@ -178,7 +179,7 @@
             1.  Each team will have a chance to win best worst player every week.
             1.  In a single week, a team's "worst player" is the active player that scores the least points on a team that fills all roster positions for that week.
             1.  The best worst player award will go to the manager of the team who had the highest scoring worst player in any single week of the year.
-            1.  Ties will be go to the team with the better 2nd worst player on the given week, then 3rd, 4th, and so on.
+            1.  Ties will go to the team with the better 2nd worst player on the given week, then 3rd, 4th, and so on.
         1.  Best worst week ($50)
             1.  At the end of the year, each team's "worst week" will be defined as the week that they scored their minimum score.
             1.  A manager will win best worst week if their team's worst week had a higher score than any other team.
@@ -289,14 +290,11 @@
         1.  Seeding in the regular season will order teams from most to least games won.
     1.  Post season
         1.  The playoffs will be reseeded each round based on the regular season records for each of the remaining teams.
-    1.  Tie breakers (2 teams)
+    1.  <a id="tie-breakers">Tie breakers</a>
         1.  Most ties in regular season
-        1.  Best head-to-head record between tied teams
+        1.  Best head-to-head record between teams who finished the regular season with the same record
         1.  Most points in regular season
         1.  Coin flip
-    1.  Tie breakers (3+ teams)
-        1.  Determine highest rank by scoring each of the 2-team tie breaking contests in order. (i.e. most ties, then best 3+ way head-to-head, etc.)
-        1.  As soon as a team wins tie breaking procedures among the group of tied teams, tie breaking procedures start over with the remaining teams vying for the next highest seed.
 1.  <a id="outside-influence">Outside influence</a>
     1.  No external value to the league, including monetary value, may be exchanged between managers for moves or any other manager decision.
     1.  No side bets or games of chance shall be wagered by a manager, aside from those outlined by these rules, that rewards that manager for making a decision that reduces his or her team's chance of winning a match up.
