@@ -98,8 +98,8 @@
             1. If the highest bench players are tied, the winner will be determined by the next highest bench players. This process should repeat through the entire bench until a win is determined.
             1. If there is still a tie, the win will go to the team that ended the regular season with the better seed.
 1.  <a id="draft">Draft</a>
-    1.  Draft day
-        1.  The draft will start at 9:00 pm EST and run until all teams have drafted a full roster.
+    1.  Date and time
+        1.  TBD
     1.  Each manager will have up to 90 seconds to draft a single player to his/her team for each round.
     1.  There will be 14 rounds of the draft; one for each player on the team.
     1.  Order
