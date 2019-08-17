@@ -228,7 +228,7 @@
     1.  Any move may be objected by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
     1.  Undoubtably bad moves
-        1.  A manager must not take any actions, including making moves and setting active players, such that at the time the action is iniated it undoubtably hurts the value of his or her team or hurts the chances of that team making the playoffs and finishing the regular season with the best possible seed.
+        1.  A manager must not take any actions, including making moves and setting active players, such that at the time the action is iniated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs and finishing the regular season with the best possible seed.
             1.  Such actions may include, but are not limited to:
                 1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
                 1.  Putting a player on active roster that has been long known to be not participating in the given week.
