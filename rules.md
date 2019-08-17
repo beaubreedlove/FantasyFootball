@@ -187,7 +187,7 @@
         1.  Longest Winning Streak ($50)
             1.  The team that has the longest consecutive streak of matches won in the regular season, wins this contest.
             1.  Ties will go to the team with the longest 2nd winning streak, then 3rd, 4th, and so on.
-            1.  Remaining ties will go to the team that finishes the regular season with the higher seed.
+                1.  Remaining ties will go to the team that finishes the regular season with the higher seed.
         1.  Best week ($50)
             1.  Each team will have a chance to win best week every week.
             1.  The team with the highest scoring single week will win.
@@ -288,8 +288,6 @@
 1.  <a id="seeding">Seeding</a>
     1.  Regular Season
         1.  Seeding in the regular season will order teams from most to least games won.
-    1.  Post season
-        1.  The playoffs will be reseeded each round based on the regular season records for each of the remaining teams.
     1.  <a id="tie-breakers">Tie breakers</a>
         1.  Most ties in regular season
         1.  Best head-to-head record between teams who finished the regular season with the same record
