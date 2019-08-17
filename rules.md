@@ -241,6 +241,7 @@
                 1.  Pulling (or not pulling) a player from active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
                 1.  In rare cases, leaving a roster position empty because no alternative exists on the bench and no benched player is worth dropping.
             1.  A successful objection regarding a roster decision to activate a specific player shall always result in that player being substituted for the player on the bench with the highest projection who's capable of filling that position. In the case that no player is available, a move to pick up a suitable player from FA may be forced.
+            1.  A successful objection to a move that results in a player add shall always result in such player being placed on the waiver wire, whether the player came from waiver wire or free agency, and the waiver date should be the next day if the objection vote passes before 9pm (EST) and in two days otherwise.
     1.  Waiver abuse
         1.  If a player is suspected of dropping and picking up players from FA for the sole significant purpose of moving players to waivers, any moves made to accomplish this may be objected.
         1.  An exception may be made if the league determines by a majority vote that the player was scrambling "last-minute" to assemble a viable scoring team with incomplete information.
