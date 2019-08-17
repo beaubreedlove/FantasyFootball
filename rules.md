@@ -277,6 +277,7 @@
     1.  A unanimous vote will be required for any changes to the rules that may in anyway affect the chances for a manager to win a cash prize.
     1.  An objection shall constitute a yes vote to reverse the objected action.
     1.  All votes must be cast publicly, in the message board, unconditionally, unambiguously, and by the manager who's opinion they represent.
+        1.  Managers may change their vote at any time by casting a new vote that fit this criteria.
     1.  A majority vote will be required for:
         1.  Objections.
         1.  Disambiguating any rules.
