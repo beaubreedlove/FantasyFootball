@@ -43,7 +43,6 @@
         1.  There are no divisions.
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline is 11/11.
-        1.  FAAB may be used in trades with some restrictions.
         1.  Anything can be objected and a majority vote will determine the outcome.
         1.  Rules changes require a unanimous vote.
         1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $500, $250, and $100.
@@ -211,19 +210,6 @@
             1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away.
             1.  Tradebacks are not strictly against the rules, but they are discouraged and are valid reasons for a manager to object despite not objecting to the original trade.
         1.  At least one player must be transferred by each team involved in a trade.
-        1.  Trades may include a transfer of FAAB from one team to another, with some exceptions, as a means to balance the trade.
-            1.  A team may not make a trade that results in either team holding more than 10,000 FAAB.
-            1.  No more than 2,500 FAAB may be transferred in a single trade.
-            1.  Trades involving FAAB must be proposed and accepted via the league message board.
-            1.  At no point may a manager have any combination of proposed trades, accepted trades or WW bids outstanding that could lead to a situation where his or her FAAB falls below 0 or in debt of the same player multiple times.
-        1.  If Yahoo! Sports can't accommodate a legal trade, the trade may be proposed in the league message board and the commissioner will manually make the moves at the end of the trade period.
-            1.  To propose a trade in the league message board, clearly and unambiguously state the team that the trade is proposed to along with all players and FAAB to be given and received.
-            1.  The trade will only be considered initialized when the manager that the trade was proposed to replies with the phrase "I accept" unconditionally and unnegated.
-            1.  In the case that a trade is proposed via the message board, objections may be initiated in the same thread.
-            1. Managers who propose trades via the message board may withdraw their proposal before such trade is accepted by unambiguously posting their intent to do so.
-            1. Managers may designate a time that their trade expires by posting it unambiguously in the message board.
-                1. This time may be changed by the proposing manager.
-                1. Times that don't include a timezone will be assumed to be Pacific Time.
 1.  <a id="objections">Objections</a>
     1.  Any move may be objected by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
