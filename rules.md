@@ -231,14 +231,16 @@
 1.  <a id="objections">Objections</a>
     1.  Any move may be objected by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
-    1.  Setting a roster in a way that is obviously not intended to beat the other team may be objected.
-        1.  This includes, but is not limited to:
-            1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
-            1.  Putting a player on active roster that has been long known to be not participating in the given week.
-        1.  Exceptions may include:
-            1.  Pulling (or not pulling) a player from active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
-            1.  In rare cases, leaving a roster position empty because no alternative exists on the bench and no benched player is worth dropping.
-        1.  A successful objection regarding a roster decision to play a specific player shall always result in that player being substituted for the player on the bench with the highest projection who's capable of filling that position. In the case that no player is available, a move to pick up a suitable player from FA may be forced.
+    1.  Undoubtably bad moves
+        1.  A manager must not take any actions, including making moves and setting active players, such that at the time the action is iniated it undoubtably hurts the value of his or her team or hurts the chances of that team making the playoffs and finishing the regular season with the best possible seed.
+            1.  Such actions may include, but are not limited to:
+                1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
+                1.  Putting a player on active roster that has been long known to be not participating in the given week.
+                1.  Dropping an exceptionally valuable player when a significantly lesser valued alternative player was available to be dropped.
+            1.  Exceptions may include:
+                1.  Pulling (or not pulling) a player from active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
+                1.  In rare cases, leaving a roster position empty because no alternative exists on the bench and no benched player is worth dropping.
+            1.  A successful objection regarding a roster decision to activate a specific player shall always result in that player being substituted for the player on the bench with the highest projection who's capable of filling that position. In the case that no player is available, a move to pick up a suitable player from FA may be forced.
     1.  Waiver abuse
         1.  If a player is suspected of dropping and picking up players from FA for the sole significant purpose of moving players to waivers, any moves made to accomplish this may be objected.
         1.  An exception may be made if the league determines by a majority vote that the player was scrambling "last-minute" to assemble a viable scoring team with incomplete information.
