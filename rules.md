@@ -274,14 +274,14 @@
     1.  Majority votes shall pass if at least half of the teams who didn't abstain, vote yes.
     1.  Unanimous votes shall pass if a majority of managers vote yes and all other managers abstain.
     1.  A unanimous vote will be required for any changes to the rules that may in anyway affect the chances for a manager to win a cash prize.
-    1. An objection shall constitute a yes vote to reverse the objected action.
-    1. All votes must be cast publicly, in the message board, and by the manager who's vote it is.
+    1.  An objection shall constitute a yes vote to reverse the objected action.
+    1.  All votes must be cast publicly, in the message board, unconditionally, unambiguously, and by the manager who's opinion they represent.
     1.  A majority vote will be required for:
         1.  Objections.
         1.  Disambiguating any rules.
             1.  The commissioner will determine upon request whether the rule is ambiguous or not. Non-ambiguous rules will only be changed upon unanimous vote.
         1.  Replacing the commissioner.
-        1.  Anything else that doesn't require a unanimous vote.
+        1.  Anything else that doesn't explicitly require a unanimous vote.
     1.  Managers are disqualified from voting on a particular issue if they are directly involved with what is being voted upon.
         1.  Commissioner may make initial ruling, but will not participate in the league vote if he is directly involved.
         1.  Managers directly involved include but are not limited to
