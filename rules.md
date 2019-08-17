@@ -249,10 +249,10 @@
         1.  Contacting the commissioner and stating the manager's intention to object and receiving an acknowledgement of such intention.
             1. Commissioner gives no guarentee that he will respond promptly. For this reason, it's recommended that managers use the message board when they'd like a fast decision.
     1.  Whenever an objection is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
-    1.  When an objection is initiated, each manager in the league will have whichever is later of 24 hours after the time the objection is initiated or 48 hours after the time the objected action occurred to perform a majority league vote to determine the outcome of the objection.
+    1.  When an objection is initiated, each manager in the league will have until whichever is later of 24 hours after the time the objection is initiated or 48 hours after the time the objected action occurred to perform a majority league vote to determine the outcome of the objection.
     1.  If an objection vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the objection.
         1.  In some cases, this may include reversing other actions by other teams, if they are determined by a majority league vote to have been responses to the original objected action.
-        1.  In the case that multiple actions need to be reversed, they will be determined in ascending chronological order.
+        1.  In the case that multiple actions need to be reversed, they will be determined in forward chronological order.
     1.  <a id="suspending-moves">In order to prevent multiple objections, the commissioner may suspend certain actions, including but not limited to moves, during a league vote until the vote is complete.</a>
         1.  The commissioner will do his best to act quickly to finish an objection vote, in an attempt to avoid suspending moves.
         1.  In the event moves are suspended, managers may request to conditionally, based on the outcome of the objection vote, make a move.
