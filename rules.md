@@ -9,7 +9,6 @@
     1.  [Draft](#draft)
     1.  [Waivers](#waivers)
         1. [FAAB](#faab)
-        1. [Second Price Auctions](#second-price)
     1.  [League Structure](#structure)
     1.  [Schedule](#schedule)
         1.  [Regular Season](#regular-season)
@@ -40,7 +39,6 @@
         1.  The playoffs will have 7 teams, one with a bye, and take place on weeks 14 through 16.
         1.  The draft time has yet to be determined.
         1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
-        1.  The winner of waiver wire auctions will pay the price that the second highest bidder bid.
         1.  There are no divisions.
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline is 11/11.
@@ -121,11 +119,6 @@
         1.  If two or more teams tie for the highest FAAB bid, the Continuing Rolling List tie-breaker method will be used, which is configured and determined by Yahoo! Sports.
     1.  Players may be dropped from a team at any time in order to make room for incoming players.
     1.  During a waiver request, managers may opt to conditionally drop a player if their request succeeds.
-    1. <a id="second-price">FAAB bids follow a Second Price Auction format.</a>
-        1. The team that wins the FAAB auction that takes place on Yahoo wins the player and is forced to drop any other players if specificed on Yahoo, but must only pay the price of the second highest bid on the same player.
-            1. If there is no second bidder, the second highest bid will be considered 0.
-        1. The Yahoo interface will take the full FAAB from the highest bidder and the difference between this bid and the second highest bid will not be returned until the final game is played for the week, but no later than Tuesday at 1pm (EST).
-        1. Managers may not make any claim to nor recieve FAAB returned as a difference between the first and second highest bids in a second price auction until the end of the aforementioned period of time.
 1.  <a id="structure">League Structure</a>
     1.  There will be no divisions or conferences.
     1.  There will be 14 teams.
