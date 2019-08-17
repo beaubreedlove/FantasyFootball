@@ -103,7 +103,7 @@
     1.  Each manager will have up to 90 seconds to draft a single player to his/her team for each round.
     1.  There will be 14 rounds of the draft; one for each player on the team.
     1.  Order
-        1.  Draft order will be determined after a majority of managers have accepted the rules, but no later than August 26, 2017.
+        1.  Draft order will be determined after all managers have accepted and committed to the rules.
         1.  Draft order will be serpentine.
             1.  Each of the odd numbered rounds starting with the first round will draft in the determined draft order.
             1.  Each of the even numbered rounds will draft in reverse order.
@@ -154,6 +154,8 @@
                     1.  Winner is 3rd place
                     1.  Loser is 4th place
         1.  For the sake of prizes, the 3 losing teams in week 14 will be considered 5th, 6th, and 7th place in no particular order.
+        1. Teams who don't qualify for the playoffs will be locked from making player moves including adds and drops, but will still be able to set their lineups.
+            1. The losing teams during week 14 will also be locked from making player moves.
 1.  <a id="money">Money</a>
     1.  <a id="fees">League Fees</a>
         1.  Payment
