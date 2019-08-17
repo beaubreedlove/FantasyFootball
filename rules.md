@@ -272,6 +272,7 @@
     1.  League votes should be completed within 24 hours with each team manager voting yes (to make some change) or no (to keep things as they are).
     1.  Managers may abstain from a vote. In this case their vote will not count for or against the proposal.
     1.  Majority votes shall pass if at least half of the teams who didn't abstain, vote yes.
+        1. A majority vote shall pass immediately when this condition is met.
     1.  Unanimous votes shall pass if a majority of managers vote yes and all other managers abstain.
     1.  A unanimous vote will be required for any changes to the rules that may in anyway affect the chances for a manager to win a cash prize.
     1.  An objection shall constitute a yes vote to reverse the objected action.
