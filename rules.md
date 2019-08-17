@@ -183,7 +183,7 @@
             1.  If two or more matchups tie for this prize, it will be divided further and rounding in all cases will favor teams with higher scores.
         1.  Best worst player ($50)
             1.  Each team will have a chance to win best worst player every week.
-            1.  In a single week, a team's "worst player" is the in-play player that scores the least points on a team that fills all roster positions for that week.
+            1.  In a single week, a team's "worst player" is the active player that scores the least points on a team that fills all roster positions for that week.
             1.  The best worst player award will go to the manager of the team who had the highest scoring worst player in any single week of the year.
             1.  Ties will be go to the team with the better 2nd worst player on the given week, then 3rd, 4th, and so on.
         1.  Best worst week ($50)
