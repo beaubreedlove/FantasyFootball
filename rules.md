@@ -23,6 +23,7 @@
     1.  [Voting](#voting)
     1.  [Seeding](#seeding)
         1.  [Tie Breakers](#tie-breakers)
+    1.  [Abandoned Teams](#abandoned-teams)
     1.  [Outside Influence](#outside-influence)
     1.  [Rules Not Stated](#rules-not-stated)
     1.  [Manager Responsibilities](#responsibilities)
@@ -42,13 +43,14 @@
         1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
         1.  There are no divisions.
         1.  League fee is $200.
-        1.  Trades are allowed and the trade deadline is 11/11.
+        1.  Trades are allowed and the trade deadline will be the end of week 9.
         1.  Anything can be objected and a majority vote will determine the outcome.
         1.  Rules changes require a unanimous vote.
-        1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $500, $250, and $100.
-        1.  The team who scores the most points wins $200.
+        1.  People who make the playoffs win at least $50 with 1st through 3rd winning $1,000, $500, and $250.
+        1.  The teams to score 1st and 2nd place in the regular season will win $100 and $50.
+        1.  The team who scores the most points wins $150.
         1.  Starting on week 10, there are 4 weekly prizes of $100 each to be split between 2 teams each week.
-        1.  There are 4 other prizes of $50 each.
+        1.  There are 3 other prizes of $50 each.
         1.  People shouldn't create conflicts of interest with the league.
         1.  If a rule isn't defined well here, we fall back to Yahoo rules. If it's still not clear, we use a league vote.
         1.  Managers, especially the commissioner, should be competitive, but friendly.
@@ -168,10 +170,9 @@
             1.  1st place - $1,000
             1.  2nd place - $500
             1.  3rd place - $250
-            1.  4th place - $100
-            1.  5th through 7th place - $50 each (x3)
-        1.  Points ($200)
-            1.  Most points in the regular season - $200
+            1.  4th through 7th place - $50 each (x4)
+        1.  Points ($150)
+            1.  Most points in the regular season - $150
         1.  Weekly Prizes ($400 total)
             1.  For each of the final 4 weeks of the regular season, $100 will be awarded to the two teams faced off in the matchup that has the highest total score of both teams.
             1.  The $100 will be split among the two managers proportionally, rounding to the nearest $1 in favor of the winner.
@@ -185,10 +186,6 @@
             1.  At the end of the year, each team's "worst week" will be defined as the week that they scored their minimum score.
             1.  A manager will win best worst week if their team's worst week had a higher score than any other team.
             1.  Ties will go to the team with the better 2nd worst week, then 3rd, 4th, and so on.
-        1.  Longest Winning Streak ($50)
-            1.  The team that has the longest consecutive streak of matches won in the regular season, wins this contest.
-            1.  Ties will go to the team with the longest 2nd winning streak, then 3rd, 4th, and so on.
-                1.  Remaining ties will go to the team that finishes the regular season with the higher seed.
         1.  Best week ($50)
             1.  Each team will have a chance to win best week every week.
             1.  The team with the highest scoring single week will win.
@@ -210,6 +207,7 @@
             1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away.
             1.  Tradebacks are not strictly against the rules, but they are discouraged and are valid reasons for a manager to object despite not objecting to the original trade.
         1.  At least one player must be transferred by each team involved in a trade.
+        1.  No two teams may trade with each other more than twice in the same season.
 1.  <a id="objections">Objections</a>
     1.  Any move may be objected by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
@@ -281,6 +279,29 @@
         1.  Best head-to-head record between teams who finished the regular season with the same record
         1.  Most points in regular season
         1.  Coin flip
+1.  <a id="abandoned-teams">Amandoned Teams</a>
+    1.  Managers should keep an eye on their teams at least once a week, set their lineups in a way that they expect to win their games, and add and drop players to prepare to win more games.
+        1.  Managers should stay competitive even if they don't think they can improve their changces of making the playoffs or win prizes.
+    1.  Teams who fail to stay competitive may be declared abandoned and put through the abandoned team protocol if the following conditions are met.
+        1.  A manager in the league accuses a manager of neglecting their team.
+            1.  The accusing manager should describe the nature of the neglect.
+        1.  Such team has at the time of accusation:
+            1.  Won less games than the current 7 seed team.
+            1.  Taken action or inaction that has been reversed due to a successful objection.
+    1.  A supermajority league vote will take place when a team is placed on abandonment protocol.
+        1.  If this vote passes, the accused team will be placed on autopilot.
+        1.  For this vote to pass, at least 60% of the managers who aren't already on autopilot, must vote yes.
+    1.  When a team is placed on autopilot, the commissioner will set their line up each week in a predetermined fashion described here:
+        1.  At time of the start of each game, the starting roster will be set to the players on the team or available on FA that have the greatest Yahoo projection.
+        1.  Setting the roster may be done slightly after the game starts so that the projections lock in to their final value before the decision is made and so that any other team not on autopilot may have first dibs on any player.
+        1.  If a player must be dropped to accomodate a FA add, the dropped player will be chosen using the following method:
+            1.  If any of these exclusions, exclulde all players, then ignore them.
+            1.  If at any point, only one player is left, drop him.
+            1.  Once enough players are dropped to meet the roster size requirement, stop.
+            1.  Exclude dropping any players of any position that would prepare to leave the team in a future state of not being able to fill the team with players projected more than 0 points.
+            1.  Exclude dropping any players on Yahoo's can't cut list.
+            1.  Drop the remaining player with the smallest maximum projected weekly score left of the weeks leading to week 13 in the regular season and 16 in the playoffs.
+    1.  The comissioner may at any time call a majority league vote to take a team off autopilot.
 1.  <a id="outside-influence">Outside influence</a>
     1.  No external value to the league, including monetary value, may be exchanged between managers for moves or any other manager decision.
     1.  No side bets or games of chance shall be wagered by a manager, aside from those outlined by these rules, that rewards that manager for making a decision that reduces his or her team's chance of winning a match up.
