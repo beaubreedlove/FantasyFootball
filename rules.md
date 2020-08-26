@@ -35,7 +35,7 @@
         1.  If a conflict exists between this section and another section below, this section will be invalid.
     1.  Summary
         1.  There are 14 teams.
-        1.  Each team has 14 players + 1 IR.
+        1.  Each team has 13 players + 2 IR.
         1.  A team can play 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, and 1 DST each week.
         1.  The regular season is 13 weeks, with each team playing each other team exactly once.
         1.  The playoffs will have 7 teams, one with a bye, and take place on weeks 14 through 16.
@@ -68,9 +68,9 @@
         1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
         1.  Managers may give advice to other managers.
     1.  <a id="roster">Roster</a>
-        1.  Each team may have up to 14 players on their roster, plus 1 player designated as Injury Reserve (IR).
+        1.  Each team may have up to 13 players on their roster, plus 2 players designated as Injury Reserve (IR).
             1.  Up to 9 players will be considered active; meaning eligible for scoring.
-            1.  One player on each team may be put in the IR slot, if Yahoo allows it.
+            1.  Up to two players on each team may be put in either IR slot, if Yahoo allows it.
             1.  The remaining players on each team are considered to be on the bench.
         1.  Each player is assigned a position by Yahoo! Sports.
             1.  If a player is assigned two positions, his team's manager may determine which position he plays at any given time.
