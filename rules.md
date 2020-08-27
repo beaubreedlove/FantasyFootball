@@ -166,7 +166,7 @@
             1.  Managers will have a chance to review the rules before committing to the league.
                 1.  If 14 managers do not commit, the initial payment will be refunded.
     1.  <a id="payouts">Payouts</a>
-        1.  Playoffs ($2,000 total)
+        1.  Playoffs ($1,950 total)
             1.  1st place - $1,000
             1.  2nd place - $500
             1.  3rd place - $250
@@ -190,6 +190,9 @@
             1.  Each team will have a chance to win best week every week.
             1.  The team with the highest scoring single week will win.
             1.  Ties will go to the team with the 2nd highest scoring week, then 3rd, 4th, and so on.
+        1. Regular Season ($150)
+            1. First place in the regular season will win $100
+            1. Second place in the regular season will win $50
         1.  All prizes will be paid out no later than the real NFL Super Bowl.
         1.  After week 14, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
 1.  <a id="moves">Moves</a>
