@@ -207,8 +207,8 @@
             1.  Threeway trades may be proposed or discussed, but the managers must work out a way to execute the trade in multiple steps using only two managers at a time.
             1.  During the multipart execution of a threeway trade, managers may object to any component trade, independant of the other trades. For this reason, threeway trades are not guaranteed to be "all or none".
         1.  Tradebacks
-            1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away.
-            1.  Tradebacks are not strictly against the rules, but they are discouraged and are valid reasons for a manager to object despite not objecting to the original trade.
+            1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away without the player falling to Waivers or Free Agency between trades.
+            1.  Tradebacks will be reversed immediately without a vote if a single manager objects to the trade in 24 hours.
         1.  At least one player must be transferred by each team involved in a trade.
         1.  No two teams may trade with each other more than twice in the same season.
 1.  <a id="objections">Objections</a>
