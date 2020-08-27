@@ -206,7 +206,7 @@
             1.  The trade deadline will be the default set by Yahoo.
         1.  Trades may only involve two teams.
             1.  Threeway trades may be proposed or discussed, but the managers must work out a way to execute the trade in multiple steps using only two managers at a time.
-            1.  During the multipart execution of a threeway trade, managers may object to any component trade, independant of the other trades. Furthermore, managers are no beholden to any agreement to make a trade in the future based on the conditions of any previous trade. For these reasons, threeway trades can never be guarenteed.
+            1.  During the multipart execution of a threeway trade, managers may object to any component trade, independant of the other trades. Furthermore, managers are not beholden to any agreement to make a trade in the future based on the conditions of any previous trade. For these reasons, threeway trades can never be guarenteed.
         1.  Tradebacks
             1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away without the player falling to Waivers or Free Agency between trades.
             1.  Tradebacks will be reversed immediately without a vote provided that a single manager points out that a tradeback occured within 24 hours of such trade.
@@ -302,11 +302,10 @@
         1.  At time of the start of each game, the starting roster will be set to the players on the team or available on FA that have the greatest Yahoo projection.
         1.  Setting the roster may be done slightly after the game starts so that the projections lock in to their final value before the decision is made and so that any other team not on autopilot may have first dibs on any player.
         1.  If a player must be dropped to accomodate a FA add, the dropped player will be chosen using the following method:
-            1.  If any of these exclusions exclulde all players then ignore them.
             1.  If at any point, only one player is left, drop him.
             1.  Once enough players are dropped to meet the roster size requirement, stop.
-            1.  Exclude dropping any players of any position that would prepare to leave the team in a future state of not being able to fill the team with players projected more than 0 points.
             1.  Exclude dropping any players on Yahoo's can't cut list.
+            1.  Exclude dropping any players of any position that would prepare to leave the team in a future state of not being able to fill the team with players projected more than 0 points unless this excludes all players.
             1.  Drop the remaining player with the smallest maximum projected weekly score left of the weeks leading to week 13 in the regular season and 16 in the playoffs.
     1.  The comissioner may at any time call a majority league vote to take a team off autopilot.
     1.  Elective autopilot
