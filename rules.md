@@ -44,7 +44,7 @@
         1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
         1.  There are no divisions.
         1.  League fee is $200.
-        1.  Trades are allowed and the trade deadline will be the end of week 9.
+        1.  Trades are allowed and the trade deadline will be the Saturday of week 10.
         1.  Anything can be objected and a majority vote will determine the outcome.
         1.  Rules changes require a unanimous vote.
         1.  People who make the playoffs win at least $50 with 1st through 3rd winning $1,000, $500, and $250.
