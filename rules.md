@@ -101,7 +101,7 @@
             1. If there is still a tie, the win will go to the team that ended the regular season with the better seed.
 1.  <a id="draft">Draft</a>
     1.  Date and time
-        1.  TBD
+        1.  The season 7 draft will be Sunday, September 6 at 7pm
     1.  Each manager will have up to 90 seconds to draft a single player to his/her team for each round.
     1.  There will be 14 rounds of the draft; one for each player on the team.
     1.  Order
