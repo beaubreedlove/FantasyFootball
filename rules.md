@@ -356,7 +356,6 @@
                     1.  20% to the 3rd in standings
                     1.  10% to the 4th in standings
             1.  If the regular season is completed, but some playoff weeks are not completed, the following rules will supersede:
-                1.  If no playoff weeks are played, the 1st through 7th place prizes will be determined by regular season standings.
                 1.  If week 14 is completed:
                     1.  Week 14 rules act as usual
                     1.  The 3 losing teams win the 5th through 7th place prizes.
