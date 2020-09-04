@@ -379,11 +379,11 @@
                         1.  Week 16 is prepared to be a combination of weeks 14, 15, and 16 usuing the same methods as descibed above for combining weeks 14 and 15 and combining weeks 15 and 16.
                         1.  If week 16 is not completed:
                             1. The 1st ($100) and 2nd ($50) place in regular season prizes are replaced with the following prizes for standings in the regular season:
-                                1. 1st - $550
-                                2. 2nd - $400
-                                3. 3rd - $300
-                                4. 4th - $250
-                                5. 5th through 7th - $200 each
+                                1. 1st - $500
+                                2. 2nd - $250
+                                3. 3rd - $200
+                                4. 4th - $150
+                                5. 5th through 7th - $100 each
     1.  Regular Season Standings
         1.  If less than 4 weeks are completed, regular season standings will be based solely on total points.
         1.  If less than 8 weeks are completed, there will be no tie breakers for regular season standings. Instead any prize paid to a specific standing will be split by all teams who tied for that position.
