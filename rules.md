@@ -387,3 +387,4 @@
     1.  Regular Season Standings
         1.  If less than 4 weeks are completed, regular season standings will be based solely on total points.
         1.  If less than 8 weeks are completed, there will be no tie breakers for regular season standings. Instead any prize paid to a specific standing will be split by all teams who tied for that position.
+        1.  If less than 13 weeks are completed, head to head tie breakers will only be used if all teams being compared played the same number of head to head games.
