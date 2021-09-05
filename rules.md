@@ -189,7 +189,9 @@
         1.  Payment
             1.  A one time payment of $200 will be collected by the commissioner from each team manager.
         1.  Deadline
-            1.  Initial payment must be paid on or before the draft date.
+            1.  Initial payment must be paid on or before the draft date in 2021 and on or before August 1 in subsequent seasons.
+                1.  Any manager who does not pay by this time may have their team transferred, sold, or auctioned to another manager and the Comissioner's discression.
+                1.  Any proceeds from the transfer will be given to the previous manager.
             1.  Managers will have a chance to review the rules before committing to the league.
                 1.  If 14 managers do not commit, the initial payment will be refunded.
     1.  <a id="payouts">Payouts</a>
@@ -286,14 +288,13 @@
     1.  Majority votes shall pass if at least half of the teams who didn't abstain, vote yes.
         1. A majority vote shall pass immediately when this condition is met.
     1.  Unanimous votes shall pass if a majority of managers vote yes and all other managers abstain.
-    1.  A unanimous vote will be required for any changes to the rules that may in anyway affect the chances for a manager to win a cash prize.
     1.  An objection shall constitute a yes vote to reverse the objected action.
     1.  All votes must be cast publicly, in the message board, unconditionally, unambiguously, and by the manager who's opinion they represent.
         1.  Managers may change their vote at any time by casting a new vote that fits this criteria. The new vote will replace the old vote.
     1.  A majority vote will be required for:
         1.  Objections.
         1.  Disambiguating any rules.
-            1.  The commissioner will determine upon request whether the rule is ambiguous or not. Non-ambiguous rules will only be changed upon unanimous vote.
+            1.  The commissioner will determine upon request whether the rule is ambiguous or not. Non-ambiguous rules will only be changed via the rule amendment process.
         1.  Replacing the commissioner.
         1.  Anything else that doesn't explicitly require a unanimous vote.
     1.  Managers are disqualified from voting on a particular issue if they are directly involved with what is being voted upon.
@@ -302,6 +303,18 @@
             1.  Managers gaining or losing players in a trade.
             1.  Managers matched up against a team that's being accused of making poor roster decisions.
         1.  Managers disqualified from voting will implicitly abstain from the vote.
+1.  <a id="amending-rules">Amending Rules</a>
+    1.  A unanimous vote will be required for any changes to the rules that go into effect during the season the amendment passes.
+    1.  Rules may be changed for subsequent seasons by a majority vote and comissioner approval.
+    1.  To amend the rules, a manager must make a clear proposal about which rules to be added, removed, or modified.
+        1.  For a period of time (defined in this section), other managers will have the chance to submit counter proposals.
+            1. From August 1 and Thursday before Superbowl; 1 week
+            1. From the Friday before the Superbowl to July 31; 4 weeks, but no more than 1 week past August 1
+        1.  Each manager may only submit one proposal or counter proposal to be considered per amendment vote.
+            1.  Managers may get around this by finding a co-sponsor who has not sponsored the original proposal or another counter proposal.
+        1.  The counter proposal to leave the rules unchanged will automatically be submitted for each vote without a sponsor required.
+        1.  After the proposal and counter proposals are all submitted, each manager may vote yes or no to each proposal.
+            1.  The proposal with the most yes votes will pass and effectively amend the rules, upon Comissioner approval.
 1.  <a id="seeding">Seeding</a>
     1.  Regular Season
         1.  Seeding in the regular season will order teams from most to least games won.
