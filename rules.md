@@ -30,6 +30,7 @@
     1.  [Manager Responsibilities](#responsibilities)
     1.  [Commissioner Responsibilities](#commissioner)
     1.  [Incomplete NFL Season](#incomplete)
+    1.  [Timezones](#timezones)
 1.  <a id="tldr">TLDR</a>
     1.  Disclaimer
         1.  TLDR stands for "too long didn't read".
@@ -48,7 +49,7 @@
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline will be the Saturday of week 12.
         1.  Anything can be objected and a majority vote will determine the outcome.
-        1.  Rules changes in season require a unanimous vote. For future seasons, they require a majorityvote and Comissioner approval.
+        1.  Rules changes in season require a unanimous vote. For future seasons, they require a majority vote and Comissioner approval.
         1.  People who make the playoffs win at least $50 with 1st through 3rd winning $1,000, $500, and $250.
         1.  The teams to score 1st and 2nd place in the regular season will win $100 and $50.
         1.  The team who scores the most points wins $150.
@@ -56,7 +57,7 @@
         1.  There are 3 other prizes of $50 each.
         1.  People shouldn't create conflicts of interest with the league.
         1.  If a rule isn't defined well here, we fall back to Yahoo rules. If it's still not clear, we use a league vote.
-        1.  All times in these are Eastern Standard Time.
+        1.  All times in these rules are Eastern Standard Time.
         1.  Managers, especially the commissioner, should be competitive, but friendly.
 1.  <a id="teams">Teams</a>
     1.  <a id="managers">Managers</a>
@@ -101,7 +102,7 @@
         1.  If both teams have the same score, each will receive a tie.
     1.  <a id="ties">Ties</a>
         1.  Tied games may exist during the regular season.
-        1.  In the event of a tie during the postseason, the will will be awarded to the team with the lower seed.
+        1.  In the event of a tie during the postseason, the win will be awarded to the team with the lower seed.
 1.  <a id="draft">Draft</a>
     1.  Date and time
         1.  The Season 8 draft will be Sunday, September 5 at 8pm
@@ -127,7 +128,7 @@
                 1. 4th place from previous year may choose any remaining draft position by 12pm, 2 days before the draft.
                 1. 3rd place from previous year may choose any remaining draft position by 2pm, 2 days before the draft.
                 1. 2nd place from previous year may choose any remaining draft position by 4pm, 2 days before the draft.
-                1. 1st place will be assigned the only remaining draft position.
+                1. 1st place from previous year will be assigned the only remaining draft position.
             1. Setting preferences and defaults
                 1. Any manager may post a list of draft position preferences publicly to the league at anytime and the most preferred draft position in their preference list will be automatically selected for them.
                 1. If a manager does not choose their draft position by their draft position by their assiigned deadline, the lowest remaining draft position will be assigned.
