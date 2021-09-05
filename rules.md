@@ -7,6 +7,7 @@
         1.  [Scoring](#scoring)
         1.  [Ties](#ties)
     1.  [Draft](#draft)
+        1.  [Keepers](#keepers)
     1.  [Waivers](#waivers)
         1. [FAAB](#faab)
     1.  [League Structure](#structure)
@@ -41,12 +42,13 @@
         1.  The regular season is 14 weeks, with each team playing each other team exactly once.
         1.  The playoffs will have 7 teams, one with a bye, and take place on weeks 15 through 17.
         1.  The draft time is on the Sunday before the first game each season at 8pm.
+        1.  Starting in 2022, we will do keepers. You may keep a few players for 1 year and 1 player for 2 years. Other restrictions apply -- see details in [keepers](#keepers) rules.
         1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
         1.  There are no divisions.
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline will be the Saturday of week 12.
         1.  Anything can be objected and a majority vote will determine the outcome.
-        1.  Rules changes require a unanimous vote.
+        1.  Rules changes in season require a unanimous vote. For future seasons, they require a majorityvote and Comissioner approval.
         1.  People who make the playoffs win at least $50 with 1st through 3rd winning $1,000, $500, and $250.
         1.  The teams to score 1st and 2nd place in the regular season will win $100 and $50.
         1.  The team who scores the most points wins $150.
@@ -67,8 +69,10 @@
             1.  Proposing and Accepting Trades
             1.  Objections
             1.  Voting
+            1.  Keeper Elections
         1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
         1.  Managers may give advice to other managers.
+        1.  Teams are transferable in that they can be given, sold, or auctioned to new managers aslong as no two managers own the same team.
     1.  <a id="roster">Roster</a>
         1.  Each team may have up to 13 players on their roster, plus 2 players designated as Injury Reserve (IR).
             1.  Up to 9 players will be considered active; meaning eligible for scoring.
@@ -97,9 +101,7 @@
         1.  If both teams have the same score, each will receive a tie.
     1.  <a id="ties">Ties</a>
         1.  Tied games may exist during the regular season.
-        1.  In the event of a tie during the postseason, a win will be awarded to the team with the highest score from a single bench player that week.
-            1. If the highest bench players are tied, the winner will be determined by the next highest bench players. This process should repeat through the entire bench until a win is determined.
-            1. If there is still a tie, the win will go to the team that ended the regular season with the better seed.
+        1.  In the event of a tie during the postseason, the will will be awarded to the team with the lower seed.
 1.  <a id="draft">Draft</a>
     1.  Date and time
         1.  The Season 8 draft will be Sunday, September 5 at 8pm
@@ -132,6 +134,24 @@
         1.  Draft order will be serpentine.
             1.  Each of the odd numbered rounds starting with the first round will draft in the determined draft order.
             1.  Each of the even numbered rounds will draft in reverse order.
+    1.  <a id="keepers">Keepers</a>
+        1.  Starting in the 2022 season, managers may elect to keep players from previous seasons within the limitations laid out ini this section.
+        1.  Keeper elections must be made by end of day, 5 days before the draft.
+        1.  Cost of keeping a player
+            1.  The first year a player is kept, they will cost one draft round less than the round they were drafted the previous year.
+                1.  For example a player drafted in the 5th round, will cost a 4th round pick the following year.
+                1.  An undrafted player will cost a last round pick the following year.
+                1.  A first round pick cannot be kept the following year.
+            1.  The second year a player is kept, they will cost a first round pick unless they cost a first round pick the previous year, in which case they cannot be kept a second year.
+            1.  No player may be kept 3 consecutive drafts, nor may a player be kept in one draft if they cost a 1st round pick ni the previious draft.
+            1.  Players acquired through FA, WW, or trades will retain their draft round (or lack of draft round) for the purposes of determining their cost the keep the following year.
+        1.  Teams may not keep any combination of players who's total draft round costs exceed 15.
+            1.  Examples
+                1. Keeping players who cost a 10th and 5th round pick totals 15. This is allowed.
+                1. Keeping playeers who cost a 12th, 3rd, and 1st round pick totals 16. This is not allowed.
+        1.  If you choose to keep multiple players who cost the same draft round, you may pay a lesser draft round.
+            1.  Such changes do not reduce the cost of keeping a player for the sake of determining whether the total costs exceed 15.
+            1.  Such changes do affect the round that a player costs to keep next year and could result in making the player unkeepable next year if a 1st round pick is sacrificed  year.
 1.  <a id="waivers">Waivers</a>
     1.  <a id="faab">Free Agent Acquisition Budget (FAAB)</a>
         1.  Each team will be allotted 10,000 FAAB immediately after the draft.
@@ -330,7 +350,8 @@
         1.  Seeding in the regular season will order teams from most to least games won.
     1.  <a id="tie-breakers">Tie breakers</a>
         1.  Most ties in regular season
-        1.  Best head-to-head record between teams who finished the regular season with the same record
+        1.  Longest winning streak at end of season.
+        1.  Shortest losing streak at end of season.
         1.  Most points in regular season
         1.  Coin flip 
 1.  <a id="abandoned-teams">Amandoned Teams</a>
