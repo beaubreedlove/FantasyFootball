@@ -102,7 +102,9 @@
             1. If there is still a tie, the win will go to the team that ended the regular season with the better seed.
 1.  <a id="draft">Draft</a>
     1.  Date and time
-        1.  The season 7 draft will be Sunday, September 6 at 7pm
+        1.  The Season 8 draft will be Sunday, September 5 at 8pm
+        1.  The draft time for subsequent seasons will be the Sunday before the first game of the season.
+            1.  This date will be determined on August 1 as the day the NFL projects the first game will be played.
     1.  Each manager will have up to 90 seconds to draft a single player to his/her team for each round.
     1.  There will be 14 rounds of the draft; one for each player on the team.
     1.  Order
@@ -322,7 +324,7 @@
         1.  Most ties in regular season
         1.  Best head-to-head record between teams who finished the regular season with the same record
         1.  Most points in regular season
-        1.  Coin flip
+        1.  Coin flip 
 1.  <a id="abandoned-teams">Amandoned Teams</a>
     1.  Managers should keep an eye on their teams at least once a week, set their lineups in a way that they expect to win their games, and add and drop players to prepare to win more games.
         1.  Managers should stay competitive even if they don't think they can improve their changces of making the playoffs or win prizes.
