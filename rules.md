@@ -233,13 +233,14 @@
     1.  Players may only be dropped by a manager if the manager intends to immediately replace the slot on his or her roster.
     1.  <a id="trades">Trades</a>
         1.  Trade deadline
-            1.  The trade deadline will be the default set by Yahoo.
+            1.  The trade deadline will be the Saturday of week 12 as set on Yahoo.
         1.  Trades may only involve two teams.
             1.  Threeway trades may be proposed or discussed, but the managers must work out a way to execute the trade in multiple steps using only two managers at a time.
             1.  During the multipart execution of a threeway trade, managers may object to any component trade, independant of the other trades. Furthermore, managers are not beholden to any agreement to make a trade in the future based on the conditions of any previous trade. For these reasons, threeway trades can never be guarenteed.
-        1.  Tradebacks
+        1.  Tradebacks and double trades are disallowed
             1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away without the player falling to Waivers or Free Agency between trades.
-            1.  Tradebacks will be reversed immediately without a vote provided that a single manager points out that a tradeback occured within 24 hours of such trade.
+            1.  Double trades are when a manager trades a player that was acquired in a different trade less than 24 hours prior.
+            1.  Tradebacks and double trades will be reversed immediately without a vote provided that a single manager points out that a tradeback or double trade occured within 24 hours of such trade.
         1.  At least one player must be transferred by each team involved in a trade.
         1.  Expedited Trades
             1.  Trades are processed immediately by Yahoo, but our rules states that trades may be objected within 24 hours after the trade is made and a vote to overturn a trade may take up to 36 hours after the trades is made.
@@ -248,15 +249,19 @@
     1.  Any move may be objected by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
     1.  Undoubtably bad moves
-        1.  A manager must not take any actions, including making moves and setting active players, such that at the time the action is initiated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs and finishing the regular season with the best possible seed.
+        1.  A manager must not take any actions, including making moves and setting active players, such that at the time the action is initiated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs, finishing the regular season with the best possible seed, and leaving the team in a good state for subsequent seasons.
             1.  Such actions may include, but are not limited to:
                 1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
                 1.  Putting a player on active roster that has been long known to be not participating in the given week.
                 1.  Dropping an exceptionally valuable player when a significantly lesser valued alternative player was available to be dropped.
+                1.  Letting go of obviosuly high valued keeper players in exchange for no meaninigful gain.
             1.  Exceptions may include:
                 1.  Pulling (or not pulling) a player from active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
                 1.  In rare cases, leaving a roster position empty because no alternative exists on the bench and no benched player is worth dropping.
             1.  A successful objection regarding a roster decision to activate a specific player shall result in that players position on the roster being filled using the [autopilot](#autopilot) protocol.
+            1.  Commissioner may make executive decisions at game to put a team on autopilot in cases of extraordinary neglect to prevent a league vote from delaying the correction.
+                1.  Comissioner will do his best to notify and get approval from as much of the league as possible before such decisions.
+                1.  A league vote may reverse these executive decisions.
     1.  Waiver abuse
         1.  If a player is suspected of dropping and picking up players from free agency for the sole significant purpose of moving players to waivers, any moves made to accomplish this may be objected.
         1.  An exception may be made if the league determines by a majority vote that the player was scrambling "last-minute" to assemble a viable scoring team with incomplete information.
@@ -266,7 +271,7 @@
         1.  An objection is not considered initiated until another manager seconds the intention to object.
         1.  Both the original intention to object and the seconding of the intention to object shall count as vote in favor of the objection.
         1.  Whenever an objection is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
-        1.  When an objection is initiated, each manager in the league will have until whichever is earlier of 24 hours after the time the objection is initiated or 36 hours after the time the objected action occurred to perform a majority league vote to determine the outcome of the objection.
+        1.  When an objection is initiated, each manager in the league will have until 24 hours after the time the objection is initiated to perform a majority league vote to determine the outcome of the objection.
     1.  If an objection vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the objection.
         1.  In some cases, this may include reversing other actions by other teams, if they are determined by a majority league vote to have been responses to the original objected action.
         1.  In the case that multiple actions need to be reversed, they will be determined in forward chronological order.
@@ -286,7 +291,10 @@
         1. The league vote shall be considered initated at the time the objection was seconded.
     1.  If any manager objects to the commissioner's initial ruling, a league vote shall be initiated.
     1.  League votes should be completed within 24 hours with each team manager voting yes (to make some change) or no (to keep things as they are).
-    1.  Managers may abstain from a vote. In this case their vote will not count for or against the proposal.
+    1.  Managers may abstain from a vote.
+        1. Managers who abstain will have their vote counted as a "no" for any votes lasting less than 8 hours.
+            1. For example, a rushed trade objection.
+        1. After 8 hours, managers who haven't voted will neither count for, nor against the proposal.
     1.  Majority votes shall pass if at least half of the teams who didn't abstain, vote yes.
         1. A majority vote shall pass immediately when this condition is met.
     1.  Unanimous votes shall pass if a majority of managers vote yes and all other managers abstain.
