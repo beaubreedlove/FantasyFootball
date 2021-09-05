@@ -38,22 +38,23 @@
         1.  There are 14 teams.
         1.  Each team has 13 players + 2 IR.
         1.  A team can play 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, and 1 DST each week.
-        1.  The regular season is 13 weeks, with each team playing each other team exactly once.
-        1.  The playoffs will have 7 teams, one with a bye, and take place on weeks 14 through 16.
-        1.  The draft time has yet to be determined.
+        1.  The regular season is 14 weeks, with each team playing each other team exactly once.
+        1.  The playoffs will have 7 teams, one with a bye, and take place on weeks 15 through 17.
+        1.  The draft time is on the Sunday before the first game each season at 8pm.
         1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
         1.  There are no divisions.
         1.  League fee is $200.
-        1.  Trades are allowed and the trade deadline will be the Saturday of week 10.
+        1.  Trades are allowed and the trade deadline will be the Saturday of week 12.
         1.  Anything can be objected and a majority vote will determine the outcome.
         1.  Rules changes require a unanimous vote.
         1.  People who make the playoffs win at least $50 with 1st through 3rd winning $1,000, $500, and $250.
         1.  The teams to score 1st and 2nd place in the regular season will win $100 and $50.
         1.  The team who scores the most points wins $150.
-        1.  Starting on week 10, there are 4 weekly prizes of $100 each to be split between 2 teams each week.
+        1.  Starting on week 11, there are 4 weekly prizes of $100 each to be split between 2 teams each week.
         1.  There are 3 other prizes of $50 each.
         1.  People shouldn't create conflicts of interest with the league.
         1.  If a rule isn't defined well here, we fall back to Yahoo rules. If it's still not clear, we use a league vote.
+        1.  All times in these are Eastern Standard Time.
         1.  Managers, especially the commissioner, should be competitive, but friendly.
 1.  <a id="teams">Teams</a>
     1.  <a id="managers">Managers</a>
@@ -105,12 +106,30 @@
     1.  Each manager will have up to 90 seconds to draft a single player to his/her team for each round.
     1.  There will be 14 rounds of the draft; one for each player on the team.
     1.  Order
-        1.  Draft order will be determined after all managers have accepted and committed to the rules.
+        1.  Draft order will be determined randomly in 2021.
+            1.  Draft order will be determined randomly by the commissioner, who will also provide proof that it was fairly chosen.
+        1.  In subsequent years, draft order will be determined by manager's choice in an order determined by the previous year's standings.
+            1. Choice order and deadlines
+                1. 8th place from previous year may choose any draft position by 12pm, 4 days before the draft.
+                1. 9th place from previous year may choose any remaining draft position by 2pm, 4 days before the draft.
+                1. 10th place from previous year may choose any remaining draft position by 4pm, 4 days before the draft.
+                1. 11th place from previous year may choose any remaining draft position by 6pm, 4 days before the draft.
+                1. 12th place from previous year may choose any remaining draft position by 8pm, 4 days before the draft.
+                1. 13th place from previous year may choose any remaining draft position by 12pm, 3 days before the draft.
+                1. 14th place from previous year may choose any remaining draft position by 2pm, 3 days before the draft.
+                1. 5th place from previous year may choose any remaining draft position by 4pm, 3 days before the draft.
+                1. 6th place from previous year may choose any remaining draft position by 6pm, 3 days before the draft.
+                1. 7th place from previous year may choose any remaining draft position by 8pm, 3 days before the draft.
+                1. 4th place from previous year may choose any remaining draft position by 12pm, 2 days before the draft.
+                1. 3rd place from previous year may choose any remaining draft position by 2pm, 2 days before the draft.
+                1. 2nd place from previous year may choose any remaining draft position by 4pm, 2 days before the draft.
+                1. 1st place will be assigned the only remaining draft position.
+            1. Setting preferences and defaults
+                1. Any manager may post a list of draft position preferences publicly to the league at anytime and the most preferred draft position in their preference list will be automatically selected for them.
+                1. If a manager does not choose their draft position by their draft position by their assiigned deadline, the lowest remaining draft position will be assigned.
         1.  Draft order will be serpentine.
             1.  Each of the odd numbered rounds starting with the first round will draft in the determined draft order.
             1.  Each of the even numbered rounds will draft in reverse order.
-        1.  Determining draft order.
-            1.  Draft order will be determined randomly by the commissioner, who will also provide proof that it was fairly chosen.
 1.  <a id="waivers">Waivers</a>
     1.  <a id="faab">Free Agent Acquisition Budget (FAAB)</a>
         1.  Each team will be allotted 10,000 FAAB immediately after the draft.
@@ -128,36 +147,34 @@
 1.  <a id="schedule">Schedule</a>
     1.  <a id="regular-season">Regular Season</a>
         1.  The schedule will determined by Yahoo! Sports.
-        1.  There will be 13 games for each team in the regular season, corresponding to the first 13 weeks of the NFL regular season.
+        1.  There will be 14 games for each team in the regular season, corresponding to the first 14 weeks of the NFL regular season.
         1.  Each team will play one game every week.
         1.  Each team will play against each other team once.
     1.  <a id="playoffs">Playoffs</a>
         1.  7 Teams will qualify for the playoffs.
             1.  Yahoo Sports! Limits leagues to an 8 team playoff format, so the real playoff schedule will be announced by the commissioner each week.
-        1.  The highest seed in the regular season will receive a bye on week 14.
-        1.  Playoffs will take place during weeks 14 through 16.
-            1.  Week 14 matchups
+        1.  The highest seed in the regular season will receive a bye on week 15.
+        1.  Playoffs will take place during weeks 15 through 17.
+            1.  Week 15 matchups
                 1.  Seed 2 chooses a team among seeds 3 though 7, that they will play against.
                     1. This choice must be made on or before 1pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  The lowest remaining seed chooses a team among seeds 5 though 7, excluding the team chosen by seed 2, that they will play against.
                     1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  The remaining two teams between seeds 4 and 7 play against each other.
-            1.  Week 15 matchups
-                1.  Seed 1 chooses a team among the winners of week 14 to play against.
-                    1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
-                1.  Remaining two winners of week 14 faceoff.
             1.  Week 16 matchups
+                1.  Seed 1 chooses a team among the winners of week 15 to play against.
+                    1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
+                1.  Remaining two winners of week 15 faceoff.
+            1.  Week 17 matchups
                 1.  Superbowl
-                    1.  Two winning teams from week 15 faceoff.
+                    1.  Two winning teams from week 16 faceoff.
                     1.  Winner is 1st place
                     1.  Loser is 2nd place
                 1.  Consolation bowl
-                    1.  Two losing teams from week 15 faceoff.
+                    1.  Two losing teams from week 16 faceoff.
                     1.  Winner is 3rd place
                     1.  Loser is 4th place
-        1.  For the sake of prizes, the 3 losing teams in week 14 will be considered 5th, 6th, and 7th place in no particular order.
-        1. Teams who don't qualify for the playoffs will be locked from making player moves including adds and drops, but will still be able to set their lineups.
-            1. The losing teams during week 14 will also be locked from making player moves.
+        1.  For the sake of prizes, the 3 losing teams in week 16 will be considered 5th, 6th, and 7th place in no particular order.
 1.  <a id="money">Money</a>
     1.  <a id="fees">League Fees</a>
         1.  Payment
@@ -195,7 +212,7 @@
             1. First place in the regular season will win $100
             1. Second place in the regular season will win $50
         1.  All prizes will be paid out no later than the real NFL Super Bowl.
-        1.  After week 14, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
+        1.  After week 15, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
 1.  <a id="moves">Moves</a>
     1.  Moves are defined as player adds, trades, and drops.
     1.  A player may not be added from waivers by the same team that dropped him immediately before the waiver period began.
@@ -306,7 +323,7 @@
             1.  Once enough players are dropped to meet the roster size requirement, stop.
             1.  Exclude dropping any players on Yahoo's can't cut list.
             1.  Exclude dropping any players of any position that would prepare to leave the team in a future state of not being able to fill the team with players projected more than 0 points unless this excludes all players.
-            1.  Drop the remaining player with the smallest maximum projected weekly score left of the weeks leading to week 13 in the regular season and 16 in the playoffs.
+            1.  Drop the remaining player with the smallest maximum projected weekly score left of the weeks leading to week 14 in the regular season and 17 in the playoffs.
     1.  The comissioner may at any time call a majority league vote to take a team off autopilot.
     1.  Elective autopilot
         1.  Subject to commissioner approval, any manager may have their team temporarily put on autopilot if they are preoccupied with a life emergency by letting the comissioner know of their preoccupation.
@@ -340,7 +357,7 @@
             1.  If 1 to 3 regular season weeks are completed, league fees will be adjusted to $50.
             1.  If 4 to 7 regular season weeks are completed, league fees will be adjusted to $100.
             1.  If at least 8 regular season weeks are completed and no playoff weeks are completed, league fees will be adjusted to $150.
-            1.  If 8 to 13 regular season weeks are completed and at least one playoff week is completed, league fees will remain $200.
+            1.  If 8 to 14 regular season weeks are completed and at least one playoff week is completed, league fees will remain $200.
         1. Prizes
             1.  Any split prizes will be rounded down to the nearest $1 and the remaining change will be given to the tied team with the highest points or to a randomly chosen team if still tied.
             1.  If no regular season weeks are completed, no prizes will be paid.
@@ -356,28 +373,28 @@
                     1.  20% to the 3rd in standings
                     1.  10% to the 4th in standings
             1.  If the regular season is completed, but some playoff weeks are not completed, the following rules will supersede:
-                1.  If week 14 is completed:
-                    1.  Week 14 rules act as usual
+                1.  If week 15 is completed:
+                    1.  Week 15 rules act as usual
                     1.  The 3 losing teams win the 5th through 7th place prizes.
-                    1.  If week 15 is completed:
-                        1.  The two winners of week 15 split the 1st and 2nd place prizes.
-                        1.  The two losers of week 15 split the 3rd and 4th place prizes.
-                    1.  If week 15 is not completed:
-                        1.  Week 16 is prepared to be played as both weeks 15 and 16 under the usual set of rules.
-                        1.  The 1 seed chooses who they would like to play against as the week 15 game during week 16 while the other two teams play against each other.
-                        1.  The two winners of the fake week 15 game are simulated to play each other in the superbowl using the same scores to determine 1st and 2nd place.
-                        1.  The two losers of the fake week 15 game are simulated to play each other in the 3rd place game using the same scores to determine 3rd and 4th place.
-                        1.  If week 16 is not played, the final 4 teams split 1st, 2nd, 3rd, and 4th.
-                1.  If week 14 is not completed:
-                    1.  Week 15 is prepared to be played as both weeks 14 and 15 under the usual set of rules.
-                    1.  The 2, 3, and/or 4 seeds choose their matchups for the fake week 14 game as usual.
-                    1.  The 1 seed chooses rank order who they'd like to play against in the week 15 game depending on the results of the fake week 14 game before it's played.
-                    1.  If week 15 is completed:
+                    1.  If week 16 is completed:
+                        1.  The two winners of week 16 split the 1st and 2nd place prizes.
+                        1.  The two losers of week 16 split the 3rd and 4th place prizes.
+                    1.  If week 16 is not completed:
+                        1.  Week 17 is prepared to be played as both weeks 16 and 17 under the usual set of rules.
+                        1.  The 1 seed chooses who they would like to play against as the week 16 game during week 17 while the other two teams play against each other.
+                        1.  The two winners of the fake week 16 game are simulated to play each other in the superbowl using the same scores to determine 1st and 2nd place.
+                        1.  The two losers of the fake week 16 game are simulated to play each other in the 3rd place game using the same scores to determine 3rd and 4th place.
+                        1.  If week 17 is not played, the final 4 teams split 1st, 2nd, 3rd, and 4th.
+                1.  If week 15 is not completed:
+                    1.  Week 16 is prepared to be played as both weeks 15 and 16 under the usual set of rules.
+                    1.  The 2, 3, and/or 4 seeds choose their matchups for the fake week 15 game as usual.
+                    1.  The 1 seed chooses rank order who they'd like to play against in the week 16 game depending on the results of the fake week 15 game before it's played.
+                    1.  If week 16 is completed:
                         1.  The two winning teams move on to the Superbowl while the two losing teams move on the the 3rd place game.
-                        1.  If week 16 is not completed, the top two teams split 1st and 2nd while the bottom two teams split 3rd and 4th.
-                    1.  If week 15 is not completed:
-                        1.  Week 16 is prepared to be a combination of weeks 14, 15, and 16 usuing the same methods as descibed above for combining weeks 14 and 15 and combining weeks 15 and 16.
-                        1.  If week 16 is not completed:
+                        1.  If week 17 is not completed, the top two teams split 1st and 2nd while the bottom two teams split 3rd and 4th.
+                    1.  If week 16 is not completed:
+                        1.  Week 17 is prepared to be a combination of weeks 15, 16, and 17 usuing the same methods as descibed above for combining weeks 15 and 16 and combining weeks 16 and 17.
+                        1.  If week 17 is not completed:
                             1. The 1st ($100) and 2nd ($50) place in regular season prizes are replaced with the following prizes for standings in the regular season:
                                 1. 1st - $500
                                 2. 2nd - $250
@@ -387,4 +404,6 @@
     1.  Regular Season Standings
         1.  If less than 4 weeks are completed, regular season standings will be based solely on total points.
         1.  If less than 8 weeks are completed, there will be no tie breakers for regular season standings. Instead any prize paid to a specific standing will be split by all teams who tied for that position.
-        1.  If less than 13 weeks are completed, head to head tie breakers will only be used if all teams being compared played the same number of head to head games.
+        1.  If less than 14 weeks are completed, head to head tie breakers will only be used if all teams being compared played the same number of head to head games.
+1. <a id="time">Timezones</a>
+    1. All times in these rules are Easter Standard Time unless otherwise stated.
