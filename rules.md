@@ -156,25 +156,34 @@
         1.  The highest seed in the regular season will receive a bye on week 15.
         1.  Playoffs will take place during weeks 15 through 17.
             1.  Week 15 matchups
-                1.  Seed 2 chooses a team among seeds 3 though 7, that they will play against.
+                1.  Seed 2 chooses a team among seeds 4 though 7, that they will play against.
                     1. This choice must be made on or before 1pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
-                1.  The lowest remaining seed chooses a team among seeds 5 though 7, excluding the team chosen by seed 2, that they will play against.
+                1.  Seed 3 chooses a team among seeds 4 though 7, excluding the team chosen by seed 2, that they will play against.
                     1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  The remaining two teams between seeds 4 and 7 play against each other.
             1.  Week 16 matchups
                 1.  Seed 1 chooses a team among the winners of week 15 to play against.
                     1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  Remaining two winners of week 15 faceoff.
+                1.  The lowest seeded losing of week 15 will receive a bye on week 16 and go on to play the 5th place game on week 17
+                1.  The remaining two losing teams from week 15 will  play against each other.
+                    1.  The losing team gets 7th place.
             1.  Week 17 matchups
                 1.  Superbowl
-                    1.  Two winning teams from week 16 faceoff.
+                    1.  Two teams that won weeks 15 and 16 faceoff.
                     1.  Winner is 1st place
                     1.  Loser is 2nd place
-                1.  Consolation bowl
-                    1.  Two losing teams from week 16 faceoff.
+                1.  3rd place game
+                    1.  Two teams that won week 15 and lost week 16 faceoff.
                     1.  Winner is 3rd place
                     1.  Loser is 4th place
-        1.  For the sake of prizes, the 3 losing teams in week 16 will be considered 5th, 6th, and 7th place in no particular order.
+                1.  5th place game
+                    1.  Team with week 15 bye and team that lost week 15 and won week 16 face off.
+                    1.  Winner is 5th place
+                    1.  Loser is 6th place
+        1.  Losers Bracket
+            1.  A 7 team losers braket will be set up in the same manner as the playoffs with the 8 seed acting in the same way as the 1 seed (with a week 15 bye), the 9 seed like 2, 10 like 3, etc. all the way up to the 14 seed who act in the same way as the 7th.
+            1.  No money prizes will be awarded in the losers bracket, but draft order will be determined as perscribed by the draft section of the rules.
 1.  <a id="money">Money</a>
     1.  <a id="fees">League Fees</a>
         1.  Payment
