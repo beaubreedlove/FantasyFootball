@@ -22,6 +22,7 @@
     1.  [Objections](#objections)
         1.  [Suspending Moves](#suspending-moves)
     1.  [Voting](#voting)
+    1.  [Amending Rules](#amending-rules)
     1.  [Seeding](#seeding)
         1.  [Tie Breakers](#tie-breakers)
     1.  [Abandoned Teams](#abandoned-teams)
