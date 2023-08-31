@@ -20,6 +20,7 @@
     1.  [Moves](#moves)
         1.  [Trades](#trades)
     1.  [Objections](#objections)
+        1.  [Undoubtably bad moves](#undoubtably) (the most controversial rule we have)
         1.  [Suspending Moves](#suspending-moves)
     1.  [Voting](#voting)
     1.  [Amending Rules](#amending-rules)
@@ -38,15 +39,15 @@
         1.  This section is intended to be a brief summary of the rules.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
     1.  Summary
-        1.  There are 14 teams.
-        1.  Each team has 13 players + 2 IR.
+        1.  There are 12 teams.
+        1.  Each team has 14 players + 1 IR.
         1.  A team can play 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, and 1 DST each week.
         1.  The regular season is 14 weeks, with each team playing each other team exactly once.
-        1.  The playoffs will have 7 teams, one with a bye, and take place on weeks 15 through 17.
+        1.  The playoffs will have 6 teams, two will get a bye, and take place on weeks 15 through 17.
         1.  The draft time is on the Sunday before the first game each season at 8pm.
         1.  Starting in 2022, we will do keepers. You may keep a few players for 1 year and 1 player for 2 years. Other restrictions apply -- see details in [keepers](#keepers) rules.
         1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
-        1.  There are no divisions.
+        1.  There will be 3 divisions of 4 teams.
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline will be the Saturday of week 12.
         1.  Anything can be objected and a majority vote will determine the outcome.
@@ -54,8 +55,7 @@
         1.  People who make the playoffs win at least $50 with 1st through 3rd winning $1,000, $500, and $250.
         1.  The teams to score 1st and 2nd place in the regular season will win $100 and $50.
         1.  The team who scores the most points wins $150.
-        1.  Starting on week 11, there are 4 weekly prizes of $100 each to be split between 2 teams each week.
-        1.  There are 3 other prizes of $50 each.
+        1.  There are 4 other prizes of $50 each.
         1.  People shouldn't create conflicts of interest with the league.
         1.  If a rule isn't defined well here, we fall back to Yahoo rules. If it's still not clear, we use a league vote.
         1.  All times in these rules are Eastern Standard Time.
@@ -74,11 +74,11 @@
             1.  Keeper Elections
         1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
         1.  Managers may give advice to other managers.
-        1.  Teams are transferable in that they can be given, sold, or auctioned to new managers aslong as no two managers own the same team.
+        1.  Teams are transferable in that they can be given, sold, or auctioned to new managers as long as no two managers own the same team.
     1.  <a id="roster">Roster</a>
-        1.  Each team may have up to 13 players on their roster, plus 2 players designated as Injury Reserve (IR).
+        1.  Each team may have up to 14 players on their roster, plus 1 player designated as Injury Reserve (IR).
             1.  Up to 9 players will be considered active; meaning eligible for scoring.
-            1.  Up to two players on each team may be put in either IR slot, if Yahoo allows it.
+            1.  Up to one player on each team may be put in either IR slot, if Yahoo allows it.
             1.  The remaining players on each team are considered to be on the bench.
         1.  Each player is assigned a position by Yahoo! Sports.
             1.  If a player is assigned two positions, his team's manager may determine which position he plays at any given time.
@@ -116,19 +116,17 @@
             1.  Draft order will be determined randomly by the commissioner, who will also provide proof that it was fairly chosen.
         1.  In subsequent years, draft order will be determined by manager's choice in an order determined by the previous year's standings.
             1. Choice order and deadlines
-                1. 8th place from previous year may choose any draft position by 12pm, 4 days before the draft.
+                1. 7th place from previous year may choose any draft position by 10am, 4 days before the draft.
+                1. 8th place from previous year may choose any remaining draft position by 12pm, 4 days before the draft.
                 1. 9th place from previous year may choose any remaining draft position by 2pm, 4 days before the draft.
                 1. 10th place from previous year may choose any remaining draft position by 4pm, 4 days before the draft.
                 1. 11th place from previous year may choose any remaining draft position by 6pm, 4 days before the draft.
                 1. 12th place from previous year may choose any remaining draft position by 8pm, 4 days before the draft.
-                1. 13th place from previous year may choose any remaining draft position by 12pm, 3 days before the draft.
-                1. 14th place from previous year may choose any remaining draft position by 2pm, 3 days before the draft.
-                1. 5th place from previous year may choose any remaining draft position by 4pm, 3 days before the draft.
-                1. 6th place from previous year may choose any remaining draft position by 6pm, 3 days before the draft.
-                1. 7th place from previous year may choose any remaining draft position by 8pm, 3 days before the draft.
-                1. 4th place from previous year may choose any remaining draft position by 12pm, 2 days before the draft.
-                1. 3rd place from previous year may choose any remaining draft position by 2pm, 2 days before the draft.
-                1. 2nd place from previous year may choose any remaining draft position by 4pm, 2 days before the draft.
+                1. 5th place from previous year may choose any remaining draft position by 10am, 3 days before the draft.
+                1. 6th place from previous year may choose any remaining draft position by 12pm, 3 days before the draft.
+                1. 4th place from previous year may choose any remaining draft position by 2pm, 3 days before the draft.
+                1. 3rd place from previous year may choose any remaining draft position by 4pm, 3 days before the draft.
+                1. 2nd place from previous year may choose any remaining draft position by 6pm, 3 days before the draft.
                 1. 1st place from previous year will be assigned the only remaining draft position.
             1. Setting preferences and defaults
                 1. Any manager may post a list of draft position preferences publicly to the league at anytime and the most preferred draft position in their preference list will be automatically selected for them.
@@ -137,7 +135,7 @@
             1.  Each of the odd numbered rounds starting with the first round will draft in the determined draft order.
             1.  Each of the even numbered rounds will draft in reverse order.
     1.  <a id="keepers">Keepers</a>
-        1.  Starting in the 2022 season, managers may elect to keep players from previous seasons within the limitations laid out ini this section.
+        1.  Starting in the 2022 season, managers may elect to keep players from previous seasons within the limitations laid out in this section.
         1.  Keeper elections must be made by end of day, 5 days before the draft.
         1.  Cost of keeping a player
             1.  The first year a player is kept, they will cost one draft round less than the round they were drafted the previous year.
@@ -150,7 +148,7 @@
         1.  Teams may not keep any combination of players who's total draft round costs exceed 15.
             1.  Examples
                 1. Keeping players who cost a 10th and 5th round pick totals 15. This is allowed.
-                1. Keeping playeers who cost a 12th, 3rd, and 1st round pick totals 16. This is not allowed.
+                1. Keeping players who cost a 12th, 3rd, and 1st round pick totals 16. This is not allowed.
         1.  If you choose to keep multiple players who cost the same draft round, you may pay a lesser draft round.
             1.  Such changes do not reduce the cost of keeping a player for the sake of determining whether the total costs exceed 15.
             1.  Such changes do affect the round that a player costs to keep next year and could result in making the player unkeepable next year if a 1st round pick is sacrificed  year.
@@ -166,32 +164,29 @@
     1.  Players may be dropped from a team at any time in order to make room for incoming players.
     1.  During a waiver request, managers may opt to conditionally drop a player if their request succeeds.
 1.  <a id="structure">League Structure</a>
-    1.  There will be no divisions or conferences.
-    1.  There will be 14 teams.
+    1.  There will be 3 divisions of 4 teams each.
+        1. Divisions will be randomly chosen every year by Yahoo before keeper elections.
+    1.  There will be 12 teams.
 1.  <a id="schedule">Schedule</a>
     1.  <a id="regular-season">Regular Season</a>
         1.  The schedule will determined by Yahoo! Sports.
         1.  There will be 14 games for each team in the regular season, corresponding to the first 14 weeks of the NFL regular season.
-        1.  Each team will play one game every week.
-        1.  Each team will play against each other team once.
+        1.  Each team will play against each other team in their division twice and each team in the other divisions once.
     1.  <a id="playoffs">Playoffs</a>
-        1.  7 Teams will qualify for the playoffs.
-            1.  Yahoo Sports! Limits leagues to an 8 team playoff format, so the real playoff schedule will be announced by the commissioner each week.
-        1.  The highest seed in the regular season will receive a bye on week 15.
+        1.  6 Teams will qualify for the playoffs.
+            1.  Yahoo sometimes doesn't support our playoff seeding rules, so the real playoff schedule will be announced by the commissioner each week.
+        1.  The highest two seeds in the regular season will receive a bye on week 15.
         1.  Playoffs will take place during weeks 15 through 17.
             1.  Week 15 matchups
-                1.  Seed 2 chooses a team among seeds 4 though 7, that they will play against.
+                1.  Seed 3 chooses a team among seeds 4 though 6, that they will play against.
                     1. This choice must be made on or before 1pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
-                1.  Seed 3 chooses a team among seeds 4 though 7, excluding the team chosen by seed 2, that they will play against.
-                    1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
-                1.  The remaining two teams between seeds 4 and 7 play against each other.
+                1.  The remaining two teams between seeds 4 and 6 play against each other.
             1.  Week 16 matchups
                 1.  Seed 1 chooses a team among the winners of week 15 to play against.
                     1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  Remaining two winners of week 15 faceoff.
-                1.  The lowest seeded losing of week 15 will receive a bye on week 16 and go on to play the 5th place game on week 17
-                1.  The remaining two losing teams from week 15 will  play against each other.
-                    1.  The losing team gets 7th place.
+                1.  The remaining two losing teams from week 15 will play against each other.
+                    1.  The losing team gets 6th place.
             1.  Week 17 matchups
                 1.  Superbowl
                     1.  Two teams that won weeks 15 and 16 faceoff.
@@ -201,12 +196,8 @@
                     1.  Two teams that won week 15 and lost week 16 faceoff.
                     1.  Winner is 3rd place
                     1.  Loser is 4th place
-                1.  5th place game
-                    1.  Team with week 15 bye and team that lost week 15 and won week 16 face off.
-                    1.  Winner is 5th place
-                    1.  Loser is 6th place
         1.  Losers Bracket
-            1.  A 7 team losers braket will be set up in the same manner as the playoffs with the 8 seed acting in the same way as the 1 seed (with a week 15 bye), the 9 seed like 2, 10 like 3, etc. all the way up to the 14 seed who act in the same way as the 7th.
+            1.  A 6 team losers bracket will be set up in the same manner as the playoffs with the 7 seed acting in the same way as the 1 seed (with a week 15 bye), the 8 seed like 2, 9 like 3, etc. all the way up to the 12 seed who act in the same way as the 6th.
             1.  No money prizes will be awarded in the losers bracket, but draft order will be determined as perscribed by the draft section of the rules.
 1.  <a id="money">Money</a>
     1.  <a id="fees">League Fees</a>
@@ -217,19 +208,15 @@
                 1.  Any manager who does not pay by this time may have their team transferred, sold, or auctioned to another manager and the Comissioner's discression.
                 1.  Any proceeds from the transfer will be given to the previous manager.
             1.  Managers will have a chance to review the rules before committing to the league.
-                1.  If 14 managers do not commit, the initial payment will be refunded.
+                1.  If 12 managers do not commit, the initial payment will be refunded.
     1.  <a id="payouts">Payouts</a>
         1.  Playoffs ($1,950 total)
             1.  1st place - $1,000
             1.  2nd place - $500
             1.  3rd place - $250
-            1.  4th through 7th place - $50 each (x4)
+            1.  4th through 6th place - $50 each (x4)
         1.  Points ($150)
             1.  Most points in the regular season - $150
-        1.  Weekly Prizes ($400 total)
-            1.  For each of the final 4 weeks of the regular season, $100 will be awarded to the two teams faced off in the matchup that has the highest total score of both teams.
-            1.  The $100 will be split among the two managers proportionally, rounding to the nearest $1 in favor of the winner.
-            1.  If two or more matchups tie for this prize, it will be divided further and rounding in all cases will favor teams with higher scores.
         1.  Best worst player ($50)
             1.  Each team will have a chance to win best worst player every week.
             1.  In a single week, a team's "worst player" is the active player that scores the least points on a team that fills all roster positions for that week.
@@ -243,6 +230,10 @@
             1.  Each team will have a chance to win best week every week.
             1.  The team with the highest scoring single week will win.
             1.  Ties will go to the team with the 2nd highest scoring week, then 3rd, 4th, and so on.
+        1.  Most best weeks ($50)
+            1.  Each week, the team with the highest score will be awarded 1 point toward this prize.
+            1.  At the end of the regular season, the team with the most points will win.
+            1.  Ties will go to the team who scored the most points in the weeks that their earned their point for this prize, or a coin flip if still tied.
         1. Regular Season ($150)
             1. First place in the regular season will win $100
             1. Second place in the regular season will win $50
@@ -250,8 +241,6 @@
         1.  After week 15, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
 1.  <a id="moves">Moves</a>
     1.  Moves are defined as player adds, trades, and drops.
-    1.  A player may not be added from waivers by the same team that dropped him immediately before the waiver period began.
-        1.  The team who dropped the player must wait until the waiver period ends before placing a claim on the dropped player.
     1.  Players may only be dropped by a manager if the manager intends to immediately replace the slot on his or her roster.
     1.  <a id="trades">Trades</a>
         1.  Trade deadline
@@ -270,7 +259,7 @@
 1.  <a id="objections">Objections</a>
     1.  Any move may be objected by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
-    1.  Undoubtably bad moves
+    1.  <a id="undoubtably">Undoubtably bad moves</a>
         1.  A manager must not take any actions, including making moves and setting active players, such that at the time the action is initiated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs, finishing the regular season with the best possible seed, and leaving the team in a good state for subsequent seasons.
             1.  Such actions may include, but are not limited to:
                 1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
@@ -281,7 +270,7 @@
                 1.  Pulling (or not pulling) a player from active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
                 1.  In rare cases, leaving a roster position empty because no alternative exists on the bench and no benched player is worth dropping.
             1.  A successful objection regarding a roster decision to activate a specific player shall result in that players position on the roster being filled using the [autopilot](#autopilot) protocol.
-            1.  Commissioner may make executive decisions at game to put a team on autopilot in cases of extraordinary neglect to prevent a league vote from delaying the correction.
+            1.  Commissioner may make executive decisions at gametime to put a team on autopilot in cases of extraordinary neglect to prevent a league vote from delaying the correction.
                 1.  Comissioner will do his best to notify and get approval from as much of the league as possible before such decisions.
                 1.  A league vote may reverse these executive decisions.
     1.  Waiver abuse
@@ -349,21 +338,22 @@
             1.  The proposal with the most yes votes will pass and effectively amend the rules, upon Comissioner approval.
 1.  <a id="seeding">Seeding</a>
     1.  Regular Season
-        1.  Seeding in the regular season will order teams from most to least games won.
+        2. Seeding in the regular season will order teams from most to least games won with the added condition that the top team in every division will receive seeds 1-3.
     1.  <a id="tie-breakers">Tie breakers</a>
         1.  Most ties in regular season
         1.  Longest winning streak at end of season.
         1.  Shortest losing streak at end of season.
+        1.  The previous two conditions will be applied recursively until the tie is broken.
         1.  Most points in regular season
         1.  Coin flip 
 1.  <a id="abandoned-teams">Amandoned Teams</a>
     1.  Managers should keep an eye on their teams at least once a week, set their lineups in a way that they expect to win their games, and add and drop players to prepare to win more games.
-        1.  Managers should stay competitive even if they don't think they can improve their changces of making the playoffs or win prizes.
+        1.  Managers should stay competitive even if they don't think they can improve their chances of making the playoffs or win prizes.
     1.  Teams who fail to stay competitive may be declared abandoned and put through the abandoned team protocol if the following conditions are met.
         1.  A manager in the league accuses a manager of neglecting their team.
             1.  The accusing manager should describe the nature of the neglect.
         1.  Such team has at the time of accusation:
-            1.  Won less games than the current 7 seed team.
+            1.  Won less games than the team who would be seeded highest in the playoffs if the season ended at that time.
             1.  Taken action or inaction that has been reversed due to a successful objection.
     1.  A supermajority league vote will take place when a team is placed on abandonment protocol.
         1.  If this vote passes, the accused team will be placed on autopilot.
@@ -373,13 +363,13 @@
         1.  Any conditional moves or conditional roster modifications made by the manager will supersede the following rules provided that they are not successfully objected to.
         1.  At time of the start of each game, the starting roster will be set to the players on the team or available on FA that have the greatest Yahoo projection.
         1.  Setting the roster may be done slightly after the game starts so that the projections lock in to their final value before the decision is made and so that any other team not on autopilot may have first dibs on any player.
-        1.  If a player must be dropped to accomodate a FA add, the dropped player will be chosen using the following method:
+        1.  If a player must be dropped to accommodate a FA add, the dropped player will be chosen using the following method:
             1.  If at any point, only one player is left, drop him.
             1.  Once enough players are dropped to meet the roster size requirement, stop.
             1.  Exclude dropping any players on Yahoo's can't cut list.
             1.  Exclude dropping any players of any position that would prepare to leave the team in a future state of not being able to fill the team with players projected more than 0 points unless this excludes all players.
             1.  Drop the remaining player with the smallest maximum projected weekly score left of the weeks leading to week 14 in the regular season and 17 in the playoffs.
-    1.  The comissioner may at any time call a majority league vote to take a team off autopilot.
+    1.  The commissioner may at any time call a majority league vote to take a team off autopilot.
     1.  Elective autopilot
         1.  Subject to commissioner approval, any manager may have their team temporarily put on autopilot if they are preoccupied with a life emergency by letting the comissioner know of their preoccupation.
 1.  <a id="outside-influence">Outside influence</a>
@@ -418,8 +408,9 @@
             1.  If no regular season weeks are completed, no prizes will be paid.
             1.  If at least 1 regular season week is completed, Best Worst Player ($50) and Points ($150) will be paid as usual.
             1.  If at least 2 regular season weeks are completed, Best Worst Week ($50) and Best Week ($50) will be paid as usual.
+            1.  If at least 3 regular season weeks are completed, Most Best Weeks ($50) will be paid as usual.
             1.  If at least 4 regular season weeks are completed, Weekly Prizes ($400 total) will be applied to the final 4 weeks of the regular season games that are completed.
-            1.  If the regular season is not completed, each of the following rulles will supersede:
+            1.  If the regular season is not completed, each of the following rules will supersede:
                 1.  The playoffs will be canceled and considered not completed
                 1.  No playoff prizes will be paid
                 1.  All remaining prize funds will be distributed as:
@@ -430,7 +421,7 @@
             1.  If the regular season is completed, but some playoff weeks are not completed, the following rules will supersede:
                 1.  If week 15 is completed:
                     1.  Week 15 rules act as usual
-                    1.  The 3 losing teams win the 5th through 7th place prizes.
+                    1.  The 2 losing teams win the 5th and 6th place prizes.
                     1.  If week 16 is completed:
                         1.  The two winners of week 16 split the 1st and 2nd place prizes.
                         1.  The two losers of week 16 split the 3rd and 4th place prizes.
@@ -442,13 +433,13 @@
                         1.  If week 17 is not played, the final 4 teams split 1st, 2nd, 3rd, and 4th.
                 1.  If week 15 is not completed:
                     1.  Week 16 is prepared to be played as both weeks 15 and 16 under the usual set of rules.
-                    1.  The 2, 3, and/or 4 seeds choose their matchups for the fake week 15 game as usual.
+                    1.  The 2 seed choose their matchup for the fake week 15 game as usual.
                     1.  The 1 seed chooses rank order who they'd like to play against in the week 16 game depending on the results of the fake week 15 game before it's played.
                     1.  If week 16 is completed:
                         1.  The two winning teams move on to the Superbowl while the two losing teams move on the the 3rd place game.
                         1.  If week 17 is not completed, the top two teams split 1st and 2nd while the bottom two teams split 3rd and 4th.
                     1.  If week 16 is not completed:
-                        1.  Week 17 is prepared to be a combination of weeks 15, 16, and 17 usuing the same methods as descibed above for combining weeks 15 and 16 and combining weeks 16 and 17.
+                        1.  Week 17 is prepared to be a combination of weeks 15, 16, and 17 using the same methods as described above for combining weeks 15 and 16 and combining weeks 16 and 17.
                         1.  If week 17 is not completed:
                             1. The 1st ($100) and 2nd ($50) place in regular season prizes are replaced with the following prizes for standings in the regular season:
                                 1. 1st - $500
