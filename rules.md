@@ -50,7 +50,8 @@
         1.  There will be 3 divisions of 4 teams.
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline will be the Saturday of week 12.
-        1.  Anything can be objected and a majority vote will determine the outcome.
+        1.  Trades will process immediately by Yahoo, but any manager may object and a majority vote will determine whether the trade is overturned.
+        1.  In this league, it is against the rules to stop trying. If you make an "[undoubtably bad move](#undoubtably)", your line up will be set for you and your team may be put on autopilot.
         1.  Rules changes in season require a unanimous vote. For future seasons, they require a majority vote and Comissioner approval.
         1.  People who make the playoffs win at least $50 with 1st through 3rd winning $1,000, $500, and $250.
         1.  The teams to score 1st and 2nd place in the regular season will win $100 and $50.
