@@ -82,7 +82,7 @@
     1.  Teams are transferable in that they can be given, sold, or auctioned to new managers as long as no two managers own the same team.
 1.  <a id="draft">Draft</a>
     1.  Date and time
-        1.  The draft time will be the Sunday before the first game of the season.
+        1.  The draft time will be the Sunday before the first game of the season at 8pm.
             1.  This date will be determined on August 1 as the day the NFL projects the first game will be played.
     1.  Order
         1.  Draft order will be determined by manager's choice in an order determined by the previous year's standings.
