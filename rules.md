@@ -213,7 +213,7 @@
     1.  Any move may be objected by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
     1.  <a id="undoubtably">Undoubtably bad moves</a>
-        1.  A manager must not take any actions, including making moves and setting active players, such that at the time the action is initiated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs, finishing the regular season with the best possible seed, and leaving the team in a good state for subsequent seasons.
+        1.  A manager must not take any actions, including making [moves](#moves) and setting active players, such that at the time the action is initiated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs, finishing the regular season with the best possible seed, leaving the team in a good state for subsequent seasons, and secondarily to the previously mentioned conditions reduces the chances of winning the current matchup.
             1.  Such actions may include, but are not limited to:
                 1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
                 1.  Putting a player on active roster that has been long known to be not participating in the given week.
@@ -307,12 +307,10 @@
     1.  Teams who fail to stay competitive may be declared abandoned and put through the abandoned team protocol if the following conditions are met.
         1.  A manager in the league accuses a manager of neglecting their team.
             1.  The accusing manager should describe the nature of the neglect.
-        1.  Such team has at the time of accusation:
-            1.  Won less games than the team who would be seeded highest in the playoffs if the season ended at that time.
-            1.  Taken action or inaction that has been reversed due to a successful objection.
+        1.  Such team has at the time of accusation taken action or inaction that has been reversed due to a successful objection.
     1.  A supermajority league vote will take place when a team is placed on abandonment protocol.
         1.  If this vote passes, the accused team will be placed on autopilot.
-        1.  For this vote to pass, at least 60% of the managers who aren't already on autopilot, must vote yes.
+        1.  For this vote to pass, at least 70% of the managers who aren't already on autopilot, must vote yes.
     1.  <a id="autopilot">Autopilot</a>
         1.  When a team is placed on autopilot, the commissioner will set their line up each week in a predetermined fashion.
         1.  Any conditional moves or conditional roster modifications made by the manager will supersede the following rules provided that they are not successfully objected to.
