@@ -68,18 +68,18 @@
         1. What moves are valid to make.
         1. How waivers work.
 1.  <a id="managers">Team Managers</a>
-        1.  Each team must have one manager. Each manager must have one team.
-        1.  Managers are responsible for making all decisions pertaining to his or her team including but not limited to:
-            1.  League Fees
-            1.  Draft Picks
-            1.  Setting Roster
-            1.  Proposing and Accepting Trades
-            1.  Objections
-            1.  Voting
-            1.  Keeper Elections
-        1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
-        1.  Managers may give advice to other managers.
-        1.  Teams are transferable in that they can be given, sold, or auctioned to new managers as long as no two managers own the same team.
+    1.  Each team must have one manager. Each manager must have one team.
+    1.  Managers are responsible for making all decisions pertaining to his or her team including but not limited to:
+        1.  League Fees
+        1.  Draft Picks
+        1.  Setting Roster
+        1.  Proposing and Accepting Trades
+        1.  Objections
+        1.  Voting
+        1.  Keeper Elections
+    1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
+    1.  Managers may give advice to other managers.
+    1.  Teams are transferable in that they can be given, sold, or auctioned to new managers as long as no two managers own the same team.
 1.  <a id="draft">Draft</a>
     1.  Date and time
         1.  The draft time will be the Sunday before the first game of the season.
