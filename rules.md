@@ -291,7 +291,7 @@
             1.  The proposal with the most yes votes will pass and effectively amend the rules, upon Comissioner approval.
 1.  <a id="seeding">Seeding</a>
     1.  Regular Season
-        2. Seeding in the regular season will order teams from most to least games won with the added condition that the top team in every division will receive seeds 1-3.
+        2. Seeding in the regular season will order teams from most to least games won with the added condition that every team who wins their division makes the playoffs (i.e., finishes with a top 6 seed).
     1.  <a id="tie-breakers">Tie breakers</a>
         1.  Most ties in regular season
         1.  Longest winning streak at end of season.
