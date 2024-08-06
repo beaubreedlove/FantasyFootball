@@ -46,8 +46,8 @@
         1.  Trades will process immediately by Yahoo, but any manager may object and a majority vote will determine whether the trade is overturned.
         1.  In this league, it is against the rules to stop trying. If you make an "[undoubtably bad move](#undoubtably)", your line up will be set for you and your team may be put on autopilot.
         1.  Rules changes in season require a unanimous vote. For future seasons, they require a majority vote and Comissioner approval.
-        1.  People who make the playoffs win at least $50 with 1st through 3rd winning $1,000, $500, and $250.
-        1.  The teams to score 1st and 2nd place in the regular season will win $100 and $50.
+        1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $500, $250, and $100.
+        1.  The team to score 1st place in the regular season will win $100.
         1.  The team who scores the most points wins $150.
         1.  There are 4 other prizes of $50 each.
         1.  People shouldn't create conflicts of interest with the league.
@@ -169,7 +169,9 @@
             1.  1st place - $1,000
             1.  2nd place - $500
             1.  3rd place - $250
-            1.  4th through 6th place - $50 each (x4)
+            1.  4th place - $100
+            1.  5th place - $50
+            1.  6th place - $50
         1.  Points ($150)
             1.  Most points in the regular season - $150
         1.  Best worst player ($50)
@@ -189,9 +191,8 @@
             1.  Each week, the team with the highest score will be awarded 1 point toward this prize.
             1.  At the end of the regular season, the team with the most points will win.
             1.  Ties will go to the team who scored the most points in the weeks that their earned their point for this prize, or a coin flip if still tied.
-        1. Regular Season ($150)
+        1. Regular Season ($100)
             1. First place in the regular season will win $100
-            1. Second place in the regular season will win $50
         1.  All prizes will be paid out no later than the real NFL Super Bowl.
         1.  After week 15, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
 1.  <a id="moves">Moves</a>
