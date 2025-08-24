@@ -1,16 +1,8 @@
 1.  Table of contents
     1.  [TLDR](#tldr)
-    1.  [Teams](#teams)
-        1.  [Managers](#managers)
-        1.  [Roster](#roster)
-    1.  [Games (aka matchups)](#matchups)
-        1.  [Scoring](#scoring)
-        1.  [Ties](#ties)
+    1.  [Managers](#managers)
     1.  [Draft](#draft)
         1.  [Keepers](#keepers)
-    1.  [Waivers](#waivers)
-        1. [FAAB](#faab)
-    1.  [League Structure](#structure)
     1.  [Schedule](#schedule)
         1.  [Regular Season](#regular-season)
         1.  [Playoffs](#playoffs)
@@ -26,6 +18,7 @@
     1.  [Amending Rules](#amending-rules)
     1.  [Seeding](#seeding)
         1.  [Tie Breakers](#tie-breakers)
+        1.  [Ties](#ties)
     1.  [Abandoned Teams](#abandoned-teams)
     1.  [Outside Influence](#outside-influence)
     1.  [Rules Not Stated](#rules-not-stated)
@@ -53,69 +46,46 @@
         1.  Trades will process immediately by Yahoo, but any manager may object and a majority vote will determine whether the trade is overturned.
         1.  In this league, it is against the rules to stop trying. If you make an "[undoubtably bad move](#undoubtably)", your line up will be set for you and your team may be put on autopilot.
         1.  Rules changes in season require a unanimous vote. For future seasons, they require a majority vote and Comissioner approval.
-        1.  People who make the playoffs win at least $50 with 1st through 3rd winning $1,000, $500, and $250.
-        1.  The teams to score 1st and 2nd place in the regular season will win $100 and $50.
+        1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $500, $250, and $100.
+        1.  The team to score 1st place in the regular season will win $100.
         1.  The team who scores the most points wins $150.
         1.  There are 4 other prizes of $50 each.
         1.  People shouldn't create conflicts of interest with the league.
         1.  If a rule isn't defined well here, we fall back to Yahoo rules. If it's still not clear, we use a league vote.
         1.  All times in these rules are Eastern Standard Time.
         1.  Managers, especially the commissioner, should be competitive, but friendly.
-1.  <a id="teams">Teams</a>
-    1.  <a id="managers">Managers</a>
-        1.  Each team must have one manager.
-        1.  Each manager must have one team.
-        1.  Managers are responsible for making all decisions pertaining to his or her team including but not limited to:
-            1.  League Fees
-            1.  Draft Picks
-            1.  Setting Roster
-            1.  Proposing and Accepting Trades
-            1.  Objections
-            1.  Voting
-            1.  Keeper Elections
-        1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
-        1.  Managers may give advice to other managers.
-        1.  Teams are transferable in that they can be given, sold, or auctioned to new managers as long as no two managers own the same team.
-    1.  <a id="roster">Roster</a>
-        1.  Each team may have up to 14 players on their roster, plus 1 player designated as Injury Reserve (IR).
-            1.  Up to 9 players will be considered active; meaning eligible for scoring.
-            1.  Up to one player on each team may be put in either IR slot, if Yahoo allows it.
-            1.  The remaining players on each team are considered to be on the bench.
-        1.  Each player is assigned a position by Yahoo! Sports.
-            1.  If a player is assigned two positions, his team's manager may determine which position he plays at any given time.
-            1.  Any changes to a player's position will be made by Yahoo! Sports.
-        1.  Each of the players on a team's active roster must fit into one of following slots, and no slot may hold more than one player:
-            1.  1 Quarterback (QB)
-            1.  2 Wide Receivers (WR)
-            1.  2 Running Backs (RB)
-            1.  1 Tight End (TE)
-            1.  1 Kicker (K)
-            1.  1 Defense + Special Teams (DST)
-            1.  1 Flex (W/R/T)
-                1.  A WR, RB or TE may fill this slot.
-1.  <a id="matchups">Games (aka matchups)</a>
-    1.  Each team will play against exactly one other team every week.
-    1.  <a id="scoring">Scoring</a>
-        1.  Scoring will be clearly defined by the league settings on Yahoo! Sports
-        1.  We will use fractional scoring in some cases to avoid ties.
-        1.  Negative scoring will penalize poor players.
-    1.  Results
-        1.  The higher scoring team will receive a win each week and the other will receive a loss.
-        1.  If both teams have the same score, each will receive a tie.
-    1.  <a id="ties">Ties</a>
-        1.  Tied games may exist during the regular season.
-        1.  In the event of a tie during the postseason, the win will be awarded to the team with the lower seed.
+1.  <a id="teams">Yahoo! Sports Settings and Rules</a>
+    1. Many settings are configured on the Yahoo! Sports Fantasy Football platform and have been removed from this rules document. The settings on the app are the source of truth for these. These settings include, but are not limited to the following:
+        1. Scoring settings
+        1. Roster positions
+        1. Injury designations
+        1. Player positions.
+    1. Yahoo's platform will also be the final decision maker for any game mechanic within their control that doesn't have an explicit exception in this rules document. Examples of this include, but are not limited to:
+        1. When games are canceled or postponed and which week they count for.
+        1. When waiver dates are modified to accomodate postponed games.
+        1. When injury designations or player positions change.
+        1. How rosters may be set.
+        1. What moves are valid to make.
+        1. How waivers work.
+1.  <a id="managers">Team Managers</a>
+    1.  Each team must have one manager. Each manager must have one team.
+    1.  Managers are responsible for making all decisions pertaining to his or her team including but not limited to:
+        1.  League Fees
+        1.  Draft Picks
+        1.  Setting Roster
+        1.  Proposing and Accepting Trades
+        1.  Objections
+        1.  Voting
+        1.  Keeper Elections
+    1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
+    1.  Managers may give advice to other managers.
+    1.  Teams are transferable in that they can be given, sold, or auctioned to new managers as long as no two managers own the same team.
 1.  <a id="draft">Draft</a>
     1.  Date and time
-        1.  The Season 8 draft will be Sunday, September 5 at 8pm
-        1.  The draft time for subsequent seasons will be the Sunday before the first game of the season.
+        1.  The draft time will be the Sunday before the first game of the season at 8pm.
             1.  This date will be determined on August 1 as the day the NFL projects the first game will be played.
-    1.  Each manager will have up to 90 seconds to draft a single player to his/her team for each round.
-    1.  There will be 14 rounds of the draft; one for each player on the team.
     1.  Order
-        1.  Draft order will be determined randomly in 2021.
-            1.  Draft order will be determined randomly by the commissioner, who will also provide proof that it was fairly chosen.
-        1.  In subsequent years, draft order will be determined by manager's choice in an order determined by the previous year's standings.
+        1.  Draft order will be determined by manager's choice in an order determined by the previous year's standings.
             1. Choice order and deadlines
                 1. 7th place from previous year may choose any draft position by 10am, 4 days before the draft.
                 1. 8th place from previous year may choose any remaining draft position by 12pm, 4 days before the draft.
@@ -132,9 +102,6 @@
             1. Setting preferences and defaults
                 1. Any manager may post a list of draft position preferences publicly to the league at anytime and the most preferred draft position in their preference list will be automatically selected for them.
                 1. If a manager does not choose their draft position by their draft position by their assiigned deadline, the lowest remaining draft position will be assigned.
-        1.  Draft order will be serpentine.
-            1.  Each of the odd numbered rounds starting with the first round will draft in the determined draft order.
-            1.  Each of the even numbered rounds will draft in reverse order.
     1.  <a id="keepers">Keepers</a>
         1.  Starting in the 2022 season, managers may elect to keep players from previous seasons within the limitations laid out in this section.
         1.  Keeper elections must be made by end of day, 5 days before the draft.
@@ -153,26 +120,13 @@
         1.  If you choose to keep multiple players who cost the same draft round, you may pay a lesser draft round.
             1.  Such changes do not reduce the cost of keeping a player for the sake of determining whether the total costs exceed 15.
             1.  Such changes do affect the round that a player costs to keep next year and could result in making the player unkeepable next year if a 1st round pick is sacrificed  year.
-1.  <a id="waivers">Waivers</a>
-    1.  <a id="faab">Free Agent Acquisition Budget (FAAB)</a>
-        1.  Each team will be allotted 10,000 FAAB immediately after the draft.
-        1.  No additional FAAB will be introduced to the game at any point.
-    1.  Each week teams will have a chance to pick up new players from the waiver wire, as long as they do not exceed the limit of their team size.
-    1.  When placing a request for a waiver wire pick up, a team must enter a bid in FAAB, which may be any integer inclusively between 0 and their remaining budget.
-        1.  Each player sought via a waiver request will be awarded to the team that placed the highest FAAB and the FAAB will be deducted from that team's FAAB budget.
-        1.  FAAB will not be deducted for losing bids.
-        1.  If two or more teams tie for the highest FAAB bid, the Continuing Rolling List tie breaker method will be used, which is configured and determined by Yahoo! Sports.
-    1.  Players may be dropped from a team at any time in order to make room for incoming players.
-    1.  During a waiver request, managers may opt to conditionally drop a player if their request succeeds.
-1.  <a id="structure">League Structure</a>
-    1.  There will be 3 divisions of 4 teams each.
-        1. Divisions will be randomly chosen every year by Yahoo before keeper elections.
-    1.  There will be 12 teams.
 1.  <a id="schedule">Schedule</a>
     1.  <a id="regular-season">Regular Season</a>
-        1.  The schedule will determined by Yahoo! Sports.
-        1.  There will be 14 games for each team in the regular season, corresponding to the first 14 weeks of the NFL regular season.
-        1.  Each team will play against each other team in their division twice and each team in the other divisions once.
+        1.  The schedule will be randomly determined before keepers and draft picks are selected at the start of the season.
+            1. Commissioner will use the best tools reasonably available to randomize the schedule and do his best to show that it was truly random.
+        1.  The following criteria will be enforced when randomizing the schedule:
+            1.  There will be 14 games for each team in the regular season, corresponding to the first 14 weeks of the NFL regular season.
+            1.  Each team will play against each other team in their division twice and each team in the other divisions once.
     1.  <a id="playoffs">Playoffs</a>
         1.  6 Teams will qualify for the playoffs.
             1.  Yahoo sometimes doesn't support our playoff seeding rules, so the real playoff schedule will be announced by the commissioner each week.
@@ -215,7 +169,9 @@
             1.  1st place - $1,000
             1.  2nd place - $500
             1.  3rd place - $250
-            1.  4th through 6th place - $50 each (x4)
+            1.  4th place - $100
+            1.  5th place - $50
+            1.  6th place - $50
         1.  Points ($150)
             1.  Most points in the regular season - $150
         1.  Best worst player ($50)
@@ -235,17 +191,14 @@
             1.  Each week, the team with the highest score will be awarded 1 point toward this prize.
             1.  At the end of the regular season, the team with the most points will win.
             1.  Ties will go to the team who scored the most points in the weeks that their earned their point for this prize, or a coin flip if still tied.
-        1. Regular Season ($150)
+        1. Regular Season ($100)
             1. First place in the regular season will win $100
-            1. Second place in the regular season will win $50
         1.  All prizes will be paid out no later than the real NFL Super Bowl.
         1.  After week 15, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
 1.  <a id="moves">Moves</a>
     1.  Moves are defined as player adds, trades, and drops.
     1.  Players may only be dropped by a manager if the manager intends to immediately replace the slot on his or her roster.
     1.  <a id="trades">Trades</a>
-        1.  Trade deadline
-            1.  The trade deadline will be the Saturday of week 12 as set on Yahoo.
         1.  Trades may only involve two teams.
             1.  Threeway trades may be proposed or discussed, but the managers must work out a way to execute the trade in multiple steps using only two managers at a time.
             1.  During the multipart execution of a threeway trade, managers may object to any component trade, independant of the other trades. Furthermore, managers are not beholden to any agreement to make a trade in the future based on the conditions of any previous trade. For these reasons, threeway trades can never be guarenteed.
@@ -253,7 +206,6 @@
             1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away without the player falling to Waivers or Free Agency between trades.
             1.  Double trades are when a manager trades a player that was acquired in a different trade less than 24 hours prior.
             1.  Tradebacks and double trades will be reversed immediately without a vote provided that a single manager points out that a tradeback or double trade occured within 24 hours of such trade.
-        1.  At least one player must be transferred by each team involved in a trade.
         1.  Expedited Trades
             1.  Trades are processed immediately by Yahoo, but our rules states that trades may be objected within 24 hours after the trade is made and a vote to overturn a trade may take up to 36 hours after the trades is made.
             1.  Managers who make a trade to acquire a player less than 36 hours before they are expected to play may make [conditional moves or roster modifications](#conditional-moves) to be prepared for the case that their trade is objected and overturned.
@@ -261,7 +213,7 @@
     1.  Any move may be objected by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is initiated; not processed.
     1.  <a id="undoubtably">Undoubtably bad moves</a>
-        1.  A manager must not take any actions, including making moves and setting active players, such that at the time the action is initiated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs, finishing the regular season with the best possible seed, and leaving the team in a good state for subsequent seasons.
+        1.  A manager must not take any actions, including making [moves](#moves) and setting active players, such that at the time the action is initiated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs, finishing the regular season with the best possible seed, leaving the team in a good state for subsequent seasons, and secondarily to the previously mentioned conditions reduces the chances of winning the current matchup.
             1.  Such actions may include, but are not limited to:
                 1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
                 1.  Putting a player on active roster that has been long known to be not participating in the given week.
@@ -339,7 +291,7 @@
             1.  The proposal with the most yes votes will pass and effectively amend the rules, upon Comissioner approval.
 1.  <a id="seeding">Seeding</a>
     1.  Regular Season
-        2. Seeding in the regular season will order teams from most to least games won with the added condition that the top team in every division will receive seeds 1-3.
+        2. Seeding in the regular season will order teams from most to least games won with the added condition that every team who wins their division makes the playoffs (i.e., finishes with a top 6 seed).
     1.  <a id="tie-breakers">Tie breakers</a>
         1.  Most ties in regular season
         1.  Longest winning streak at end of season.
@@ -347,18 +299,18 @@
         1.  The previous two conditions will be applied recursively until the tie is broken.
         1.  Most points in regular season
         1.  Coin flip 
+    1.  <a id="ties">Ties in playoffs</a>
+        1.  In the event of a tied game during the postseason, the win will be awarded to the team with the lower seed.
 1.  <a id="abandoned-teams">Amandoned Teams</a>
     1.  Managers should keep an eye on their teams at least once a week, set their lineups in a way that they expect to win their games, and add and drop players to prepare to win more games.
         1.  Managers should stay competitive even if they don't think they can improve their chances of making the playoffs or win prizes.
     1.  Teams who fail to stay competitive may be declared abandoned and put through the abandoned team protocol if the following conditions are met.
         1.  A manager in the league accuses a manager of neglecting their team.
             1.  The accusing manager should describe the nature of the neglect.
-        1.  Such team has at the time of accusation:
-            1.  Won less games than the team who would be seeded highest in the playoffs if the season ended at that time.
-            1.  Taken action or inaction that has been reversed due to a successful objection.
+        1.  Such team has at the time of accusation taken action or inaction that has been reversed due to a successful objection.
     1.  A supermajority league vote will take place when a team is placed on abandonment protocol.
         1.  If this vote passes, the accused team will be placed on autopilot.
-        1.  For this vote to pass, at least 60% of the managers who aren't already on autopilot, must vote yes.
+        1.  For this vote to pass, at least 70% of the managers who aren't already on autopilot, must vote yes.
     1.  <a id="autopilot">Autopilot</a>
         1.  When a team is placed on autopilot, the commissioner will set their line up each week in a predetermined fashion.
         1.  Any conditional moves or conditional roster modifications made by the manager will supersede the following rules provided that they are not successfully objected to.
