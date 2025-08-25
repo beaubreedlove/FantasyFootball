@@ -211,7 +211,7 @@
         1.  An exception may be made if the league determines by a majority vote that the player was scrambling "last-minute" to assemble a viable scoring team with incomplete information.
         1. Dropping a player to waivers shall never be considered waiver abuse if the player has already started their game for the week or would have otherwise been placed on waivers automatically by Yahoo.
     1.  Initiating an objection
-        1.  A manager may declare their intention to object by posting a new thread in the league message board stating the intention to object.
+        1.  A manager may declare their intention to object by posting in the league chatroom stating the intention to object.
         1.  An objection is not considered initiated until another manager seconds the intention to object.
         1.  Both the original intention to object and the seconding of the intention to object shall count as vote in favor of the objection.
         1.  Whenever an objection is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
@@ -223,11 +223,10 @@
         1.  The commissioner will do his best to act quickly to finish an objection vote, in an attempt to avoid suspending moves.
     1.  <a id="conditional-moves">Conditional Moves and Roster Modifictions</a>
         1.  In the event moves are suspended or a vote is in progress that will affect a managers ability or willingness to make a move, managers may request to conditionally, based on the outcome of the objection vote, make a move.
-        1.  Conditional moves or roster modifictaions can be made by clearly stating the intention in the league message board or by communicating it to the commissioner who will then publically add it to the league message board.
+        1.  Conditional moves or roster modifictaions can be made by clearly stating the intention in the league chatroom or by communicating it to the commissioner who will then publically add it to the league chatroom.
             1. Commissioner gives no guarentee that he will act quickly in this situation as his number 1 priority will be to lift the suspension and/or resolve the league vote.
-        1.  Conditional moves will be processed after the objection vote in the order which they were publicly communicated to the league message board. For this reason, managers are encouraged to post it themselves, rather than wait for the commissioner.
+        1.  Conditional moves will be processed after the objection vote in the order which they were publicly communicated to the league chatroom. For this reason, managers are encouraged to post it themselves, rather than wait for the commissioner.
         1.  Managers should not consider specific conditional moves or roster modifications made after an objected move when voting on such objection.
-    1.  Any use of the word "veto" or derivations thereof in this document or in the Yahoo interface including the message board shall be interpreted as having the same meaning as an objection unless otherwise stated.
 1.  <a id="voting">Voting</a>
     1.  The commissioner will be the sole interpreter of all rules.
     1.  For ambiguous situations not clearly covered by the rules, the commissioner will first check for precedent from past rulings or deleted rules that may still be part of common league understanding.
@@ -240,7 +239,7 @@
     1.  Majority votes shall pass if at least half of the teams who didn't abstain, vote yes.
         1. A majority vote shall pass immediately when this condition is met.
     1.  An objection shall constitute a yes vote to reverse the objected action.
-    1.  All votes must be cast publicly, in the message board, unconditionally, unambiguously, and by the manager who's opinion they represent.
+    1.  All votes must be cast publicly, in the league chatroom, unconditionally, unambiguously, and by the manager who's opinion they represent.
         1.  Managers may change their vote at any time by casting a new vote that fits this criteria. The new vote will replace the old vote.
     1.  A majority vote will be required for:
         1.  Objections to trades, undoubtedly bad moves or roster decisions, waiver abuse, and any other moves that may be appropriately objected.
