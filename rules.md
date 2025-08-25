@@ -130,7 +130,7 @@
                     1.  Loser is 4th place
         1.  Losers Bracket
             1.  A 7 team losers bracket will be set up for teams that do not make the playoffs (seeds 8-14).
-            1.  Losers bracket seeding will be determined by the length of each team's winning streak counting backwards from the end of the regular season, with the longest streak receiving the best seed.
+            1.  Losers bracket seeding will use the same tie-breaking method as regular season seeding, except total wins and ties will be ignored and the primary seeding method will be winning/losing streaks.
 1.  <a id="money">Money</a>
     1.  <a id="fees">League Fees</a>
         1.  Payment
@@ -255,9 +255,9 @@
         2. Seeding in the regular season will order teams from most to least games won with the added condition that every team who wins their division makes the playoffs (i.e., finishes with a top 6 seed).
     1.  <a id="tie-breakers">Tie breakers</a>
         1.  Most ties in regular season
-        1.  Longest winning streak at end of season.
-        1.  Shortest losing streak at end of season.
-        1.  The previous two conditions will be applied recursively until the tie is broken.
+        1.  Longest winning streak counting backwards from the end of the regular season.
+        1.  Shortest losing streak counting backwards from the end of the regular season.
+        1.  The previous two conditions will be applied iteratively backwards through the season until the tie is broken.
         1.  Most points in regular season
         1.  Coin flip 
     1.  <a id="ties">Ties in playoffs</a>
