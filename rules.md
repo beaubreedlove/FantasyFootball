@@ -14,7 +14,6 @@
         1.  [Undoubtably bad moves](#undoubtably) (the most controversial rule we have)
         1.  [Suspending Moves](#suspending-moves)
     1.  [Voting](#voting)
-    1.  [Amending Rules](#amending-rules)
     1.  [Seeding](#seeding)
         1.  [Tie Breakers](#tie-breakers)
         1.  [Ties](#ties)
@@ -42,7 +41,6 @@
         1.  Trades are allowed and the trade deadline will be the Saturday of week 12.
         1.  Trades will process immediately by Yahoo, but any manager may object and a majority vote will determine whether the trade is overturned.
         1.  In this league, it is against the rules to stop trying. If you make an "[undoubtably bad move](#undoubtably)", your line up will be set for you and your team may be put on autopilot.
-        1.  Rules changes in season require a unanimous vote. For future seasons, they require a majority vote and Comissioner approval.
         1.  Only the top 4 playoff finishers win money: 1st ($1,000), 2nd ($400), 3rd ($350), and 4th ($100).
         1.  The team who scores the most points wins $200.
         1.  There are 4 other prizes of $50 each, plus $50 for most FAAB remaining among playoff teams.
@@ -194,14 +192,13 @@
             1.  Managers who make a trade to acquire a player less than 36 hours before they are expected to play may make [conditional moves or roster modifications](#conditional-moves) to be prepared for the case that their trade is objected and overturned.
 1.  <a id="objections">Objections</a>
     1.  Any move may be objected by any manager within 24 hours after the move is made.
-        1.  For trades this period starts when the trade is initiated; not processed.
+        1.  For trades this period starts when the trade is processed by Yahoo.
     1.  <a id="undoubtably">Undoubtably bad moves</a>
-        1.  A manager must not take any actions, including making [moves](#moves) and setting active players, such that at the time the action is initiated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs, finishing the regular season with the best possible seed, leaving the team in a good state for subsequent seasons, and secondarily to the previously mentioned conditions reduces the chances of winning the current matchup.
+        1.  A manager must not take any actions, including making [moves](#moves) and setting active players, such that at the time the action is initiated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs, finishing the regular season with the best possible seed, or winning the current matchup.
             1.  Such actions may include, but are not limited to:
                 1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
                 1.  Putting a player on active roster that has been long known to be not participating in the given week.
                 1.  Dropping an exceptionally valuable player when a significantly lesser valued alternative player was available to be dropped.
-                1.  Letting go of obviosuly high valued keeper players in exchange for no meaninigful gain.
             1.  Exceptions may include:
                 1.  Pulling (or not pulling) a player from active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
                 1.  In rare cases, leaving a roster position empty because no alternative exists on the bench and no benched player is worth dropping.
@@ -218,7 +215,7 @@
         1.  An objection is not considered initiated until another manager seconds the intention to object.
         1.  Both the original intention to object and the seconding of the intention to object shall count as vote in favor of the objection.
         1.  Whenever an objection is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
-        1.  When an objection is initiated, each manager in the league will have until 24 hours after the time the objection is initiated to perform a majority league vote to determine the outcome of the objection.
+        1.  When an objection is initiated, each manager in the league will have until 24 hours after the time the objection is initiated to perform a majority league vote to determine the outcome of the objection, but the entire process must complete within 36 hours of the original trade.
     1.  If an objection vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the objection.
         1.  In some cases, this may include reversing other actions by other teams, if they are determined by a majority league vote to have been responses to the original objected action.
         1.  In the case that multiple actions need to be reversed, they will be determined in forward chronological order.
@@ -232,46 +229,28 @@
         1.  Managers should not consider specific conditional moves or roster modifications made after an objected move when voting on such objection.
     1.  Any use of the word "veto" or derivations thereof in this document or in the Yahoo interface including the message board shall be interpreted as having the same meaning as an objection unless otherwise stated.
 1.  <a id="voting">Voting</a>
-    1.  For any reasonable dispute that requires a league vote, the commissioner will gather and post all relevant information and make an initial ruling which shall be binding unless any manager objects in a reasonable time.
-    1. A league vote will only occur following an objection or other dispute if seconded by another manager.
-        1. In the case that a manager seconds an objection, that manager must vote in favor of the objection.
-        1. The league vote shall be considered initated at the time the objection was seconded.
-    1.  If any manager objects to the commissioner's initial ruling, a league vote shall be initiated.
+    1.  The commissioner will be the sole interpreter of all rules.
+    1.  For ambiguous situations not clearly covered by the rules, the commissioner will first check for precedent from past rulings or deleted rules that may still be part of common league understanding.
+    1.  If no precedent exists, ambiguous situations will be resolved by majority league vote.
     1.  League votes should be completed within 24 hours with each team manager voting yes (to make some change) or no (to keep things as they are).
     1.  Managers may abstain from a vote.
-        1. Managers who abstain will have their vote counted as a "no" for any votes lasting less than 8 hours.
-            1. For example, a rushed trade objection.
-        1. After 8 hours, managers who haven't voted will neither count for, nor against the proposal.
+        1. Managers who abstain will have their vote counted as a "no" for any votes lasting less than 24 hours.
+            1. For example, a rushed trade objection due to the 36-hour overall limit.
+        1. At 24 hours, managers who haven't voted will neither count for, nor against the proposal.
     1.  Majority votes shall pass if at least half of the teams who didn't abstain, vote yes.
         1. A majority vote shall pass immediately when this condition is met.
-    1.  Unanimous votes shall pass if a majority of managers vote yes and all other managers abstain.
     1.  An objection shall constitute a yes vote to reverse the objected action.
     1.  All votes must be cast publicly, in the message board, unconditionally, unambiguously, and by the manager who's opinion they represent.
         1.  Managers may change their vote at any time by casting a new vote that fits this criteria. The new vote will replace the old vote.
     1.  A majority vote will be required for:
-        1.  Objections.
+        1.  Objections to trades, undoubtedly bad moves or roster decisions, waiver abuse, and any other moves that may be appropriately objected.
         1.  Disambiguating any rules.
-            1.  The commissioner will determine upon request whether the rule is ambiguous or not. Non-ambiguous rules will only be changed via the rule amendment process.
-        1.  Replacing the commissioner.
-        1.  Anything else that doesn't explicitly require a unanimous vote.
     1.  Managers are disqualified from voting on a particular issue if they are directly involved with what is being voted upon.
         1.  Commissioner may make initial ruling, but will not participate in the league vote if he is directly involved.
         1.  Managers directly involved include but are not limited to
             1.  Managers gaining or losing players in a trade.
             1.  Managers matched up against a team that's being accused of making poor roster decisions.
         1.  Managers disqualified from voting will implicitly abstain from the vote.
-1.  <a id="amending-rules">Amending Rules</a>
-    1.  A unanimous vote will be required for any changes to the rules that go into effect during the season the amendment passes.
-    1.  Rules may be changed for subsequent seasons by a majority vote and comissioner approval.
-    1.  To amend the rules, a manager must make a clear proposal about which rules to be added, removed, or modified.
-        1.  For a period of time (defined in this section), other managers will have the chance to submit counter proposals.
-            1. From August 1 and Thursday before Superbowl; 1 week
-            1. From the Friday before the Superbowl to July 31; 4 weeks, but no more than 1 week past August 1
-        1.  Each manager may only submit one proposal or counter proposal to be considered per amendment vote.
-            1.  Managers may get around this by finding a co-sponsor who has not sponsored the original proposal or another counter proposal.
-        1.  The counter proposal to leave the rules unchanged will automatically be submitted for each vote without a sponsor required.
-        1.  After the proposal and counter proposals are all submitted, each manager may vote yes or no to each proposal.
-            1.  The proposal with the most yes votes will pass and effectively amend the rules, upon Comissioner approval.
 1.  <a id="seeding">Seeding</a>
     1.  Regular Season
         2. Seeding in the regular season will order teams from most to least games won with the added condition that every team who wins their division makes the playoffs (i.e., finishes with a top 6 seed).
@@ -290,14 +269,14 @@
     1.  Teams who fail to stay competitive may be declared abandoned and put through the abandoned team protocol if the following conditions are met.
         1.  A manager in the league accuses a manager of neglecting their team.
             1.  The accusing manager should describe the nature of the neglect.
-        1.  Such team has at the time of accusation taken action or inaction that has been reversed due to a successful objection.
+        1.  Such team has at the time of accusation taken action or inaction including roster decisions that has been reversed due to a successful objection.
     1.  A supermajority league vote will take place when a team is placed on abandonment protocol.
         1.  If this vote passes, the accused team will be placed on autopilot.
         1.  For this vote to pass, at least 70% of the managers who aren't already on autopilot, must vote yes.
     1.  <a id="autopilot">Autopilot</a>
         1.  When a team is placed on autopilot, the commissioner will set their line up each week in a predetermined fashion.
         1.  Any conditional moves or conditional roster modifications made by the manager will supersede the following rules provided that they are not successfully objected to.
-        1.  At time of the start of each game, the starting roster will be set to the players on the team or available on FA that have the greatest Yahoo projection.
+        1.  At time of the start of each game, the starting roster will be set to the players on the team or available on FA that have the greatest Yahoo projection. Ties in projections will be broken by coin flip.
         1.  Setting the roster may be done slightly after the game starts so that the projections lock in to their final value before the decision is made and so that any other team not on autopilot may have first dibs on any player.
         1.  If a player must be dropped to accommodate a FA add, the dropped player will be chosen using the following method:
             1.  If at any point, only one player is left, drop him.
