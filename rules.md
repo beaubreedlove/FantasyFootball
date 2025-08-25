@@ -36,14 +36,14 @@
         1.  The regular season is 13 weeks, with each team playing every other team exactly once.
         1.  The playoffs will have 8 teams, four will get a bye, and take place on weeks 14 through 17.
         1.  The draft time is on the Sunday before the first game each season at 8pm.
-        1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
+        1.  We'll use FAB to determine waiver claims and break ties with least recently used.
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline will be the Saturday of week 12.
         1.  Trades will process immediately by Yahoo, but any manager may object and a majority vote will determine whether the trade is overturned.
         1.  In this league, it is against the rules to stop trying. If you make an "[undoubtably bad move](#undoubtably)", your line up will be set for you and your team may be put on autopilot.
         1.  Only the top 4 playoff finishers win money: 1st ($1,000), 2nd ($400), 3rd ($350), and 4th ($100).
         1.  The team who scores the most points wins $200.
-        1.  There are 4 other prizes of $50 each, plus $50 for most FAAB remaining among playoff teams.
+        1.  There are 4 other prizes of $50 each, plus $50 for most FAB remaining among playoff teams.
         1.  Weekly prizes: $50 for each team in the top scoring matchup during weeks 10, 11, 12, and 13.
         1.  The winner of the losers bracket wins $100.
         1.  People shouldn't create conflicts of interest with the league.
@@ -131,6 +131,12 @@
         1.  Losers Bracket
             1.  A 7 team losers bracket will be set up for teams that do not make the playoffs (seeds 8-14).
             1.  Losers bracket seeding will use the same tie-breaking method as regular season seeding, except total wins and ties will be ignored and the primary seeding method will be winning/losing streaks.
+        1.  FAB bonuses
+            1.  Each team that makes the playoffs will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 14.
+            1.  Teams in the Superbowl will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 16.
+            1.  Teams in the 3rd place game will receive half the amount of FAB they started the season with credited on top of their existing balance at the start of week 16.
+        1.  Team locking
+            1.  Teams will be locked once they are no longer in contention for 1st place, 3rd place, or winner of the losers bracket.
 1.  <a id="money">Money</a>
     1.  <a id="fees">League Fees</a>
         1.  Payment
@@ -169,9 +175,9 @@
         1.  Weekly prizes ($400)
             1.  Each team in the top scoring matchup during weeks 10, 11, 12, and 13 will win $50 each.
             1.  If there is a tie for highest scoring matchup, the prize will be split among all tied teams.
-        1.  Most FAAB ($50)
-            1.  The team that makes the playoffs with the most FAAB remaining will win $50.
-            1.  Ties will be broken by highest waiver priority (same as FAAB tie-breaking for player pickups).
+        1.  Most FAB ($50)
+            1.  The team that makes the playoffs with the most FAB remaining will win $50.
+            1.  Ties will be broken by highest waiver priority (same as FAB tie-breaking for player pickups).
         1.  Losers bracket ($100)
             1.  Winner of the losers bracket will win $100.
         1.  All prizes will be paid out no later than the real NFL Super Bowl.
