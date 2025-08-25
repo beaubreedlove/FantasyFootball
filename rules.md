@@ -2,7 +2,6 @@
     1.  [TLDR](#tldr)
     1.  [Managers](#managers)
     1.  [Draft](#draft)
-        1.  [Keepers](#keepers)
     1.  [Schedule](#schedule)
         1.  [Regular Season](#regular-season)
         1.  [Playoffs](#playoffs)
@@ -32,24 +31,23 @@
         1.  This section is intended to be a brief summary of the rules.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
     1.  Summary
-        1.  There are 12 teams.
+        1.  There are 14 teams.
         1.  Each team has 14 players + 1 IR.
         1.  A team can play 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, and 1 DST each week.
-        1.  The regular season is 14 weeks, with each team playing each other team exactly once.
-        1.  The playoffs will have 6 teams, two will get a bye, and take place on weeks 15 through 17.
+        1.  The regular season is 13 weeks, with each team playing every other team exactly once.
+        1.  The playoffs will have 8 teams, four will get a bye, and take place on weeks 14 through 17.
         1.  The draft time is on the Sunday before the first game each season at 8pm.
-        1.  Starting in 2022, we will do keepers. You may keep a few players for 1 year and 1 player for 2 years. Other restrictions apply -- see details in [keepers](#keepers) rules.
         1.  We'll use FAAB to determine waiver claims and break ties with least recently used.
-        1.  There will be 3 divisions of 4 teams.
         1.  League fee is $200.
         1.  Trades are allowed and the trade deadline will be the Saturday of week 12.
         1.  Trades will process immediately by Yahoo, but any manager may object and a majority vote will determine whether the trade is overturned.
         1.  In this league, it is against the rules to stop trying. If you make an "[undoubtably bad move](#undoubtably)", your line up will be set for you and your team may be put on autopilot.
         1.  Rules changes in season require a unanimous vote. For future seasons, they require a majority vote and Comissioner approval.
-        1.  People who make the playoffs win at least $50 with 1st through 4th winning $1,000, $500, $250, and $100.
-        1.  The team to score 1st place in the regular season will win $100.
-        1.  The team who scores the most points wins $150.
-        1.  There are 4 other prizes of $50 each.
+        1.  Only the top 4 playoff finishers win money: 1st ($1,000), 2nd ($400), 3rd ($350), and 4th ($100).
+        1.  The team who scores the most points wins $200.
+        1.  There are 4 other prizes of $50 each, plus $50 for most FAAB remaining among playoff teams.
+        1.  Weekly prizes: $50 for each team in the top scoring matchup during weeks 10, 11, 12, and 13.
+        1.  The winner of the losers bracket wins $100.
         1.  People shouldn't create conflicts of interest with the league.
         1.  If a rule isn't defined well here, we fall back to Yahoo rules. If it's still not clear, we use a league vote.
         1.  All times in these rules are Eastern Standard Time.
@@ -102,58 +100,39 @@
             1. Setting preferences and defaults
                 1. Any manager may post a list of draft position preferences publicly to the league at anytime and the most preferred draft position in their preference list will be automatically selected for them.
                 1. If a manager does not choose their draft position by their draft position by their assiigned deadline, the lowest remaining draft position will be assigned.
-    1.  <a id="keepers">Keepers</a>
-        1.  Starting in the 2022 season, managers may elect to keep players from previous seasons within the limitations laid out in this section.
-        1.  Keeper elections must be made by end of day, 5 days before the draft.
-        1.  Cost of keeping a player
-            1.  The first year a player is kept, they will cost one draft round less than the round they were drafted the previous year.
-                1.  For example a player drafted in the 5th round, will cost a 4th round pick the following year.
-                1.  An undrafted player will cost a last round pick the following year.
-                1.  A first round pick cannot be kept the following year.
-            1.  The second year a player is kept, they will cost a first round pick unless they cost a first round pick the previous year, in which case they cannot be kept a second year.
-            1.  No player may be kept 3 consecutive drafts, nor may a player be kept in one draft if they cost a 1st round pick ni the previious draft.
-            1.  Players acquired through FA, WW, or trades will retain their draft round (or lack of draft round) for the purposes of determining their cost the keep the following year.
-        1.  Teams may not keep any combination of players who's total draft round costs exceed 15.
-            1.  Examples
-                1. Keeping players who cost a 10th and 5th round pick totals 15. This is allowed.
-                1. Keeping players who cost a 12th, 3rd, and 1st round pick totals 16. This is not allowed.
-        1.  If you choose to keep multiple players who cost the same draft round, you may pay a lesser draft round.
-            1.  Such changes do not reduce the cost of keeping a player for the sake of determining whether the total costs exceed 15.
-            1.  Such changes do affect the round that a player costs to keep next year and could result in making the player unkeepable next year if a 1st round pick is sacrificed  year.
 1.  <a id="schedule">Schedule</a>
     1.  <a id="regular-season">Regular Season</a>
-        1.  The schedule will be randomly determined before keepers and draft picks are selected at the start of the season.
+        1.  The schedule will be randomly determined before draft picks are selected at the start of the season.
             1. Commissioner will use the best tools reasonably available to randomize the schedule and do his best to show that it was truly random.
         1.  The following criteria will be enforced when randomizing the schedule:
-            1.  There will be 14 games for each team in the regular season, corresponding to the first 14 weeks of the NFL regular season.
-            1.  Each team will play against each other team in their division twice and each team in the other divisions once.
+            1.  There will be 13 games for each team in the regular season, corresponding to the first 13 weeks of the NFL regular season.
+            1.  Each team will play against every other team exactly once.
     1.  <a id="playoffs">Playoffs</a>
-        1.  6 Teams will qualify for the playoffs.
+        1.  7 Teams will qualify for the playoffs.
             1.  Yahoo sometimes doesn't support our playoff seeding rules, so the real playoff schedule will be announced by the commissioner each week.
-        1.  The highest two seeds in the regular season will receive a bye on week 15.
-        1.  Playoffs will take place during weeks 15 through 17.
-            1.  Week 15 matchups
-                1.  Seed 3 chooses a team among seeds 4 though 6, that they will play against.
+        1.  The highest seed in the regular season will receive a bye on week 14.
+        1.  Playoffs will take place during weeks 14 through 16.
+            1.  Week 14 matchups
+                1.  Seed 2 chooses a team among seeds 3 through 7, that they will play against.
                     1. This choice must be made on or before 1pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
-                1.  The remaining two teams between seeds 4 and 6 play against each other.
-            1.  Week 16 matchups
-                1.  Seed 1 chooses a team among the winners of week 15 to play against.
+                1.  The best remaining seed (lowest number among 3-7, excluding seed 2's choice) chooses their opponent from the remaining teams.
+                1.  The final two remaining teams play each other.
+            1.  Week 15 matchups
+                1.  Seed 1 chooses a team among the three winners of week 14 to play against.
                     1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
-                1.  Remaining two winners of week 15 faceoff.
-                1.  The remaining two losing teams from week 15 will play against each other.
-                    1.  The losing team gets 6th place.
-            1.  Week 17 matchups
+                1.  The remaining two winners of week 14 play against each other.
+            1.  Week 16 matchups
                 1.  Superbowl
-                    1.  Two teams that won weeks 15 and 16 faceoff.
+                    1.  Two teams that won week 15 faceoff.
                     1.  Winner is 1st place
                     1.  Loser is 2nd place
                 1.  3rd place game
-                    1.  Two teams that won week 15 and lost week 16 faceoff.
+                    1.  Two teams that lost week 15 faceoff.
                     1.  Winner is 3rd place
                     1.  Loser is 4th place
         1.  Losers Bracket
-            1.  A 6 team losers bracket will be set up in the same manner as the playoffs with the 7 seed acting in the same way as the 1 seed (with a week 15 bye), the 8 seed like 2, 9 like 3, etc. all the way up to the 12 seed who act in the same way as the 6th.
-            1.  No money prizes will be awarded in the losers bracket, but draft order will be determined as perscribed by the draft section of the rules.
+            1.  A 7 team losers bracket will be set up for teams that do not make the playoffs (seeds 8-14).
+            1.  Losers bracket seeding will be determined by the length of each team's winning streak counting backwards from the end of the regular season, with the longest streak receiving the best seed.
 1.  <a id="money">Money</a>
     1.  <a id="fees">League Fees</a>
         1.  Payment
@@ -165,15 +144,13 @@
             1.  Managers will have a chance to review the rules before committing to the league.
                 1.  If 12 managers do not commit, the initial payment will be refunded.
     1.  <a id="payouts">Payouts</a>
-        1.  Playoffs ($1,950 total)
+        1.  Playoffs ($1,850 total)
             1.  1st place - $1,000
-            1.  2nd place - $500
-            1.  3rd place - $250
+            1.  2nd place - $400
+            1.  3rd place - $350
             1.  4th place - $100
-            1.  5th place - $50
-            1.  6th place - $50
-        1.  Points ($150)
-            1.  Most points in the regular season - $150
+        1.  Points ($200)
+            1.  Most points in the regular season - $200
         1.  Best worst player ($50)
             1.  Each team will have a chance to win best worst player every week.
             1.  In a single week, a team's "worst player" is the active player that scores the least points on a team that fills all roster positions for that week.
@@ -191,8 +168,14 @@
             1.  Each week, the team with the highest score will be awarded 1 point toward this prize.
             1.  At the end of the regular season, the team with the most points will win.
             1.  Ties will go to the team who scored the most points in the weeks that their earned their point for this prize, or a coin flip if still tied.
-        1. Regular Season ($100)
-            1. First place in the regular season will win $100
+        1.  Weekly prizes ($400)
+            1.  Each team in the top scoring matchup during weeks 10, 11, 12, and 13 will win $50 each.
+            1.  If there is a tie for highest scoring matchup, the prize will be split among all tied teams.
+        1.  Most FAAB ($50)
+            1.  The team that makes the playoffs with the most FAAB remaining will win $50.
+            1.  Ties will be broken by highest waiver priority (same as FAAB tie-breaking for player pickups).
+        1.  Losers bracket ($100)
+            1.  Winner of the losers bracket will win $100.
         1.  All prizes will be paid out no later than the real NFL Super Bowl.
         1.  After week 15, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
 1.  <a id="moves">Moves</a>
