@@ -11,9 +11,9 @@
     1.  [Moves](#moves)
         1.  [Trades](#trades)
     1.  [Objections](#objections)
-        1.  [Undoubtably bad moves](#undoubtably) (the most controversial rule we have)
+        1.  [Undoubtably bad moves](#undoubtably) (the most controversial rule we have, but it's important)
         1.  [Suspending Moves](#suspending-moves)
-    1.  [Voting](#voting)
+    1.  [Voting and Objections](#voting)
     1.  [Seeding](#seeding)
         1.  [Tie Breakers](#tie-breakers)
         1.  [Ties](#ties)
@@ -24,101 +24,64 @@
     1.  [Commissioner Responsibilities](#commissioner)
     1.  [Incomplete NFL Season](#incomplete)
     1.  [Timezones](#timezones)
-1.  <a id="tldr">TLDR</a>
+1.  <a id="tldr">Summary</a>
     1.  Disclaimer
-        1.  TLDR stands for "too long didn't read".
-        1.  This section is intended to be a brief summary of the rules.
+        1.  This section provides a brief summary for those who don't need all the details.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
-    1.  Summary
-        1.  There are 14 teams.
-        1.  Each team has 14 players + 1 IR.
-        1.  A team can play 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, and 1 DST each week.
-        1.  The regular season is 13 weeks, with each team playing every other team exactly once.
-        1.  The playoffs will have 8 teams, four will get a bye, and take place on weeks 14 through 17.
-        1.  The draft time is on the Sunday before the first game each season at 8pm.
-        1.  We'll use FAB to determine waiver claims and break ties with least recently used.
+    1.  League Settings
+        1.  14 teams, no keepers.
+        1.  Live snake draft on Monday, September 1 at 8:45pm ET.
+        1.  Roster: 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, 1 DST, 4 bench, 2 IR.
+        1.  Regular season: 13 weeks, each team plays every other team once.
+        1.  Playoffs: 7 teams over 3 weeks (14-16), with 1 bye.
+        1.  Trade deadline is week 10.
+        1.  FAB waivers with least recently used tie-breaking.
+        1.  Decimal and negative scoring enabled.
+        1.  All other league and scoring settings can be found on the [Yahoo Fantasy settings page](https://football.fantasysports.yahoo.com/f1/456171/settings).
+    1.  Money Rules
         1.  League fee is $200.
-        1.  Trades are allowed and the trade deadline will be the Saturday of week 12.
-        1.  Trades will process immediately by Yahoo, but any manager may object and a majority vote will determine whether the trade is overturned.
-        1.  In this league, it is against the rules to stop trying. If you make an "[undoubtably bad move](#undoubtably)", your line up will be set for you and your team may be put on autopilot.
-        1.  Only the top 4 playoff finishers win money: 1st ($1,000), 2nd ($400), 3rd ($350), and 4th ($100).
-        1.  The team who scores the most points wins $200.
-        1.  There are 4 other prizes of $50 each, plus $50 for most FAB remaining among playoff teams.
-        1.  Weekly prizes: $50 for each team in the top scoring matchup during weeks 10, 11, 12, and 13.
+        1.  Playoff finishers win money: 1st ($1,100), 2nd ($450), 3rd ($350), and 4th ($100).
+        1.  The team who scores the most points wins $100.
+        1.  4 other regular season prizes of $50 each.
+        1.  Weekly prizes: $50 for each team in the top scoring matchup during weeks 10-13.
         1.  The winner of the losers bracket wins $100.
-        1.  People shouldn't create conflicts of interest with the league.
-        1.  If a rule isn't defined well here, we fall back to Yahoo rules. If it's still not clear, we use a league vote.
-        1.  All times in these rules are Eastern Time.
+        1.  Teams should not create conflicts of interest with the league (e.g., betting that your team will lose or your players will do poorly).
+    1.  Additional Rules
+        1.  It's against the rules to stop trying. If you make one or more "[undoubtably bad moves](#undoubtably)", the moves may be reversed, your lineup may be set for you, and your team may be put on autopilot.
+            1.  Do not stop trying! The weekly prizes, regular season prizes, and $100 for losers bracket mean you can still win your money back.
+        1.  Trades are allowed and the trade deadline is week 10.
+        1.  Trades will process immediately by Yahoo, but any manager may object within 24 hours and the trade will be reversed if a majority votes against it.
+        1.  We use longest [win-streak](#winning-streaks) to end the year as a tie-breaking method for the playoffs and as the primary seeding method for the losers bracket to make sure the final weeks are always competitive.
+        1.  Top seeded playoff teams choose their [opponents](#choosing-opponents) each week.
+        1.  Playoff teams receive [FAB bonuses](#playoffs) during the playoffs.
+        1.  Teams get locked in the post-season when out of contention for top 4 or losers bracket winner.
+        1.  If a rule isn't defined here, we fall back on Yahoo rules.
+        1.  If a rule is ambiguous, we have a league vote.
+        1.  All times are Eastern Time (ET).
         1.  Managers, especially the commissioner, should be competitive, but friendly.
-1.  <a id="teams">Yahoo! Sports Settings and Rules</a>
-    1. Many settings are configured on the Yahoo! Sports Fantasy Football platform and have been removed from this rules document. The settings on the app are the source of truth for these. These settings include, but are not limited to the following:
-        1. Scoring settings
-        1. Roster positions
-        1. Injury designations
-        1. Player positions.
-    1. Yahoo's platform will also be the final decision maker for any game mechanic within their control that doesn't have an explicit exception in this rules document. Examples of this include, but are not limited to:
-        1. When games are canceled or postponed and which week they count for.
-        1. When waiver dates are modified to accomodate postponed games.
-        1. When injury designations or player positions change.
-        1. How rosters may be set.
-        1. What moves are valid to make.
-        1. How waivers work.
-1.  <a id="managers">Team Managers</a>
-    1.  Each team must have one manager. Each manager must have one team.
-    1.  Managers are responsible for making all decisions pertaining to his or her team including but not limited to:
-        1.  League Fees
-        1.  Draft Picks
-        1.  Setting Roster
-        1.  Proposing and Accepting Trades
-        1.  Objections
-        1.  Voting
-        1.  Keeper Elections
-    1.  Teams may have as many other advisors helping them make decisions, but the manager must make all final decisions.
-    1.  Managers may give advice to other managers.
-    1.  Teams are transferable in that they can be given, sold, or auctioned to new managers as long as no two managers own the same team.
 1.  <a id="draft">Draft</a>
-    1.  Date and time
-        1.  The draft time will be the Sunday before the first game of the season at 8pm.
-            1.  This date will be determined on August 1 as the day the NFL projects the first game will be played.
-    1.  Order
-        1.  Draft order will be determined by manager's choice in an order determined by the previous year's standings.
-            1. Choice order and deadlines
-                1. 7th place from previous year may choose any draft position by 10am, 4 days before the draft.
-                1. 8th place from previous year may choose any remaining draft position by 12pm, 4 days before the draft.
-                1. 9th place from previous year may choose any remaining draft position by 2pm, 4 days before the draft.
-                1. 10th place from previous year may choose any remaining draft position by 4pm, 4 days before the draft.
-                1. 11th place from previous year may choose any remaining draft position by 6pm, 4 days before the draft.
-                1. 12th place from previous year may choose any remaining draft position by 8pm, 4 days before the draft.
-                1. 5th place from previous year may choose any remaining draft position by 10am, 3 days before the draft.
-                1. 6th place from previous year may choose any remaining draft position by 12pm, 3 days before the draft.
-                1. 4th place from previous year may choose any remaining draft position by 2pm, 3 days before the draft.
-                1. 3rd place from previous year may choose any remaining draft position by 4pm, 3 days before the draft.
-                1. 2nd place from previous year may choose any remaining draft position by 6pm, 3 days before the draft.
-                1. 1st place from previous year will be assigned the only remaining draft position.
-            1. Setting preferences and defaults
-                1. Any manager may post a list of draft position preferences publicly to the league at anytime and the most preferred draft position in their preference list will be automatically selected for them.
-                1. If a manager does not choose their draft position by their draft position by their assiigned deadline, the lowest remaining draft position will be assigned.
+    1.  Live snake draft on Monday, September 1 at 8:45pm ET.
+    1.  Draft order will be determined after all teams commit to the league by paying their league dues and at least 1 hour before the draft.
 1.  <a id="schedule">Schedule</a>
     1.  <a id="regular-season">Regular Season</a>
         1.  The schedule will be randomly determined before draft picks are selected at the start of the season.
-            1. Commissioner will use the best tools reasonably available to randomize the schedule and do his best to show that it was truly random.
         1.  The following criteria will be enforced when randomizing the schedule:
             1.  There will be 13 games for each team in the regular season, corresponding to the first 13 weeks of the NFL regular season.
             1.  Each team will play against every other team exactly once.
     1.  <a id="playoffs">Playoffs</a>
         1.  7 Teams will qualify for the playoffs.
             1.  Yahoo sometimes doesn't support our playoff seeding rules, so the real playoff schedule will be announced by the commissioner each week.
-        1.  The highest seed in the regular season will receive a bye on week 14.
-        1.  Playoffs will take place during weeks 14 through 16.
+        1.  The 1 seed will receive a bye on week 14.
+        1.  <a id="choosing-opponents">Playoffs will take place during weeks 14 through 16.</a>
             1.  Week 14 matchups
                 1.  Seed 2 chooses a team among seeds 3 through 7, that they will play against.
-                    1. This choice must be made on or before 1pm (ET) the Tuesday before the games or the choice will default to the highest available seed number.
-                1.  The best remaining seed (seed 3 or 4, whichever was not chosen by seed 2) chooses their opponent from the remaining teams.
-                    1. This choice must be made on or before 4pm (ET) the Tuesday before the games or the choice will default to the highest available seed number.
+                    1. This choice must be made on or before 1pm (ET) the Tuesday before the games or the choice will default to the bottom seed.
+                1.  The top remaining seed (seed 3 or 4, whichever was not chosen by seed 2) chooses their opponent from the remaining teams.
+                    1. This choice must be made on or before 4pm (ET) the Tuesday before the games or the choice will default to the bottom seed.
                 1.  The final two remaining teams play each other.
             1.  Week 15 matchups
                 1.  Seed 1 chooses a team among the three winners of week 14 to play against.
-                    1. This choice must be made on or before 1pm (ET) the Tuesday before the games or the choice will default to the highest available seed number.
+                    1. This choice must be made on or before 1pm (ET) the Tuesday before the games or the choice will default to the bottom seed.
                 1.  The remaining two winners of week 14 play against each other.
             1.  Week 16 matchups
                 1.  Superbowl
@@ -131,9 +94,9 @@
                     1.  Loser is 4th place
         1.  Losers Bracket
             1.  A 7 team losers bracket will be set up for teams that do not make the playoffs (seeds 8-14).
-            1.  Losers bracket seeding will use the same tie-breaking method as regular season seeding, except total wins and ties will be ignored and the primary seeding method will be winning/losing streaks.
+            1.  Losers bracket seeding will use the same tie-breaking method as regular season seeding, except total wins and ties will be ignored and the primary seeding method will be [winning/losing streaks](#winning-streaks).
             1.  Losers bracket opponent selection follows the same rules as the main playoffs:
-                1.  Week 14: Seed 9 chooses first (by 1pm ET Tuesday), then the best remaining seed among 10-14 chooses (by 4pm ET Tuesday).
+                1.  Week 14: Seed 9 chooses first (by 1pm ET Tuesday), then the top remaining seed among 10-14 chooses (by 4pm ET Tuesday).
                 1.  Week 15: Seed 8 chooses among the winners (by 1pm ET Tuesday).
         1.  Playoff choice delays
             1.  If the NFL or Yahoo causes a matchup to be incomplete by the time playoff opponent choices are due, or Yahoo delays waivers, then the choice deadline will be delayed until the first day after the matchups are complete or until the last day before the new waiver date.
@@ -147,12 +110,6 @@
     1.  <a id="fees">League Fees</a>
         1.  Payment
             1.  A one time payment of $200 will be collected by the commissioner from each team manager.
-        1.  Deadline
-            1.  Initial payment must be paid on or before the draft date in 2021 and on or before August 1 in subsequent seasons.
-                1.  Any manager who does not pay by this time may have their team transferred, sold, or auctioned to another manager and the Comissioner's discression.
-                1.  Any proceeds from the transfer will be given to the previous manager.
-            1.  Managers will have a chance to review the rules before committing to the league.
-                1.  If 12 managers do not commit, the initial payment will be refunded.
     1.  <a id="payouts">Payouts</a>
         1.  Playoffs ($2,000 total)
             1.  1st place - $1,100
@@ -162,7 +119,7 @@
         1.  Losers bracket ($100)
             1.  Winner of the losers bracket will win $100.
         1.  Points ($100)
-            1.  Most points in the regular season - $100
+            1.  Most points in the regular season wins $100.
         1.  Best worst player ($50)
             1.  Each team will have a chance to win best worst player every week.
             1.  In a single week, a team's "worst player" is the active player that scores the least points on a team that fills all roster positions for that week.
@@ -182,7 +139,7 @@
             1.  Ties will go to the team who scored the most points in the weeks that their earned their point for this prize, or a coin flip if still tied.
         1.  Weekly prizes ($400)
             1.  During weeks 10-13, each team in the top scoring matchup will win $50 each week.
-            1.  If there is a tie for highest scoring matchup, the prize will be split among all tied teams.
+            1.  If there is a tie for highest scoring matchup, the tie goes to the pair of teams in the same matchup with the most total points on season so far, then coin flip.
 1.  <a id="moves">Moves</a>
     1.  Moves are defined as player adds, trades, and drops.
     1.  Players may only be dropped by a manager if the manager intends to immediately replace the slot on his or her roster.
@@ -192,7 +149,7 @@
             1.  During the multipart execution of a threeway trade, managers may object to any component trade, independant of the other trades. Furthermore, managers are not beholden to any agreement to make a trade in the future based on the conditions of any previous trade. For these reasons, threeway trades can never be guarenteed.
         1.  Tradebacks and double trades are disallowed
             1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away without the player falling to Waivers or Free Agency between trades.
-            1.  Double trades are when a manager trades a player that was acquired in a different trade less than 24 hours prior.
+            1.  Double trades are when a manager trades a player that was acquired in a different trade less than 36 hours prior.
             1.  Tradebacks and double trades will be reversed immediately without a vote provided that a single manager points out that a tradeback or double trade occured within 24 hours of such trade.
         1.  Expedited Trades
             1.  Trades are processed immediately by Yahoo, but our rules states that trades may be objected within 24 hours after the trade is made and a vote to overturn a trade may take up to 36 hours after the trades is made.
@@ -234,7 +191,7 @@
             1. Commissioner gives no guarentee that he will act quickly in this situation as his number 1 priority will be to lift the suspension and/or resolve the league vote.
         1.  Conditional moves will be processed after the objection vote in the order which they were publicly communicated to the league chatroom. For this reason, managers are encouraged to post it themselves, rather than wait for the commissioner.
         1.  Managers should not consider specific conditional moves or roster modifications made after an objected move when voting on such objection.
-1.  <a id="voting">Voting</a>
+1.  <a id="voting">Voting and Objections</a>
     1.  The commissioner will be the sole interpreter of all rules.
     1.  For ambiguous situations not clearly covered by the rules, the commissioner will first check for precedent from past rulings or deleted rules that may still be part of common league understanding.
     1.  If no precedent exists, ambiguous situations will be resolved by majority league vote.
@@ -259,16 +216,18 @@
         1.  Managers disqualified from voting will implicitly abstain from the vote.
 1.  <a id="seeding">Seeding</a>
     1.  Regular Season
-        2. Seeding in the regular season will order teams from most to least games won with the added condition that every team who wins their division makes the playoffs (i.e., finishes with a top 6 seed).
+        1. Seeding in the regular season will order teams from most to least games won. The top 7 teams make the playoffs.
     1.  <a id="tie-breakers">Tie breakers</a>
         1.  Most ties in regular season
-        1.  Longest winning streak counting backwards from the end of the regular season.
-        1.  Shortest losing streak counting backwards from the end of the regular season.
-        1.  The previous two conditions will be applied iteratively backwards through the season until the tie is broken.
+        1.  <a id="winning-streaks">Longest win streak / shortest losing streak to end the season</a>
+            1.  Longest winning streak counting backwards from the end of the regular season (i.e., longest win streak to end the year).
+            1.  Shortest losing streak counting backwards from the end of the regular season.
+            1.  The previous two conditions will be applied iteratively backwards through the season until the tie is broken.
+                1.  For example: if two teams both end with 3-game win streaks, we compare their losing streaks before those wins, then their win streaks before those losses, and so on.
         1.  Most points in regular season
         1.  Coin flip 
     1.  <a id="ties">Ties in playoffs</a>
-        1.  In the event of a tied game during the postseason, the win will be awarded to the team with the lower seed.
+        1.  In the event of a tied game during the postseason, the win will be awarded to the team with the bottom seed.
 1.  <a id="abandoned-teams">Amandoned Teams</a>
     1.  Managers should keep an eye on their teams at least once a week, set their lineups in a way that they expect to win their games, and add and drop players to prepare to win more games.
         1.  Managers should stay competitive even if they don't think they can improve their chances of making the playoffs or win prizes.
@@ -294,7 +253,8 @@
     1.  Elective autopilot
         1.  Subject to commissioner approval, any manager may have their team temporarily put on autopilot if they are preoccupied with a life emergency by letting the comissioner know of their preoccupation.
 1.  <a id="outside-influence">Outside influence</a>
-    1.  No external value to the league, including monetary value, may be exchanged between managers for moves or any other manager decision.
+    1.  No external value to the league, including monetary value or a "gentleman's agreement," may be exchanged between managers for moves or any other manager decision.
+        1.  For example, managers may not agree to make a trade today in exchange for an obligation to make some other trade at another time.
     1.  No side bets or games of chance shall be wagered by a manager, aside from those outlined by these rules, that rewards that manager for making a decision that reduces his or her team's chance of winning a match up.
     1.  Breaking rules related to "Outside influence" may result in a majority league vote for disqualification from playoffs, withholding of prizes and/or expulsion from the league.
 1.  <a id="rules-not-stated">Rules Not Stated</a>
