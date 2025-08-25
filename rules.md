@@ -48,7 +48,7 @@
         1.  The winner of the losers bracket wins $100.
         1.  People shouldn't create conflicts of interest with the league.
         1.  If a rule isn't defined well here, we fall back to Yahoo rules. If it's still not clear, we use a league vote.
-        1.  All times in these rules are Eastern Standard Time.
+        1.  All times in these rules are Eastern Time.
         1.  Managers, especially the commissioner, should be competitive, but friendly.
 1.  <a id="teams">Yahoo! Sports Settings and Rules</a>
     1. Many settings are configured on the Yahoo! Sports Fantasy Football platform and have been removed from this rules document. The settings on the app are the source of truth for these. These settings include, but are not limited to the following:
@@ -112,12 +112,13 @@
         1.  Playoffs will take place during weeks 14 through 16.
             1.  Week 14 matchups
                 1.  Seed 2 chooses a team among seeds 3 through 7, that they will play against.
-                    1. This choice must be made on or before 1pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
-                1.  The best remaining seed (lowest number among 3-7, excluding seed 2's choice) chooses their opponent from the remaining teams.
+                    1. This choice must be made on or before 1pm (ET) the Tuesday before the games or the choice will default to the highest available seed number.
+                1.  The best remaining seed (seed 3 or 4, whichever was not chosen by seed 2) chooses their opponent from the remaining teams.
+                    1. This choice must be made on or before 4pm (ET) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  The final two remaining teams play each other.
             1.  Week 15 matchups
                 1.  Seed 1 chooses a team among the three winners of week 14 to play against.
-                    1. This choice must be made on or before 7pm (EST) the Tuesday before the games or the choice will default to the highest available seed number.
+                    1. This choice must be made on or before 1pm (ET) the Tuesday before the games or the choice will default to the highest available seed number.
                 1.  The remaining two winners of week 14 play against each other.
             1.  Week 16 matchups
                 1.  Superbowl
@@ -131,6 +132,11 @@
         1.  Losers Bracket
             1.  A 7 team losers bracket will be set up for teams that do not make the playoffs (seeds 8-14).
             1.  Losers bracket seeding will use the same tie-breaking method as regular season seeding, except total wins and ties will be ignored and the primary seeding method will be winning/losing streaks.
+            1.  Losers bracket opponent selection follows the same rules as the main playoffs:
+                1.  Week 14: Seed 9 chooses first (by 1pm ET Tuesday), then the best remaining seed among 10-14 chooses (by 4pm ET Tuesday).
+                1.  Week 15: Seed 8 chooses among the winners (by 1pm ET Tuesday).
+        1.  Playoff choice delays
+            1.  If the NFL or Yahoo causes a matchup to be incomplete by the time playoff opponent choices are due, or Yahoo delays waivers, then the choice deadline will be delayed until the first day after the matchups are complete or until the last day before the new waiver date.
         1.  FAB bonuses
             1.  Each team that makes the playoffs will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 14.
             1.  Teams in the Superbowl will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 16.
