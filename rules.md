@@ -11,7 +11,7 @@
     1.  [Moves](#moves)
         1.  [Trades](#trades)
     1.  [Objections](#objections)
-        1.  [Undoubtably bad moves](#undoubtably) (the most controversial rule we have, but it's important)
+        1.  [Undoubtedly bad moves](#undoubtedly) (the most controversial rule we have, but it's important)
         1.  [Suspending Moves](#suspending-moves)
     1.  [Voting and Objections](#voting)
     1.  [Seeding](#seeding)
@@ -20,9 +20,6 @@
     1.  [Abandoned Teams](#abandoned-teams)
     1.  [Outside Influence](#outside-influence)
     1.  [Rules Not Stated](#rules-not-stated)
-    1.  [Manager Responsibilities](#responsibilities)
-    1.  [Commissioner Responsibilities](#commissioner)
-    1.  [Incomplete NFL Season](#incomplete)
     1.  [Timezones](#timezones)
 1.  <a id="tldr">Summary</a>
     1.  Disclaimer
@@ -47,7 +44,7 @@
         1.  The winner of the losers bracket wins $100.
         1.  Teams should not create conflicts of interest with the league (e.g., betting that your team will lose or your players will do poorly).
     1.  Additional Rules
-        1.  It's against the rules to stop trying. If you make one or more "[undoubtably bad moves](#undoubtably)", the moves may be reversed, your lineup may be set for you, and your team may be put on autopilot.
+        1.  It's against the rules to stop trying. If you make one or more "[undoubtedly bad moves](#undoubtedly)," the moves may be reversed, your lineup may be set for you, and your team may be put on autopilot.
             1.  Do not stop trying! The weekly prizes, regular season prizes, and $100 for losers bracket mean you can still win your money back.
         1.  Trades are allowed and the trade deadline is week 10.
         1.  Trades will process immediately by Yahoo, but any manager may object within 24 hours and the trade will be reversed if a majority votes against it.
@@ -75,34 +72,34 @@
         1.  <a id="choosing-opponents">Playoffs will take place during weeks 14 through 16.</a>
             1.  Week 14 matchups
                 1.  Seed 2 chooses a team among seeds 3 through 7, that they will play against.
-                    1. This choice must be made on or before 1pm (ET) the Tuesday before the games or the choice will default to the bottom seed.
+                    1. This choice must be made on or before 1:00 PM (ET) on the Tuesday before the games, or the choice will default to the bottom seed.
                 1.  The top remaining seed (seed 3 or 4, whichever was not chosen by seed 2) chooses their opponent from the remaining teams.
-                    1. This choice must be made on or before 4pm (ET) the Tuesday before the games or the choice will default to the bottom seed.
+                    1. This choice must be made on or before 4:00 PM (ET) on the Tuesday before the games, or the choice will default to the bottom seed.
                 1.  The final two remaining teams play each other.
             1.  Week 15 matchups
                 1.  Seed 1 chooses a team among the three winners of week 14 to play against.
-                    1. This choice must be made on or before 1pm (ET) the Tuesday before the games or the choice will default to the bottom seed.
+                    1. This choice must be made on or before 1:00 PM (ET) on the Tuesday before the games, or the choice will default to the bottom seed.
                 1.  The remaining two winners of week 14 play against each other.
             1.  Week 16 matchups
-                1.  Superbowl
-                    1.  Two teams that won week 15 faceoff.
+                1.  Super Bowl
+                    1.  Two teams that won week 15 face off.
                     1.  Winner is 1st place
                     1.  Loser is 2nd place
                 1.  3rd place game
-                    1.  Two teams that lost week 15 faceoff.
+                    1.  Two teams that lost week 15 face off.
                     1.  Winner is 3rd place
                     1.  Loser is 4th place
         1.  Losers Bracket
             1.  A 7 team losers bracket will be set up for teams that do not make the playoffs (seeds 8-14).
             1.  Losers bracket seeding will use the same tie-breaking method as regular season seeding, except total wins and ties will be ignored and the primary seeding method will be [winning/losing streaks](#winning-streaks).
             1.  Losers bracket opponent selection follows the same rules as the main playoffs:
-                1.  Week 14: Seed 9 chooses first (by 1pm ET Tuesday), then the top remaining seed among 10-14 chooses (by 4pm ET Tuesday).
-                1.  Week 15: Seed 8 chooses among the winners (by 1pm ET Tuesday).
+                1.  Week 14: Seed 9 chooses first (by 1:00 PM ET Tuesday), then the top remaining seed among 10-14 chooses (by 4:00 PM ET Tuesday).
+                1.  Week 15: Seed 8 chooses among the winners (by 1:00 PM ET Tuesday).
         1.  Playoff choice delays
             1.  If the NFL or Yahoo causes a matchup to be incomplete by the time playoff opponent choices are due, or Yahoo delays waivers, then the choice deadline will be delayed until the first day after the matchups are complete or until the last day before the new waiver date.
         1.  FAB bonuses
             1.  Each team that makes the playoffs will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 14.
-            1.  Teams in the Superbowl will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 16.
+            1.  Teams in the Super Bowl will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 16.
             1.  Teams in the 3rd place game will receive half the amount of FAB they started the season with credited on top of their existing balance at the start of week 16.
         1.  Team locking
             1.  Teams will be locked once they are no longer in contention for 1st place, 3rd place, or winner of the losers bracket.
@@ -139,36 +136,36 @@
             1.  Ties will go to the team who scored the most points in the weeks that their earned their point for this prize, or a coin flip if still tied.
         1.  Weekly prizes ($400)
             1.  During weeks 10-13, each team in the top scoring matchup will win $50 each week.
-            1.  If there is a tie for highest scoring matchup, the tie goes to the pair of teams in the same matchup with the most total points on season so far, then coin flip.
+            1.  If there is a tie for highest scoring matchup, the tie goes to the pair of teams in the same matchup with the most total points in the season so far, then coin flip.
 1.  <a id="moves">Moves</a>
     1.  Moves are defined as player adds, trades, and drops.
-    1.  Players may only be dropped by a manager if the manager intends to immediately replace the slot on his or her roster.
+    1.  Players may only be dropped by a manager if the manager intends to immediately fill the slot on his or her roster.
     1.  <a id="trades">Trades</a>
         1.  Trades may only involve two teams.
-            1.  Threeway trades may be proposed or discussed, but the managers must work out a way to execute the trade in multiple steps using only two managers at a time.
-            1.  During the multipart execution of a threeway trade, managers may object to any component trade, independant of the other trades. Furthermore, managers are not beholden to any agreement to make a trade in the future based on the conditions of any previous trade. For these reasons, threeway trades can never be guarenteed.
+            1.  Three-way trades may be proposed or discussed, but the managers must work out a way to execute the trade in multiple steps using only two managers at a time.
+            1.  During the multipart execution of a three-way trade, managers may object to any component trade, independent of the other trades. Furthermore, managers are not beholden to any agreement to make a trade in the future based on the conditions of any previous trade. For these reasons, three-way trades can never be guaranteed.
         1.  Tradebacks and double trades are disallowed
             1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away without the player falling to Waivers or Free Agency between trades.
             1.  Double trades are when a manager trades a player that was acquired in a different trade less than 36 hours prior.
-            1.  Tradebacks and double trades will be reversed immediately without a vote provided that a single manager points out that a tradeback or double trade occured within 24 hours of such trade.
+            1.  Tradebacks and double trades will be reversed immediately without a vote provided that a single manager points out that a tradeback or double trade occurred within 24 hours of such trade.
         1.  Expedited Trades
-            1.  Trades are processed immediately by Yahoo, but our rules states that trades may be objected within 24 hours after the trade is made and a vote to overturn a trade may take up to 36 hours after the trades is made.
+            1.  Trades are processed immediately by Yahoo, but our rules state that trades may be objected to within 24 hours after the trade is made and a vote to overturn a trade may take up to 36 hours after the trade is made.
             1.  Managers who make a trade to acquire a player less than 36 hours before they are expected to play may make [conditional moves or roster modifications](#conditional-moves) to be prepared for the case that their trade is objected and overturned.
 1.  <a id="objections">Objections</a>
-    1.  Any move may be objected by any manager within 24 hours after the move is made.
+    1.  Any move may be objected to by any manager within 24 hours after the move is made.
         1.  For trades this period starts when the trade is processed by Yahoo.
-    1.  <a id="undoubtably">Undoubtably bad moves</a>
-        1.  A manager must not take any actions, including making [moves](#moves) and setting active players, such that at the time the action is initiated it undoubtably diminishes the value of his or her team by reducing such team's chances of making the playoffs, finishing the regular season with the best possible seed, or winning the current matchup.
+    1.  <a id="undoubtedly">Undoubtedly bad moves</a>
+        1.  A manager must not take any actions, including making [moves](#moves) and setting active players, such that at the time the action is initiated it undoubtedly diminishes the value of his or her team by reducing such team's chances of making the playoffs, finishing the regular season with the best possible seed, or winning the current matchup.
             1.  Such actions may include, but are not limited to:
                 1.  Leaving roster positions empty when a healthy alternative was available on the bench or free agency (FA).
                 1.  Putting a player on active roster that has been long known to be not participating in the given week.
                 1.  Dropping an exceptionally valuable player when a significantly lesser valued alternative player was available to be dropped.
             1.  Exceptions may include:
-                1.  Pulling (or not pulling) a player from active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
+                1.  Pulling (or not pulling) a player from the active roster after the manager's team has gained a lead that would be at risk if the player scored negative points.
                 1.  In rare cases, leaving a roster position empty because no alternative exists on the bench and no benched player is worth dropping.
             1.  A successful objection regarding a roster decision to activate a specific player shall result in that players position on the roster being filled using the [autopilot](#autopilot) protocol.
             1.  Commissioner may make executive decisions at gametime to put a team on autopilot in cases of extraordinary neglect to prevent a league vote from delaying the correction.
-                1.  Comissioner will do his best to notify and get approval from as much of the league as possible before such decisions.
+                1.  Commissioner will do his best to notify and get approval from as much of the league as possible before such decisions.
                 1.  A league vote may reverse these executive decisions.
     1.  Waiver abuse
         1.  If a player is suspected of dropping and picking up players from free agency for the sole significant purpose of moving players to waivers, any moves made to accomplish this may be objected.
@@ -178,7 +175,7 @@
         1.  A manager may declare their intention to object by posting in the league chatroom stating the intention to object.
         1.  An objection is not considered initiated until another manager seconds the intention to object.
         1.  Both the original intention to object and the seconding of the intention to object shall count as vote in favor of the objection.
-        1.  Whenever an objection is initiated, the commissioner will clearly explain the situation publically to the league and outline the procedure for resolving it.
+        1.  Whenever an objection is initiated, the commissioner will clearly explain the situation publicly to the league and outline the procedure for resolving it.
         1.  When an objection is initiated, each manager in the league will have until 24 hours after the time the objection is initiated to perform a majority league vote to determine the outcome of the objection, but the entire process must complete within 36 hours of the original trade.
     1.  If an objection vote passes, the commissioner will do his best to reverse the actions that have been done as a result of the objection.
         1.  In some cases, this may include reversing other actions by other teams, if they are determined by a majority league vote to have been responses to the original objected action.
@@ -186,9 +183,9 @@
     1.  <a id="suspending-moves">In order to prevent multiple objections, the commissioner may suspend certain actions, including but not limited to moves, during a league vote until the vote is complete.</a>
         1.  The commissioner will do his best to act quickly to finish an objection vote, in an attempt to avoid suspending moves.
     1.  <a id="conditional-moves">Conditional Moves and Roster Modifictions</a>
-        1.  In the event moves are suspended or a vote is in progress that will affect a managers ability or willingness to make a move, managers may request to conditionally, based on the outcome of the objection vote, make a move.
-        1.  Conditional moves or roster modifictaions can be made by clearly stating the intention in the league chatroom or by communicating it to the commissioner who will then publically add it to the league chatroom.
-            1. Commissioner gives no guarentee that he will act quickly in this situation as his number 1 priority will be to lift the suspension and/or resolve the league vote.
+        1.  In the event moves are suspended or a vote is in progress that will affect a manager's ability or willingness to make a move, managers may request to conditionally, based on the outcome of the objection vote, make a move.
+        1.  Conditional moves or roster modifications can be made by clearly stating the intention in the league chatroom or by communicating it to the commissioner who will then publicly add it to the league chatroom.
+            1. The commissioner gives no guarantee that he will act quickly in this situation, as his number one priority will be to lift the suspension and/or resolve the league vote.
         1.  Conditional moves will be processed after the objection vote in the order which they were publicly communicated to the league chatroom. For this reason, managers are encouraged to post it themselves, rather than wait for the commissioner.
         1.  Managers should not consider specific conditional moves or roster modifications made after an objected move when voting on such objection.
 1.  <a id="voting">Voting and Objections</a>
@@ -203,13 +200,13 @@
     1.  Majority votes shall pass if at least half of the teams who didn't abstain, vote yes.
         1. A majority vote shall pass immediately when this condition is met.
     1.  An objection shall constitute a yes vote to reverse the objected action.
-    1.  All votes must be cast publicly, in the league chatroom, unconditionally, unambiguously, and by the manager who's opinion they represent.
+    1.  All votes must be cast publicly, in the league chatroom, unconditionally, unambiguously, and by the manager whose opinion they represent.
         1.  Managers may change their vote at any time by casting a new vote that fits this criteria. The new vote will replace the old vote.
     1.  A majority vote will be required for:
         1.  Objections to trades, undoubtedly bad moves or roster decisions, waiver abuse, and any other moves that may be appropriately objected.
         1.  Disambiguating any rules.
     1.  Managers are disqualified from voting on a particular issue if they are directly involved with what is being voted upon.
-        1.  Commissioner may make initial ruling, but will not participate in the league vote if he is directly involved.
+        1.  The commissioner may make an initial ruling, but will not participate in the league vote if he is directly involved.
         1.  Managers directly involved include but are not limited to
             1.  Managers gaining or losing players in a trade.
             1.  Managers matched up against a team that's being accused of making poor roster decisions.
@@ -225,12 +222,12 @@
             1.  The previous two conditions will be applied iteratively backwards through the season until the tie is broken.
                 1.  For example: if two teams both end with 3-game win streaks, we compare their losing streaks before those wins, then their win streaks before those losses, and so on.
         1.  Most points in regular season
-        1.  Coin flip 
+        1.  Coin flip.
     1.  <a id="ties">Ties in playoffs</a>
         1.  In the event of a tied game during the postseason, the win will be awarded to the team with the bottom seed.
-1.  <a id="abandoned-teams">Amandoned Teams</a>
+1.  <a id="abandoned-teams">Abandoned Teams</a>
     1.  Managers should keep an eye on their teams at least once a week, set their lineups in a way that they expect to win their games, and add and drop players to prepare to win more games.
-        1.  Managers should stay competitive even if they don't think they can improve their chances of making the playoffs or win prizes.
+        1.  Managers should stay competitive even if they don't think they can improve their chances of making the playoffs or winning prizes.
     1.  Teams who fail to stay competitive may be declared abandoned and put through the abandoned team protocol if the following conditions are met.
         1.  A manager in the league accuses a manager of neglecting their team.
             1.  The accusing manager should describe the nature of the neglect.
@@ -241,7 +238,7 @@
     1.  <a id="autopilot">Autopilot</a>
         1.  When a team is placed on autopilot, the commissioner will set their line up each week in a predetermined fashion.
         1.  Any conditional moves or conditional roster modifications made by the manager will supersede the following rules provided that they are not successfully objected to.
-        1.  At time of the start of each game, the starting roster will be set to the players on the team or available on FA that have the greatest Yahoo projection. Ties in projections will be broken by coin flip.
+        1.  At the time of the start of each game, the starting roster will be set to the players on the team or available on FA that have the greatest Yahoo projection. Ties in projections will be broken by coin flip.
         1.  Setting the roster may be done slightly after the game starts so that the projections lock in to their final value before the decision is made and so that any other team not on autopilot may have first dibs on any player.
         1.  If a player must be dropped to accommodate a FA add, the dropped player will be chosen using the following method:
             1.  If at any point, only one player is left, drop him.
@@ -251,7 +248,7 @@
             1.  Drop the remaining player with the smallest maximum projected weekly score left of the weeks leading to week 14 in the regular season and 17 in the playoffs.
     1.  The commissioner may at any time call a majority league vote to take a team off autopilot.
     1.  Elective autopilot
-        1.  Subject to commissioner approval, any manager may have their team temporarily put on autopilot if they are preoccupied with a life emergency by letting the comissioner know of their preoccupation.
+        1.  Subject to commissioner approval, any manager may have their team temporarily put on autopilot if they are preoccupied with a life emergency by letting the commissioner know of their preoccupation.
 1.  <a id="outside-influence">Outside influence</a>
     1.  No external value to the league, including monetary value or a "gentleman's agreement," may be exchanged between managers for moves or any other manager decision.
         1.  For example, managers may not agree to make a trade today in exchange for an obligation to make some other trade at another time.
@@ -260,77 +257,5 @@
 1.  <a id="rules-not-stated">Rules Not Stated</a>
     1.  All rules not stated in this document will be settled by our league configuration on Yahoo! Sports.
     1.  Anything still left ambiguous may be determined by a majority league vote.
-1.  <a id="responsibilities">Manager responsibilities</a>
-    1.  Managers should do their best to win each and every matchup.
-    1.  Managers should look out for actions which seem to break the rules and call them out to the commissioner or publicly object.
-    1.  Managers should be respectful of all other managers in the league and the rules of the league.
-    1.  Managers should use common sense and ethics when presented with a questionably legal or moral decision.
-    1.  Managers should not celebrate the injury of a real life player.
-1.  <a id="commissioner">Commissioner responsibilities</a>
-    1.  Commissioner will do his best to explain the rules and consequences of any event or action.
-    1.  Commissioner will be the sole interpreter of all rules.
-    1.  Commissioner will make himself available to answer all reasonable questions in a reasonable time frame.
-    1.  Commissioner will hold all prize money in a safe place, unassociated with personal funds.
-    1.  Commissioner will always be a skeptic and play "devil's advocate" in decisions, even if he already has a strong opinion.
-1. <a id="incomplete">Incomplete NFL Season</a>
-    1. Completed weeks
-        1.  A week in the NFL will be considered completed if at least 8 games are played and scored.
-        1.  Any week that is not completed will be voided from this league and no wins, losses, ties, or points will be counted toward any totals for prize payout or seeding purposes.
-        1.  The regular season will be considered to be completed if at least 8 regular season weeks are completed.
-    1.  If the NFL does not play a full season, the league fees and prizes may be modified as described in this section.
-        1. League Fees
-            1.  If no regular season weeks are completed, all league fees will be returned.
-            1.  If 1 to 3 regular season weeks are completed, league fees will be adjusted to $50.
-            1.  If 4 to 7 regular season weeks are completed, league fees will be adjusted to $100.
-            1.  If at least 8 regular season weeks are completed and no playoff weeks are completed, league fees will be adjusted to $150.
-            1.  If 8 to 14 regular season weeks are completed and at least one playoff week is completed, league fees will remain $200.
-        1. Prizes
-            1.  Any split prizes will be rounded down to the nearest $1 and the remaining change will be given to the tied team with the highest points or to a randomly chosen team if still tied.
-            1.  If no regular season weeks are completed, no prizes will be paid.
-            1.  If at least 1 regular season week is completed, Best Worst Player ($50) and Points ($150) will be paid as usual.
-            1.  If at least 2 regular season weeks are completed, Best Worst Week ($50) and Best Week ($50) will be paid as usual.
-            1.  If at least 3 regular season weeks are completed, Most Best Weeks ($50) will be paid as usual.
-            1.  If at least 4 regular season weeks are completed, Weekly Prizes ($400 total) will be applied to the final 4 weeks of the regular season games that are completed.
-            1.  If the regular season is not completed, each of the following rules will supersede:
-                1.  The playoffs will be canceled and considered not completed
-                1.  No playoff prizes will be paid
-                1.  All remaining prize funds will be distributed as:
-                    1.  40% to the 1st in standings
-                    1.  30% to the 2nd in standings
-                    1.  20% to the 3rd in standings
-                    1.  10% to the 4th in standings
-            1.  If the regular season is completed, but some playoff weeks are not completed, the following rules will supersede:
-                1.  If week 15 is completed:
-                    1.  Week 15 rules act as usual
-                    1.  The 2 losing teams win the 5th and 6th place prizes.
-                    1.  If week 16 is completed:
-                        1.  The two winners of week 16 split the 1st and 2nd place prizes.
-                        1.  The two losers of week 16 split the 3rd and 4th place prizes.
-                    1.  If week 16 is not completed:
-                        1.  Week 17 is prepared to be played as both weeks 16 and 17 under the usual set of rules.
-                        1.  The 1 seed chooses who they would like to play against as the week 16 game during week 17 while the other two teams play against each other.
-                        1.  The two winners of the fake week 16 game are simulated to play each other in the superbowl using the same scores to determine 1st and 2nd place.
-                        1.  The two losers of the fake week 16 game are simulated to play each other in the 3rd place game using the same scores to determine 3rd and 4th place.
-                        1.  If week 17 is not played, the final 4 teams split 1st, 2nd, 3rd, and 4th.
-                1.  If week 15 is not completed:
-                    1.  Week 16 is prepared to be played as both weeks 15 and 16 under the usual set of rules.
-                    1.  The 2 seed choose their matchup for the fake week 15 game as usual.
-                    1.  The 1 seed chooses rank order who they'd like to play against in the week 16 game depending on the results of the fake week 15 game before it's played.
-                    1.  If week 16 is completed:
-                        1.  The two winning teams move on to the Superbowl while the two losing teams move on the the 3rd place game.
-                        1.  If week 17 is not completed, the top two teams split 1st and 2nd while the bottom two teams split 3rd and 4th.
-                    1.  If week 16 is not completed:
-                        1.  Week 17 is prepared to be a combination of weeks 15, 16, and 17 using the same methods as described above for combining weeks 15 and 16 and combining weeks 16 and 17.
-                        1.  If week 17 is not completed:
-                            1. The 1st ($100) and 2nd ($50) place in regular season prizes are replaced with the following prizes for standings in the regular season:
-                                1. 1st - $500
-                                2. 2nd - $250
-                                3. 3rd - $200
-                                4. 4th - $150
-                                5. 5th through 7th - $100 each
-    1.  Regular Season Standings
-        1.  If less than 4 weeks are completed, regular season standings will be based solely on total points.
-        1.  If less than 8 weeks are completed, there will be no tie breakers for regular season standings. Instead any prize paid to a specific standing will be split by all teams who tied for that position.
-        1.  If less than 14 weeks are completed, head to head tie breakers will only be used if all teams being compared played the same number of head to head games.
 1. <a id="time">Timezones</a>
-    1. All times in these rules are Easter Standard Time unless otherwise stated.
+    1. All times in these rules are Eastern Time unless otherwise stated.
