@@ -154,13 +154,15 @@
             1.  Managers will have a chance to review the rules before committing to the league.
                 1.  If 12 managers do not commit, the initial payment will be refunded.
     1.  <a id="payouts">Payouts</a>
-        1.  Playoffs ($1,850 total)
-            1.  1st place - $1,000
-            1.  2nd place - $400
+        1.  Playoffs ($1,900 total)
+            1.  1st place - $1,100
+            1.  2nd place - $450
             1.  3rd place - $350
             1.  4th place - $100
-        1.  Points ($200)
-            1.  Most points in the regular season - $200
+        1.  Losers bracket ($100)
+            1.  Winner of the losers bracket will win $100.
+        1.  Points ($100)
+            1.  Most points in the regular season - $100
         1.  Best worst player ($50)
             1.  Each team will have a chance to win best worst player every week.
             1.  In a single week, a team's "worst player" is the active player that scores the least points on a team that fills all roster positions for that week.
@@ -179,13 +181,8 @@
             1.  At the end of the regular season, the team with the most points will win.
             1.  Ties will go to the team who scored the most points in the weeks that their earned their point for this prize, or a coin flip if still tied.
         1.  Weekly prizes ($400)
-            1.  Each team in the top scoring matchup during weeks 10, 11, 12, and 13 will win $50 each.
+            1.  During weeks 10-13, each team in the top scoring matchup will win $50 each week.
             1.  If there is a tie for highest scoring matchup, the prize will be split among all tied teams.
-        1.  Most FAB ($50)
-            1.  The team that makes the playoffs with the most FAB remaining will win $50.
-            1.  Ties will be broken by highest waiver priority (same as FAB tie-breaking for player pickups).
-        1.  Losers bracket ($100)
-            1.  Winner of the losers bracket will win $100.
         1.  All prizes will be paid out no later than the real NFL Super Bowl.
         1.  After week 15, any players remaining in the playoffs may renegotiate the prizes for 1st through 4th place provided that the new prize distribution is proposed to the commissioner by the highest seeded remaining manager and all other remaining managers accept.
 1.  <a id="moves">Moves</a>
