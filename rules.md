@@ -245,7 +245,7 @@
             1.  Once enough players are dropped to meet the roster size requirement, stop.
             1.  Exclude dropping any players on Yahoo's can't cut list.
             1.  Exclude dropping any players of any position that would prepare to leave the team in a future state of not being able to fill the team with players projected more than 0 points unless this excludes all players.
-            1.  Drop the remaining player with the smallest maximum projected weekly score left of the weeks leading to week 14 in the regular season and 17 in the playoffs.
+            1.  Drop the remaining player with the smallest maximum projected weekly score left of the remaining weeks through the end of the regular season (if the move is during regular season) or through Super Bowl week (if the move is during playoffs).
     1.  The commissioner may at any time call a majority league vote to take a team off autopilot.
     1.  Elective autopilot
         1.  Subject to commissioner approval, any manager may have their team temporarily put on autopilot if they are preoccupied with a life emergency by letting the commissioner know of their preoccupation.
