@@ -49,14 +49,13 @@
             1.  Do not stop trying! The weekly prizes, regular season prizes, and $100 for losers bracket mean you can still win your money back.
         1.  Trades are allowed and the trade deadline is week 10.
         1.  Trades will process immediately by Yahoo, but any manager may object within 24 hours and the trade will be reversed if a majority votes against it.
-        1.  We use longest [win-streak](#winning-streaks) to end the year as a tie-breaking method for the playoffs and as the primary seeding method for the losers bracket to make sure the final weeks are always competitive.
+        1.  We use [longest win-streak](#winning-streaks) to end the year as a tie-breaking method for the playoffs and as the primary seeding method for the losers bracket to make sure the final weeks are always competitive.
         1.  Top seeded playoff teams [choose their opponents](#choosing-opponents) each week.
-        1.  Playoff teams receive [FAB bonuses](#playoffs) during the playoffs.
+        1.  Playoff teams receive [FAB bonuses](#playoffs) during the playoffs so that they maintain waiver priority over losers bracket.
         1.  Teams get locked in the post-season when out of contention for top 4 or losers bracket winner.
-        1.  If a rule isn't defined here, we fall back on Yahoo rules.
-        1.  If a rule is ambiguous, we have a league vote.
+        1.  If a rule isn't defined here, we fall back on Yahoo's rules.
+        1.  If a rule is still ambiguous, we have a league vote.
         1.  All times are Eastern Time (ET).
-        1.  Managers, especially the commissioner, should be competitive, but friendly.
 1.  <a id="draft">Draft</a>
     1.  Live snake draft on Monday, September 1 at 8:45pm ET.
     1.  Draft order will be determined after all teams commit to the league by paying their league dues and at least 1 hour before the draft.
