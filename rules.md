@@ -1,5 +1,5 @@
 1.  Table of contents
-    1.  [TLDR](#tldr)
+    1.  [Summary](#summary)
     1.  [Managers](#managers)
     1.  [Draft](#draft)
     1.  [Schedule](#schedule)
@@ -21,7 +21,7 @@
     1.  [Outside Influence](#outside-influence)
     1.  [Rules Not Stated](#rules-not-stated)
     1.  [Timezones](#timezones)
-1.  <a id="tldr">Summary</a>
+1.  <a id="summary">Summary</a>
     1.  Disclaimer
         1.  This section provides a brief summary for those who don't need all the details.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
