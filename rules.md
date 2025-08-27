@@ -26,7 +26,8 @@
         1.  This section provides a brief summary for those who don't need all the details.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
     1.  League Settings
-        1.  14 teams, no keepers.
+        1.  14 teams
+        1.  No keepers / fresh start every year
         1.  Live snake draft on Monday, September 1 at 8:45pm ET.
         1.  Roster: 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, 1 DST, 4 bench, 2 IR.
         1.  Regular season: 13 weeks, each team plays every other team once.
