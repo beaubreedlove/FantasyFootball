@@ -25,37 +25,36 @@
     1.  Disclaimer
         1.  This section provides a brief summary for those who don't need all the details.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
-    1.  League Settings
+    1.  [League Settings](https://football.fantasysports.yahoo.com/f1/456171/settings)
         1.  14 teams
         1.  No keepers / fresh start every year
-        1.  Live snake draft on Monday, September 1 at 8:45pm ET.
+        1.  Live snake [draft](#draft) on Monday, September 1 at 8:45pm ET.
         1.  Roster: 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, 1 DST, 4 bench, 2 IR.
-        1.  Regular season: 13 weeks, each team plays every other team once.
-        1.  Playoffs: 7 teams over 3 weeks (14-16), with 1 bye.
-        1.  Trade deadline is week 10.
+        1.  [Regular season](#regular-season): 13 weeks, each team plays every other team once.
+        1.  [Playoffs](#playoffs): 7 teams over 3 weeks (14-16), with 1 bye.
+        1.  Trade deadline is Saturday of week 10.
         1.  FAB waivers with least recently used tie-breaking.
         1.  Decimal and negative scoring enabled.
         1.  All other league and scoring settings can be found on the [Yahoo Fantasy settings page](https://football.fantasysports.yahoo.com/f1/456171/settings).
     1.  Money Rules
-        1.  League fee is $200.
-        1.  Playoff finishers win money: 1st ($1,100), 2nd ($450), 3rd ($350), and 4th ($100).
-        1.  The team who scores the most points wins $100.
-        1.  4 other regular season prizes of $50 each.
-        1.  Weekly prizes: $50 for each team in the top scoring matchup during weeks 10-13.
-        1.  The winner of the losers bracket wins $100.
-        1.  Teams should not create conflicts of interest with the league (e.g., betting that your team will lose or your players will do poorly).
+        1.  [League fee](#fees) is $200.
+        1.  Top 4 [playoff finishers](#playoff-payouts) win money: 1st ($1,100), 2nd ($450), 3rd ($350), and 4th ($100).
+        1.  The team who scores the [most points](#points-prize) wins $100.
+        1.  4 other [regular season prizes](#regular-season-prizes) of $50 each.
+        1.  [Weekly prizes](#weekly-prizes): $50 for each team in the top scoring matchup during weeks 10-13.
+        1.  The winner of the [losers bracket](#losers-bracket-prize) wins $100.
+        1.  Teams should not create [conflicts of interest](#outside-influence) with the league (e.g., betting that your team will lose or your players will do poorly).
     1.  Additional Rules
         1.  It's against the rules to stop trying. If you make one or more "[undoubtedly bad moves](#undoubtedly)," the moves may be reversed, your lineup may be set for you, and your team may be put on autopilot.
             1.  Do not stop trying! The weekly prizes, regular season prizes, and $100 for losers bracket mean you can still win your money back.
-        1.  Trades are allowed and the trade deadline is week 10.
-        1.  Trades will process immediately by Yahoo, but any manager may object within 24 hours and the trade will be reversed if a majority votes against it.
+        1.  [Trades](#expedited-trades) will process immediately by Yahoo, but any manager may object within 24 hours and the trade will be reversed if a majority votes against it.
         1.  We use [longest win-streak](#winning-streaks) to end the year as a tie-breaking method for the playoffs and as the primary seeding method for the losers bracket to make sure the final weeks are always competitive.
         1.  Top seeded playoff teams [choose their opponents](#choosing-opponents) each week.
-        1.  Playoff teams receive [FAB bonuses](#playoffs) during the playoffs so that they maintain waiver priority over losers bracket.
-        1.  Teams get locked in the post-season when out of contention for top 4 or losers bracket winner.
-        1.  If a rule isn't defined here, we fall back on Yahoo's rules.
-        1.  If a rule is still ambiguous, we have a league vote.
-        1.  All times are Eastern Time (ET).
+        1.  Playoff teams receive [FAB bonuses](#fab-bonuses) during the playoffs so that they maintain waiver priority over losers bracket.
+        1.  [Teams get locked in the post-season](#team-locking) when out of contention for top 4 or losers bracket winner.
+        1.  If a [rule isn't defined](#rules-not-stated) here, we fall back on Yahoo's rules.
+        1.  If a [rule is still ambiguous](#ambiguous-votes), we have a league vote.
+        1.  [All times are Eastern Time (ET).](#time)
 1.  <a id="draft">Draft</a>
     1.  Live snake draft on Monday, September 1 at 8:45pm ET.
     1.  Draft order will be determined after all teams commit to the league by paying their league dues and at least 1 hour before the draft.
@@ -97,44 +96,45 @@
                 1.  Week 15: Seed 8 chooses among the winners (by 1:00 PM ET Tuesday).
         1.  Playoff choice delays
             1.  If the NFL or Yahoo causes a matchup to be incomplete by the time playoff opponent choices are due, or Yahoo delays waivers, then the choice deadline will be delayed until the first day after the matchups are complete or until the last day before the new waiver date.
-        1.  FAB bonuses
+        1.  <a id="fab-bonuses">FAB bonuses</a>
             1.  Each team that makes the playoffs will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 14.
             1.  Teams in the Super Bowl will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 16.
             1.  Teams in the 3rd place game will receive half the amount of FAB they started the season with credited on top of their existing balance at the start of week 16.
-        1.  Team locking
+        1.  <a id="team-locking">Team locking</a>
             1.  Teams will be locked once they are no longer in contention for 1st place, 3rd place, or winner of the losers bracket.
 1.  <a id="money">Money</a>
     1.  <a id="fees">League Fees</a>
         1.  Payment
             1.  A one time payment of $200 will be collected by the commissioner from each team manager.
     1.  <a id="payouts">Payouts</a>
-        1.  Playoffs ($2,000 total)
+        1.  <a id="playoff-payouts">Playoffs ($2,000 total)</a>
             1.  1st place - $1,100
             1.  2nd place - $450
             1.  3rd place - $350
             1.  4th place - $100
-        1.  Losers bracket ($100)
+        1.  <a id="losers-bracket-prize">Losers bracket ($100)</a>
             1.  Winner of the losers bracket will win $100.
-        1.  Points ($100)
+        1.  <a id="points-prize">Points ($100)</a>
             1.  Most points in the regular season wins $100.
-        1.  Best worst player ($50)
-            1.  Each team will have a chance to win best worst player every week.
-            1.  In a single week, a team's "worst player" is the active player that scores the least points on a team that fills all roster positions for that week.
-            1.  The best worst player award will go to the manager of the team who had the highest scoring worst player in any single week of the year.
-            1.  Ties will go to the team with the better 2nd worst player on the given week, then 3rd, 4th, and so on.
-        1.  Best worst week ($50)
-            1.  At the end of the year, each team's "worst week" will be defined as the week that they scored their minimum score.
-            1.  A manager will win best worst week if their team's worst week had a higher score than any other team.
-            1.  Ties will go to the team with the better 2nd worst week, then 3rd, 4th, and so on.
-        1.  Best week ($50)
-            1.  Each team will have a chance to win best week every week.
-            1.  The team with the highest scoring single week will win.
-            1.  Ties will go to the team with the 2nd highest scoring week, then 3rd, 4th, and so on.
-        1.  Most best weeks ($50)
-            1.  Each week, the team with the highest score will be awarded 1 point toward this prize.
-            1.  At the end of the regular season, the team with the most points will win.
-            1.  Ties will go to the team who scored the most points in the weeks that their earned their point for this prize, or a coin flip if still tied.
-        1.  Weekly prizes ($400)
+        1.  <a id="regular-season-prizes">Regular Season Prizes ($200 total)</a>
+            1.  Best worst player ($50)
+                1.  Each team will have a chance to win best worst player every week.
+                1.  In a single week, a team's "worst player" is the active player that scores the least points on a team that fills all roster positions for that week.
+                1.  The best worst player award will go to the manager of the team who had the highest scoring worst player in any single week of the year.
+                1.  Ties will go to the team with the better 2nd worst player on the given week, then 3rd, 4th, and so on.
+            1.  Best worst week ($50)
+                1.  At the end of the year, each team's "worst week" will be defined as the week that they scored their minimum score.
+                1.  A manager will win best worst week if their team's worst week had a higher score than any other team.
+                1.  Ties will go to the team with the better 2nd worst week, then 3rd, 4th, and so on.
+            1.  Best week ($50)
+                1.  Each team will have a chance to win best week every week.
+                1.  The team with the highest scoring single week will win.
+                1.  Ties will go to the team with the 2nd highest scoring week, then 3rd, 4th, and so on.
+            1.  Most best weeks ($50)
+                1.  Each week, the team with the highest score will be awarded 1 point toward this prize.
+                1.  At the end of the regular season, the team with the most points will win.
+                1.  Ties will go to the team who scored the most points in the weeks that their earned their point for this prize, or a coin flip if still tied.
+        1.  <a id="weekly-prizes">Weekly prizes ($400)</a>
             1.  During weeks 10-13, each team in the top scoring matchup will win $50 each week.
             1.  If there is a tie for highest scoring matchup, the tie goes to the pair of teams in the same matchup with the most total points in the season so far, then coin flip.
 1.  <a id="moves">Moves</a>
@@ -148,7 +148,7 @@
             1.  Tradebacks are when a manager makes a trade to gain a player that he or she once traded away without the player falling to Waivers or Free Agency between trades.
             1.  Double trades are when a manager trades a player that was acquired in a different trade less than 36 hours prior.
             1.  Tradebacks and double trades will be reversed immediately without a vote provided that a single manager points out that a tradeback or double trade occurred within 24 hours of such trade.
-        1.  Expedited Trades
+        1.  <a id="expedited-trades">Expedited Trades</a>
             1.  Trades are processed immediately by Yahoo, but our rules state that trades may be objected to within 24 hours after the trade is made and a vote to overturn a trade may take up to 36 hours after the trade is made.
             1.  Managers who make a trade to acquire a player less than 36 hours before they are expected to play may make [conditional moves or roster modifications](#conditional-moves) to be prepared for the case that their trade is objected and overturned.
 1.  <a id="objections">Objections</a>
@@ -191,7 +191,7 @@
 1.  <a id="voting">Voting and Objections</a>
     1.  The commissioner will be the sole interpreter of all rules.
     1.  For ambiguous situations not clearly covered by the rules, the commissioner will first check for precedent from past rulings or deleted rules that may still be part of common league understanding.
-    1.  If no precedent exists, ambiguous situations will be resolved by majority league vote.
+    1.  <a id="ambiguous-votes">If no precedent exists, ambiguous situations will be resolved by majority league vote.</a>
     1.  League votes should be completed within 24 hours with each team manager voting yes (to make some change) or no (to keep things as they are).
     1.  Managers may abstain from a vote.
         1. Managers who abstain will have their vote counted as a "no" for any votes lasting less than 24 hours.
