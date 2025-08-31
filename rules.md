@@ -7,7 +7,7 @@
         1.  [Playoffs](#playoffs)
     1.  [Money](#money)
         1.  [League Fees](#fees)
-        1.  [Payouts ($2,800 total)](#payouts)
+        1.  [Payouts ($2,400 total)](#payouts)
     1.  [Moves](#moves)
         1.  [Trades](#trades)
     1.  [Objections](#objections)
@@ -26,22 +26,22 @@
         1.  This section provides a brief summary for those who don't need all the details.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
     1.  [League Settings](https://football.fantasysports.yahoo.com/f1/456171/settings)
-        1.  14 teams
+        1.  12 teams. 3 divisions of 4 teams each.
         1.  No keepers / fresh start every year
         1.  Live snake [draft](#draft) on Monday, September 1 at 8:45pm ET.
-        1.  Roster: 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, 1 DST, 4 bench, 2 IR.
-        1.  [Regular season](#regular-season): 13 weeks, each team plays every other team once.
-        1.  [Playoffs](#playoffs): 7 teams over 3 weeks (14-16), with 1 bye.
-        1.  Trade deadline is Saturday of week 10.
+        1.  Roster: 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, 1 DST, 5 bench, 1 IR.
+        1.  [Regular season](#regular-season): 14 weeks, each team plays division teams twice and other teams once.
+        1.  [Playoffs](#playoffs): 6 teams over 3 weeks (15-17), with 2 byes.
+        1.  Trade deadline is Saturday of week 11.
         1.  FAB waivers with least recently used tie-breaking.
         1.  Decimal and negative scoring enabled.
         1.  All other league and scoring settings can be found on the [Yahoo Fantasy settings page](https://football.fantasysports.yahoo.com/f1/456171/settings).
     1.  Money Rules
         1.  [League fee](#fees) is $200.
-        1.  Top 4 [playoff finishers](#playoff-payouts) win money: 1st ($1,100), 2nd ($450), 3rd ($350), and 4th ($100).
+        1.  Top 4 [playoff finishers](#playoff-payouts) win money: 1st ($1,000), 2nd ($400), 3rd ($300), and 4th ($100).
         1.  The team who scores the [most points](#points-prize) wins $100.
         1.  4 other [regular season prizes](#regular-season-prizes) of $50 each.
-        1.  [Weekly prizes](#weekly-prizes): $50 for each team in the top scoring matchup during weeks 10-13.
+        1.  [Weekly prizes](#weekly-prizes): $50 for each team in the top scoring matchup during weeks 12-14.
         1.  The winner of the [losers bracket](#losers-bracket-prize) wins $100.
         1.  Teams should not create [conflicts of interest](#outside-influence) with the league (e.g., betting that your team will lose or your players will do poorly).
     1.  Additional Rules
@@ -62,44 +62,43 @@
     1.  <a id="regular-season">Regular Season</a>
         1.  The schedule will be randomly determined before draft picks are selected at the start of the season.
         1.  The following criteria will be enforced when randomizing the schedule:
-            1.  There will be 13 games for each team in the regular season, corresponding to the first 13 weeks of the NFL regular season.
-            1.  Each team will play against every other team exactly once.
+            1.  There will be 14 games for each team in the regular season, corresponding to the first 14 weeks of the NFL regular season.
+            1.  Each team will play against each other team in their division twice and each team in the other divisions once.
+                1.  Division teams will be played once in the first 3 weeks and once again in the last 3 weeks.
     1.  <a id="playoffs">Playoffs</a>
-        1.  7 Teams will qualify for the playoffs.
+        1.  6 Teams will qualify for the playoffs.
             1.  Yahoo sometimes doesn't support our playoff seeding rules, so the real playoff schedule will be announced by the commissioner each week.
-        1.  The 1 seed will receive a bye on week 14.
-        1.  <a id="choosing-opponents">Playoffs will take place during weeks 14 through 16.</a>
-            1.  Week 14 matchups
-                1.  Seed 2 chooses a team among seeds 3 through 7, that they will play against.
-                    1. This choice must be made on or before 1:00 PM (ET) on the Tuesday before the games, or the choice will default to the bottom seed.
-                1.  The top remaining seed (seed 3 or 4, whichever was not chosen by seed 2) chooses their opponent from the remaining teams.
-                    1. This choice must be made on or before 4:00 PM (ET) on the Tuesday before the games, or the choice will default to the bottom seed.
-                1.  The final two remaining teams play each other.
+        1.  The top two seeds in the regular season will receive a bye on week 15.
+        1.  <a id="choosing-opponents">Playoffs will take place during weeks 15 through 17.</a>
             1.  Week 15 matchups
-                1.  Seed 1 chooses a team among the three winners of week 14 to play against.
+                1.  Seed 3 chooses a team among seeds 4 through 6, that they will play against.
                     1. This choice must be made on or before 1:00 PM (ET) on the Tuesday before the games, or the choice will default to the bottom seed.
-                1.  The remaining two winners of week 14 play against each other.
+                1.  The remaining two teams between seeds 4 and 6 play against each other.
             1.  Week 16 matchups
+                1.  Seed 1 chooses a team among the winners of week 15 to play against.
+                    1. This choice must be made on or before 1:00 PM (ET) on the Tuesday before the games, or the choice will default to the bottom seed.
+                1.  The remaining two winners of week 15 play against each other.
+            1.  Week 17 matchups
                 1.  Super Bowl
-                    1.  Two teams that won week 15 face off.
+                    1.  Two teams that won week 16 face off.
                     1.  Winner is 1st place
                     1.  Loser is 2nd place
                 1.  3rd place game
-                    1.  Two teams that lost week 15 face off.
+                    1.  Two teams that lost week 16 face off.
                     1.  Winner is 3rd place
                     1.  Loser is 4th place
         1.  Losers Bracket
-            1.  A 7 team losers bracket will be set up for teams that do not make the playoffs (seeds 8-14).
+            1.  A 6 team losers bracket will be set up for teams that do not make the playoffs (seeds 7-12).
             1.  Losers bracket seeding will use the same tie-breaking method as regular season seeding, except total wins and ties will be ignored and the primary seeding method will be [winning/losing streaks](#winning-streaks).
             1.  Losers bracket opponent selection follows the same rules as the main playoffs:
-                1.  Week 14: Seed 9 chooses first (by 1:00 PM ET Tuesday), then the top remaining seed among 10-14 chooses (by 4:00 PM ET Tuesday).
-                1.  Week 15: Seed 8 chooses among the winners (by 1:00 PM ET Tuesday).
+                1.  Week 15: Seed 9 chooses a team among seeds 10-12 (by 1:00 PM ET Tuesday).
+                1.  Week 16: Seed 7 chooses among the winners (by 1:00 PM ET Tuesday).
         1.  Playoff choice delays
             1.  If the NFL or Yahoo causes a matchup to be incomplete by the time playoff opponent choices are due, or Yahoo delays waivers, then the choice deadline will be delayed until the first day after the matchups are complete or until the last day before the new waiver date.
         1.  <a id="fab-bonuses">FAB bonuses</a>
-            1.  Each team that makes the playoffs will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 14.
-            1.  Teams in the Super Bowl will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 16.
-            1.  Teams in the 3rd place game will receive half the amount of FAB they started the season with credited on top of their existing balance at the start of week 16.
+            1.  Each team that makes the playoffs will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 15.
+            1.  Teams in the Super Bowl will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 17.
+            1.  Teams in the 3rd place game will receive half the amount of FAB they started the season with credited on top of their existing balance at the start of week 17.
         1.  <a id="team-locking">Team locking</a>
             1.  Teams will be locked once they are no longer in contention for 1st place, 3rd place, or winner of the losers bracket.
 1.  <a id="money">Money</a>
@@ -107,10 +106,10 @@
         1.  Payment
             1.  A one time payment of $200 will be collected by the commissioner from each team manager.
     1.  <a id="payouts">Payouts</a>
-        1.  <a id="playoff-payouts">Playoffs ($2,000 total)</a>
-            1.  1st place - $1,100
-            1.  2nd place - $450
-            1.  3rd place - $350
+        1.  <a id="playoff-payouts">Playoffs ($1,800 total)</a>
+            1.  1st place - $1,000
+            1.  2nd place - $400
+            1.  3rd place - $300
             1.  4th place - $100
         1.  <a id="losers-bracket-prize">Losers bracket ($100)</a>
             1.  Winner of the losers bracket will win $100.
@@ -134,8 +133,8 @@
                 1.  Each week, the team with the highest score will be awarded 1 point toward this prize.
                 1.  At the end of the regular season, the team with the most points will win.
                 1.  Ties will go to the team who scored the most points in the weeks that their earned their point for this prize, or a coin flip if still tied.
-        1.  <a id="weekly-prizes">Weekly prizes ($400)</a>
-            1.  During weeks 10-13, each team in the top scoring matchup will win $50 each week.
+        1.  <a id="weekly-prizes">Weekly prizes ($300)</a>
+            1.  During weeks 12-14, each team in the top scoring matchup will win $50 each week.
             1.  If there is a tie for highest scoring matchup, the tie goes to the pair of teams in the same matchup with the most total points in the season so far, then coin flip.
 1.  <a id="moves">Moves</a>
     1.  Moves are defined as player adds, trades, and drops.
@@ -213,7 +212,7 @@
         1.  Managers disqualified from voting will implicitly abstain from the vote.
 1.  <a id="seeding">Seeding</a>
     1.  Regular Season
-        1. Seeding in the regular season will order teams from most to least games won. The top 7 teams make the playoffs.
+        1. Seeding in the regular season will order teams from most to least games won with the added condition that every team who wins their division makes the playoffs (i.e., finishes with a top 6 seed).
     1.  <a id="tie-breakers">Tie breakers</a>
         1.  Most ties in regular season
         1.  <a id="winning-streaks">Longest win streak / shortest losing streak to end the season</a>
