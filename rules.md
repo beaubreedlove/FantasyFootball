@@ -26,11 +26,12 @@
         1.  This section provides a brief summary for those who don't need all the details.
         1.  If a conflict exists between this section and another section below, this section will be invalid.
     1.  [League Settings](https://football.fantasysports.yahoo.com/f1/456171/settings)
-        1.  12 teams. 3 divisions of 4 teams each.
+        1.  12 teams. 3 divisions of 4 teams each, used only for scheduling. Divisions have no effect on seeding or playoff qualification.
         1.  No keepers / fresh start every year
-        1.  Live snake [draft](#draft) on Monday, September 1 at 8:45pm ET.
-        1.  Roster: 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, 1 DST, 5 bench, 1 IR.
+        1.  Live snake [draft](#draft) on Sunday, September 6 at 8:00pm ET.
+        1.  Roster: 1 QB, 2 WR, 2 RB, 1 TE, 1 FLEX, 1 K, 1 DST, 3 bench, 3 IR.
         1.  [Regular season](#regular-season): 14 weeks, each team plays division teams twice and other teams once.
+        1.  Each week every team also plays against the [league median score](#median-score), for two results per week.
         1.  [Playoffs](#playoffs): 6 teams over 3 weeks (15-17), with 2 byes.
         1.  Trade deadline is Saturday of week 11.
         1.  FAB waivers with least recently used tie-breaking.
@@ -42,22 +43,25 @@
         1.  The team who scores the [most points](#points-prize) wins $100.
         1.  4 other [regular season prizes](#regular-season-prizes) of $50 each.
         1.  [Weekly prizes](#weekly-prizes): $50 for each team in the top scoring matchup during weeks 12-14.
-        1.  The winner of the [losers bracket](#losers-bracket-prize) wins $100.
         1.  Teams should not create [conflicts of interest](#outside-influence) with the league (e.g., betting that your team will lose or your players will do poorly).
     1.  Additional Rules
         1.  It's against the rules to stop trying. If you make one or more "[undoubtedly bad moves](#undoubtedly)," the moves may be reversed, your lineup may be set for you, and your team may be put on autopilot.
-            1.  Do not stop trying! The weekly prizes, regular season prizes, and $100 for losers bracket mean you can still win your money back.
+            1.  Do not stop trying! The weekly prizes and regular season prizes mean you can still win your money back.
         1.  [Trades](#expedited-trades) will process immediately by Yahoo, but any manager may object within 24 hours and the trade will be reversed if a majority votes against it.
-        1.  We use [longest win-streak](#winning-streaks) to end the year as a tie-breaking method for the playoffs and as the primary seeding method for the losers bracket to make sure the final weeks are always competitive.
+        1.  We use [recent weekly records](#winning-streaks), counting backwards from the end of the season, as a tie-breaking method to make sure the final weeks are always competitive.
         1.  Top seeded playoff teams [choose their opponents](#choosing-opponents) each week.
-        1.  Playoff teams receive [FAB bonuses](#fab-bonuses) during the playoffs so that they maintain waiver priority over losers bracket.
-        1.  [Teams get locked in the post-season](#team-locking) when out of contention for top 4 or losers bracket winner.
+        1.  The two Super Bowl teams receive a [$10,000 FAB bonus](#fab-bonuses) at the start of week 17.
+        1.  [Teams get locked in the post-season](#team-locking) when out of contention for the top 4.
         1.  If a [rule isn't defined](#rules-not-stated) here, we fall back on Yahoo's rules.
         1.  If a [rule is still ambiguous](#ambiguous-votes), we have a league vote.
         1.  [All times are Eastern Time (ET).](#time)
 1.  <a id="draft">Draft</a>
-    1.  Live snake draft on Monday, September 1 at 8:45pm ET.
-    1.  Draft order will be determined after all teams commit to the league by paying their league dues and at least 1 hour before the draft.
+    1.  Live snake draft on Sunday, September 6 at 8:00pm ET.
+    1.  Draft order will be determined randomly after all teams commit to the league by paying their league dues and at least 1 hour before the draft.
+    1.  The draft will fill the active roster and 1 bench spot only. The remaining 2 bench spots are added after the draft and filled through waivers.
+        1.  The 2 remaining bench spots will be opened the day after the draft.
+        1.  IR spots become usable the following day.
+        1.  Waivers will run on a continual basis during this period so that every post-draft addition is a FAB bid rather than a first-come claim. The commissioner will return waivers to their normal schedule once the last of these claims has cleared.
 1.  <a id="schedule">Schedule</a>
     1.  <a id="regular-season">Regular Season</a>
         1.  The schedule will be randomly determined before draft picks are selected at the start of the season.
@@ -65,6 +69,11 @@
             1.  There will be 14 games for each team in the regular season, corresponding to the first 14 weeks of the NFL regular season.
             1.  Each team will play against each other team in their division twice and each team in the other divisions once.
                 1.  Division teams will be played once in the first 3 weeks and once again in the last 3 weeks.
+                1.  Divisions exist only to define this schedule. They have no bearing on seeding, tie-breaking, or playoff qualification.
+        1.  <a id="median-score">Median score</a>
+            1.  In addition to the head to head matchup, each team plays against the median score of the league each week.
+            1.  A team's weekly record is therefore 2-0, 1-1, or 0-2, and both results count toward the standings equally.
+            1.  The median is calculated from all 12 teams' scores in that week.
     1.  <a id="playoffs">Playoffs</a>
         1.  6 Teams will qualify for the playoffs.
             1.  Yahoo sometimes doesn't support our playoff seeding rules, so the real playoff schedule will be announced by the commissioner each week.
@@ -87,20 +96,13 @@
                     1.  Two teams that lost week 16 face off.
                     1.  Winner is 3rd place
                     1.  Loser is 4th place
-        1.  Losers Bracket
-            1.  A 6 team losers bracket will be set up for teams that do not make the playoffs (seeds 7-12).
-            1.  Losers bracket seeding will use the same tie-breaking method as regular season seeding, except total wins and ties will be ignored and the primary seeding method will be [winning/losing streaks](#winning-streaks).
-            1.  Losers bracket opponent selection follows the same rules as the main playoffs:
-                1.  Week 15: Seed 9 chooses a team among seeds 10-12 (by 1:00 PM ET Tuesday).
-                1.  Week 16: Seed 7 chooses among the winners (by 1:00 PM ET Tuesday).
         1.  Playoff choice delays
             1.  If the NFL or Yahoo causes a matchup to be incomplete by the time playoff opponent choices are due, or Yahoo delays waivers, then the choice deadline will be delayed until the first day after the matchups are complete or until the last day before the new waiver date.
-        1.  <a id="fab-bonuses">FAB bonuses</a>
-            1.  Each team that makes the playoffs will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 15.
-            1.  Teams in the Super Bowl will receive the same amount of FAB they started the season with credited on top of their existing balance at the start of week 17.
-            1.  Teams in the 3rd place game will receive half the amount of FAB they started the season with credited on top of their existing balance at the start of week 17.
+        1.  <a id="fab-bonuses">FAB bonus</a>
+            1.  The two teams that reach the Super Bowl each receive an additional $10,000 FAB, credited on top of their existing balance at the start of week 17.
         1.  <a id="team-locking">Team locking</a>
-            1.  Teams will be locked once they are no longer in contention for 1st place, 3rd place, or winner of the losers bracket.
+            1.  Teams will be locked once they are no longer in contention for 1st place or 3rd place.
+            1.  Teams that do not qualify for the playoffs are locked at the start of week 15.
 1.  <a id="money">Money</a>
     1.  <a id="fees">League Fees</a>
         1.  Payment
@@ -111,8 +113,6 @@
             1.  2nd place - $400
             1.  3rd place - $300
             1.  4th place - $100
-        1.  <a id="losers-bracket-prize">Losers bracket ($100)</a>
-            1.  Winner of the losers bracket will win $100.
         1.  <a id="points-prize">Points ($100)</a>
             1.  Most points in the regular season wins $100.
         1.  <a id="regular-season-prizes">Regular Season Prizes ($200 total)</a>
@@ -212,14 +212,12 @@
         1.  Managers disqualified from voting will implicitly abstain from the vote.
 1.  <a id="seeding">Seeding</a>
     1.  Regular Season
-        1. Seeding in the regular season will order teams from most to least games won with the added condition that every team who wins their division makes the playoffs (i.e., finishes with a top 6 seed).
+        1. Seeding in the regular season will order teams from most to least games won. Divisions have no bearing on seeding or playoff qualification.
     1.  <a id="tie-breakers">Tie breakers</a>
         1.  Most ties in regular season
-        1.  <a id="winning-streaks">Longest win streak / shortest losing streak to end the season</a>
-            1.  Longest winning streak counting backwards from the end of the regular season (i.e., longest win streak to end the year).
-            1.  Shortest losing streak counting backwards from the end of the regular season.
-            1.  The previous two conditions will be applied iteratively backwards through the season until the tie is broken.
-                1.  For example: if two teams both end with 3-game win streaks, we compare their losing streaks before those wins, then their win streaks before those losses, and so on.
+        1.  <a id="winning-streaks">Most recent weekly records, counting backwards from the end of the season</a>
+            1.  Compare the two teams' records in the final week of the regular season. A 2-0 week beats a 1-1 week, which beats an 0-2 week.
+            1.  If those are equal, compare the previous week, and continue backwards through the season until the tie is broken.
         1.  Most points in regular season
         1.  Coin flip.
     1.  <a id="ties">Ties in playoffs</a>
