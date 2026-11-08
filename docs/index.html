@@ -229,23 +229,13 @@
 </section>
 
 <section>
-  <div class="sechead"><span class="eyebrow">Odds</span>
-  <h2>Where everyone lands</h2></div>
-  <p>I simulated one billion ways the rest of the season could play out, and these are
-  how often each team finished on each seed. One exception: <b>It's Allen The Hips</b>
-  never landed the 1 seed in any of the billion — but it isn't impossible, it just
-  requires all twelve teams to finish at exactly 14-14. That single figure is counted
-  exactly rather than sampled, which is why it's written out in full.</p>
-  <div class="panel"><table class="stack">
-    <thead><tr><th>Team</th><th class="r">1 seed</th><th class="r">2 seed</th>
-      <th class="r">3 seed</th><th class="r">Makes playoffs</th><th class="r">Misses</th></tr></thead>
-    <tbody id="odds"></tbody>
-  </table></div>
-</section>
-
-<section>
   <div class="sechead"><span class="eyebrow">Team by team</span>
   <h2>Clinching scenarios, win range, and odds</h2></div>
+  <p>I simulated one billion ways the rest of the season could play out, and the odds
+  below are how often each team finished on each seed. One exception: <b>It's Allen
+  The Hips</b> never landed the 1 seed in any of the billion — it isn't impossible, it
+  just requires all twelve teams to finish at exactly 14-14, so that single figure is
+  counted exactly rather than sampled.</p>
   <ul class="tight">
     <li><b>Win range</b> — the final win total out of 28: the fewest you could finish
     with and still land on that seed, through the most.</li>
@@ -302,24 +292,6 @@ document.getElementById("stand").innerHTML=S.map((r,i)=>
  `<td class="n" data-l="W-L">${r[1]}</td><td class="n seq" data-l="Tiebreaker">${r[2]||"—"}</td>`+
  `<td class="n" data-l="Points">${r[3]}</td></tr>`).join("");
 
-const O=[
- ["Rock You Like a Burrowcane","14-2","53.359%","22.664%","11.998%","99.188%","0.81212%"],
- ["Flush It Down","12-4","18.677%","24.926%","19.802%","94.393%","5.6072%"],
- ["Showtime","11-5","9.8048%","17.350%","19.449%","88.349%","11.651%"],
- ["Flowers For Charlie","11-5","11.167%","16.758%","18.538%","88.069%","11.931%"],
- ["Omarion my wayward son","10-6","4.8313%","10.877%","14.677%","78.459%","21.541%"],
- ["XXI","8-8","0.91907%","2.9028%","5.6057%","47.676%","52.324%"],
- ["The Nightman Re-Cometh","8-8","0.89340%","2.8876%","5.6318%","47.720%","52.280%"],
- ["Jahmyrs For Fears","7-9","0.28609%","1.2338%","2.9700%","31.197%","68.803%"],
- ["Swap's Team","6-10","0.06149%","0.39175%","1.2232%","18.495%","81.505%"],
- ["You Give Love A Brad Name","4-12","0.000131%","0.00901%","0.09540%","4.3480%","95.652%"],
- ["Chasing Nabors","3-13","0.0000002%","0.000235%","0.00919%","1.6918%","98.308%"],
- ["It's Allen The Hips","2-14","0.00000000000002026932%<span class='oneIn'>1 in 4,933,565,019,341,164</span>","0.0000007%","0.000208%","0.41514%","99.585%"]];
-const L=["1 seed","2 seed","3 seed","Makes playoffs","Misses"];
-document.getElementById("odds").innerHTML=O.map(r=>
- `<tr><td class="team" data-l="Team">${r[0]}<span class="rec">${r[1]}</span></td>`+
- r.slice(2).map((x,i)=>`<td class="n ${x.length>16?"xct":""}" data-l="${L[i]}">${x}</td>`).join("")+
- `</tr>`).join("");
 
 const CF={"Rock You Like a Burrowcane": {"rec": "14-2", "seeds": {"1": {"11": [{"f": [], "k": 11, "pool": null, "rem": 12}]}, "2": {"10": [{"f": [], "k": 10, "pool": null, "rem": 12}]}, "3": {"9": [{"f": [], "k": 9, "pool": null, "rem": 12}], "8": [{"f": ["W12", "M12", "W13", "M13", "W14", "M14"], "k": 2, "pool": null, "rem": 6}]}, "6": {"6": [{"f": [], "k": 6, "pool": null, "rem": 12}], "5": [{"f": ["W9", "W11"], "k": 3, "pool": ["W10", "M10", "W12", "M12", "W13", "M13", "W14", "M14"], "rem": 8}, {"f": ["W9", "W12"], "k": 3, "pool": ["W10", "M10", "M11", "M12", "W13", "M13", "W14", "M14"], "rem": 8}, {"f": ["W11", "W12"], "k": 3, "pool": ["M9", "W10", "M10", "M12", "W13", "M13", "W14", "M14"], "rem": 8}, {"f": ["W9", "W11", "W12"], "k": 2, "pool": null, "rem": 9}, {"f": ["W9", "M9", "W11", "W13"], "k": 1, "pool": ["W14", "M14"], "rem": 2}, {"f": ["W12", "W14", "M14"], "k": 2, "pool": null, "rem": 9}], "4": [{"f": ["W9", "W11", "W12", "W14"], "k": 0, "pool": null, "rem": 8}]}}, "rng": ["15\u201326", "14\u201324", "14\u201323", "14\u201326"], "odds": ["53.359%", "22.664%", "11.998%", "99.188%"], "name": "Rock You Like a Burrowcane"}, "Flush It Down": {"rec": "12-4", "seeds": {"1": null, "2": {"12": [{"f": [], "k": 12, "pool": null, "rem": 12}]}, "3": {"11": [{"f": [], "k": 11, "pool": null, "rem": 12}], "10": [{"f": ["W9", "M9", "W10"], "k": 7, "pool": ["W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "rem": 8}], "9": [{"f": ["W10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}]}, "6": {"8": [{"f": [], "k": 8, "pool": null, "rem": 12}], "7": [{"f": ["W12", "W13"], "k": 5, "pool": ["W9", "M9", "W10", "M10", "W11", "M11", "W14", "M14"], "rem": 8}, {"f": ["W11", "W12", "W13"], "k": 4, "pool": ["W9", "M9", "W10", "M10", "M13", "W14", "M14"], "rem": 7}, {"f": ["W12", "M12", "W13"], "k": 4, "pool": ["W10", "W11", "M13", "W14", "M14"], "rem": 5}, {"f": ["M10", "W11", "M12", "M13"], "k": 3, "pool": ["M9", "W14", "M14"], "rem": 3}, {"f": ["M9", "W11", "W12", "M12", "W13", "M14"], "k": 1, "pool": ["W10", "M13"], "rem": 2}, {"f": ["W10", "W12", "W13", "W14", "M14"], "k": 2, "pool": ["W9", "M9", "M11", "M12"], "rem": 4}, {"f": ["M9", "W10", "M12", "M13", "W14", "M14"], "k": 1, "pool": ["W11", "M11"], "rem": 2}, {"f": ["W12", "W13", "M13", "W14", "M14"], "k": 2, "pool": null, "rem": 7}]}}, "rng": ["15\u201324", "14\u201324", "13\u201323", "12\u201324"], "odds": ["18.677%", "24.926%", "19.802%", "94.393%"], "name": "Flush It Down"}, "Flowers For Charlie": {"rec": "11-5", "seeds": {"1": null, "2": {"12": [{"f": [], "k": 12, "pool": null, "rem": 12}]}, "3": {"11": [{"f": ["W9", "M9", "W10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}, {"f": ["W9", "W10", "M10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}]}, "6": {"9": [{"f": [], "k": 9, "pool": null, "rem": 12}], "8": [{"f": ["W11", "W14"], "k": 6, "pool": ["W9", "M9", "W10", "M10", "W12", "M12", "W13", "M13", "M14"], "rem": 9}, {"f": ["W14", "M14"], "k": 6, "pool": null, "rem": 10}], "7": [{"f": ["W11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": null, "rem": 5}]}}, "rng": ["15\u201323", "13\u201323", "13\u201322", "11\u201323"], "odds": ["11.167%", "16.758%", "18.538%", "88.069%"], "name": "Flowers For Charlie"}, "Showtime": {"rec": "11-5", "seeds": {"1": null, "2": null, "3": {"11": [{"f": ["W9", "W10", "M10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}]}, "6": {"9": [{"f": [], "k": 9, "pool": null, "rem": 12}], "8": [{"f": ["W11", "W14", "M14"], "k": 5, "pool": null, "rem": 9}, {"f": ["W9", "M10", "M11", "W12", "M13", "W14", "M14"], "k": 1, "pool": null, "rem": 5}, {"f": ["W12", "W13", "M13", "W14", "M14"], "k": 3, "pool": ["W9", "M9", "W10", "M10", "M11"], "rem": 5}, {"f": ["W9", "M10", "W12", "W13", "M13", "W14", "M14"], "k": 1, "pool": null, "rem": 5}]}}, "rng": ["15\u201323", "14\u201323", "13\u201323", "11\u201323"], "odds": ["9.8048%", "17.350%", "19.449%", "88.349%"], "name": "Showtime"}, "Omarion my wayward son": {"rec": "10-6", "seeds": {"1": null, "2": null, "3": {"12": [{"f": [], "k": 12, "pool": null, "rem": 12}]}, "6": {"10": [{"f": [], "k": 10, "pool": null, "rem": 12}], "9": [{"f": ["W9", "W10"], "k": 7, "pool": ["M9", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "rem": 9}, {"f": ["W9", "W14", "M14"], "k": 6, "pool": null, "rem": 9}]}}, "rng": ["15\u201322", "13\u201322", "12\u201322", "10\u201322"], "odds": ["4.8313%", "10.877%", "14.677%", "78.459%"], "name": "Omarion my wayward son"}, "XXI": {"rec": "8-8", "seeds": {"1": null, "2": null, "3": null, "6": {"11": [{"f": ["W9", "M9", "M10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}]}}, "rng": ["15\u201320", "13\u201320", "12\u201320", "9\u201320"], "odds": ["0.91907%", "2.9028%", "5.6057%", "47.676%"], "name": "XXI"}, "The Nightman Re-Cometh": {"rec": "8-8", "seeds": {"1": null, "2": null, "3": null, "6": {"11": [{"f": ["W9", "M9", "W10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}, {"f": ["M9", "W10", "M10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}]}}, "rng": ["15\u201320", "13\u201320", "12\u201320", "9\u201320"], "odds": ["0.89340%", "2.8876%", "5.6318%", "47.720%"], "name": "The Nightman Re-Cometh"}, "Jahmyrs For Fears": {"rec": "7-9", "seeds": {"1": null, "2": null, "3": null, "6": null}, "rng": ["15\u201319", "13\u201319", "12\u201319", "9\u201319"], "odds": ["0.28609%", "1.2338%", "2.9700%", "31.197%"], "name": "Jahmyrs For Fears"}, "Swap's Team": {"rec": "6-10", "seeds": {"1": null, "2": null, "3": null, "6": null}, "rng": ["15\u201318", "14\u201318", "12\u201318", "9\u201318"], "odds": ["0.06149%", "0.39175%", "1.2232%", "18.495%"], "name": "Swap's Team"}, "You Give Love A Brad Name": {"rec": "4-12", "seeds": {"1": null, "2": null, "3": null, "6": null}, "rng": ["15\u201316", "13\u201316", "12\u201316", "9\u201316"], "odds": ["0.000131%", "0.00901%", "0.09540%", "4.3480%"], "name": "You Give Love A Brad Name"}, "Chasing  Nabors": {"rec": "3-13", "seeds": {"1": null, "2": null, "3": null, "6": null}, "rng": ["15 only", "13\u201315", "12\u201315", "9\u201315"], "odds": ["0.0000002%", "0.000235%", "0.00919%", "1.6918%"], "name": "Chasing Nabors"}, "It's Allen The Hips": {"rec": "2-14", "seeds": {"1": null, "2": null, "3": null, "6": null}, "rng": ["14 only", "13\u201314", "12\u201314", "9\u201314"], "odds": ["0.00000000000002026932%<span class=\"oneIn\">1 in 4,933,565,019,341,164</span>", "0.0000007%", "0.000208%", "0.41514%"], "name": "It's Allen The Hips"}};
 const SEEDLAB={"1":"1 seed","2":"2 seed","3":"3 seed","6":"Playoff berth"};
