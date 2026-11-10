@@ -331,7 +331,7 @@ document.getElementById("clin").innerHTML=Object.entries(CF).map(([key,v])=>{
   else if(d==="help") ways='';
   else if(d==="clinched") ways='<p class="nope clinch">Clinched — locked up no matter what happens.</p>';
   else{
-    const ws=Object.keys(d).map(Number).sort((a,b)=>b-a);
+    const ws=Object.keys(d).map(Number).sort((a,b)=>a-b);
     ways='<p class="glab">Guaranteed by any one of these:</p>'+ws.map(w=>
       `<div class="wblk"><span class="wn">${w} wins</span><ul class="ways">`+
       d[String(w)].map(c=>{
