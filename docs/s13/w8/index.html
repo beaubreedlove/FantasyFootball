@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Playoff Picture — Week 8 Report</title>
+<meta name="description" content="Week 8 playoff odds, clinching and elimination scenarios, and season-long prize standings.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Playoff Picture — Week 8">
+<meta property="og:description" content="Every team's odds, what each still controls, and what the rest need to happen.">
+<meta property="og:type" content="website">
+<style>
+  :root{
+    --paper:#F0F2EF; --surface:#FFFFFF; --ink:#16201F; --muted:#5F6D69;
+    --line:#D6DDD9; --rule:#C3CCC7; --accent:#1F6F63; --accent-ink:#17544B;
+    --good:#3E7A4E; --warn:#A8502F; --gold:#8C6F1E;
+    --shadow:0 1px 2px rgba(22,32,31,.06), 0 10px 28px rgba(22,32,31,.05);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --paper:#0F1514; --surface:#161E1C; --ink:#E7EDEA; --muted:#94A49F;
+      --line:#24322F; --rule:#2E3C39; --accent:#5BC4AE; --accent-ink:#8FDCC9;
+      --good:#74BC84; --warn:#DB8F68; --gold:#D4B158;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px rgba(0,0,0,.3); }
+  }
+  :root[data-theme="dark"]{
+    --paper:#0F1514; --surface:#161E1C; --ink:#E7EDEA; --muted:#94A49F;
+    --line:#24322F; --rule:#2E3C39; --accent:#5BC4AE; --accent-ink:#8FDCC9;
+    --good:#74BC84; --warn:#DB8F68; --gold:#D4B158;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px rgba(0,0,0,.3);
+  }
+  :root[data-theme="light"]{
+    --paper:#F0F2EF; --surface:#FFFFFF; --ink:#16201F; --muted:#5F6D69;
+    --line:#D6DDD9; --rule:#C3CCC7; --accent:#1F6F63; --accent-ink:#17544B;
+    --good:#3E7A4E; --warn:#A8502F; --gold:#8C6F1E;
+    --shadow:0 1px 2px rgba(22,32,31,.06), 0 10px 28px rgba(22,32,31,.05);
+  }
+  *{box-sizing:border-box}
+  html,body{max-width:100%; overflow-x:hidden;}
+  body{margin:0; background:var(--paper); color:var(--ink);
+       font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+       -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:1060px; margin:0 auto; padding:40px 18px 80px;
+        display:flex; flex-direction:column; gap:42px;}
+  h1,h2,h3{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+           text-wrap:balance; margin:0;}
+  h1{font-size:clamp(28px,5vw,44px); line-height:1.08; letter-spacing:-.015em; font-weight:600;}
+  h2{font-size:clamp(20px,2.8vw,26px); line-height:1.2; font-weight:600;}
+  h3{font-size:16.5px; line-height:1.3; font-weight:600;}
+  p{margin:0;}
+  .eyebrow{font:600 11px/1 ui-monospace,"SF Mono",Menlo,monospace;
+           letter-spacing:.17em; text-transform:uppercase; color:var(--accent);}
+  header{border-bottom:2px solid var(--rule); padding-bottom:22px;
+         display:flex; flex-direction:column; gap:11px;}
+  .lede{color:var(--muted); max-width:68ch; font-size:17px;}
+  section{display:flex; flex-direction:column; gap:15px;}
+  .sechead{display:flex; flex-direction:column; gap:5px;
+           border-left:3px solid var(--accent); padding-left:13px;}
+  .panel{background:var(--surface); border:1px solid var(--line);
+         border-radius:10px; box-shadow:var(--shadow); overflow-x:auto;}
+  table{border-collapse:collapse; width:100%;}
+  th,td{padding:9px 11px; text-align:left;}
+  thead th{border-bottom:2px solid var(--rule);
+           font:600 10px/1.3 ui-monospace,Menlo,monospace; letter-spacing:.09em;
+           text-transform:uppercase; color:var(--muted); white-space:nowrap;}
+  thead th.r,td.n{text-align:right;}
+  tbody tr{border-top:1px solid var(--line);}
+  tbody tr:nth-child(even){background:color-mix(in srgb,var(--accent) 3%,transparent);}
+  .team{font-weight:600;}
+  .rec{color:var(--muted); font-weight:400;
+       font-family:ui-monospace,Menlo,monospace; font-size:12px; padding-left:5px;}
+  td.n{font-family:ui-monospace,"SF Mono",Menlo,monospace;
+       font-variant-numeric:tabular-nums; font-size:13px; white-space:nowrap;}
+  .seq{font-family:ui-monospace,Menlo,monospace; font-size:12.5px;
+       letter-spacing:.12em; color:var(--muted);}
+  .rk{color:var(--muted); font-family:ui-monospace,Menlo,monospace; font-size:12px;}
+  tr.cut{border-top:2px solid var(--warn);}
+  .lo{color:var(--muted);}
+  .xct{color:var(--gold); font-size:11px;}
+  .oneIn{display:block; font-size:11px; color:var(--muted); padding-top:2px;
+         letter-spacing:.01em;}
+  .pill{display:inline-block; padding:1px 7px; border-radius:999px; font-size:11px;
+        font-weight:600; white-space:nowrap;}
+  .pill.in{background:color-mix(in srgb,var(--good) 16%,transparent); color:var(--good);}
+  .pill.out{background:color-mix(in srgb,var(--warn) 16%,transparent); color:var(--warn);}
+  .cards{display:grid; gap:13px; grid-template-columns:repeat(auto-fit,minmax(290px,1fr));}
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:9px;
+        padding:14px 16px; display:flex; flex-direction:column; gap:7px;}
+  .card.good{border-left:3px solid var(--good);}
+  .card.warn{border-left:3px solid var(--warn);}
+  .card p,.card li{font-size:14.5px; color:var(--muted);}
+  .card b,.card strong{color:var(--ink);}
+  .sblk{padding:11px 0 2px; border-top:1px dotted var(--line);}
+  .sblk:first-of-type{border-top:none;}
+  .shead{font:600 11px/1.5 ui-monospace,Menlo,monospace; letter-spacing:.1em;
+         text-transform:uppercase; color:var(--accent);}
+  .smeta{display:flex; flex-wrap:wrap; gap:6px 18px; padding:2px 0 6px;
+         font:13px/1.6 ui-monospace,Menlo,monospace; font-variant-numeric:tabular-nums;
+         color:var(--ink);}
+  .smeta i{font-style:normal; font-size:10px; letter-spacing:.09em;
+           text-transform:uppercase; color:var(--muted); padding-right:4px;}
+  .smeta b{font-weight:600; color:var(--accent-ink);}
+  .smeta b.xct{font-size:10px; color:var(--gold);}
+  .glab{font-size:12.5px; color:var(--muted); padding-bottom:2px;}
+  .pc{font:12px/1 ui-monospace,Menlo,monospace; font-variant-numeric:tabular-nums;
+      color:var(--muted); opacity:.75; padding-left:3px; white-space:nowrap;}
+  .nope{font-size:13.5px; color:var(--muted);}
+  ul.pool{margin:3px 0 4px; padding-left:16px; display:flex; flex-wrap:wrap;
+          gap:1px 14px; list-style:none; font:12.5px/1.6 ui-monospace,Menlo,monospace;}
+  ul.pool li::before{content:"· "; color:var(--muted);}
+  .legend{display:none;}
+  .legend-x{display:flex; gap:10px; align-items:baseline; padding:12px 0 9px;
+          border-bottom:2px solid var(--rule);}
+  .legend .tag,.legend .rng,.legend .txt{
+    font:600 10px/1.4 ui-monospace,Menlo,monospace; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--muted);}
+  .legend .tag{flex:0 0 auto; min-width:108px;}
+  .legend .rng{flex:0 0 auto; min-width:74px; text-align:right;}
+  .legend .odd{flex:0 0 auto; min-width:86px; text-align:right;}
+  .legend .txt{flex:1 1 220px;}
+  @media (max-width:760px){ .legend{display:none;} }
+  .clin{display:flex; flex-direction:column; gap:0;}
+  .clin .row{display:flex; flex-direction:column; gap:7px;
+             padding:16px 0; border-top:1px solid var(--line);}
+  .clin .row:first-child{border-top:none;}
+  .clin h3 .rec{font-size:13px;}
+  .clin dl{margin:0; display:flex; flex-direction:column; gap:6px;}
+  .clin .ln{display:flex; gap:10px; align-items:baseline; flex-wrap:wrap;}
+  .clin .rng{flex:0 0 auto; min-width:74px; text-align:right;
+             font:600 12.5px/1.6 ui-monospace,Menlo,monospace;
+             font-variant-numeric:tabular-nums; color:var(--ink);}
+  .clin .rng.dim{color:var(--muted); font-weight:400;}
+  .clin .odd{flex:0 0 auto; min-width:86px; text-align:right;
+             font:600 12.5px/1.6 ui-monospace,Menlo,monospace;
+             font-variant-numeric:tabular-nums; color:var(--accent-ink);}
+  .clin .odd.xct{font-size:10px; color:var(--gold);}
+  .clin .tag{flex:0 0 auto; min-width:108px;
+             font:600 10.5px/1.5 ui-monospace,Menlo,monospace; letter-spacing:.08em;
+             text-transform:uppercase; color:var(--accent);}
+  .clin .txt{flex:1 1 220px; font-size:14.5px;}
+  .clin .txt.none{color:var(--muted);}
+  .wblk{display:flex; gap:10px; align-items:baseline; padding:3px 0; flex-wrap:wrap;}
+  .wn{flex:0 0 auto; min-width:60px; font:600 12px/1.6 ui-monospace,Menlo,monospace;
+      color:var(--accent-ink);}
+  ul.ways{margin:0; padding-left:17px; flex:1 1 230px; display:flex;
+          flex-direction:column; gap:3px; font-size:13.5px; color:var(--muted);}
+  ul.ways li{line-height:1.5;}
+  .sched{font-size:12.5px; color:var(--muted); font-family:ui-monospace,Menlo,monospace;}
+  ul.tight{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:4px;
+           font-size:14.5px; color:var(--muted);}
+  ul.tight b{color:var(--ink);}
+  ol.rank{margin:0; padding-left:19px; display:flex; flex-direction:column; gap:3px;
+          font-size:14.5px; color:var(--muted);}
+  ol.rank strong{color:var(--ink);}
+  .lead{font-size:13px; color:var(--muted);}
+  footer{border-top:1px solid var(--line); padding-top:18px; color:var(--muted);
+         font-size:13.5px; display:flex; flex-direction:column; gap:9px;}
+  footer b{color:var(--ink);}
+
+  /* phone: tables become stacked rows, no sideways scrolling anywhere */
+  @media (max-width:760px){
+    table.stack thead{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);}
+    table.stack tbody tr{display:block; padding:11px 12px;}
+    table.stack tbody td{display:flex; justify-content:space-between; gap:8px;
+                         padding:3px 0; text-align:right; border:none;
+                         white-space:normal; overflow-wrap:anywhere; min-width:0;}
+    table.stack tbody td.n{white-space:normal;}
+    table.stack tbody td::before{min-width:0; white-space:nowrap;}
+    .xct{font-size:10px;}
+    .oneIn{font-size:10px;}
+    table.stack tbody td::before{content:attr(data-l); text-align:left;
+      font:600 10px/1.6 ui-monospace,Menlo,monospace; letter-spacing:.09em;
+      text-transform:uppercase; color:var(--muted); flex:0 0 auto;}
+    table.stack tbody td.team{display:block; text-align:left; padding-bottom:6px;
+                              font-size:15.5px;}
+    table.stack tbody td.team::before{content:none;}
+    .clin .tag{min-width:0; flex:1 1 auto;}
+    .clin .rng{min-width:0;}
+    .clin .odd{min-width:0;}
+    .clin .ln{gap:6px 10px;}
+    .clin .txt{flex:1 1 100%;}
+  }
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+
+<div style="background:color-mix(in srgb,var(--warn) 10%,var(--surface));
+            border:1px solid color-mix(in srgb,var(--warn) 35%,var(--line));
+            border-radius:9px;padding:12px 16px;font-size:14px;">
+  <b>This is an archived snapshot</b> taken after week 8.
+  <a href="../../../" style="color:var(--accent)">See the current week &rarr;</a>
+</div>
+
+<header>
+  <span class="eyebrow">Archived · Through Week 8 · Six weeks remained</span>
+  <h1>The playoff picture, worked all the way out</h1>
+  <p class="lede">Where everybody stands, what each team still controls on its own,
+  and what the ones on the outside need other people to do for them. Six weeks left —
+  twelve games apiece, because every week is a matchup <em>and</em> a median.</p>
+</header>
+
+<section>
+  <div class="sechead"><span class="eyebrow">Standings</span>
+  <h2>Where we are, ordered by our rules</h2></div>
+  <div class="panel"><table class="stack">
+    <thead><tr><th>Team</th><th class="r">Seed</th><th class="r">W-L</th>
+      <th class="r">Tiebreaker</th><th class="r">Points</th></tr></thead>
+    <tbody id="stand"></tbody>
+  </table></div>
+  <p class="lead"><b>Tiebreaker</b> only appears where two teams are actually level on
+  wins. Our rule compares the most recent week first and works backwards until someone
+  is ahead — both of this week's ties broke immediately on week 8, so one week is all
+  it takes. Showtime's 2-0 beats Flowers For Charlie's 0-2, and XXI's 2-0 beats
+  The Nightman Re-Cometh's 0-2. A dash means nobody is tied with you. The red line
+  marks the playoff cut.</p>
+
+  <div class="cards">
+    <div class="card"><h3>Why the top seeds matter</h3>
+      <ul class="tight">
+        <li><b>Seeds 1 and 2 get a bye</b> through week 15.</li>
+        <li><b>Seed 1 also chooses its week-16 opponent</b> from the week-15 winners.</li>
+        <li><b>Seed 3 chooses its week-15 opponent</b> from seeds 4, 5 and 6.</li>
+        <li><b>Seeds 4, 5 and 6</b> are all in the playoffs — there is simply nothing
+        separating them. No bye, no choice, you play whoever is left. That's why they're
+        grouped together everywhere below.</li>
+      </ul></div>
+    <div class="card"><h3>This order is not Yahoo's order</h3>
+      <p>Yahoo breaks ties on points. <b>We don't</b> — our rule is most recent weekly
+      records counting backwards. It already matters: <b>XXI (8-8)</b> sits ahead of
+      <b>The Nightman Re-Cometh (8-8)</b> here on a week-8 2-0 against an 0-2, even
+      though Nightman has scored 2.91 more points on the season. Yahoo shows that pair
+      the other way round.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="sechead"><span class="eyebrow">Team by team</span>
+  <h2>Clinching scenarios, win range, and odds</h2></div>
+  <p>I simulated one billion ways the rest of the season could play out, and the odds
+  below are how often each team finished on each seed. One exception: <b>It's Allen
+  The Hips</b> never landed the 1 seed in any of the billion — it isn't impossible, it
+  just requires all twelve teams to finish at exactly 14-14, so that single figure is
+  counted exactly rather than sampled.</p>
+  <ul class="tight">
+    <li><b>Win range</b> — the final win total out of 28: the fewest you could finish
+    with and still land on that seed, through the most.</li>
+    <li><b>Odds</b> — your chance of landing exactly there.</li>
+    <li><b>What guarantees it</b> — every route that locks up that seed no matter what
+    anyone else does.</li>
+  </ul>
+  <p><b>W9</b> is your week-9 matchup, <b>M13</b> the week-13 median. You have twelve
+  games left, not six — each week you play your opponent and the league median, and
+  both count the same.</p>
+  <div class="panel" style="padding:4px 18px">
+    <div class="clin" id="clin"></div>
+  </div>
+</section>
+
+<section>
+  <div class="sechead"><span class="eyebrow">Help wanted</span>
+  <h2>If you win out and it still isn't enough</h2></div>
+  <p>Five teams don't control their own destiny. For each of these, assume they win all
+  six matchups <em>and</em> all six medians — this is the minimum additional help they
+  need.</p>
+  <p class="lead">Each item shows how often it happens, given that team has already won
+  out. Listed most likely first, so the realistic lifelines are at the top.</p>
+  <div class="cards" id="help"></div>
+</section>
+
+<section>
+  <div class="sechead"><span class="eyebrow">Side money</span>
+  <h2>The season-long prizes</h2></div>
+  <p class="lead">All twelve teams, ranked as the prize would be awarded today with the league tiebreakers applied.</p>
+  <div class="cards" id="prizes"></div>
+</section>
+
+<footer>
+  <p><b>Assuming no ties.</b> Every number here assumes no tied matchups and no tied
+  medians — scores always separate. Ties in the standings are handled in full, using
+  the league rule: most ties, then most recent weekly records counting backwards from
+  week 14, then points. That points tiebreak can never actually be reached, because
+  every pair of teams meets at least once during the season and in that week their
+  records cannot be equal.</p>
+  <p><b>Where the numbers come from.</b> Each simulated week is drawn as a random
+  ordering of all twelve teams — equal weight, nobody rated better than anybody else.
+  Everything else — the clinching scenarios, the help needed, and the win
+  ranges — is exact, solved against every schedule-feasible way weeks 9 through 14
+  could finish. Records and scores verified against Yahoo's own standings.</p>
+</footer>
+</div>
+
+<script>
+const S=[["Rock You Like a Burrowcane", "14-2", "", "1072.27"], ["Flush It Down", "12-4", "", "977.92"], ["Showtime", "11-5", "2-0", "980.74"], ["Flowers For Charlie", "11-5", "0-2", "933.94"], ["Omarion my wayward son", "10-6", "", "974.09"], ["XXI", "8-8", "2-0", "924.21"], ["The Nightman Re-Cometh", "8-8", "0-2", "927.12"], ["Jahmyrs For Fears", "7-9", "", "858.34"], ["Swap's Team", "6-10", "", "730.66"], ["You Give Love A Brad Name", "4-12", "", "942.49"], ["Chasing Nabors", "3-13", "", "812.14"], ["It's Allen The Hips", "2-14", "", "758.34"]];
+document.getElementById("stand").innerHTML=S.map((r,i)=>
+ `<tr class="${i===6?'cut':''}"><td class="team" data-l="Team">${r[0]}</td>`+
+ `<td class="n" data-l="Current seed"><span class="pill ${i<6?'in':'out'}">${i===0?'1 · bye + choose':i===1?'2 · bye':i===2?'3 · choose':i+1}</span></td>`+
+ `<td class="n" data-l="W-L">${r[1]}</td><td class="n seq" data-l="Tiebreaker">${r[2]||"—"}</td>`+
+ `<td class="n" data-l="Points">${r[3]}</td></tr>`).join("");
+
+
+const CF={"Rock You Like a Burrowcane": {"rec": "14-2", "seeds": {"1": {"11": [{"f": [], "k": 11, "pool": null, "rem": 12}]}, "2": {"10": [{"f": [], "k": 10, "pool": null, "rem": 12}]}, "3": {"9": [{"f": [], "k": 9, "pool": null, "rem": 12}], "8": [{"f": ["W12", "M12", "W13", "M13", "W14", "M14"], "k": 2, "pool": null, "rem": 6}]}, "6": {"6": [{"f": [], "k": 6, "pool": null, "rem": 12}], "5": [{"f": ["W9", "W11"], "k": 3, "pool": ["W10", "M10", "W12", "M12", "W13", "M13", "W14", "M14"], "rem": 8}, {"f": ["W9", "W12"], "k": 3, "pool": ["W10", "M10", "M11", "M12", "W13", "M13", "W14", "M14"], "rem": 8}, {"f": ["W11", "W12"], "k": 3, "pool": ["M9", "W10", "M10", "M12", "W13", "M13", "W14", "M14"], "rem": 8}, {"f": ["W9", "W11", "W12"], "k": 2, "pool": null, "rem": 9}, {"f": ["W9", "M9", "W11", "W13"], "k": 1, "pool": ["W14", "M14"], "rem": 2}, {"f": ["W12", "W14", "M14"], "k": 2, "pool": null, "rem": 9}], "4": [{"f": ["W9", "W11", "W12", "W14"], "k": 0, "pool": null, "rem": 8}]}}, "rng": ["15\u201326", "14\u201324", "14\u201323", "14\u201326"], "odds": ["53.359%", "22.664%", "11.998%", "99.188%"], "name": "Rock You Like a Burrowcane"}, "Flush It Down": {"rec": "12-4", "seeds": {"1": null, "2": {"12": [{"f": [], "k": 12, "pool": null, "rem": 12}]}, "3": {"11": [{"f": [], "k": 11, "pool": null, "rem": 12}], "10": [{"f": ["W9", "M9", "W10"], "k": 7, "pool": ["W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "rem": 8}], "9": [{"f": ["W10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}]}, "6": {"8": [{"f": [], "k": 8, "pool": null, "rem": 12}], "7": [{"f": ["W12", "W13"], "k": 5, "pool": ["W9", "M9", "W10", "M10", "W11", "M11", "W14", "M14"], "rem": 8}, {"f": ["W11", "W12", "W13"], "k": 4, "pool": ["W9", "M9", "W10", "M10", "M13", "W14", "M14"], "rem": 7}, {"f": ["W12", "M12", "W13"], "k": 4, "pool": ["W10", "W11", "M13", "W14", "M14"], "rem": 5}, {"f": ["M10", "W11", "M12", "M13"], "k": 3, "pool": ["M9", "W14", "M14"], "rem": 3}, {"f": ["M9", "W11", "W12", "M12", "W13", "M14"], "k": 1, "pool": ["W10", "M13"], "rem": 2}, {"f": ["W10", "W12", "W13", "W14", "M14"], "k": 2, "pool": ["W9", "M9", "M11", "M12"], "rem": 4}, {"f": ["M9", "W10", "M12", "M13", "W14", "M14"], "k": 1, "pool": ["W11", "M11"], "rem": 2}, {"f": ["W12", "W13", "M13", "W14", "M14"], "k": 2, "pool": null, "rem": 7}]}}, "rng": ["15\u201324", "14\u201324", "13\u201323", "12\u201324"], "odds": ["18.677%", "24.926%", "19.802%", "94.393%"], "name": "Flush It Down"}, "Flowers For Charlie": {"rec": "11-5", "seeds": {"1": null, "2": {"12": [{"f": [], "k": 12, "pool": null, "rem": 12}]}, "3": {"11": [{"f": ["W9", "M9", "W10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}, {"f": ["W9", "W10", "M10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}]}, "6": {"9": [{"f": [], "k": 9, "pool": null, "rem": 12}], "8": [{"f": ["W11", "W14"], "k": 6, "pool": ["W9", "M9", "W10", "M10", "W12", "M12", "W13", "M13", "M14"], "rem": 9}, {"f": ["W14", "M14"], "k": 6, "pool": null, "rem": 10}], "7": [{"f": ["W11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": null, "rem": 5}]}}, "rng": ["15\u201323", "13\u201323", "13\u201322", "11\u201323"], "odds": ["11.167%", "16.758%", "18.538%", "88.069%"], "name": "Flowers For Charlie"}, "Showtime": {"rec": "11-5", "seeds": {"1": null, "2": null, "3": {"11": [{"f": ["W9", "W10", "M10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}]}, "6": {"9": [{"f": [], "k": 9, "pool": null, "rem": 12}], "8": [{"f": ["W11", "W14", "M14"], "k": 5, "pool": null, "rem": 9}, {"f": ["W9", "M10", "M11", "W12", "M13", "W14", "M14"], "k": 1, "pool": null, "rem": 5}, {"f": ["W12", "W13", "M13", "W14", "M14"], "k": 3, "pool": ["W9", "M9", "W10", "M10", "M11"], "rem": 5}, {"f": ["W9", "M10", "W12", "W13", "M13", "W14", "M14"], "k": 1, "pool": null, "rem": 5}]}}, "rng": ["15\u201323", "14\u201323", "13\u201323", "11\u201323"], "odds": ["9.8048%", "17.350%", "19.449%", "88.349%"], "name": "Showtime"}, "Omarion my wayward son": {"rec": "10-6", "seeds": {"1": null, "2": null, "3": {"12": [{"f": [], "k": 12, "pool": null, "rem": 12}]}, "6": {"10": [{"f": [], "k": 10, "pool": null, "rem": 12}], "9": [{"f": ["W9", "W10"], "k": 7, "pool": ["M9", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "rem": 9}, {"f": ["W9", "W14", "M14"], "k": 6, "pool": null, "rem": 9}]}}, "rng": ["15\u201322", "13\u201322", "12\u201322", "10\u201322"], "odds": ["4.8313%", "10.877%", "14.677%", "78.459%"], "name": "Omarion my wayward son"}, "XXI": {"rec": "8-8", "seeds": {"1": null, "2": null, "3": null, "6": {"11": [{"f": ["W9", "M9", "M10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}]}}, "rng": ["15\u201320", "13\u201320", "12\u201320", "9\u201320"], "odds": ["0.91907%", "2.9028%", "5.6057%", "47.676%"], "name": "XXI"}, "The Nightman Re-Cometh": {"rec": "8-8", "seeds": {"1": null, "2": null, "3": null, "6": {"11": [{"f": ["W9", "M9", "W10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}, {"f": ["M9", "W10", "M10", "W11", "M11", "W12", "M12", "W13", "M13", "W14", "M14"], "k": 0, "pool": [], "rem": 0}]}}, "rng": ["15\u201320", "13\u201320", "12\u201320", "9\u201320"], "odds": ["0.89340%", "2.8876%", "5.6318%", "47.720%"], "name": "The Nightman Re-Cometh"}, "Jahmyrs For Fears": {"rec": "7-9", "seeds": {"1": null, "2": null, "3": null, "6": null}, "rng": ["15\u201319", "13\u201319", "12\u201319", "9\u201319"], "odds": ["0.28609%", "1.2338%", "2.9700%", "31.197%"], "name": "Jahmyrs For Fears"}, "Swap's Team": {"rec": "6-10", "seeds": {"1": null, "2": null, "3": null, "6": null}, "rng": ["15\u201318", "14\u201318", "12\u201318", "9\u201318"], "odds": ["0.06149%", "0.39175%", "1.2232%", "18.495%"], "name": "Swap's Team"}, "You Give Love A Brad Name": {"rec": "4-12", "seeds": {"1": null, "2": null, "3": null, "6": null}, "rng": ["15\u201316", "13\u201316", "12\u201316", "9\u201316"], "odds": ["0.000131%", "0.00901%", "0.09540%", "4.3480%"], "name": "You Give Love A Brad Name"}, "Chasing  Nabors": {"rec": "3-13", "seeds": {"1": null, "2": null, "3": null, "6": null}, "rng": ["15 only", "13\u201315", "12\u201315", "9\u201315"], "odds": ["0.0000002%", "0.000235%", "0.00919%", "1.6918%"], "name": "Chasing Nabors"}, "It's Allen The Hips": {"rec": "2-14", "seeds": {"1": null, "2": null, "3": null, "6": null}, "rng": ["14 only", "13\u201314", "12\u201314", "9\u201314"], "odds": ["0.00000000000002026932%<span class=\"oneIn\">1 in 4,933,565,019,341,164</span>", "0.0000007%", "0.000208%", "0.41514%"], "name": "It's Allen The Hips"}};
+const SEEDLAB={"1":"1 seed","2":"2 seed","3":"3 seed","6":"Playoff berth"};
+document.getElementById("clin").innerHTML=Object.entries(CF).map(([key,v])=>{
+ const body=["1","2","3","6"].map((sd,i)=>{
+  const d=v.seeds[sd];
+  const meta=`<div class="smeta"><span><i>Win range</i> ${v.rng[i]}</span>`+
+             `<span><i>Odds</i> <b class="${v.odds[i].length>14?"xct":""}">${v.odds[i]}</b></span></div>`;
+  let ways;
+  if(d===null||d===undefined)
+    ways='<p class="nope">No set of your own results can guarantee this.</p>';
+  else if(d==="clinched") ways='<p class="nope">Already clinched.</p>';
+  else{
+    const ws=Object.keys(d).map(Number).sort((a,b)=>b-a);
+    ways='<p class="glab">Guaranteed by any one of these:</p>'+ws.map(w=>
+      `<div class="wblk"><span class="wn">${w} wins</span><ul class="ways">`+
+      d[String(w)].map(c=>{
+        const head=c.f.length===12?"win out — all 12":(c.f.length?c.f.join(" + "):"");
+        if(c.k===0) return `<li>${head}</li>`;
+        if(!c.pool){
+          const tail=c.k? (head? `+ any ${c.k} of the remaining ${c.rem}`
+                               : (c.k===12?"win out — all 12":`any ${c.k}`)) : "";
+          return `<li>${[head,tail].filter(Boolean).join(" ")}</li>`;
+        }
+        if(c.pool.length===1)
+          return `<li>${[head,c.pool[0]].filter(Boolean).join(" + ")}</li>`;
+        const lead = c.k===c.pool.length ? "all of these" : `any ${c.k} of these`;
+        return `<li>${head?head+", and ":""}${lead}:`+
+               `<ul class="pool">${c.pool.map(x=>`<li>${x}</li>`).join("")}</ul></li>`;
+      }).join("")+`</ul></div>`).join("");
+  }
+  return `<div class="sblk"><div class="shead">${SEEDLAB[sd]}</div>${meta}${ways}</div>`;
+ }).join("");
+ return `<div class="row"><h3>${v.name}<span class="rec">${v.rec}</span></h3>${body}</div>`;
+}).join("");
+
+const H=[["Jahmyrs For Fears", "7-9", "good", "Needs any ONE of these six things to happen:", ["XXI loses \u22651 <b>and</b> The Nightman Re-Cometh loses \u22651 <span class=\"pc\">99.5%</span>", "Omarion my wayward son loses \u22653 of 12 <span class=\"pc\">98.7%</span>", "Showtime loses \u22654 <span class=\"pc\">95.3%</span>", "Flowers For Charlie loses \u22654 <span class=\"pc\">95.2%</span>", "Flush It Down loses \u22655 <span class=\"pc\">77.7%</span>", "Rock You Like a Burrowcane loses \u22657 <span class=\"pc\">56.9%</span>"], "The top one is all but automatic: XXI and The Nightman Re-Cometh play each other in week 14, so one of them already takes a loss. Whichever wins that game only has to drop one more somewhere across six weeks."], ["Swap's Team", "6-10", "", "Needs any TWO of these seven things to happen:", ["The Nightman Re-Cometh loses \u22652 <span class=\"pc\">99.8%</span>", "XXI loses \u22652 <span class=\"pc\">98.8%</span>", "Omarion my wayward son loses \u22654 <span class=\"pc\">89.3%</span>", "Flowers For Charlie loses \u22655 <span class=\"pc\">87.4%</span>", "Showtime loses \u22655 <span class=\"pc\">87.2%</span>", "Flush It Down loses \u22656 <span class=\"pc\">62.4%</span>", "Rock You Like a Burrowcane loses \u22658 <span class=\"pc\">37.8%</span>"], "Any two of the seven will do it, and no single one of them is enough."], ["You Give Love A Brad Name", "4-12", "warn", "Needs FOUR of these five things to happen:", ["Jahmyrs For Fears loses \u22653 <span class=\"pc\">95.5%</span>", "The Nightman Re-Cometh loses \u22654 <span class=\"pc\">89.3%</span>", "Flowers For Charlie loses \u22657 <span class=\"pc\">44.1%</span>", "Flush It Down loses \u22658 <span class=\"pc\">27.5%</span>", "Rock You Like a Burrowcane loses \u226510 <span class=\"pc\">6.3%</span>"], ""], ["Chasing Nabors", "3-13", "warn", "Needs FOUR of these five things to happen:", ["Swap's Team loses \u22653 <span class=\"pc\">95.5%</span>", "Omarion my wayward son loses \u22657 <span class=\"pc\">44.0%</span>", "Flowers For Charlie loses \u22658 <span class=\"pc\">27.9%</span>", "Showtime loses \u22658 <span class=\"pc\">27.7%</span>", "Rock You Like a Burrowcane loses \u226511 <span class=\"pc\">1.8%</span>"], ""], ["It's Allen The Hips", "2-14", "warn", "Needs ALL FIVE of these things to happen:", ["Swap's Team loses \u22654 <span class=\"pc\">89.2%</span>", "Jahmyrs For Fears loses \u22655 <span class=\"pc\">77.5%</span>", "The Nightman Re-Cometh loses \u22656 <span class=\"pc\">62.3%</span>", "XXI loses \u22656 <span class=\"pc\">62.2%</span>", "Flowers For Charlie loses \u22659 <span class=\"pc\">14.0%</span>"], "One combination, no alternatives \u2014 every one of the five has to land."]];
+document.getElementById("help").innerHTML=H.map(([n,r,c,h,items,note])=>
+ `<div class="card ${c}"><h3>${n}<span class="rec">${r}</span></h3>
+  <p><span class="pill ${c==="good"?"in":"out"}">${h}</span></p>
+  <ul class="tight">${items.map(i=>`<li>${i}</li>`).join("")}</ul>
+  ${note?`<p>${note}</p>`:""}</div>`).join("");
+
+const P=[["Most points \u2014 $100", "Rock You Like a Burrowcane 14-2", ["Rock You Like a Burrowcane \u2014 1072.27", "Showtime \u2014 980.74", "Flush It Down \u2014 977.92", "Omarion my wayward son \u2014 974.09", "You Give Love A Brad Name \u2014 942.49", "Flowers For Charlie \u2014 933.94", "The Nightman Re-Cometh \u2014 927.12", "XXI \u2014 924.21", "Jahmyrs For Fears \u2014 858.34", "Chasing Nabors \u2014 812.14", "It's Allen The Hips \u2014 758.34", "Swap's Team \u2014 730.66"], "Leading by 91.53 \u2014 the one prize where somebody has pulled clear. No tiebreaker needed; every total is distinct."], ["Best worst week \u2014 $50", "Rock You Like a Burrowcane 14-2", ["Rock You Like a Burrowcane \u2014 111.08 (wk3)", "Flush It Down \u2014 106.94 (wk3)", "Omarion my wayward son \u2014 97.16 (wk7)", "You Give Love A Brad Name \u2014 92.34 (wk3)", "Showtime \u2014 89.20 (wk1)", "XXI \u2014 88.38 (wk4)", "The Nightman Re-Cometh \u2014 81.16 (wk2)", "Jahmyrs For Fears \u2014 81.03 (wk4)", "It's Allen The Hips \u2014 75.30 (wk6)", "Chasing Nabors \u2014 72.78 (wk2)", "Flowers For Charlie \u2014 65.10 (wk8)", "Swap's Team \u2014 58.22 (wk2)"], "This is a floor, so it only moves down. Rock You Like a Burrowcane gives up the lead the moment they score under 106.94 in any week. Ties break on the second-worst week, then the third."], ["Best week \u2014 $50", "You Give Love A Brad Name 4-12", ["You Give Love A Brad Name \u2014 192.80 (wk4)", "Rock You Like a Burrowcane \u2014 169.98 (wk7)", "The Nightman Re-Cometh \u2014 163.24 (wk5)", "Showtime \u2014 154.50 (wk8)", "Jahmyrs For Fears \u2014 149.96 (wk5)", "Flush It Down \u2014 149.06 (wk1)", "Omarion my wayward son \u2014 147.56 (wk2)", "XXI \u2014 145.14 (wk5)", "Flowers For Charlie \u2014 138.47 (wk7)", "Swap's Team \u2014 126.96 (wk5)", "It's Allen The Hips \u2014 121.92 (wk4)", "Chasing Nabors \u2014 120.02 (wk7)"], "192.80 is a tall bar with six weeks left to clear it. Ties break on the second-highest week, then the third."], ["Most best weeks \u2014 $50", "Rock You Like a Burrowcane 14-2, on the tiebreaker", ["Rock You Like a Burrowcane \u2014 2 (wk 1, 7) \u00b7 327.04 pts in those weeks", "The Nightman Re-Cometh \u2014 2 (wk 3, 5) \u00b7 305.82 pts in those weeks", "You Give Love A Brad Name \u2014 1 (wk 4) \u00b7 192.80 pts in those weeks", "Showtime \u2014 1 (wk 8) \u00b7 154.50 pts in those weeks", "Omarion my wayward son \u2014 1 (wk 2) \u00b7 147.56 pts in those weeks", "Flowers For Charlie \u2014 1 (wk 6) \u00b7 124.11 pts in those weeks"], "Only teams with at least one weekly high score appear. Rock You Like a Burrowcane and The Nightman Re-Cometh are level on two, so the rule applies: most points in the weeks that earned the point \u2014 327.04 to 305.82, a 21.22 margin. Six more points still to be handed out."], ["Best worst player \u2014 $50", "Showtime 11-5", ["Showtime \u2014 9.50 (Bengals, DEF, wk8)", "You Give Love A Brad Name \u2014 8.90 (Juwan Johnson, TE, wk4)", "XXI \u2014 8.70 (Travis Kelce, TE, wk8)", "Omarion my wayward son \u2014 8.50 (Tyler Bass, K, wk4)", "The Nightman Re-Cometh \u2014 7.90 (Luther Burden III, W/R/T, wk5)", "Rock You Like a Burrowcane \u2014 7.70 (Kenneth Walker III, W/R/T, wk7)", "Flush It Down \u2014 5.50 (Jaleel McLaughlin, W/R/T, wk6)", "Flowers For Charlie \u2014 5.30 (Jameson Williams, WR, wk2)", "Chasing Nabors \u2014 5.00 (Brandon McManus, K, wk7)", "Swap's Team \u2014 2.90 (Colston Loveland, TE, wk5)", "Jahmyrs For Fears \u2014 2.70 (DJ Moore, WR, wk4)", "It's Allen The Hips \u2014 2.00 (Jaguars, DEF, wk2)"], "Showtime took this over in week 8. Only weeks where you filled every roster spot count. Ties break on the second-worst player that week, then the third."]];
+document.getElementById("prizes").innerHTML=P.map(([t,lead,items,note])=>
+ `<div class="card"><h3>${t}</h3>
+  <p class="lead">Leader: <b style="color:var(--ink)">${lead}</b></p>
+  <ol class="rank">${items.map(i=>`<li>${i}</li>`).join("")}</ol>
+  ${note?`<p>${note}</p>`:""}</div>`).join("");
+</script>
+
+</body>
+</html>
