@@ -102,21 +102,6 @@
   .smeta b.xct{font-size:10px; color:var(--gold);}
   .glab{font-size:12.5px; color:var(--muted); padding-bottom:2px;}
   .mini{font-size:11.5px; color:var(--muted); opacity:.8;}
-  .picker{display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-top:18px;}
-  .picker label{font-size:11px; letter-spacing:.09em; text-transform:uppercase;
-                color:var(--muted); font-weight:600;}
-  .picker select{font:inherit; font-size:14.5px; padding:8px 11px; border-radius:9px;
-                 border:1px solid var(--line); background:var(--surface);
-                 color:var(--ink); max-width:100%;}
-  .picker select:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
-  .picker .clr{font-size:13px; color:var(--accent-ink); background:none; border:0;
-               padding:4px 2px; cursor:pointer; text-decoration:underline;}
-  .picker .clr[hidden]{display:none;}
-  .is-hidden{display:none !important;}
-  tr.sel td{background:color-mix(in srgb,var(--accent) 12%,transparent);}
-  ol.rank li.sel{font-weight:600; color:var(--ink);}
-  ol.rank li.sel::marker{font-weight:600; color:var(--accent-ink);}
-  .fnote{font-size:13.5px; color:var(--muted); font-style:italic;}
   .pc{font:12px/1 ui-monospace,Menlo,monospace; font-variant-numeric:tabular-nums;
       color:var(--muted); opacity:.75; padding-left:3px; white-space:nowrap;}
   .nope{font-size:13.5px; color:var(--muted);}
@@ -215,11 +200,6 @@
   <p class="lede">Where everybody stands, what each team still controls on its own,
   and what the ones on the outside need other people to do for them. Five weeks left —
   ten games apiece, because every week is a matchup <em>and</em> a median.</p>
-  <div class="picker">
-    <label for="teamsel">Show</label>
-    <select id="teamsel"><option value="">All teams — the whole league</option></select>
-    <button type="button" class="clr" id="teamclr" hidden>show everything</button>
-  </div>
 </header>
 
 <section>
@@ -321,10 +301,8 @@
 <script>
 const ST={"Flowers For Charlie": {"1": "live", "2": "live", "3": "live", "6": "live"}, "Omarion my wayward son": {"1": "live", "2": "live", "3": "live", "6": "live"}, "You Give Love A Brad Name": {"1": "eliminated", "2": "live", "3": "live", "6": "live"}, "XXI": {"1": "live", "2": "live", "3": "live", "6": "live"}, "Rock You Like a Burrowcane": {"1": "live", "2": "live", "3": "live", "6": "live"}, "Chasing Nabors": {"1": "eliminated", "2": "live", "3": "live", "6": "live"}, "Flush It Down": {"1": "live", "2": "live", "3": "live", "6": "live"}, "Showtime": {"1": "live", "2": "live", "3": "live", "6": "live"}, "Swap's Team": {"1": "live", "2": "live", "3": "live", "6": "live"}, "It's Allen The Hips": {"1": "eliminated", "2": "eliminated", "3": "eliminated", "6": "live"}, "Jahmyrs For Fears": {"1": "live", "2": "live", "3": "live", "6": "live"}, "The Nightman Re-Cometh": {"1": "live", "2": "live", "3": "live", "6": "live"}};
 const S=[["Rock You Like a Burrowcane", "16-2", "", "1233.91"], ["Showtime", "13-5", "2-0", "1114.34"], ["Flush It Down", "13-5", "1-1", "1078.38"], ["Omarion my wayward son", "12-6", "", "1101.57"], ["Flowers For Charlie", "11-7", "", "1023.16"], ["The Nightman Re-Cometh", "10-8", "", "1065.70"], ["XXI", "8-10", "", "1014.89"], ["Jahmyrs For Fears", "7-11", "", "945.40"], ["Swap's Team", "6-12", "", "838.82"], ["Chasing Nabors", "5-13", "2-0", "924.42"], ["You Give Love A Brad Name", "5-13", "1-1", "1054.57"], ["It's Allen The Hips", "2-16", "", "852.60"]];
-const TEAMS_LONGEST=S.map(r=>r[0]).slice().sort((a,b)=>b.length-a.length);
-function TEAMNAME(s){for(const t of TEAMS_LONGEST){if(s.indexOf(t)===0)return t;}return "";}
 document.getElementById("stand").innerHTML=S.map((r,i)=>
- `<tr data-team="${r[0]}" class="${i===6?'cut':''}"><td class="team" data-l="Team">${r[0]}${(()=>{
+ `<tr class="${i===6?'cut':''}"><td class="team" data-l="Team">${r[0]}${(()=>{
    const st=ST[r[0]]||{};
    const cl=["1","2","3","6"].filter(k=>st[k]==="clinched");
    const el=["1","2","3","6"].filter(k=>st[k]==="eliminated");
@@ -375,12 +353,12 @@ document.getElementById("clin").innerHTML=Object.entries(CF).map(([key,v])=>{
   }
   return `<div class="sblk"><div class="shead">${SEEDLAB[sd]}</div>${meta}${ways}</div>`;
  }).join("");
- return `<div class="row" data-team="${v.name}"><h3>${v.name}<span class="rec">${v.rec}</span></h3>${body}</div>`;
+ return `<div class="row"><h3>${v.name}<span class="rec">${v.rec}</span></h3>${body}</div>`;
 }).join("");
 
 const H=[["XXI", "8-10", "", "Needs any 1 of these 6 things to happen:", ["The Nightman Re-Cometh loses \u22652 of 10 <span class='pc'>99.4%</span> <span class='mini'>you beat them in wk14, so 1 more</span>", "Flowers For Charlie loses \u22653 of 10 <span class='pc'>96.7%</span> <span class='mini'>you beat them in wk11, so 2 more</span>", "Flush It Down loses \u22655 of 10 <span class='pc'>76.0%</span> <span class='mini'>you beat them in wk12, so 4 more</span>", "Omarion my wayward son loses \u22655 of 10 <span class='pc'>62.2%</span>", "Showtime loses \u22656 of 10 <span class='pc'>43.6%</span>", "Rock You Like a Burrowcane loses \u22659 of 10 <span class='pc'>4.0%</span>"], ""], ["Jahmyrs For Fears", "7-11", "", "Needs any 2 of these 7 things to happen:", ["XXI loses \u22652 of 10 <span class='pc'>97.1%</span>", "Flowers For Charlie loses \u22654 of 10 <span class='pc'>89.7%</span> <span class='mini'>you beat them in wk14, so 3 more</span>", "The Nightman Re-Cometh loses \u22654 of 10 <span class='pc'>79.6%</span>", "Showtime loses \u22656 of 10 <span class='pc'>57.3%</span> <span class='mini'>you beat them in wk11, so 5 more</span>", "Omarion my wayward son loses \u22656 of 10 <span class='pc'>43.6%</span>", "Flush It Down loses \u22657 of 10 <span class='pc'>25.0%</span>", "Rock You Like a Burrowcane loses \u22659 of 10 <span class='pc'>6.7%</span> <span class='mini'>you beat them in wk12, so 8 more</span>"], ""], ["Swap's Team", "6-12", "", "Needs any 2 of these 7 things to happen:", ["XXI loses \u22653 of 10 <span class='pc'>90.6%</span>", "Flowers For Charlie loses \u22655 of 10 <span class='pc'>75.9%</span> <span class='mini'>you beat them in wk12, so 4 more</span>", "The Nightman Re-Cometh loses \u22655 of 10 <span class='pc'>62.4%</span>", "Showtime loses \u22657 of 10 <span class='pc'>35.8%</span> <span class='mini'>you beat them in wk10, so 6 more</span>", "Omarion my wayward son loses \u22657 of 10 <span class='pc'>25.0%</span>", "Flush It Down loses \u22658 of 10 <span class='pc'>12.2%</span>", "Rock You Like a Burrowcane loses \u226510 of 10 <span class='pc'>1.8%</span> <span class='mini'>you beat them in wk14, so 9 more</span>"], "Jahmyrs For Fears losing at least 1 is already guaranteed \u2014 you beat them \u2014 so it isn't listed."], ["You Give Love A Brad Name", "5-13", "", "Needs any 4 of these 8 things to happen:", ["Chasing Nabors loses \u22651 of 10 <span class='pc'>99.3%</span>", "XXI loses \u22653 of 10 <span class='pc'>96.7%</span> <span class='mini'>you beat them in wk10, so 2 more</span>", "Jahmyrs For Fears loses \u22653 of 10 <span class='pc'>90.6%</span>", "The Nightman Re-Cometh loses \u22656 of 10 <span class='pc'>43.6%</span>", "Omarion my wayward son loses \u22657 of 10 <span class='pc'>36.1%</span> <span class='mini'>you beat them in wk14, so 6 more</span>", "Flowers For Charlie loses \u22657 of 10 <span class='pc'>24.9%</span>", "Showtime loses \u22658 of 10 <span class='pc'>18.7%</span> <span class='mini'>you beat them in wk13, so 7 more</span>", "Flush It Down loses \u22659 of 10 <span class='pc'>4.0%</span>"], "Swap's Team losing at least 1 is already guaranteed \u2014 you beat them \u2014 so it isn't listed. Rock You Like a Burrowcane will finish above you regardless \u2014 nothing can change that, so you'd get in behind them."], ["Chasing Nabors", "5-13", "", "Needs any 5 of these 9 things to happen:", ["Jahmyrs For Fears loses \u22652 of 10 <span class='pc'>99.4%</span> <span class='mini'>you beat them in wk10, so 1 more</span>", "You Give Love A Brad Name loses \u22651 of 10 <span class='pc'>99.3%</span>", "Swap's Team loses \u22652 of 10 <span class='pc'>97.1%</span>", "XXI loses \u22653 of 10 <span class='pc'>96.7%</span> <span class='mini'>you beat them in wk13, so 2 more</span>", "The Nightman Re-Cometh loses \u22655 of 10 <span class='pc'>75.8%</span> <span class='mini'>you beat them in wk12, so 4 more</span>", "Flowers For Charlie loses \u22657 of 10 <span class='pc'>25.1%</span>", "Flush It Down loses \u22658 of 10 <span class='pc'>18.7%</span> <span class='mini'>you beat them in wk14, so 7 more</span>", "Omarion my wayward son loses \u22658 of 10 <span class='pc'>12.2%</span>", "Showtime loses \u22659 of 10 <span class='pc'>4.0%</span>"], "Rock You Like a Burrowcane will finish above you regardless \u2014 nothing can change that, so you'd get in behind them."], ["It's Allen The Hips", "2-16", "", "Needs any 6 of these 8 things to happen:", ["You Give Love A Brad Name loses \u22653 of 10 <span class='pc'>96.7%</span> <span class='mini'>you beat them in wk12, so 2 more</span>", "Chasing Nabors loses \u22653 of 10 <span class='pc'>96.7%</span> <span class='mini'>you beat them in wk11, so 2 more</span>", "Swap's Team loses \u22655 of 10 <span class='pc'>62.3%</span>", "Jahmyrs For Fears loses \u22656 of 10 <span class='pc'>43.4%</span>", "XXI loses \u22657 of 10 <span class='pc'>24.9%</span>", "The Nightman Re-Cometh loses \u22659 of 10 <span class='pc'>4.0%</span>", "Omarion my wayward son loses \u226510 of 10 <span class='pc'>1.9%</span> <span class='mini'>you beat them in wk13, so 9 more</span>", "Flowers For Charlie loses \u226510 of 10 <span class='pc'>1.0%</span>"], "Rock You Like a Burrowcane, Flush It Down, Showtime will finish above you regardless \u2014 nothing can change that, so you'd get in behind them."]];
 document.getElementById("help").innerHTML=H.map(([n,r,c,h,items,note])=>
- `<div class="card ${c}" data-team="${n}"><h3>${n}<span class="rec">${r}</span></h3>
+ `<div class="card ${c}"><h3>${n}<span class="rec">${r}</span></h3>
   <p><span class="pill ${c==="good"?"in":"out"}">${h}</span></p>
   <ul class="tight">${items.map(i=>`<li>${i}</li>`).join("")}</ul>
   ${note?`<p>${note}</p>`:""}</div>`).join("");
@@ -389,58 +367,8 @@ const P=[["Most points \u2014 $100", "Rock You Like a Burrowcane 16-2", ["Rock Y
 document.getElementById("prizes").innerHTML=P.map(([t,lead,items,note])=>
  `<div class="card"><h3>${t}</h3>
   <p class="lead">Leader: <b style="color:var(--ink)">${lead}</b></p>
-  <ol class="rank">${items.map(i=>`<li data-team="${TEAMNAME(i)}">${i}</li>`).join("")}</ol>
+  <ol class="rank">${items.map(i=>`<li>${i}</li>`).join("")}</ol>
   ${note?`<p>${note}</p>`:""}</div>`).join("");
-
-(function(){
-  const sel=document.getElementById("teamsel"), clr=document.getElementById("teamclr");
-  if(!sel) return;
-  const names=S.map(r=>r[0]).slice().sort((a,b)=>a.localeCompare(b));
-  for(const n of names){
-    const o=document.createElement("option"); o.value=n; o.textContent=n; sel.appendChild(o);
-  }
-  const note=(host,text)=>{
-    const el=document.createElement("p");
-    el.className="fnote js-note"; el.textContent=text; host.appendChild(el);
-  };
-  function apply(team){
-    document.querySelectorAll(".js-note").forEach(n=>n.remove());
-    document.querySelectorAll("#stand tr").forEach(tr=>
-      tr.classList.toggle("sel", !!team && tr.dataset.team===team));
-    ["#clin .row","#help .card"].forEach(q=>
-      document.querySelectorAll(q).forEach(el=>
-        el.classList.toggle("is-hidden", !!team && el.dataset.team!==team)));
-    document.querySelectorAll("#prizes ol.rank li").forEach(li=>
-      li.classList.toggle("sel", !!team && li.dataset.team===team));
-    if(team){
-      const help=document.getElementById("help");
-      if(help && !help.querySelector(".card:not(.is-hidden)"))
-        note(help, team+" controls their own destiny \u2014 nothing on this list applies to them.");
-      document.querySelectorAll("#prizes .card").forEach(c=>{
-        const on=Array.prototype.some.call(c.querySelectorAll("ol.rank li"),
-                                           li=>li.dataset.team===team);
-        if(!on) note(c, "No entry for "+team+" on this one yet.");
-      });
-    }
-    clr.hidden=!team;
-  }
-  let init="";
-  try{ init=new URLSearchParams(location.search).get("team")
-            || localStorage.getItem("ffteam") || ""; }catch(e){}
-  if(names.indexOf(init)<0) init="";
-  sel.value=init; apply(init);
-  sel.addEventListener("change",()=>{
-    const t=sel.value;
-    try{ localStorage.setItem("ffteam",t); }catch(e){}
-    try{
-      const u=new URL(location.href);
-      if(t) u.searchParams.set("team",t); else u.searchParams.delete("team");
-      history.replaceState(null,"",u);
-    }catch(e){}
-    apply(t);
-  });
-  clr.addEventListener("click",()=>{ sel.value=""; sel.dispatchEvent(new Event("change")); });
-})();
 </script>
 </body>
 </html>
