@@ -1,0 +1,726 @@
+{
+ "scores": {
+  "1": {
+   "Flowers For Charlie": 124.76,
+   "Swap's Team": 121.56,
+   "Omarion my wayward son": 106.82,
+   "Showtime": 89.2,
+   "You Give Love A Brad Name": 132.56,
+   "It's Allen The Hips": 90.26,
+   "XXI": 101.25,
+   "Flush It Down": 149.06,
+   "Rock You Like a Burrowcane": 157.06,
+   "Jahmyrs For Fears": 107.02,
+   "Chasing Nabors": 99.36,
+   "The Nightman Re-Cometh": 142.9
+  },
+  "2": {
+   "Flowers For Charlie": 118.7,
+   "Rock You Like a Burrowcane": 118.68,
+   "Omarion my wayward son": 147.56,
+   "It's Allen The Hips": 102.32,
+   "You Give Love A Brad Name": 109.78,
+   "Showtime": 132.66,
+   "XXI": 116.1,
+   "Chasing Nabors": 72.78,
+   "Flush It Down": 116.74,
+   "The Nightman Re-Cometh": 81.16,
+   "Swap's Team": 58.22,
+   "Jahmyrs For Fears": 82.52
+  },
+  "3": {
+   "Flowers For Charlie": 129.44,
+   "Jahmyrs For Fears": 133.16,
+   "Omarion my wayward son": 123.58,
+   "You Give Love A Brad Name": 92.34,
+   "XXI": 141.46,
+   "The Nightman Re-Cometh": 142.58,
+   "Rock You Like a Burrowcane": 111.08,
+   "Swap's Team": 77.52,
+   "Chasing Nabors": 100.28,
+   "Flush It Down": 106.94,
+   "Showtime": 126.74,
+   "It's Allen The Hips": 91.86
+  },
+  "4": {
+   "Flowers For Charlie": 130.68,
+   "It's Allen The Hips": 121.92,
+   "Omarion my wayward son": 136.64,
+   "Swap's Team": 84.88,
+   "You Give Love A Brad Name": 192.8,
+   "The Nightman Re-Cometh": 98.68,
+   "XXI": 88.38,
+   "Jahmyrs For Fears": 81.03,
+   "Rock You Like a Burrowcane": 133.42,
+   "Chasing Nabors": 111.52,
+   "Flush It Down": 113.16,
+   "Showtime": 106.5
+  },
+  "5": {
+   "Flowers For Charlie": 102.68,
+   "The Nightman Re-Cometh": 163.24,
+   "Omarion my wayward son": 104.87,
+   "XXI": 145.14,
+   "You Give Love A Brad Name": 106.64,
+   "Rock You Like a Burrowcane": 133.15,
+   "Chasing Nabors": 109.66,
+   "Showtime": 143.54,
+   "Flush It Down": 110.56,
+   "Swap's Team": 126.96,
+   "It's Allen The Hips": 103.7,
+   "Jahmyrs For Fears": 149.96
+  },
+  "6": {
+   "Flowers For Charlie": 124.11,
+   "Chasing Nabors": 110.46,
+   "Omarion my wayward son": 111.74,
+   "Rock You Like a Burrowcane": 112.12,
+   "You Give Love A Brad Name": 107.53,
+   "Flush It Down": 120.4,
+   "XXI": 95.48,
+   "Showtime": 120.02,
+   "Swap's Team": 62.4,
+   "It's Allen The Hips": 75.3,
+   "Jahmyrs For Fears": 95.8,
+   "The Nightman Re-Cometh": 105.44
+  },
+  "7": {
+   "Flowers For Charlie": 138.47,
+   "You Give Love A Brad Name": 97.0,
+   "Omarion my wayward son": 97.16,
+   "Chasing Nabors": 120.02,
+   "XXI": 102.32,
+   "Swap's Team": 111.02,
+   "Rock You Like a Burrowcane": 169.98,
+   "Showtime": 107.58,
+   "Flush It Down": 133.88,
+   "Jahmyrs For Fears": 103.14,
+   "It's Allen The Hips": 83.42,
+   "The Nightman Re-Cometh": 101.22
+  },
+  "8": {
+   "Flowers For Charlie": 65.1,
+   "Omarion my wayward son": 145.72,
+   "You Give Love A Brad Name": 103.84,
+   "Jahmyrs For Fears": 105.71,
+   "XXI": 134.08,
+   "It's Allen The Hips": 89.56,
+   "Rock You Like a Burrowcane": 136.78,
+   "Flush It Down": 127.18,
+   "Chasing Nabors": 88.06,
+   "Swap's Team": 88.1,
+   "Showtime": 154.5,
+   "The Nightman Re-Cometh": 91.9
+  },
+  "9": {
+   "Flowers For Charlie": 89.22,
+   "Showtime": 133.6,
+   "Omarion my wayward son": 127.48,
+   "Jahmyrs For Fears": 87.06,
+   "You Give Love A Brad Name": 112.08,
+   "Chasing Nabors": 112.28,
+   "XXI": 90.68,
+   "Rock You Like a Burrowcane": 161.64,
+   "Flush It Down": 100.46,
+   "It's Allen The Hips": 94.26,
+   "Swap's Team": 108.16,
+   "The Nightman Re-Cometh": 138.58
+  },
+  "10": {
+   "Flowers For Charlie": 124.98,
+   "Flush It Down": 116.56,
+   "Omarion my wayward son": 133.44,
+   "The Nightman Re-Cometh": 163.48,
+   "You Give Love A Brad Name": 114.82,
+   "XXI": 111.37,
+   "Rock You Like a Burrowcane": 89.62,
+   "It's Allen The Hips": 107.24,
+   "Chasing Nabors": 140.46,
+   "Jahmyrs For Fears": 122.02,
+   "Showtime": 131.72,
+   "Swap's Team": 111.46
+  },
+  "11": {
+   "Flowers For Charlie": 0.0,
+   "XXI": 0.0,
+   "Omarion my wayward son": 0.0,
+   "Flush It Down": 0.0,
+   "You Give Love A Brad Name": 0.0,
+   "Swap's Team": 0.0,
+   "Rock You Like a Burrowcane": 0.0,
+   "The Nightman Re-Cometh": 0.0,
+   "Chasing Nabors": 0.0,
+   "It's Allen The Hips": 0.0,
+   "Showtime": 0.0,
+   "Jahmyrs For Fears": 0.0
+  },
+  "12": {
+   "Flowers For Charlie": 0.0,
+   "Swap's Team": 0.0,
+   "Omarion my wayward son": 0.0,
+   "Showtime": 0.0,
+   "You Give Love A Brad Name": 0.0,
+   "It's Allen The Hips": 0.0,
+   "XXI": 0.0,
+   "Flush It Down": 0.0,
+   "Rock You Like a Burrowcane": 0.0,
+   "Jahmyrs For Fears": 0.0,
+   "Chasing Nabors": 0.0,
+   "The Nightman Re-Cometh": 0.0
+  },
+  "13": {
+   "Flowers For Charlie": 0.0,
+   "Rock You Like a Burrowcane": 0.0,
+   "Omarion my wayward son": 0.0,
+   "It's Allen The Hips": 0.0,
+   "You Give Love A Brad Name": 0.0,
+   "Showtime": 0.0,
+   "XXI": 0.0,
+   "Chasing Nabors": 0.0,
+   "Flush It Down": 0.0,
+   "The Nightman Re-Cometh": 0.0,
+   "Swap's Team": 0.0,
+   "Jahmyrs For Fears": 0.0
+  },
+  "14": {
+   "Flowers For Charlie": 0.0,
+   "Jahmyrs For Fears": 0.0,
+   "Omarion my wayward son": 0.0,
+   "You Give Love A Brad Name": 0.0,
+   "XXI": 0.0,
+   "The Nightman Re-Cometh": 0.0,
+   "Rock You Like a Burrowcane": 0.0,
+   "Swap's Team": 0.0,
+   "Chasing Nabors": 0.0,
+   "Flush It Down": 0.0,
+   "Showtime": 0.0,
+   "It's Allen The Hips": 0.0
+  }
+ },
+ "pairs": {
+  "1": [
+   [
+    "Flowers For Charlie",
+    "Swap's Team"
+   ],
+   [
+    "Omarion my wayward son",
+    "Showtime"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "It's Allen The Hips"
+   ],
+   [
+    "XXI",
+    "Flush It Down"
+   ],
+   [
+    "Rock You Like a Burrowcane",
+    "Jahmyrs For Fears"
+   ],
+   [
+    "Chasing Nabors",
+    "The Nightman Re-Cometh"
+   ]
+  ],
+  "2": [
+   [
+    "Flowers For Charlie",
+    "Rock You Like a Burrowcane"
+   ],
+   [
+    "Omarion my wayward son",
+    "It's Allen The Hips"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "Showtime"
+   ],
+   [
+    "XXI",
+    "Chasing Nabors"
+   ],
+   [
+    "Flush It Down",
+    "The Nightman Re-Cometh"
+   ],
+   [
+    "Swap's Team",
+    "Jahmyrs For Fears"
+   ]
+  ],
+  "3": [
+   [
+    "Flowers For Charlie",
+    "Jahmyrs For Fears"
+   ],
+   [
+    "Omarion my wayward son",
+    "You Give Love A Brad Name"
+   ],
+   [
+    "XXI",
+    "The Nightman Re-Cometh"
+   ],
+   [
+    "Rock You Like a Burrowcane",
+    "Swap's Team"
+   ],
+   [
+    "Chasing Nabors",
+    "Flush It Down"
+   ],
+   [
+    "Showtime",
+    "It's Allen The Hips"
+   ]
+  ],
+  "4": [
+   [
+    "Flowers For Charlie",
+    "It's Allen The Hips"
+   ],
+   [
+    "Omarion my wayward son",
+    "Swap's Team"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "The Nightman Re-Cometh"
+   ],
+   [
+    "XXI",
+    "Jahmyrs For Fears"
+   ],
+   [
+    "Rock You Like a Burrowcane",
+    "Chasing Nabors"
+   ],
+   [
+    "Flush It Down",
+    "Showtime"
+   ]
+  ],
+  "5": [
+   [
+    "Flowers For Charlie",
+    "The Nightman Re-Cometh"
+   ],
+   [
+    "Omarion my wayward son",
+    "XXI"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "Rock You Like a Burrowcane"
+   ],
+   [
+    "Chasing Nabors",
+    "Showtime"
+   ],
+   [
+    "Flush It Down",
+    "Swap's Team"
+   ],
+   [
+    "It's Allen The Hips",
+    "Jahmyrs For Fears"
+   ]
+  ],
+  "6": [
+   [
+    "Flowers For Charlie",
+    "Chasing Nabors"
+   ],
+   [
+    "Omarion my wayward son",
+    "Rock You Like a Burrowcane"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "Flush It Down"
+   ],
+   [
+    "XXI",
+    "Showtime"
+   ],
+   [
+    "Swap's Team",
+    "It's Allen The Hips"
+   ],
+   [
+    "Jahmyrs For Fears",
+    "The Nightman Re-Cometh"
+   ]
+  ],
+  "7": [
+   [
+    "Flowers For Charlie",
+    "You Give Love A Brad Name"
+   ],
+   [
+    "Omarion my wayward son",
+    "Chasing Nabors"
+   ],
+   [
+    "XXI",
+    "Swap's Team"
+   ],
+   [
+    "Rock You Like a Burrowcane",
+    "Showtime"
+   ],
+   [
+    "Flush It Down",
+    "Jahmyrs For Fears"
+   ],
+   [
+    "It's Allen The Hips",
+    "The Nightman Re-Cometh"
+   ]
+  ],
+  "8": [
+   [
+    "Flowers For Charlie",
+    "Omarion my wayward son"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "Jahmyrs For Fears"
+   ],
+   [
+    "XXI",
+    "It's Allen The Hips"
+   ],
+   [
+    "Rock You Like a Burrowcane",
+    "Flush It Down"
+   ],
+   [
+    "Chasing Nabors",
+    "Swap's Team"
+   ],
+   [
+    "Showtime",
+    "The Nightman Re-Cometh"
+   ]
+  ],
+  "9": [
+   [
+    "Flowers For Charlie",
+    "Showtime"
+   ],
+   [
+    "Omarion my wayward son",
+    "Jahmyrs For Fears"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "Chasing Nabors"
+   ],
+   [
+    "XXI",
+    "Rock You Like a Burrowcane"
+   ],
+   [
+    "Flush It Down",
+    "It's Allen The Hips"
+   ],
+   [
+    "Swap's Team",
+    "The Nightman Re-Cometh"
+   ]
+  ],
+  "10": [
+   [
+    "Flowers For Charlie",
+    "Flush It Down"
+   ],
+   [
+    "Omarion my wayward son",
+    "The Nightman Re-Cometh"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "XXI"
+   ],
+   [
+    "Rock You Like a Burrowcane",
+    "It's Allen The Hips"
+   ],
+   [
+    "Chasing Nabors",
+    "Jahmyrs For Fears"
+   ],
+   [
+    "Showtime",
+    "Swap's Team"
+   ]
+  ],
+  "11": [
+   [
+    "Flowers For Charlie",
+    "XXI"
+   ],
+   [
+    "Omarion my wayward son",
+    "Flush It Down"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "Swap's Team"
+   ],
+   [
+    "Rock You Like a Burrowcane",
+    "The Nightman Re-Cometh"
+   ],
+   [
+    "Chasing Nabors",
+    "It's Allen The Hips"
+   ],
+   [
+    "Showtime",
+    "Jahmyrs For Fears"
+   ]
+  ],
+  "12": [
+   [
+    "Flowers For Charlie",
+    "Swap's Team"
+   ],
+   [
+    "Omarion my wayward son",
+    "Showtime"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "It's Allen The Hips"
+   ],
+   [
+    "XXI",
+    "Flush It Down"
+   ],
+   [
+    "Rock You Like a Burrowcane",
+    "Jahmyrs For Fears"
+   ],
+   [
+    "Chasing Nabors",
+    "The Nightman Re-Cometh"
+   ]
+  ],
+  "13": [
+   [
+    "Flowers For Charlie",
+    "Rock You Like a Burrowcane"
+   ],
+   [
+    "Omarion my wayward son",
+    "It's Allen The Hips"
+   ],
+   [
+    "You Give Love A Brad Name",
+    "Showtime"
+   ],
+   [
+    "XXI",
+    "Chasing Nabors"
+   ],
+   [
+    "Flush It Down",
+    "The Nightman Re-Cometh"
+   ],
+   [
+    "Swap's Team",
+    "Jahmyrs For Fears"
+   ]
+  ],
+  "14": [
+   [
+    "Flowers For Charlie",
+    "Jahmyrs For Fears"
+   ],
+   [
+    "Omarion my wayward son",
+    "You Give Love A Brad Name"
+   ],
+   [
+    "XXI",
+    "The Nightman Re-Cometh"
+   ],
+   [
+    "Rock You Like a Burrowcane",
+    "Swap's Team"
+   ],
+   [
+    "Chasing Nabors",
+    "Flush It Down"
+   ],
+   [
+    "Showtime",
+    "It's Allen The Hips"
+   ]
+  ]
+ },
+ "rec": {
+  "It's Allen The Hips": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1
+  },
+  "Flush It Down": {
+   "1": 2,
+   "2": 2,
+   "3": 1,
+   "4": 2,
+   "5": 0,
+   "6": 2,
+   "7": 2,
+   "8": 1,
+   "9": 1,
+   "10": 0
+  },
+  "Omarion my wayward son": {
+   "1": 1,
+   "2": 2,
+   "3": 2,
+   "4": 2,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 2,
+   "9": 2,
+   "10": 1
+  },
+  "XXI": {
+   "1": 0,
+   "2": 2,
+   "3": 1,
+   "4": 1,
+   "5": 2,
+   "6": 0,
+   "7": 0,
+   "8": 2,
+   "9": 0,
+   "10": 0
+  },
+  "Jahmyrs For Fears": {
+   "1": 0,
+   "2": 1,
+   "3": 2,
+   "4": 0,
+   "5": 2,
+   "6": 0,
+   "7": 0,
+   "8": 2,
+   "9": 0,
+   "10": 1
+  },
+  "Showtime": {
+   "1": 0,
+   "2": 2,
+   "3": 2,
+   "4": 0,
+   "5": 2,
+   "6": 2,
+   "7": 1,
+   "8": 2,
+   "9": 2,
+   "10": 2
+  },
+  "Rock You Like a Burrowcane": {
+   "1": 2,
+   "2": 1,
+   "3": 1,
+   "4": 2,
+   "5": 2,
+   "6": 2,
+   "7": 2,
+   "8": 2,
+   "9": 2,
+   "10": 0
+  },
+  "Swap's Team": {
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 2,
+   "6": 0,
+   "7": 2,
+   "8": 1,
+   "9": 0,
+   "10": 0
+  },
+  "Chasing Nabors": {
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 2,
+   "8": 0,
+   "9": 2,
+   "10": 2
+  },
+  "Flowers For Charlie": {
+   "1": 2,
+   "2": 2,
+   "3": 1,
+   "4": 2,
+   "5": 0,
+   "6": 2,
+   "7": 2,
+   "8": 0,
+   "9": 0,
+   "10": 2
+  },
+  "You Give Love A Brad Name": {
+   "1": 2,
+   "2": 0,
+   "3": 0,
+   "4": 2,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 1,
+   "10": 1
+  },
+  "The Nightman Re-Cometh": {
+   "1": 2,
+   "2": 0,
+   "3": 2,
+   "4": 0,
+   "5": 2,
+   "6": 1,
+   "7": 1,
+   "8": 0,
+   "9": 2,
+   "10": 2
+  }
+ },
+ "PF": {
+  "Rock You Like a Burrowcane": 1323.53,
+  "Flowers For Charlie": 1148.14,
+  "Jahmyrs For Fears": 1067.42,
+  "Swap's Team": 950.28,
+  "Flush It Down": 1194.94,
+  "The Nightman Re-Cometh": 1229.18,
+  "XXI": 1126.26,
+  "Chasing Nabors": 1064.88,
+  "Showtime": 1246.06,
+  "Omarion my wayward son": 1235.01,
+  "You Give Love A Brad Name": 1169.39,
+  "It's Allen The Hips": 959.84
+ }
+}
