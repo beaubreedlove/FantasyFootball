@@ -11,13 +11,30 @@ const html = fs.readFileSync(file, "utf8");
 
 const ids = new Set([...html.matchAll(/id="([A-Za-z0-9_-]+)"/g)].map(m => m[1]));
 const store = {};
+const el = () => ({
+  classList: { toggle() {}, add() {}, remove() {} },
+  dataset: {}, style: {}, setAttribute() {}, appendChild() {}, remove() {},
+  addEventListener() {}, querySelector: () => null, querySelectorAll: () => [],
+  set textContent(v) {}, set className(v) {}, set value(v) {}, get value() { return ""; },
+});
+global.localStorage = { getItem: () => null, setItem() {} };
+global.location = { search: "", href: "https://example.invalid/" };
+global.history = { replaceState() {} };
 global.document = {
+  createElement: el,
+  querySelectorAll: () => [],
+  querySelector: () => null,
   getElementById(id) {
     if (!ids.has(id)) return null;          // exactly what a browser does
-    return {
-      set innerHTML(v) { store[id] = v; },
-      get innerHTML() { return store[id] || ""; },
-    };
+    // NB: Object.assign would copy the accessor's VALUE, not the accessor,
+    // silently dropping the setter and making every section look empty.
+    const node = el();
+    Object.defineProperty(node, "innerHTML", {
+      set(v) { store[id] = v; },
+      get() { return store[id] || ""; },
+      configurable: true,
+    });
+    return node;
   },
 };
 
