@@ -183,6 +183,27 @@ src = re.sub(r'\b\d+ teams don[’\']t control their own destiny',
              f"{nhelp} teams don’t control their own destiny", src, count=1)
 
 
+
+def card_span(s, start):
+    """[start, end) of the <div> that begins at `start`, matched properly.
+
+    The old code looked for the next </div> after some inner tag, which walked
+    straight out of the card and swallowed the whole clinching section."""
+    depth, i = 0, start
+    while True:
+        o = s.find("<div", i)
+        c = s.find("</div>", i)
+        assert c != -1, "unbalanced div"
+        if o != -1 and o < c:
+            depth += 1
+            i = o + 4
+        else:
+            depth -= 1
+            i = c + 6
+            if depth == 0:
+                return start, i
+
+
 # ---------- the two cards that are rewritten from scratch each week ----------
 rows = "".join(
     f'<tr><td data-l="Line">{CUT[k]["label"]}</td>'
@@ -190,8 +211,7 @@ rows = "".join(
     f'<td class="n" data-l="Median">{CUT[k]["median"]:g}</td>'
     f'<td class="n" data-l="Mode">{CUT[k]["mode"]:g}</td></tr>'
     for k in ("s1", "s2", "s3", "s6"))
-i = src.index('<div class="card"><h3>Where the playoff line falls</h3>')
-j = src.index("</div>", src.index("Practical read", i)) + 6
+i, j = card_span(src, src.index('<div class="card"><h3>Where the playoff line falls</h3>'))
 src = src[:i] + (
     '<div class="card"><h3>Where each line falls</h3>'
     '<p>The midpoint between the seed above a line and the seed below it, across '
@@ -211,9 +231,7 @@ YAHOO = ["Rock You Like a Burrowcane", "Showtime", "Omarion my wayward son",
 diff = [(t, ORDER.index(t) + 1, YAHOO.index(t) + 1)
         for t in ORDER if ORDER.index(t) != YAHOO.index(t)]
 li = "".join(f"<li><b>{t}</b> — {o} here, {y} on Yahoo</li>" for t, o, y in diff)
-i = src.index('<div class="card"><h3>This order is not Yahoo\'s order</h3>')
-j = src.index("</div>", src.index("</ul>", i) if "</ul>" in src[i:i + 1400]
-              else src.index("</p>", i)) + 6
+i, j = card_span(src, src.index('<div class="card"><h3>This order is not Yahoo\'s order</h3>'))
 src = src[:i] + (
     '<div class="card"><h3>This order is not Yahoo\'s order</h3>'
     '<p>Yahoo breaks ties on points. Our rule is most recent weekly records counting '
@@ -222,6 +240,28 @@ src = src[:i] + (
     '<p class="lead">The three-way tie at 13-7 is the big one: Flowers For Charlie went '
     '2-0 in week 10, Omarion my wayward son 1-1, Flush It Down 0-2 — that one week '
     'orders all three.</p></div>') + src[j:]
+
+
+# ---------- clinching section: cards first, explanation underneath ----------
+_i = src.index('<span class="eyebrow">Team by team</span>')
+_sec_end = src.index("</section>", _i)
+_head_end = src.index("</div>", src.index("<h2>", _i)) + len("</div>")
+_panel = src.index('<div class="panel"', _head_end)
+_panel_end = src.index("</div>", src.index('id="clin"', _panel)) + len("</div>")
+_panel_end = src.index("</div>", _panel_end) + len("</div>")
+_card = src[_panel:_panel_end]
+_prose = src[_head_end:_panel]
+assert 'id="clin"' in _card and "Notes on notation" in _prose
+src = src[:_head_end] + "\n  " + _card + _prose.rstrip() + "\n" + src[_panel_end:]
+assert src.index('id="clin"') < src.index("Notes on notation")
+
+
+TPL_IDS = set(re.findall(r'id="([a-z]+)"', open(TPL).read()))
+OUT_IDS = set(re.findall(r'id="([a-z]+)"', src))
+missing = TPL_IDS - OUT_IDS
+assert not missing, f"build dropped render targets: {sorted(missing)}"
+for sec in ("stand", "clin", "help", "prizes"):
+    assert f'id="{sec}"' in src, f"missing #{sec}"
 
 open(OUT, "w").write(src)
 print(f"wrote {OUT}  ({len(src):,} bytes)")
