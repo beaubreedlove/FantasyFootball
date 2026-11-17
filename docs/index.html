@@ -276,7 +276,8 @@ document.getElementById("stand").innerHTML=S.map((r,i)=>
    const el=["1","2","3","6"].filter(k=>st[k]==="eliminated");
    let out="";
    if(cl.length) out+=`<span class="chip c">clinched ${cl.includes("6")&&cl.length===1?"playoffs":"seed "+cl[0]}</span>`;
-   if(el.length) out+=`<span class="chip e">out of ${el.length>1?"seeds "+el.join(", "):"seed "+el[0]}</span>`;
+   if(el.includes("6")) out+=`<span class="chip e">eliminated from playoff contention</span>`;
+   else if(el.length) out+=`<span class="chip e">out of ${el.length>1?"seeds "+el.join(", "):"seed "+el[0]}</span>`;
    return out;})()}</td>`+
  `<td class="n" data-l="Current seed"><span class="pill ${i<6?'in':'out'}">${i===0?'1 · bye + choose':i===1?'2 · bye':i===2?'3 · choose':i+1}</span></td>`+
  `<td class="n" data-l="W-L">${r[1]}</td><td class="n seq" data-l="Tiebreaker">${r[2]||"—"}</td>`+
