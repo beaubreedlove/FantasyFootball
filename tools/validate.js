@@ -1,0 +1,58 @@
+// Render-check a built page the way a browser actually would.
+//
+// The previous stub returned a live object for ANY id, so a page that had lost
+// its #clin div still "rendered" fine here while throwing in a real browser and
+// blanking every section after it. Now getElementById only resolves ids that
+// genuinely appear in the HTML, and returns null otherwise.
+const fs = require("fs");
+const path = require("path");
+const file = process.argv[2];
+const html = fs.readFileSync(file, "utf8");
+
+const ids = new Set([...html.matchAll(/id="([A-Za-z0-9_-]+)"/g)].map(m => m[1]));
+const store = {};
+global.document = {
+  getElementById(id) {
+    if (!ids.has(id)) return null;          // exactly what a browser does
+    return {
+      set innerHTML(v) { store[id] = v; },
+      get innerHTML() { return store[id] || ""; },
+    };
+  },
+};
+
+const js = html.split("<script>")[1].split("</script>")[0];
+const tmp = path.resolve(file + ".extracted.js");
+fs.writeFileSync(tmp, js);
+try {
+  require(tmp);
+} catch (e) {
+  console.log("  *** SCRIPT THREW: " + e.message);
+  process.exit(1);
+} finally {
+  fs.unlinkSync(tmp);
+}
+
+let bad = 0;
+for (const k of ["stand", "clin", "help", "prizes"]) {
+  const present = ids.has(k);
+  const filled = (store[k] || "").length;
+  if (!present || !filled) bad++;
+  console.log(
+    `  #${k.padEnd(7)} ${present ? "in DOM" : "MISSING FROM DOM"}  ` +
+    (filled ? `rendered ${filled} chars` : "*** RENDERED NOTHING ***"));
+}
+const all = Object.values(store).join("");
+const checks = {
+  "any-N-of-N": (all.match(/any (\d+) of these \1\b/g) || []).length,
+  "any 0 of": (all.match(/any 0\b/g) || []).length,
+  "sci notation": (all.match(/\de-\d/g) || []).length,
+  "trailing-zero odds": (all.match(/\d\.\d*?0{4,}%/g) || []).length,
+  "100.0% conditions": (all.match(/>100(\.0+)?%</g) || []).length,
+};
+for (const [k, v] of Object.entries(checks)) {
+  if (v) bad++;
+  console.log(`  ${k.padEnd(20)} ${v}`);
+}
+console.log(`  bold tags            ${(all.match(/<b[ >]/g) || []).length}`);
+process.exit(bad ? 1 : 0);
