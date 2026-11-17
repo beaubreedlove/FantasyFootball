@@ -40,10 +40,16 @@ a, b = card_span(src, i)
 src = src[:a] + src[b:]
 assert "Where each line falls" not in src
 
+# ---- 1b. drop the "not Yahoo's order" card ----
+i = src.index('<div class="card"><h3>This order is not Yahoo\'s order</h3>')
+a, b = card_span(src, i)
+src = src[:a] + src[b:]
+assert "not Yahoo" not in src
+
 # ---- 2. the picker, directly under the header ----
 picker = """  <div class="picker">
     <label for="teamsel">Team</label>
-    <select id="teamsel"><option value="">All teams</option></select>
+    <select id="teamsel"><option value="" disabled selected>Select your team\u2026</option></select>
   </div>
 </header>"""
 assert "</header>" in src
@@ -57,10 +63,19 @@ css = """  .picker{display:flex; gap:10px; align-items:center; flex-wrap:wrap; m
                  color:var(--ink); max-width:100%;}
   .picker select:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
   .is-hidden{display:none !important;}
-  #stand tr.sel td{background:color-mix(in srgb,var(--accent) 13%,transparent);}
+  /* "this is you" needs to read as neither the teal accent nor the rust warn,
+     since warn already means eliminated on this page */
+  :root{--you:#16A34A;}
+  @media (prefers-color-scheme:dark){ :root{--you:#4ADE80;} }
+  :root[data-theme="dark"]{--you:#4ADE80;}
+  :root[data-theme="light"]{--you:#16A34A;}
+  #stand tbody tr{cursor:pointer;}
+  #stand tbody tr.sel{outline:2.5px solid var(--you); outline-offset:-2px;
+                      border-radius:10px;}
+  #stand tbody tr.sel td.team{color:var(--you);}
   #prizes ol.rank li.sel{font-weight:600; color:var(--ink);}
-  #prizes ol.rank li.sel::marker{font-weight:600; color:var(--accent-ink);}
-  .fnote{font-size:13.5px; color:var(--muted); font-style:italic;}
+  #prizes ol.rank li.sel::marker{font-weight:600; color:var(--you);}
+  .prompt{font-size:14px; color:var(--muted); font-style:italic; padding:2px 0 0;}
 """
 anchor = "  .mini{"
 assert anchor in src
@@ -96,48 +111,52 @@ filt = """
 (function(){
   const sel=document.getElementById("teamsel");
   if(!sel) return;
-  for(const n of S.map(r=>r[0]).slice().sort((a,b)=>a.localeCompare(b))){
+  const names=S.map(r=>r[0]);
+  for(const n of names.slice().sort((a,b)=>a.localeCompare(b))){
     const o=document.createElement("option"); o.value=n; o.textContent=n;
     sel.appendChild(o);
   }
-  const note=(host,text)=>{
-    const el=document.createElement("p");
-    el.className="fnote js-note"; el.textContent=text; host.appendChild(el);
+  const sectionOf=id=>{
+    const e=document.getElementById(id);
+    return e?e.closest("section"):null;
   };
+  const SEC={clin:sectionOf("clin"), help:sectionOf("help"), prizes:sectionOf("prizes")};
   function apply(team){
-    document.querySelectorAll(".js-note").forEach(n=>n.remove());
-    document.querySelectorAll("#stand tr").forEach(tr=>
+    document.querySelectorAll("#stand tbody tr").forEach(tr=>
       tr.classList.toggle("sel", !!team && tr.dataset.team===team));
+    document.querySelectorAll("#prizes ol.rank li").forEach(li=>
+      li.classList.toggle("sel", !!team && li.dataset.team===team));
     ["#clin .row","#help .card"].forEach(q=>
       document.querySelectorAll(q).forEach(el=>
         el.classList.toggle("is-hidden", !!team && el.dataset.team!==team)));
-    document.querySelectorAll("#prizes ol.rank li").forEach(li=>
-      li.classList.toggle("sel", !!team && li.dataset.team===team));
-    if(team){
-      const help=document.getElementById("help");
-      if(help && !help.querySelector(".card:not(.is-hidden)"))
-        note(help, team+" controls their own destiny \\u2014 nothing on this list applies to them.");
-      document.querySelectorAll("#prizes .card").forEach(c=>{
-        const on=Array.prototype.some.call(c.querySelectorAll("ol.rank li"),
-                                           li=>li.dataset.team===team);
-        if(!on) note(c, "No entry for "+team+" on this one yet.");
-      });
+    // nothing chosen yet: standings only
+    for(const k of ["clin","help","prizes"])
+      if(SEC[k]) SEC[k].classList.toggle("is-hidden", !team);
+    // a team with no elimination card gets no elimination section at all
+    if(team && SEC.help){
+      const any=document.querySelector("#help .card:not(.is-hidden)");
+      SEC.help.classList.toggle("is-hidden", !any);
     }
   }
   let init="";
   try{ init=new URLSearchParams(location.search).get("team")
             || localStorage.getItem("ffteam") || ""; }catch(e){}
-  if(S.map(r=>r[0]).indexOf(init)<0) init="";
-  sel.value=init; apply(init);
-  sel.addEventListener("change",()=>{
-    const t=sel.value;
+  if(names.indexOf(init)<0) init="";
+  if(init) sel.value=init;
+  apply(init);
+  function choose(t){
+    sel.value=t;
     try{ localStorage.setItem("ffteam",t); }catch(e){}
     try{
       const u=new URL(location.href);
-      if(t) u.searchParams.set("team",t); else u.searchParams.delete("team");
+      u.searchParams.set("team",t);
       history.replaceState(null,"",u);
     }catch(e){}
     apply(t);
+  }
+  sel.addEventListener("change",()=>choose(sel.value));
+  document.querySelectorAll("#stand tbody tr").forEach(tr=>{
+    tr.addEventListener("click",()=>{ if(tr.dataset.team) choose(tr.dataset.team); });
   });
 })();
 </script>"""

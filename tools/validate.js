@@ -15,6 +15,7 @@ const el = () => ({
   classList: { toggle() {}, add() {}, remove() {} },
   dataset: {}, style: {}, setAttribute() {}, appendChild() {}, remove() {},
   addEventListener() {}, querySelector: () => null, querySelectorAll: () => [],
+  closest: () => el(), appendChild() {}, contains: () => false,
   set textContent(v) {}, set className(v) {}, set value(v) {}, get value() { return ""; },
 });
 global.localStorage = { getItem: () => null, setItem() {} };
