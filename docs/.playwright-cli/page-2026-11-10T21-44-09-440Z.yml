@@ -1,0 +1,300 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]: Through Week 9 · Five weeks remain
+    - heading "The playoff picture, worked all the way out" [level=1] [ref=e5]
+    - paragraph [ref=e6]:
+      - text: Where everybody stands, what each team still controls on its own, and what the ones on the outside need other people to do for them. Five weeks left — ten games apiece, because every week is a matchup
+      - emphasis [ref=e7]: and
+      - text: a median.
+    - generic [ref=e8]:
+      - generic [ref=e9]: Show
+      - combobox "Show" [ref=e10]:
+        - option "All teams — the whole league"
+        - option "Chasing Nabors"
+        - option "Flowers For Charlie"
+        - option "Flush It Down"
+        - option "It's Allen The Hips"
+        - option "Jahmyrs For Fears"
+        - option "Omarion my wayward son"
+        - option "Rock You Like a Burrowcane"
+        - option "Showtime"
+        - option "Swap's Team"
+        - option "The Nightman Re-Cometh"
+        - option "XXI" [selected]
+        - option "You Give Love A Brad Name"
+      - button "show everything" [ref=e11] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]: Standings
+      - heading "Where we are, ordered by our rules" [level=2] [ref=e15]
+      - paragraph [ref=e16]: Playoff seeding if the season ended today.
+    - table [ref=e18]:
+      - rowgroup [ref=e19]:
+        - row "Team Seed W-L Tiebreaker Points" [ref=e20]:
+          - columnheader "Team" [ref=e21]
+          - columnheader "Seed" [ref=e22]
+          - columnheader "W-L" [ref=e23]
+          - columnheader "Tiebreaker" [ref=e24]
+          - columnheader "Points" [ref=e25]
+      - rowgroup [ref=e26]:
+        - row "Rock You Like a Burrowcane Current seed 1 · bye + choose W-L 16-2 Tiebreaker — Points 1233.91" [ref=e27]:
+          - cell "Rock You Like a Burrowcane" [ref=e28]
+          - cell "Current seed 1 · bye + choose" [ref=e29]:
+            - text: Current seed
+            - generic [ref=e30]: 1 · bye + choose
+          - cell "W-L 16-2" [ref=e31]
+          - cell "Tiebreaker —" [ref=e32]
+          - cell "Points 1233.91" [ref=e33]
+        - row "Showtime Current seed 2 · bye W-L 13-5 Tiebreaker 2-0 Points 1114.34" [ref=e34]:
+          - cell "Showtime" [ref=e35]
+          - cell "Current seed 2 · bye" [ref=e36]:
+            - text: Current seed
+            - generic [ref=e37]: 2 · bye
+          - cell "W-L 13-5" [ref=e38]
+          - cell "Tiebreaker 2-0" [ref=e39]
+          - cell "Points 1114.34" [ref=e40]
+        - row "Flush It Down Current seed 3 · choose W-L 13-5 Tiebreaker 1-1 Points 1078.38" [ref=e41]:
+          - cell "Flush It Down" [ref=e42]
+          - cell "Current seed 3 · choose" [ref=e43]:
+            - text: Current seed
+            - generic [ref=e44]: 3 · choose
+          - cell "W-L 13-5" [ref=e45]
+          - cell "Tiebreaker 1-1" [ref=e46]
+          - cell "Points 1078.38" [ref=e47]
+        - row "Omarion my wayward son Current seed 4 W-L 12-6 Tiebreaker — Points 1101.57" [ref=e48]:
+          - cell "Omarion my wayward son" [ref=e49]
+          - cell "Current seed 4" [ref=e50]:
+            - text: Current seed
+            - generic [ref=e51]: "4"
+          - cell "W-L 12-6" [ref=e52]
+          - cell "Tiebreaker —" [ref=e53]
+          - cell "Points 1101.57" [ref=e54]
+        - row "Flowers For Charlie Current seed 5 W-L 11-7 Tiebreaker — Points 1023.16" [ref=e55]:
+          - cell "Flowers For Charlie" [ref=e56]
+          - cell "Current seed 5" [ref=e57]:
+            - text: Current seed
+            - generic [ref=e58]: "5"
+          - cell "W-L 11-7" [ref=e59]
+          - cell "Tiebreaker —" [ref=e60]
+          - cell "Points 1023.16" [ref=e61]
+        - row "The Nightman Re-Cometh Current seed 6 W-L 10-8 Tiebreaker — Points 1065.70" [ref=e62]:
+          - cell "The Nightman Re-Cometh" [ref=e63]
+          - cell "Current seed 6" [ref=e64]:
+            - text: Current seed
+            - generic [ref=e65]: "6"
+          - cell "W-L 10-8" [ref=e66]
+          - cell "Tiebreaker —" [ref=e67]
+          - cell "Points 1065.70" [ref=e68]
+        - row "XXI Current seed 7 W-L 8-10 Tiebreaker — Points 1014.89" [ref=e69]:
+          - cell "XXI" [ref=e70]
+          - cell "Current seed 7" [ref=e71]:
+            - text: Current seed
+            - generic [ref=e72]: "7"
+          - cell "W-L 8-10" [ref=e73]
+          - cell "Tiebreaker —" [ref=e74]
+          - cell "Points 1014.89" [ref=e75]
+        - row "Jahmyrs For Fears Current seed 8 W-L 7-11 Tiebreaker — Points 945.40" [ref=e76]:
+          - cell "Jahmyrs For Fears" [ref=e77]
+          - cell "Current seed 8" [ref=e78]:
+            - text: Current seed
+            - generic [ref=e79]: "8"
+          - cell "W-L 7-11" [ref=e80]
+          - cell "Tiebreaker —" [ref=e81]
+          - cell "Points 945.40" [ref=e82]
+        - row "Swap's Team Current seed 9 W-L 6-12 Tiebreaker — Points 838.82" [ref=e83]:
+          - cell "Swap's Team" [ref=e84]
+          - cell "Current seed 9" [ref=e85]:
+            - text: Current seed
+            - generic [ref=e86]: "9"
+          - cell "W-L 6-12" [ref=e87]
+          - cell "Tiebreaker —" [ref=e88]
+          - cell "Points 838.82" [ref=e89]
+        - row "Chasing Nabors out of seed 1 Current seed 10 W-L 5-13 Tiebreaker 2-0 Points 924.42" [ref=e90]:
+          - cell "Chasing Nabors out of seed 1" [ref=e91]:
+            - text: Chasing Nabors
+            - generic [ref=e92]: out of seed 1
+          - cell "Current seed 10" [ref=e93]:
+            - text: Current seed
+            - generic [ref=e94]: "10"
+          - cell "W-L 5-13" [ref=e95]
+          - cell "Tiebreaker 2-0" [ref=e96]
+          - cell "Points 924.42" [ref=e97]
+        - row "You Give Love A Brad Name out of seed 1 Current seed 11 W-L 5-13 Tiebreaker 1-1 Points 1054.57" [ref=e98]:
+          - cell "You Give Love A Brad Name out of seed 1" [ref=e99]:
+            - text: You Give Love A Brad Name
+            - generic [ref=e100]: out of seed 1
+          - cell "Current seed 11" [ref=e101]:
+            - text: Current seed
+            - generic [ref=e102]: "11"
+          - cell "W-L 5-13" [ref=e103]
+          - cell "Tiebreaker 1-1" [ref=e104]
+          - cell "Points 1054.57" [ref=e105]
+        - row "It's Allen The Hips out of seeds 1, 2, 3 Current seed 12 W-L 2-16 Tiebreaker — Points 852.60" [ref=e106]:
+          - cell "It's Allen The Hips out of seeds 1, 2, 3" [ref=e107]:
+            - text: It's Allen The Hips
+            - generic [ref=e108]: out of seeds 1, 2, 3
+          - cell "Current seed 12" [ref=e109]:
+            - text: Current seed
+            - generic [ref=e110]: "12"
+          - cell "W-L 2-16" [ref=e111]
+          - cell "Tiebreaker —" [ref=e112]
+          - cell "Points 852.60" [ref=e113]
+    - paragraph [ref=e114]: Tiebreaker only appears where two teams are actually level on wins. Our rule compares the most recent week first and works backwards until someone is ahead — both of this week's ties broke immediately on week 9, so one week is all it takes. Showtime's 2-0 beats Flush It Down's 1-1, and Chasing Nabors' 2-0 beats You Give Love A Brad Name's 1-1. A dash means nobody is tied with you. The red line marks the playoff cut.
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - heading "Where the playoff line falls" [level=3] [ref=e117]
+        - paragraph [ref=e118]: "Averaging the 6 seed's wins with the 7 seed's across a billion seasons: mean 13.996, median 14.0, mode 14.0 — 14 wins is the bubble in 26.1% of seasons, and 13 through 15 covers 90%."
+        - paragraph [ref=e119]: "Practical read: 15 wins should get you in, 14 is a coin flip, 13 probably isn't enough."
+      - generic [ref=e120]:
+        - heading "Why the top seeds matter" [level=3] [ref=e121]
+        - list [ref=e122]:
+          - listitem [ref=e123]: Seeds 1 and 2 get a bye through week 15.
+          - listitem [ref=e124]: Seed 1 also chooses its week-16 opponent from the week-15 winners.
+          - listitem [ref=e125]: Seed 3 chooses its week-15 opponent from seeds 4, 5 and 6.
+          - listitem [ref=e126]: Seeds 4, 5 and 6 are all in the playoffs — there is simply nothing separating them. No bye, no choice, you play whoever is left. That's why they're grouped together everywhere below.
+      - generic [ref=e127]:
+        - heading "This order is not Yahoo's order" [level=3] [ref=e128]
+        - paragraph [ref=e129]: "Yahoo breaks ties on points. We don't — our rule is most recent weekly records counting backwards. It already matters: XXI (8-8) sits ahead of The Nightman Re-Cometh (8-8) here on a week-9 2-0 against an 0-2, even though Nightman has scored 2.91 more points on the season. Yahoo shows that pair the other way round."
+  - generic [ref=e130]:
+    - generic [ref=e131]:
+      - generic [ref=e132]: Team by team
+      - heading "Clinching scenarios, win range, and odds" [level=2] [ref=e133]
+    - paragraph [ref=e134]: "I simulated one billion ways the rest of the season could play out, and the odds below are how often each team finished on each seed. One exception: a flat 0% means mathematically eliminated — proven, not merely unsampled. Every zero on this page is of that kind."
+    - list [ref=e135]:
+      - listitem [ref=e136]: "Win range — the final win total out of 28: the fewest you could finish with and still land on that seed, through the most."
+      - listitem [ref=e137]: Odds — your chance of landing exactly there.
+      - listitem [ref=e138]: What guarantees it — every route that locks up that seed no matter what anyone else does.
+    - paragraph [ref=e139]: "Notes on notation: W10 is your week-10 matchup, M13 the week-13 median. You have ten games left, not five — each week you play your opponent and the league median, and both count the same."
+    - generic [ref=e141]:
+      - text: · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+      - generic [ref=e142]:
+        - heading "XXI8-10" [level=3] [ref=e143]
+        - generic [ref=e144]:
+          - generic [ref=e145]: 1 seed
+          - generic [ref=e146]:
+            - generic [ref=e147]: Win range 16–18
+            - generic [ref=e148]: Odds 0.03483%
+        - generic [ref=e149]:
+          - generic [ref=e150]: 2 seed
+          - generic [ref=e151]:
+            - generic [ref=e152]: Win range 14–18
+            - generic [ref=e153]: Odds 0.54790%
+        - generic [ref=e154]:
+          - generic [ref=e155]: 3 seed
+          - generic [ref=e156]:
+            - generic [ref=e157]: Win range 13–18
+            - generic [ref=e158]: Odds 1.9493%
+        - generic [ref=e159]:
+          - generic [ref=e160]: Playoff berth
+          - generic [ref=e161]:
+            - generic [ref=e162]: Win range 10–18
+            - generic [ref=e163]: Odds 31.623%
+  - generic [ref=e164]:
+    - generic [ref=e165]:
+      - generic [ref=e166]: Help wanted
+      - heading "If you win out and it still isn't enough" [level=2] [ref=e167]
+    - paragraph [ref=e168]:
+      - text: 6 teams don't control their own destiny. For each of these, assume they win all five matchups
+      - emphasis [ref=e169]: and
+      - text: all five medians — this is the minimum additional help they need.
+    - paragraph [ref=e170]: Each item shows how often it happens, given that team has already won out. Listed most likely first, so the realistic lifelines are at the top.
+    - generic [ref=e172]:
+      - heading "XXI8-10" [level=3] [ref=e173]
+      - paragraph [ref=e174]:
+        - generic [ref=e175]: "Needs any 1 of these 6 things to happen:"
+      - list [ref=e176]:
+        - listitem [ref=e177]: The Nightman Re-Cometh loses ≥2 of 10 99.4% you beat them in wk14, so 1 more
+        - listitem [ref=e178]: Flowers For Charlie loses ≥3 of 10 96.7% you beat them in wk11, so 2 more
+        - listitem [ref=e179]: Flush It Down loses ≥5 of 10 76.0% you beat them in wk12, so 4 more
+        - listitem [ref=e180]: Omarion my wayward son loses ≥5 of 10 62.2%
+        - listitem [ref=e181]: Showtime loses ≥6 of 10 43.6%
+        - listitem [ref=e182]: Rock You Like a Burrowcane loses ≥9 of 10 4.0%
+  - generic [ref=e183]:
+    - generic [ref=e184]:
+      - generic [ref=e185]: Side money
+      - heading "The season-long prizes" [level=2] [ref=e186]
+    - paragraph [ref=e187]: All twelve teams, ranked as the prize would be awarded today with the league tiebreakers applied.
+    - generic [ref=e188]:
+      - generic [ref=e189]:
+        - heading "Most points — $100" [level=3] [ref=e190]
+        - paragraph [ref=e191]: "Leader: Rock You Like a Burrowcane 16-2"
+        - list [ref=e192]:
+          - listitem [ref=e193]: Rock You Like a Burrowcane — 1233.91
+          - listitem [ref=e194]: Showtime — 1114.34
+          - listitem [ref=e195]: Omarion my wayward son — 1101.57
+          - listitem [ref=e196]: Flush It Down — 1078.38
+          - listitem [ref=e197]: The Nightman Re-Cometh — 1065.70
+          - listitem [ref=e198]: You Give Love A Brad Name — 1054.57
+          - listitem [ref=e199]: Flowers For Charlie — 1023.16
+          - listitem [ref=e200]: XXI — 1014.89
+          - listitem [ref=e201]: Jahmyrs For Fears — 945.40
+          - listitem [ref=e202]: Chasing Nabors — 924.42
+          - listitem [ref=e203]: It's Allen The Hips — 852.60
+          - listitem [ref=e204]: Swap's Team — 838.82
+        - paragraph [ref=e205]: No tiebreaker needed; every total is distinct.
+      - generic [ref=e206]:
+        - heading "Best worst week — $50" [level=3] [ref=e207]
+        - paragraph [ref=e208]: "Leader: Rock You Like a Burrowcane 16-2"
+        - list [ref=e209]:
+          - listitem [ref=e210]: Rock You Like a Burrowcane — 111.08 (wk3)
+          - listitem [ref=e211]: Flush It Down — 100.46 (wk9)
+          - listitem [ref=e212]: Omarion my wayward son — 97.16 (wk7)
+          - listitem [ref=e213]: You Give Love A Brad Name — 92.34 (wk3)
+          - listitem [ref=e214]: Showtime — 89.20 (wk1)
+          - listitem [ref=e215]: XXI — 88.38 (wk4)
+          - listitem [ref=e216]: The Nightman Re-Cometh — 81.16 (wk2)
+          - listitem [ref=e217]: Jahmyrs For Fears — 81.03 (wk4)
+          - listitem [ref=e218]: It's Allen The Hips — 75.30 (wk6)
+          - listitem [ref=e219]: Chasing Nabors — 72.78 (wk2)
+          - listitem [ref=e220]: Flowers For Charlie — 65.10 (wk8)
+          - listitem [ref=e221]: Swap's Team — 58.22 (wk2)
+        - paragraph [ref=e222]: A floor, so it only moves down. Ties break on the second-worst week, then the third.
+      - generic [ref=e223]:
+        - heading "Best week — $50" [level=3] [ref=e224]
+        - paragraph [ref=e225]: "Leader: You Give Love A Brad Name 5-13"
+        - list [ref=e226]:
+          - listitem [ref=e227]: You Give Love A Brad Name — 192.80 (wk4)
+          - listitem [ref=e228]: Rock You Like a Burrowcane — 169.98 (wk7)
+          - listitem [ref=e229]: The Nightman Re-Cometh — 163.24 (wk5)
+          - listitem [ref=e230]: Showtime — 154.50 (wk8)
+          - listitem [ref=e231]: Jahmyrs For Fears — 149.96 (wk5)
+          - listitem [ref=e232]: Flush It Down — 149.06 (wk1)
+          - listitem [ref=e233]: Omarion my wayward son — 147.56 (wk2)
+          - listitem [ref=e234]: XXI — 145.14 (wk5)
+          - listitem [ref=e235]: Flowers For Charlie — 138.47 (wk7)
+          - listitem [ref=e236]: Swap's Team — 126.96 (wk5)
+          - listitem [ref=e237]: It's Allen The Hips — 121.92 (wk4)
+          - listitem [ref=e238]: Chasing Nabors — 120.02 (wk7)
+        - paragraph [ref=e239]: Ties break on the second-highest week, then the third.
+      - generic [ref=e240]:
+        - heading "Most best weeks — $50" [level=3] [ref=e241]
+        - paragraph [ref=e242]: "Leader: Rock You Like a Burrowcane 16-2"
+        - list [ref=e243]:
+          - listitem [ref=e244]: Rock You Like a Burrowcane — 3 (wk 1, 7, 9) · 488.68 pts in those weeks
+          - listitem [ref=e245]: The Nightman Re-Cometh — 2 (wk 3, 5) · 305.82 pts in those weeks
+          - listitem [ref=e246]: You Give Love A Brad Name — 1 (wk 4) · 192.80 pts in those weeks
+          - listitem [ref=e247]: Showtime — 1 (wk 8) · 154.50 pts in those weeks
+          - listitem [ref=e248]: Omarion my wayward son — 1 (wk 2) · 147.56 pts in those weeks
+          - listitem [ref=e249]: Flowers For Charlie — 1 (wk 6) · 124.11 pts in those weeks
+        - paragraph [ref=e250]: Ties break on points scored in the weeks that earned the point.
+        - paragraph [ref=e251]: No entry for XXI on this one yet.
+      - generic [ref=e252]:
+        - heading "Best worst player — $50" [level=3] [ref=e253]
+        - paragraph [ref=e254]: "Leader: Showtime 13-5"
+        - list [ref=e255]:
+          - listitem [ref=e256]: Showtime — 9.50 (Bengals, DEF, wk8)
+          - listitem [ref=e257]: You Give Love A Brad Name — 8.90 (Juwan Johnson, TE, wk4)
+          - listitem [ref=e258]: XXI — 8.70 (Travis Kelce, TE, wk8)
+          - listitem [ref=e259]: Omarion my wayward son — 8.50 (Tyler Bass, K, wk4)
+          - listitem [ref=e260]: The Nightman Re-Cometh — 7.90 (Luther Burden III, W/R/T, wk5)
+          - listitem [ref=e261]: Rock You Like a Burrowcane — 7.70 (Kenneth Walker III, W/R/T, wk7)
+          - listitem [ref=e262]: Flush It Down — 5.50 (Jaleel McLaughlin, W/R/T, wk6)
+          - listitem [ref=e263]: Flowers For Charlie — 5.30 (Jameson Williams, WR, wk2)
+          - listitem [ref=e264]: Chasing Nabors — 5.00 (Brandon McManus, K, wk7)
+          - listitem [ref=e265]: Jahmyrs For Fears — 4.60 (Keenan Allen, W/R/T, wk9)
+          - listitem [ref=e266]: It's Allen The Hips — 4.20 (Sam LaPorta, TE, wk9)
+          - listitem [ref=e267]: Swap's Team — 2.90 (Colston Loveland, TE, wk5)
+        - paragraph [ref=e268]: Only weeks where you filled every roster spot count. Ties break on the second-worst player that week.
+  - contentinfo [ref=e269]:
+    - paragraph [ref=e270]: "Assuming no ties. Every number here assumes no tied matchups and no tied medians — scores always separate. Ties in the standings are handled in full, using the league rule: most ties, then most recent weekly records counting backwards from week 14, then points. That points tiebreak can never actually be reached, because every pair of teams meets at least once during the season and in that week their records cannot be equal."
+    - paragraph [ref=e271]: Where the numbers come from. Each simulated week is drawn as a random ordering of all twelve teams — equal weight, nobody rated better than anybody else. Everything else — the clinching scenarios, the help needed, and the win ranges — is exact, solved against every schedule-feasible way weeks 10 through 14 could finish. Records and scores verified against Yahoo's own standings.
