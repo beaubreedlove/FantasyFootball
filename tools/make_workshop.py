@@ -69,10 +69,10 @@ css = """  .picker{display:flex; gap:10px; align-items:center; flex-wrap:wrap; m
   @media (prefers-color-scheme:dark){ :root{--you:#4ADE80;} }
   :root[data-theme="dark"]{--you:#4ADE80;}
   :root[data-theme="light"]{--you:#16A34A;}
-  #stand tbody tr{cursor:pointer;}
-  #stand tbody tr.sel{outline:2.5px solid var(--you); outline-offset:-2px;
+  #stand tr{cursor:pointer;}
+  #stand tr.sel{outline:2.5px solid var(--you); outline-offset:-2px;
                       border-radius:10px;}
-  #stand tbody tr.sel td.team{color:var(--you);}
+  #stand tr.sel td.team{color:var(--you);}
   #prizes ol.rank li.sel{font-weight:600; color:var(--ink);}
   #prizes ol.rank li.sel::marker{font-weight:600; color:var(--you);}
   .prompt{font-size:14px; color:var(--muted); font-style:italic; padding:2px 0 0;}
@@ -122,7 +122,7 @@ filt = """
   };
   const SEC={clin:sectionOf("clin"), help:sectionOf("help"), prizes:sectionOf("prizes")};
   function apply(team){
-    document.querySelectorAll("#stand tbody tr").forEach(tr=>
+    document.querySelectorAll("#stand tr").forEach(tr=>
       tr.classList.toggle("sel", !!team && tr.dataset.team===team));
     document.querySelectorAll("#prizes ol.rank li").forEach(li=>
       li.classList.toggle("sel", !!team && li.dataset.team===team));
@@ -155,7 +155,7 @@ filt = """
     apply(t);
   }
   sel.addEventListener("change",()=>choose(sel.value));
-  document.querySelectorAll("#stand tbody tr").forEach(tr=>{
+  document.querySelectorAll("#stand tr").forEach(tr=>{
     tr.addEventListener("click",()=>{ if(tr.dataset.team) choose(tr.dataset.team); });
   });
 })();
