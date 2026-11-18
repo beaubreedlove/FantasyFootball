@@ -165,6 +165,8 @@ REPL = [
     ('"win out — all 12"', '"win out — all 8"'),
     ("c.f.length===12?", "c.f.length===8?"),
     ("c.k===12?", "c.k===8?"),
+    ("and the odds\n  below are how often each team finished on each seed",
+     "and the odds\n  above are how often each team finished on each seed"),
     ('if(el.length) out+=`<span class="chip e">out of ${el.length>1?"seeds "+el.join(", "):"seed "+el[0]}</span>`;',
      'if(el.includes("6")) out+=`<span class="chip e">eliminated from playoff contention</span>`;\n   else if(el.length) out+=`<span class="chip e">out of ${el.length>1?"seeds "+el.join(", "):"seed "+el[0]}</span>`;'),
 ]
