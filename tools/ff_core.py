@@ -12,9 +12,9 @@ into the win field (max tv = sum_{w=1..14} 2*3^w = 3**15 - 3).
 import json
 import os
 
-REM = [11, 12, 13, 14]          # weeks still to play
-PLAYED = range(1, 11)
-GAMES = 2 * len(REM)            # 8 games left per team
+REM = [12, 13, 14]              # weeks still to play
+PLAYED = range(1, 12)
+GAMES = 2 * len(REM)            # 6 games left per team
 BIG = 3 ** 15
 POW3 = {w: 3 ** w for w in range(1, 15)}
 
@@ -44,7 +44,7 @@ def seed_order(names, wins, tv):
 if __name__ == "__main__":
     names, cur, base_tv, sched, rec, pts = load()
     order = seed_order(names, cur, base_tv)
-    print(f"{'':3s}{'team':28s}{'rec':>7s}  {'wk10':>5s}  {'pts':>8s}")
+    print(f"{'':3s}{'team':28s}{'rec':>7s}  {'wk11':>5s}  {'pts':>8s}")
     for i, t in enumerate(order, 1):
-        wk = rec[t][10]
-        print(f"{i:2d}. {t:28s}{cur[t]:>3d}-{20-cur[t]:<3d}  {wk}-{2-wk}  {pts[t]:8.2f}")
+        wk = rec[t][11]
+        print(f"{i:2d}. {t:28s}{cur[t]:>3d}-{22-cur[t]:<3d}  {wk}-{2-wk}  {pts[t]:8.2f}")

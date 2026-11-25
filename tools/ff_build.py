@@ -15,10 +15,12 @@ SIM = sys.argv[1] if len(sys.argv) > 1 else "sim_w10_1e6.npz"
 
 
 # ---------- odds formatting: keep digits until 3 significant figures ----------
-def pct(c, n, possible):
+def pct(c, n, possible, certain=False):
     """c hits out of n, rendered to exactly three significant figures of
     whichever side is small -- so 99.95% keeps digits on the 0.05% tail -- with
     no trailing-zero padding beyond those three figures."""
+    if certain:
+        return "100%"          # proven by the solver, not a sampling artifact
     if not possible:
         return "0%"
     if c == 0:
@@ -57,12 +59,7 @@ def routes(T, seed):
         g = [m for m in mins if len(m) == k]
         if not g:
             continue
-        cl = S.compress(g)
-        if len(cl) <= 3:                 # only show cheaper routes if they stay readable
-            out.extend(cl)
-        else:
-            out.append({"f": [], "k": k, "pool": None, "rem": 8, "n": k,
-                        "partial": len(g)})
+        out.extend(S.compress(g))
     out.append({"f": [], "k": kmin, "pool": None, "rem": 8, "n": kmin})
     out.sort(key=lambda d: d["n"])
     return out
@@ -107,7 +104,7 @@ def help_for(T):
         if subs and all(ok(g) for g in subs):
             N = k
             break
-    return {"rec": f"{cur[T]}-{20-cur[T]}", "N": N, "perm": perm,
+    return {"rec": f"{cur[T]}-{2*len(F.PLAYED)-cur[T]}", "N": N, "perm": perm,
             "things": [[u, l, w] for u, l, w in cap]}
 
 
@@ -126,13 +123,13 @@ def main():
         for lab, idx in (("1", [0]), ("2", [1]), ("3", [2]), ("6", list(range(6)))):
             c = int(row[idx].sum())
             poss = st[lab] != "eliminated"
-            odds.append(pct(c, n, poss))
+            odds.append(pct(c, n, poss, certain=st[lab] == "clinched"))
             if poss and 0 < c:
                 oneins[lab] = one_in(c, n)
         rng = {}
         for lab, (lo, hi) in (("1", (1, 1)), ("2", (2, 2)), ("3", (3, 3)), ("6", (1, 6))):
             rng[lab] = S.win_range(T, lo, hi)
-        CF[T] = {"name": T, "rec": f"{cur[T]}-{20-cur[T]}", "odds": odds,
+        CF[T] = {"name": T, "rec": f"{cur[T]}-{2*len(F.PLAYED)-cur[T]}", "odds": odds,
                  "oneins": oneins, "rng": rng, "status": st,
                  "seeds": {str(s): routes(T, s) for s in (1, 2, 3, 6)}}
         print(f"  {T:28s} " + " ".join(f"{o:>14s}" for o in odds), flush=True)
@@ -151,7 +148,7 @@ def main():
     H = {}
     for T in names:
         if status[T]["6"] == "eliminated":
-            H[T] = {"rec": f"{cur[T]}-{20-cur[T]}", "dead": True}
+            H[T] = {"rec": f"{cur[T]}-{2*len(F.PLAYED)-cur[T]}", "dead": True}
             continue
         h = help_for(T)
         if h:

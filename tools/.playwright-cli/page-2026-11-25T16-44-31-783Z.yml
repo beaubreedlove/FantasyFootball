@@ -1,0 +1,1029 @@
+- generic [ref=e3]:
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - heading "Yahoo Sports" [level=1] [ref=e14]
+            - link "Yahoo Sports" [ref=e15] [cursor=pointer]:
+              - /url: https://sports.yahoo.com/
+              - img [ref=e16]
+              - text: Yahoo Sports
+          - search [ref=e20]:
+            - generic [ref=e21]: Search query
+            - combobox "Search query" [ref=e22]
+            - generic:
+              - img
+            - button "Search" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+        - navigation [ref=e28]:
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - link "Home" [ref=e31] [cursor=pointer]:
+                - /url: https://www.yahoo.com/
+            - listitem [ref=e32]:
+              - link "News" [ref=e33] [cursor=pointer]:
+                - /url: https://www.yahoo.com/news/
+            - listitem [ref=e34]:
+              - link "Finance" [ref=e35] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/
+            - listitem [ref=e36]:
+              - link "Sports" [ref=e37] [cursor=pointer]:
+                - /url: https://sports.yahoo.com/
+            - listitem [ref=e38]:
+              - button "More" [ref=e39] [cursor=pointer]:
+                - generic [ref=e40]: More
+                - img [ref=e41]
+        - toolbar [ref=e43]:
+          - link "Check your mail" [ref=e47] [cursor=pointer]:
+            - /url: https://mail.yahoo.com/
+            - img [ref=e48]
+            - generic [ref=e51]: Mail
+          - link "Sign in" [ref=e55] [cursor=pointer]:
+            - /url: https://login.yahoo.com/?.lang=en-US&src=sports&.done=https%3A%2F%2Ffootball.fantasysports.yahoo.com%2Ff1%2F765761%3Fmatchup_week%3D7&pspid=782200945&activity=ybar-signin
+      - generic [ref=e58]:
+        - link "Fantasy Football" [ref=e59] [cursor=pointer]:
+          - /url: https://football.fantasysports.yahoo.com
+          - img [ref=e60]
+          - text: Fantasy Football
+        - img [ref=e61]
+        - link "Sign Up Now" [ref=e63] [cursor=pointer]:
+          - /url: /f1/signup
+        - link "2026 Rankings" [ref=e64] [cursor=pointer]:
+          - /url: /f1/draftanalysis
+        - link "Mock Draft Lobby" [ref=e65] [cursor=pointer]:
+          - /url: /f1/mock_lobby
+        - link "More" [ref=e66] [cursor=pointer]:
+          - /url: /f1
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "Fantasy" [ref=e73] [cursor=pointer]:
+              - /url: https://sports.yahoo.com/fantasy/
+              - img [ref=e75]
+              - text: Fantasy
+              - img [ref=e77]
+          - listitem [ref=e79]:
+            - link "Network" [ref=e82] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e84]
+              - text: Network
+              - img [ref=e86]
+          - listitem [ref=e88]:
+            - link "Fantasy Plus" [ref=e92] [cursor=pointer]:
+              - /url: https://fantasysports.yahoo.com/lp/plus?ncid=navbar
+              - img [ref=e93]
+              - generic [ref=e95]: Fantasy Plus
+  - generic [ref=e99]:
+    - banner [ref=e100]:
+      - heading "Yahoo Sports Fantasy Football" [level=2] [ref=e103]:
+        - link "Yahoo Sports Fantasy Football" [ref=e104] [cursor=pointer]:
+          - /url: /f1
+    - generic [ref=e109]:
+      - heading "team logo The Gang Fixes The Draft" [level=1] [ref=e118]:
+        - img "team logo" [ref=e121] [cursor=pointer]
+        - generic [ref=e124]: The Gang Fixes The Draft
+      - generic [ref=e125]:
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - heading "Matchups" [level=2] [ref=e132]
+              - generic [ref=e134]:
+                - link "" [ref=e135] [cursor=pointer]:
+                  - /url: "?matchup_week=6&module=matchups&lhst=matchups"
+                - link "Week 7" [ref=e136] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e138]: Week 7
+                - link "" [ref=e139] [cursor=pointer]:
+                  - /url: "?matchup_week=8&module=matchups&lhst=matchups"
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - generic [ref=e143]:
+                  - generic [ref=e144]: 
+                  - generic [ref=e145]: Week 7 Matchups
+                - generic [ref=e147]: "Median Score: 105.36"
+                - generic [ref=e148]: Final results
+              - list [ref=e149]:
+                - listitem [ref=e150] [cursor=pointer]:
+                  - generic [ref=e151]:
+                    - generic [ref=e153]:
+                      - generic [ref=e155]:
+                        - generic [ref=e156]:
+                          - link "Flowers For Charlie" [ref=e158]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                          - generic [ref=e159]: 15-7-0 | 4th
+                        - link "logo" [ref=e161]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e162]
+                      - generic [ref=e164]:
+                        - generic [ref=e165]: "138.47"
+                        - generic [ref=e166]: "123.91"
+                    - generic [ref=e168]: vs
+                    - generic [ref=e170]:
+                      - generic [ref=e172]:
+                        - generic [ref=e173]: "97.00"
+                        - generic [ref=e174]: "119.47"
+                      - generic [ref=e176]:
+                        - link "logo" [ref=e178]:
+                          - /url: /f1/765761/3
+                          - img "logo" [ref=e179]
+                        - generic [ref=e180]:
+                          - link "You Give Love A Brad Name" [ref=e182]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/3
+                          - generic [ref=e183]: 6-16-0 | 11th
+                - listitem [ref=e184] [cursor=pointer]:
+                  - generic [ref=e185]:
+                    - generic [ref=e187]:
+                      - generic [ref=e189]:
+                        - generic [ref=e190]:
+                          - link "Omarion my wayward son" [ref=e192]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/2
+                          - generic [ref=e193]: 15-7-0 | 3rd
+                        - link "logo" [ref=e195]:
+                          - /url: /f1/765761/2
+                          - img "logo" [ref=e196]
+                      - generic [ref=e198]:
+                        - generic [ref=e199]: "97.16"
+                        - generic [ref=e200]: "123.12"
+                    - generic [ref=e202]: vs
+                    - generic [ref=e204]:
+                      - generic [ref=e206]:
+                        - generic [ref=e207]: "120.02"
+                        - generic [ref=e208]: "110.66"
+                      - generic [ref=e210]:
+                        - link "logo" [ref=e212]:
+                          - /url: /f1/765761/6
+                          - img "logo" [ref=e213]
+                        - generic [ref=e214]:
+                          - link "Chasing Nabors" [ref=e216]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/6
+                          - generic [ref=e217]: 8-14-0 | 9th
+                - listitem [ref=e218] [cursor=pointer]:
+                  - generic [ref=e219]:
+                    - generic [ref=e221]:
+                      - generic [ref=e223]:
+                        - generic [ref=e224]:
+                          - link "XXI" [ref=e226]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/4
+                          - generic [ref=e227]: 9-13-0 | 7th
+                        - link "logo" [ref=e229]:
+                          - /url: /f1/765761/4
+                          - img "logo" [ref=e230]
+                      - generic [ref=e232]:
+                        - generic [ref=e233]: "102.32"
+                        - generic [ref=e234]: "124.75"
+                    - generic [ref=e236]: vs
+                    - generic [ref=e238]:
+                      - generic [ref=e240]:
+                        - generic [ref=e241]: "111.02"
+                        - generic [ref=e242]: "104.54"
+                      - generic [ref=e244]:
+                        - link "logo" [ref=e246]:
+                          - /url: /f1/765761/9
+                          - img "logo" [ref=e247]
+                        - generic [ref=e248]:
+                          - link "Swap's Team" [ref=e250]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/9
+                          - generic [ref=e251]: 7-15-0 | 10th
+                - listitem [ref=e252] [cursor=pointer]:
+                  - generic [ref=e253]:
+                    - generic [ref=e255]:
+                      - generic [ref=e257]:
+                        - generic [ref=e258]:
+                          - link "Rock You Like a Burrowcane" [ref=e260]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/5
+                          - generic [ref=e261]: 18-4-0 | 1st
+                        - link "logo" [ref=e263]:
+                          - /url: /f1/765761/5
+                          - img "logo" [ref=e264]
+                      - generic [ref=e266]:
+                        - generic [ref=e267]: "169.98"
+                        - generic [ref=e268]: "120.98"
+                    - generic [ref=e270]: vs
+                    - generic [ref=e272]:
+                      - generic [ref=e274]:
+                        - generic [ref=e275]: "107.58"
+                        - generic [ref=e276]: "108.83"
+                      - generic [ref=e278]:
+                        - link "logo" [ref=e280]:
+                          - /url: /f1/765761/8
+                          - img "logo" [ref=e281]
+                        - generic [ref=e282]:
+                          - link "Showtime" [ref=e284]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/8
+                          - generic [ref=e285]: 17-5-0 | 2nd
+                - listitem [ref=e286] [cursor=pointer]:
+                  - generic [ref=e287]:
+                    - generic [ref=e289]:
+                      - generic [ref=e291]:
+                        - generic [ref=e292]:
+                          - link "Flush It Down" [ref=e294]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/7
+                          - generic [ref=e295]: 13-9-0 | 5th
+                        - link "logo" [ref=e297]:
+                          - /url: /f1/765761/7
+                          - img "logo" [ref=e298]
+                      - generic [ref=e300]:
+                        - generic [ref=e301]: "133.88"
+                        - generic [ref=e302]: "117.46"
+                    - generic [ref=e304]: vs
+                    - generic [ref=e306]:
+                      - generic [ref=e308]:
+                        - generic [ref=e309]: "103.14"
+                        - generic [ref=e310]: "120.89"
+                      - generic [ref=e312]:
+                        - link "logo" [ref=e314]:
+                          - /url: /f1/765761/11
+                          - img "logo" [ref=e315]
+                        - generic [ref=e316]:
+                          - link "Jahmyrs For Fears" [ref=e318]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/11
+                          - generic [ref=e319]: 9-13-0 | 8th
+                - listitem [ref=e320] [cursor=pointer]:
+                  - generic [ref=e321]:
+                    - generic [ref=e323]:
+                      - generic [ref=e325]:
+                        - generic [ref=e326]:
+                          - link "It's Allen The Hips" [ref=e328]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/10
+                          - generic [ref=e329]: 3-19-0 | 12th
+                        - link "logo" [ref=e331]:
+                          - /url: /f1/765761/10
+                          - img "logo" [ref=e332]
+                      - generic [ref=e334]:
+                        - generic [ref=e335]: "83.42"
+                        - generic [ref=e336]: "102.29"
+                    - generic [ref=e338]: vs
+                    - generic [ref=e340]:
+                      - generic [ref=e342]:
+                        - generic [ref=e343]: "101.22"
+                        - generic [ref=e344]: "118.03"
+                      - generic [ref=e346]:
+                        - link "logo" [ref=e348]:
+                          - /url: /f1/765761/12
+                          - img "logo" [ref=e349]
+                        - generic [ref=e350]:
+                          - link "The Nightman Re-Cometh" [ref=e352]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/12
+                          - generic [ref=e353]: 12-10-0 | 6th
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - heading "Standings" [level=2] [ref=e356]
+              - heading [level=2]
+            - generic [ref=e357]:
+              - list [ref=e359]:
+                - listitem [ref=e360]:
+                  - link "Standings" [ref=e361] [cursor=pointer]:
+                    - /url: "?module=standings&lhst=stand#lhststand"
+                - listitem [ref=e362]:
+                  - link "Schedule" [ref=e363] [cursor=pointer]:
+                    - /url: "?module=standings&lhst=sched#lhstsched"
+                - listitem [ref=e364]:
+                  - link "Playoffs" [ref=e365] [cursor=pointer]:
+                    - /url: "?module=standings&lhst=playoff#lhstplayoff"
+                - listitem [ref=e366]:
+                  - link "Ratings & Levels" [ref=e367] [cursor=pointer]:
+                    - /url: "?module=standings&lhst=felo#lhstfelo"
+              - link "Current Standings " [ref=e369] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e370]:
+                  - generic [ref=e371]: Current Standings
+                  - generic [ref=e372]: 
+              - generic [ref=e374]:
+                - table [ref=e376]:
+                  - rowgroup [ref=e377]:
+                    - row "Rank Team W-L-T Div PF PA Streak Waiver Bdgt Waiver Moves" [ref=e378]:
+                      - columnheader "Rank" [ref=e379]
+                      - columnheader "Team" [ref=e380]
+                      - columnheader "W-L-T" [ref=e381]
+                      - columnheader "Div" [ref=e382]
+                      - columnheader "PF" [ref=e383]
+                      - columnheader "PA" [ref=e384]
+                      - columnheader "Streak" [ref=e385]
+                      - columnheader "Waiver Bdgt" [ref=e386]
+                      - columnheader "Waiver" [ref=e387]
+                      - columnheader "Moves" [ref=e388]
+                  - rowgroup [ref=e389]:
+                    - row "Division 1" [ref=e390]:
+                      - cell "Division 1" [ref=e391]:
+                        - heading "Division 1" [level=4] [ref=e392]
+                    - row "*1 logo Rock You Like a Burrowcane 18-4-0 2-1-0 1443.53 1131.26 W-1 $8842 1 28" [ref=e393] [cursor=pointer]:
+                      - cell "*1" [ref=e394]: "*1"
+                      - cell "logo Rock You Like a Burrowcane" [ref=e395]:
+                        - link "logo" [ref=e396]:
+                          - /url: /f1/765761/5
+                          - img "logo" [ref=e397]
+                        - link "Rock You Like a Burrowcane" [ref=e398]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/5
+                      - cell "18-4-0" [ref=e399]
+                      - cell "2-1-0" [ref=e400]
+                      - cell "1443.53" [ref=e401]
+                      - cell "1131.26" [ref=e402]
+                      - cell "W-1" [ref=e403]
+                      - cell "$8842" [ref=e404]
+                      - cell "1" [ref=e405]
+                      - cell "28" [ref=e406]
+                    - row "4 logo Flowers For Charlie 15-7-0 2-1-0 1287.44 1373.16 W-2 $9757 3 27" [ref=e407] [cursor=pointer]:
+                      - cell "4" [ref=e408]: "4"
+                      - cell "logo Flowers For Charlie" [ref=e409]:
+                        - link "logo" [ref=e410]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e411]
+                        - link "Flowers For Charlie" [ref=e412]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                      - cell "15-7-0" [ref=e413]
+                      - cell "2-1-0" [ref=e414]
+                      - cell "1287.44" [ref=e415]
+                      - cell "1373.16" [ref=e416]
+                      - cell "W-2" [ref=e417]
+                      - cell "$9757" [ref=e418]
+                      - cell "3" [ref=e419]
+                      - cell "27" [ref=e420]
+                    - row "8 logo Jahmyrs For Fears 9-13-0 2-1-0 1182.97 1267.50 L-3 $5596 9 25" [ref=e421] [cursor=pointer]:
+                      - cell "8" [ref=e422]: "8"
+                      - cell "logo Jahmyrs For Fears" [ref=e423]:
+                        - link "logo" [ref=e424]:
+                          - /url: /f1/765761/11
+                          - img "logo" [ref=e425]
+                        - link "Jahmyrs For Fears" [ref=e426]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/11
+                      - cell "9-13-0" [ref=e427]
+                      - cell "2-1-0" [ref=e428]
+                      - cell "1182.97" [ref=e429]
+                      - cell "1267.50" [ref=e430]
+                      - cell "L-3" [ref=e431]
+                      - cell "$5596" [ref=e432]
+                      - cell "9" [ref=e433]
+                      - cell "25" [ref=e434]
+                    - row "10 logo Swap's Team 7-15-0 0-3-0 1061.02 1206.60 W-1 $5800 4 16" [ref=e435] [cursor=pointer]:
+                      - cell "10" [ref=e436]: "10"
+                      - cell "logo Swap's Team" [ref=e437]:
+                        - link "logo" [ref=e438]:
+                          - /url: /f1/765761/9
+                          - img "logo" [ref=e439]
+                        - link "Swap's Team" [ref=e440]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/9
+                      - cell "7-15-0" [ref=e441]
+                      - cell "0-3-0" [ref=e442]
+                      - cell "1061.02" [ref=e443]
+                      - cell "1206.60" [ref=e444]
+                      - cell "W-1" [ref=e445]
+                      - cell "$5800" [ref=e446]
+                      - cell "4" [ref=e447]
+                      - cell "16" [ref=e448]
+                    - row "Division 2" [ref=e449]:
+                      - cell "Division 2" [ref=e450]:
+                        - heading "Division 2" [level=4] [ref=e451]
+                    - row "5 logo Flush It Down 13-9-0 3-0-0 1272.20 1205.60 L-2 $6837 11 34" [ref=e452] [cursor=pointer]:
+                      - cell "5" [ref=e453]: "5"
+                      - cell "logo Flush It Down" [ref=e454]:
+                        - link "logo" [ref=e455]:
+                          - /url: /f1/765761/7
+                          - img "logo" [ref=e456]
+                        - link "Flush It Down" [ref=e457]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/7
+                      - cell "13-9-0" [ref=e458]
+                      - cell "3-0-0" [ref=e459]
+                      - cell "1272.20" [ref=e460]
+                      - cell "1205.60" [ref=e461]
+                      - cell "L-2" [ref=e462]
+                      - cell "$6837" [ref=e463]
+                      - cell "11" [ref=e464]
+                      - cell "34" [ref=e465]
+                    - row "6 logo The Nightman Re-Cometh 12-10-0 2-1-0 1294.62 1348.36 L-1 $8900 8 6" [ref=e466] [cursor=pointer]:
+                      - cell "6" [ref=e467]: "6"
+                      - cell "logo The Nightman Re-Cometh" [ref=e468]:
+                        - link "logo" [ref=e469]:
+                          - /url: /f1/765761/12
+                          - img "logo" [ref=e470]
+                        - link "The Nightman Re-Cometh" [ref=e471]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/12
+                      - cell "12-10-0" [ref=e472]
+                      - cell "2-1-0" [ref=e473]
+                      - cell "1294.62" [ref=e474]
+                      - cell "1348.36" [ref=e475]
+                      - cell "L-1" [ref=e476]
+                      - cell "$8900" [ref=e477]
+                      - cell "8" [ref=e478]
+                      - cell "6" [ref=e479]
+                    - row "7 logo XXI 9-13-0 1-2-0 1237.52 1286.68 L-3 $6923 10 30" [ref=e480] [cursor=pointer]:
+                      - cell "7" [ref=e481]: "7"
+                      - cell "logo XXI" [ref=e482]:
+                        - link "logo" [ref=e483]:
+                          - /url: /f1/765761/4
+                          - img "logo" [ref=e484]
+                        - link "XXI" [ref=e485]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/4
+                      - cell "9-13-0" [ref=e486]
+                      - cell "1-2-0" [ref=e487]
+                      - cell "1237.52" [ref=e488]
+                      - cell "1286.68" [ref=e489]
+                      - cell "L-3" [ref=e490]
+                      - cell "$6923" [ref=e491]
+                      - cell "10" [ref=e492]
+                      - cell "30" [ref=e493]
+                    - row "9 logo Chasing Nabors 8-14-0 0-3-0 1174.38 1291.83 W-3 $7214 6 32" [ref=e494] [cursor=pointer]:
+                      - cell "9" [ref=e495]: "9"
+                      - cell "logo Chasing Nabors" [ref=e496]:
+                        - link "logo" [ref=e497]:
+                          - /url: /f1/765761/6
+                          - img "logo" [ref=e498]
+                        - link "Chasing Nabors" [ref=e499]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/6
+                      - cell "8-14-0" [ref=e500]
+                      - cell "0-3-0" [ref=e501]
+                      - cell "1174.38" [ref=e502]
+                      - cell "1291.83" [ref=e503]
+                      - cell "W-3" [ref=e504]
+                      - cell "$7214" [ref=e505]
+                      - cell "6" [ref=e506]
+                      - cell "32" [ref=e507]
+                    - row "Division 3" [ref=e508]:
+                      - cell "Division 3" [ref=e509]:
+                        - heading "Division 3" [level=4] [ref=e510]
+                    - row "*2 logo Showtime 17-5-0 2-1-0 1365.66 1204.87 W-4 $7703 5 46" [ref=e511] [cursor=pointer]:
+                      - cell "*2" [ref=e512]: "*2"
+                      - cell "logo Showtime" [ref=e513]:
+                        - link "logo" [ref=e514]:
+                          - /url: /f1/765761/8
+                          - img "logo" [ref=e515]
+                        - link "Showtime" [ref=e516]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/8
+                      - cell "17-5-0" [ref=e517]
+                      - cell "2-1-0" [ref=e518]
+                      - cell "1365.66" [ref=e519]
+                      - cell "1204.87" [ref=e520]
+                      - cell "W-4" [ref=e521]
+                      - cell "$7703" [ref=e522]
+                      - cell "5" [ref=e523]
+                      - cell "46" [ref=e524]
+                    - row "3 logo Omarion my wayward son 15-7-0 3-0-0 1357.77 1138.92 W-1 $7783 12 18" [ref=e525] [cursor=pointer]:
+                      - cell "3" [ref=e526]: "3"
+                      - cell "logo Omarion my wayward son" [ref=e527]:
+                        - link "logo" [ref=e528]:
+                          - /url: /f1/765761/2
+                          - img "logo" [ref=e529]
+                        - link "Omarion my wayward son" [ref=e530]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/2
+                      - cell "15-7-0" [ref=e531]
+                      - cell "3-0-0" [ref=e532]
+                      - cell "1357.77" [ref=e533]
+                      - cell "1138.92" [ref=e534]
+                      - cell "W-1" [ref=e535]
+                      - cell "$7783" [ref=e536]
+                      - cell "12" [ref=e537]
+                      - cell "18" [ref=e538]
+                    - row "11 logo You Give Love A Brad Name 6-16-0 1-2-0 1274.45 1277.30 L-1 $8000 7 11" [ref=e539] [cursor=pointer]:
+                      - cell "11" [ref=e540]: "11"
+                      - cell "logo You Give Love A Brad Name" [ref=e541]:
+                        - link "logo" [ref=e542]:
+                          - /url: /f1/765761/3
+                          - img "logo" [ref=e543]
+                        - link "You Give Love A Brad Name" [ref=e544]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/3
+                      - cell "6-16-0" [ref=e545]
+                      - cell "1-2-0" [ref=e546]
+                      - cell "1274.45" [ref=e547]
+                      - cell "1277.30" [ref=e548]
+                      - cell "L-1" [ref=e549]
+                      - cell "$8000" [ref=e550]
+                      - cell "7" [ref=e551]
+                      - cell "11" [ref=e552]
+                    - row "12 logo It's Allen The Hips 3-19-0 0-3-0 1065.30 1284.78 L-1 $30 2 28" [ref=e553] [cursor=pointer]:
+                      - cell "12" [ref=e554]: "12"
+                      - cell "logo It's Allen The Hips" [ref=e555]:
+                        - link "logo" [ref=e556]:
+                          - /url: /f1/765761/10
+                          - img "logo" [ref=e557]
+                        - link "It's Allen The Hips" [ref=e558]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/10
+                      - cell "3-19-0" [ref=e559]
+                      - cell "0-3-0" [ref=e560]
+                      - cell "1065.30" [ref=e561]
+                      - cell "1284.78" [ref=e562]
+                      - cell "L-1" [ref=e563]
+                      - cell "$30" [ref=e564]
+                      - cell "2" [ref=e565]
+                      - cell "28" [ref=e566]
+                - generic [ref=e567]:
+                  - generic [ref=e568]: "Last standings update: Wed Nov 25 03:04am EST"
+                  - list [ref=e569]:
+                    - listitem [ref=e570]:
+                      - generic [ref=e571]: "* = clinched playoff spot"
+          - generic [ref=e572]:
+            - generic [ref=e573]:
+              - heading "Recent Transactions" [level=2] [ref=e574]
+              - link "View All " [ref=e575] [cursor=pointer]:
+                - /url: /f1/765761/transactions
+                - generic [ref=e576]: View All
+                - generic [ref=e577]: 
+            - generic [ref=e578]:
+              - list [ref=e580]:
+                - listitem [ref=e581]:
+                  - link "All Transactions" [ref=e582] [cursor=pointer]:
+                    - /url: "?transactionsfilter=all"
+                - listitem [ref=e583]:
+                  - link "Added Players" [ref=e584] [cursor=pointer]:
+                    - /url: "?transactionsfilter=add"
+                - listitem [ref=e585]:
+                  - link "Dropped Players" [ref=e586] [cursor=pointer]:
+                    - /url: "?transactionsfilter=drop"
+                - listitem [ref=e587]:
+                  - link "Trades" [ref=e588] [cursor=pointer]:
+                    - /url: "?transactionsfilter=trade"
+                - listitem [ref=e589]:
+                  - link "FAB Offers" [ref=e590] [cursor=pointer]:
+                    - /url: "?transactionsfilter=faab"
+              - table [ref=e591]:
+                - rowgroup [ref=e592]:
+                  - row "  Kaleb Johnson GB - RB Free Agent Kaelon Black SF - RB To Waivers XXI Nov 25, 11:41 am logo" [ref=e593]:
+                    - cell " " [ref=e594]:
+                      - generic "Added Player" [ref=e595]: 
+                      - generic "Dropped Player" [ref=e596]: 
+                    - cell "Kaleb Johnson GB - RB Free Agent Kaelon Black SF - RB To Waivers" [ref=e597]:
+                      - generic [ref=e598]:
+                        - link "Kaleb Johnson" [ref=e599] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/players/41881
+                        - text: GB - RB
+                        - link [ref=e600] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/players/41881/news
+                        - heading "Free Agent" [level=6] [ref=e601]
+                      - generic [ref=e602]:
+                        - link "Kaelon Black" [ref=e603] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/players/42712
+                        - text: SF - RB
+                        - link [ref=e604] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/players/42712/news
+                        - heading "To Waivers" [level=6] [ref=e605]
+                    - cell "XXI Nov 25, 11:41 am logo" [ref=e606]:
+                      - generic [ref=e607]:
+                        - generic [ref=e608]:
+                          - link "XXI" [ref=e609] [cursor=pointer]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/4
+                          - generic [ref=e610]: Nov 25, 11:41 am
+                        - link "logo" [ref=e611] [cursor=pointer]:
+                          - /url: /f1/765761/4
+                          - img "logo" [ref=e612]
+                  - row " Tyreek Hill Mia - WR NA To Waivers XXI Nov 25, 11:40 am logo" [ref=e613]:
+                    - cell "" [ref=e614]:
+                      - generic "Dropped Player" [ref=e615]: 
+                    - cell "Tyreek Hill Mia - WR NA To Waivers" [ref=e616]:
+                      - generic [ref=e617]:
+                        - link "Tyreek Hill" [ref=e618] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/players/29399
+                        - text: Mia - WR NA
+                        - link [ref=e619] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/players/29399/news
+                        - heading "To Waivers" [level=6] [ref=e620]
+                    - cell "XXI Nov 25, 11:40 am logo" [ref=e621]:
+                      - generic [ref=e622]:
+                        - generic [ref=e623]:
+                          - link "XXI" [ref=e624] [cursor=pointer]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/4
+                          - generic [ref=e625]: Nov 25, 11:40 am
+                        - link "logo" [ref=e626] [cursor=pointer]:
+                          - /url: /f1/765761/4
+                          - img "logo" [ref=e627]
+                  - row " Rams LAR - DEF To Waivers You Give Love A Brad Name Nov 25, 9:40 am logo" [ref=e628]:
+                    - cell "" [ref=e629]:
+                      - generic "Dropped Player" [ref=e630]: 
+                    - cell "Rams LAR - DEF To Waivers" [ref=e631]:
+                      - generic [ref=e632]:
+                        - link "Rams" [ref=e633] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/teams/la-rams/
+                        - text: LAR - DEF
+                        - link [ref=e634] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/teams/la-rams/
+                        - heading "To Waivers" [level=6] [ref=e635]
+                    - cell "You Give Love A Brad Name Nov 25, 9:40 am logo" [ref=e636]:
+                      - generic [ref=e637]:
+                        - generic [ref=e638]:
+                          - link "You Give Love A Brad Name" [ref=e639] [cursor=pointer]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/3
+                          - generic [ref=e640]: Nov 25, 9:40 am
+                        - link "logo" [ref=e641] [cursor=pointer]:
+                          - /url: /f1/765761/3
+                          - img "logo" [ref=e642]
+                  - row "  Giants NYG - DEF $12 Waiver Bills Buf - DEF To Waivers Jahmyrs For Fears Nov 25, 4:47 am logo" [ref=e643]:
+                    - cell " " [ref=e644]:
+                      - generic "Added Player" [ref=e645]: 
+                      - generic "Dropped Player" [ref=e646]: 
+                    - cell "Giants NYG - DEF $12 Waiver Bills Buf - DEF To Waivers" [ref=e647]:
+                      - generic [ref=e648]:
+                        - link "Giants" [ref=e649] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/teams/ny-giants/
+                        - text: NYG - DEF
+                        - link [ref=e650] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/teams/ny-giants/
+                        - heading "$12 Waiver" [level=6] [ref=e651]
+                      - generic [ref=e652]:
+                        - link "Bills" [ref=e653] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/teams/buffalo/
+                        - text: Buf - DEF
+                        - link [ref=e654] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/teams/buffalo/
+                        - heading "To Waivers" [level=6] [ref=e655]
+                    - cell "Jahmyrs For Fears Nov 25, 4:47 am logo" [ref=e656]:
+                      - generic [ref=e657]:
+                        - generic [ref=e658]:
+                          - link "Jahmyrs For Fears" [ref=e659] [cursor=pointer]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/11
+                          - generic [ref=e660]: Nov 25, 4:47 am
+                        - link "logo" [ref=e661] [cursor=pointer]:
+                          - /url: /f1/765761/11
+                          - img "logo" [ref=e662]
+                  - row "  Justice Hill Bal - RB $350 Waiver Michael Mayer LV - TE To Waivers Showtime Nov 25, 4:47 am logo" [ref=e663]:
+                    - cell " " [ref=e664]:
+                      - generic "Added Player" [ref=e665]: 
+                      - generic "Dropped Player" [ref=e666]: 
+                    - cell "Justice Hill Bal - RB $350 Waiver Michael Mayer LV - TE To Waivers" [ref=e667]:
+                      - generic [ref=e668]:
+                        - link "Justice Hill" [ref=e669] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/players/31945
+                        - text: Bal - RB
+                        - link [ref=e670] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/players/31945/news
+                        - heading "$350 Waiver" [level=6] [ref=e671]
+                      - generic [ref=e672]:
+                        - link "Michael Mayer" [ref=e673] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/players/40065
+                        - text: LV - TE
+                        - link [ref=e674] [cursor=pointer]:
+                          - /url: https://sports.yahoo.com/nfl/players/40065/news
+                        - heading "To Waivers" [level=6] [ref=e675]
+                    - cell "Showtime Nov 25, 4:47 am logo" [ref=e676]:
+                      - generic [ref=e677]:
+                        - generic [ref=e678]:
+                          - link "Showtime" [ref=e679] [cursor=pointer]:
+                            - /url: https://football.fantasysports.yahoo.com/f1/765761/8
+                          - generic [ref=e680]: Nov 25, 4:47 am
+                        - link "logo" [ref=e681] [cursor=pointer]:
+                          - /url: /f1/765761/8
+                          - img "logo" [ref=e682]
+          - generic [ref=e684]:
+            - heading "Commish Notes" [level=2] [ref=e686]
+            - generic [ref=e687]:
+              - generic [ref=e689]:
+                - link "logo" [ref=e690] [cursor=pointer]:
+                  - /url: /f1/765761/1
+                  - img "logo" [ref=e691]
+                - generic [ref=e692]:
+                  - generic [ref=e693]: Commish
+                  - link "Flowers For Charlie" [ref=e694] [cursor=pointer]:
+                    - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+              - list [ref=e699]:
+                - listitem [ref=e700]:
+                  - paragraph [ref=e701]: Welcome to Yahoo Sports Fantasy Football. There is currently no message from your commissioner.
+          - generic [ref=e702]:
+            - heading "Commish Updates" [level=2] [ref=e705]
+            - generic [ref=e707]:
+              - list [ref=e709]:
+                - listitem [ref=e710]:
+                  - generic [ref=e711]:
+                    - generic [ref=e713]:
+                      - figure [ref=e714]:
+                        - link "logo" [ref=e715] [cursor=pointer]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e716]
+                      - generic [ref=e717]:
+                        - link "Flowers For Charlie" [ref=e718] [cursor=pointer]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                        - text: (A Yahoo User)
+                        - generic [ref=e719]: Sep 12 1:02 am
+                    - generic [ref=e720]:
+                      - paragraph [ref=e721]: Weekly Waivers changed from 'Continuous' to 'Game Time - Tuesday'
+                      - blockquote
+                - listitem [ref=e722]:
+                  - generic [ref=e723]:
+                    - generic [ref=e725]:
+                      - figure [ref=e726]:
+                        - link "logo" [ref=e727] [cursor=pointer]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e728]
+                      - generic [ref=e729]:
+                        - link "Flowers For Charlie" [ref=e730] [cursor=pointer]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                        - text: (A Yahoo User)
+                        - generic [ref=e731]: Sep 11 5:09 am
+                    - generic [ref=e732]:
+                      - paragraph [ref=e733]: Waiver processing days changed from Friday to Saturday
+                      - blockquote
+                - listitem [ref=e734]:
+                  - generic [ref=e735]:
+                    - generic [ref=e737]:
+                      - figure [ref=e738]:
+                        - link "logo" [ref=e739] [cursor=pointer]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e740]
+                      - generic [ref=e741]:
+                        - link "Flowers For Charlie" [ref=e742] [cursor=pointer]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                        - text: (A Yahoo User)
+                        - generic [ref=e743]: Sep 11 5:09 am
+                    - generic [ref=e744]:
+                      - paragraph [ref=e745]: Waiver processing days changed from Saturday to Friday
+                      - blockquote
+                - listitem [ref=e746]:
+                  - generic [ref=e747]:
+                    - generic [ref=e749]:
+                      - figure [ref=e750]:
+                        - link "logo" [ref=e751] [cursor=pointer]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e752]
+                      - generic [ref=e753]:
+                        - link "Flowers For Charlie" [ref=e754] [cursor=pointer]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                        - text: (A Yahoo User)
+                        - generic [ref=e755]: Sep 11 5:08 am
+                    - generic [ref=e756]:
+                      - paragraph [ref=e757]: Waiver processing days changed from Friday to Saturday
+                      - blockquote
+                - listitem [ref=e758]:
+                  - generic [ref=e759]:
+                    - generic [ref=e761]:
+                      - figure [ref=e762]:
+                        - link "logo" [ref=e763] [cursor=pointer]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e764]
+                      - generic [ref=e765]:
+                        - link "Flowers For Charlie" [ref=e766] [cursor=pointer]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                        - text: (A Yahoo User)
+                        - generic [ref=e767]: Sep 11 5:08 am
+                    - generic [ref=e768]:
+                      - paragraph [ref=e769]: Weekly Waivers changed from 'Game Time - Tuesday' to 'Continuous'
+                      - blockquote
+                - listitem [ref=e770]:
+                  - generic [ref=e771]:
+                    - generic [ref=e773]:
+                      - figure [ref=e774]:
+                        - link "logo" [ref=e775] [cursor=pointer]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e776]
+                      - generic [ref=e777]:
+                        - link "Flowers For Charlie" [ref=e778] [cursor=pointer]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                        - text: (A Yahoo User)
+                        - generic [ref=e779]: Sep 11 5:00 am
+                    - generic [ref=e780]:
+                      - paragraph [ref=e781]: Weekly Waivers changed from 'Continuous' to 'Game Time - Tuesday'
+                      - blockquote
+                - listitem [ref=e782]:
+                  - generic [ref=e783]:
+                    - generic [ref=e785]:
+                      - figure [ref=e786]:
+                        - link "logo" [ref=e787] [cursor=pointer]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e788]
+                      - generic [ref=e789]:
+                        - link "Flowers For Charlie" [ref=e790] [cursor=pointer]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                        - text: (A Yahoo User)
+                        - generic [ref=e791]: Sep 11 4:59 am
+                    - generic [ref=e792]:
+                      - paragraph [ref=e793]: Waiver processing days changed from Monday, Tuesday, Wednesday, Thursday, Friday, Saturday to Friday
+                      - blockquote
+                - listitem [ref=e794]:
+                  - generic [ref=e795]:
+                    - generic [ref=e797]:
+                      - figure [ref=e798]:
+                        - link "logo" [ref=e799] [cursor=pointer]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e800]
+                      - generic [ref=e801]:
+                        - link "Flowers For Charlie" [ref=e802] [cursor=pointer]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                        - text: (A Yahoo User)
+                        - generic [ref=e803]: Sep 11 4:59 am
+                    - generic [ref=e804]:
+                      - paragraph [ref=e805]: Weekly Waivers changed from 'Game Time - Tuesday' to 'Continuous'
+                      - blockquote
+                - listitem [ref=e806]:
+                  - generic [ref=e807]:
+                    - generic [ref=e809]:
+                      - figure [ref=e810]:
+                        - link "logo" [ref=e811] [cursor=pointer]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e812]
+                      - generic [ref=e813]:
+                        - link "Flowers For Charlie" [ref=e814] [cursor=pointer]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                        - text: (A Yahoo User)
+                        - generic [ref=e815]: Sep 11 4:57 am
+                    - generic [ref=e816]:
+                      - paragraph [ref=e817]: Weekly Waivers changed from 'Continuous' to 'Game Time - Tuesday'
+                      - blockquote
+                - listitem [ref=e818]:
+                  - generic [ref=e819]:
+                    - generic [ref=e821]:
+                      - figure [ref=e822]:
+                        - link "logo" [ref=e823] [cursor=pointer]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e824]
+                      - generic [ref=e825]:
+                        - link "Flowers For Charlie" [ref=e826] [cursor=pointer]:
+                          - /url: https://football.fantasysports.yahoo.com/f1/765761/1
+                        - text: (A Yahoo User)
+                        - generic [ref=e827]: Sep 11 4:56 am
+                    - generic [ref=e828]:
+                      - paragraph [ref=e829]: IR changed from '2' to '3'
+                      - blockquote
+              - link "Show More " [ref=e831] [cursor=pointer]:
+                - /url: "?updatefilter=c&updatecount=20"
+          - generic [ref=e834]:
+            - heading "Fantasy News" [level=2] [ref=e835]
+            - list [ref=e836]:
+              - listitem [ref=e837]:
+                - link "2026 Trade Value Charts — Justin Boone's fantasy football wide receiver breakdown for Week 12 Fantasy football analyst Justin Boone reveals his updated WR trade values. Yahoo Sports • 1h ago" [ref=e839] [cursor=pointer]:
+                  - /url: https://sports.yahoo.com/fantasy/article/2026-trade-value-charts--justin-boones-fantasy-football-wide-receiver-breakdown-for-week-12-153145966.html
+                  - generic [ref=e845]:
+                    - heading "2026 Trade Value Charts — Justin Boone's fantasy football wide receiver breakdown for Week 12" [level=3] [ref=e846]:
+                      - generic [ref=e847]: 2026 Trade Value Charts — Justin Boone's fantasy football wide receiver breakdown for Week 12
+                    - generic [ref=e849]: Fantasy football analyst Justin Boone reveals his updated WR trade values.
+                    - list [ref=e851]:
+                      - listitem [ref=e852]:
+                        - generic [ref=e855]: Yahoo Sports
+                      - listitem [ref=e856]:
+                        - text: •
+                        - generic [ref=e860]: 1h ago
+              - listitem [ref=e861]:
+                - link "2026 Trade Value Charts — Justin Boone's fantasy football tight end breakdown for Week 12 Fantasy football analyst Justin Boone reveals his updated TE trade values. Yahoo Sports • 1h ago" [ref=e863] [cursor=pointer]:
+                  - /url: https://sports.yahoo.com/fantasy/article/2026-trade-value-charts--justin-boones-fantasy-football-tight-end-breakdown-for-week-12-153119964.html
+                  - generic [ref=e869]:
+                    - heading "2026 Trade Value Charts — Justin Boone's fantasy football tight end breakdown for Week 12" [level=3] [ref=e870]:
+                      - generic [ref=e871]: 2026 Trade Value Charts — Justin Boone's fantasy football tight end breakdown for Week 12
+                    - generic [ref=e873]: Fantasy football analyst Justin Boone reveals his updated TE trade values.
+                    - list [ref=e875]:
+                      - listitem [ref=e876]:
+                        - generic [ref=e879]: Yahoo Sports
+                      - listitem [ref=e880]:
+                        - text: •
+                        - generic [ref=e884]: 1h ago
+              - listitem [ref=e885]:
+                - link "2026 Trade Value Charts — Justin Boone's fantasy football running back breakdown for Week 12 Fantasy football analyst Justin Boone reveals his updated RB trade values. Yahoo Sports • 1h ago" [ref=e887] [cursor=pointer]:
+                  - /url: https://sports.yahoo.com/fantasy/article/2026-trade-value-charts--justin-boones-fantasy-football-running-back-breakdown-for-week-12-152844355.html
+                  - generic [ref=e893]:
+                    - heading "2026 Trade Value Charts — Justin Boone's fantasy football running back breakdown for Week 12" [level=3] [ref=e894]:
+                      - generic [ref=e895]: 2026 Trade Value Charts — Justin Boone's fantasy football running back breakdown for Week 12
+                    - generic [ref=e897]: Fantasy football analyst Justin Boone reveals his updated RB trade values.
+                    - list [ref=e899]:
+                      - listitem [ref=e900]:
+                        - generic [ref=e903]: Yahoo Sports
+                      - listitem [ref=e904]:
+                        - text: •
+                        - generic [ref=e908]: 1h ago
+              - listitem [ref=e909]:
+                - link "2026 Trade Value Charts — Justin Boone's fantasy football quarterback breakdown for Week 12 Fantasy football analyst Justin Boone reveals his updated QB trade values. Yahoo Sports • 1h ago" [ref=e911] [cursor=pointer]:
+                  - /url: https://sports.yahoo.com/fantasy/article/2026-trade-value-charts--justin-boones-fantasy-football-quarterback-breakdown-for-week-12-152757848.html
+                  - generic [ref=e917]:
+                    - heading "2026 Trade Value Charts — Justin Boone's fantasy football quarterback breakdown for Week 12" [level=3] [ref=e918]:
+                      - generic [ref=e919]: 2026 Trade Value Charts — Justin Boone's fantasy football quarterback breakdown for Week 12
+                    - generic [ref=e921]: Fantasy football analyst Justin Boone reveals his updated QB trade values.
+                    - list [ref=e923]:
+                      - listitem [ref=e924]:
+                        - generic [ref=e927]: Yahoo Sports
+                      - listitem [ref=e928]:
+                        - text: •
+                        - generic [ref=e932]: 1h ago
+              - listitem [ref=e933]:
+                - 'link "NFL Thanksgiving week fantasy preview: 3 key questions for every holiday game Scott Pianowski breaks down the five holiday games with three pressing fantasy questions for each. Yahoo Sports • 1h ago" [ref=e935] [cursor=pointer]':
+                  - /url: https://sports.yahoo.com/fantasy/article/nfl-thanksgiving-week-fantasy-preview-3-key-questions-for-every-holiday-game-152609057.html
+                  - generic [ref=e941]:
+                    - 'heading "NFL Thanksgiving week fantasy preview: 3 key questions for every holiday game" [level=3] [ref=e942]':
+                      - generic [ref=e943]: "NFL Thanksgiving week fantasy preview: 3 key questions for every holiday game"
+                    - generic [ref=e945]: Scott Pianowski breaks down the five holiday games with three pressing fantasy questions for each.
+                    - list [ref=e947]:
+                      - listitem [ref=e948]:
+                        - generic [ref=e951]: Yahoo Sports
+                      - listitem [ref=e952]:
+                        - text: •
+                        - generic [ref=e956]: 1h ago
+              - listitem [ref=e957]:
+                - 'link "Week 12 Fantasy Football Sleepers: Chris Rodriguez Jr., Antonio Williams among underrated options off the waiver wire Scott Pianowski shares some potential sleepers you can find on the fantasy football waiver wire for Week 12. Yahoo Sports • 1h ago" [ref=e959] [cursor=pointer]':
+                  - /url: https://sports.yahoo.com/fantasy/article/week-12-fantasy-football-sleepers-chris-rodriguez-jr-antonio-williams-among-underrated-options-off-the-waiver-wire-152204112.html
+                  - generic [ref=e965]:
+                    - 'heading "Week 12 Fantasy Football Sleepers: Chris Rodriguez Jr., Antonio Williams among underrated options off the waiver wire" [level=3] [ref=e966]':
+                      - generic [ref=e967]: "Week 12 Fantasy Football Sleepers: Chris Rodriguez Jr., Antonio Williams among underrated options off the waiver wire"
+                    - generic [ref=e969]: Scott Pianowski shares some potential sleepers you can find on the fantasy football waiver wire for Week 12.
+                    - list [ref=e971]:
+                      - listitem [ref=e972]:
+                        - generic [ref=e975]: Yahoo Sports
+                      - listitem [ref=e976]:
+                        - text: •
+                        - generic [ref=e980]: 1h ago
+              - listitem [ref=e981]:
+                - 'link "NFL Thanksgiving preview: Bills and Chiefs renew a fun rivalry with big stakes in AFC playoff picture The Bills are leading the AFC with a 9-1 record, and the Chiefs are a game behind. Yahoo Sports • 2h ago" [ref=e983] [cursor=pointer]':
+                  - /url: https://sports.yahoo.com/nfl/article/nfl-thanksgiving-preview-bills-and-chiefs-renew-a-fun-rivalry-with-big-stakes-in-afc-playoff-picture-142224985.html
+                  - generic [ref=e989]:
+                    - 'heading "NFL Thanksgiving preview: Bills and Chiefs renew a fun rivalry with big stakes in AFC playoff picture" [level=3] [ref=e990]':
+                      - generic [ref=e991]: "NFL Thanksgiving preview: Bills and Chiefs renew a fun rivalry with big stakes in AFC playoff picture"
+                    - generic [ref=e993]: The Bills are leading the AFC with a 9-1 record, and the Chiefs are a game behind.
+                    - list [ref=e995]:
+                      - listitem [ref=e996]:
+                        - generic [ref=e999]: Yahoo Sports
+                      - listitem [ref=e1000]:
+                        - text: •
+                        - generic [ref=e1004]: 2h ago
+              - listitem [ref=e1005]:
+                - 'link "NFL Thanksgiving Eve preview: Packers and Rams meet in huge game for NFC wild-card race The Rams will try to generate offense with their star receivers out due to injuries. Yahoo Sports • 2h ago" [ref=e1007] [cursor=pointer]':
+                  - /url: https://sports.yahoo.com/nfl/article/nfl-thanksgiving-eve-preview-packers-and-rams-meet-in-huge-game-for-nfc-wild-card-race-141949318.html
+                  - generic [ref=e1013]:
+                    - 'heading "NFL Thanksgiving Eve preview: Packers and Rams meet in huge game for NFC wild-card race" [level=3] [ref=e1014]':
+                      - generic [ref=e1015]: "NFL Thanksgiving Eve preview: Packers and Rams meet in huge game for NFC wild-card race"
+                    - generic [ref=e1017]: The Rams will try to generate offense with their star receivers out due to injuries.
+                    - list [ref=e1019]:
+                      - listitem [ref=e1020]:
+                        - generic [ref=e1023]: Yahoo Sports
+                      - listitem [ref=e1024]:
+                        - text: •
+                        - generic [ref=e1028]: 2h ago
+              - listitem [ref=e1029]:
+                - 'link "NFL Thanksgiving preview: Bears and Lions bring two fun offenses to battle for first place in NFC North The Lions and Bears are both 8-2 heading into a huge Thanksgiving game. Yahoo Sports • 2h ago" [ref=e1031] [cursor=pointer]':
+                  - /url: https://sports.yahoo.com/nfl/article/nfl-thanksgiving-preview-bears-and-lions-bring-two-fun-offenses-to-battle-for-first-place-in-nfc-north-141855672.html
+                  - generic [ref=e1037]:
+                    - 'heading "NFL Thanksgiving preview: Bears and Lions bring two fun offenses to battle for first place in NFC North" [level=3] [ref=e1038]':
+                      - generic [ref=e1039]: "NFL Thanksgiving preview: Bears and Lions bring two fun offenses to battle for first place in NFC North"
+                    - generic [ref=e1041]: The Lions and Bears are both 8-2 heading into a huge Thanksgiving game.
+                    - list [ref=e1043]:
+                      - listitem [ref=e1044]:
+                        - generic [ref=e1047]: Yahoo Sports
+                      - listitem [ref=e1048]:
+                        - text: •
+                        - generic [ref=e1052]: 2h ago
+              - listitem [ref=e1053]:
+                - link "Aaron Rodgers couldn't play forever, and he might have an unceremonious end at age 42 There were four MVPs, 10 Pro Bowls, a Super Bowl championship, dozens of highlights that defied belief over 22 seasons, and it all seems to end with a quick statement from the team after most of Pittsburgh had gone to sleep. Yahoo Sports • 12h ago" [ref=e1055] [cursor=pointer]:
+                  - /url: https://sports.yahoo.com/nfl/article/aaron-rodgers-couldnt-play-forever-and-he-might-have-an-unceremonious-end-at-age-42-051331424.html
+                  - generic [ref=e1061]:
+                    - heading "Aaron Rodgers couldn't play forever, and he might have an unceremonious end at age 42" [level=3] [ref=e1062]:
+                      - generic [ref=e1063]: Aaron Rodgers couldn't play forever, and he might have an unceremonious end at age 42
+                    - generic [ref=e1065]: There were four MVPs, 10 Pro Bowls, a Super Bowl championship, dozens of highlights that defied belief over 22 seasons, and it all seems to end with a quick statement from the team after most of Pittsburgh had gone to sleep.
+                    - list [ref=e1067]:
+                      - listitem [ref=e1068]:
+                        - generic [ref=e1071]: Yahoo Sports
+                      - listitem [ref=e1072]:
+                        - text: •
+                        - generic [ref=e1076]: 12h ago
+        - generic [ref=e1083]:
+          - heading "Biggest Blowout of the Week" [level=2] [ref=e1085]
+          - generic [ref=e1086]:
+            - generic [ref=e1087]:
+              - generic [ref=e1088]: Week 11 Results
+              - link "Matchup Recap " [ref=e1089] [cursor=pointer]:
+                - /url: /f1/765761/recap?week=11&mid1=5&mid2=12
+            - generic [ref=e1090]:
+              - generic [ref=e1092]:
+                - generic [ref=e1093]:
+                  - link "logo" [ref=e1094] [cursor=pointer]:
+                    - /url: /f1/765761/5
+                    - img "logo" [ref=e1095]
+                  - link "Rock You Like a Burrowcane" [ref=e1097] [cursor=pointer]:
+                    - /url: https://football.fantasysports.yahoo.com/f1/765761/5
+                  - generic [ref=e1098]: "--hidden--"
+                - generic [ref=e1099]: "120.00"
+              - generic [ref=e1101]:
+                - generic [ref=e1102]:
+                  - link "logo" [ref=e1103] [cursor=pointer]:
+                    - /url: /f1/765761/12
+                    - img "logo" [ref=e1104]
+                  - generic [ref=e1105]:
+                    - text: vs.
+                    - link "The Nightman Re-Cometh" [ref=e1106] [cursor=pointer]:
+                      - /url: https://football.fantasysports.yahoo.com/f1/765761/12
+                  - text: "--hidden--"
+                - generic [ref=e1107]: "65.44"
+              - generic [ref=e1108]: "+54.56"
+            - link "View All Results »" [ref=e1110] [cursor=pointer]:
+              - /url: /f1/765761/biggest_blowout
+    - contentinfo [ref=e1114]:
+      - generic [ref=e1121]:
+        - list [ref=e1122]:
+          - listitem [ref=e1123]: Yahoo Sports - NBC Sports Network
+          - listitem [ref=e1124]:
+            - text: "-"
+            - link "Paid Fantasy Terms" [ref=e1125] [cursor=pointer]:
+              - /url: https://legal.yahoo.com/us/en/yahoo/terms/product-atos/paidfantasy/index.html
+          - listitem [ref=e1126]:
+            - text: "-"
+            - link "Feedback" [ref=e1127] [cursor=pointer]:
+              - /url: https://yahoo.uservoice.com/forums/206158?auth=yahoo
+          - listitem [ref=e1128]:
+            - text: "-"
+            - link "Terms" [ref=e1129] [cursor=pointer]:
+              - /url: https://guce.yahoo.com/terms?locale=en-US
+            - text: and
+            - link "Privacy Policy" [ref=e1130] [cursor=pointer]:
+              - /url: https://guce.yahoo.com/privacy-policy?locale=en-US
+          - listitem [ref=e1131]:
+            - text: "-"
+            - link "Your Privacy Choices" [ref=e1132] [cursor=pointer]:
+              - /url: https://guce.yahoo.com/state-controls?locale=en-US&state=TX
+          - listitem [ref=e1133]:
+            - text: "-"
+            - link "About Our Ads" [ref=e1134] [cursor=pointer]:
+              - /url: https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html
+          - listitem [ref=e1135]:
+            - text: "-"
+            - link "Help" [ref=e1136] [cursor=pointer]:
+              - /url: https://help.yahoo.com/kb/index?locale=en_US&page=product&y=PROD_SPORTS_FAN_FOOTUS
+        - paragraph [ref=e1137]: Certain Data by Sportradar, Rotowire, BAKER Engine, THE BLITZ and FTN
+        - paragraph [ref=e1138]: Guillotine trademarks are used with Fantasy Life's permission.
+        - paragraph [ref=e1139]: © 2026 Yahoo Fantasy Sports LLC. All rights reserved.

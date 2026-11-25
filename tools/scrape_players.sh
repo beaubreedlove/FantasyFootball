@@ -9,7 +9,7 @@ playwright-cli -s=$S open --browser=chromium "https://football.fantasysports.yah
 mkdir -p players
 JS='JSON.stringify(Array.prototype.slice.call(document.querySelectorAll("table tbody tr")).filter(function(tr){return tr.cells.length>=7&&tr.cells[0]&&/^(QB|RB|WR|TE|W\/R\/T|K|DEF|BN|IR)$/.test(tr.cells[0].innerText.trim())}).map(function(tr){return [tr.cells[0].innerText.trim(),(tr.cells[1].innerText||"").split("\n")[0],tr.cells[5]?tr.cells[5].innerText.trim():""]}))'
 for t in 1 2 3 4 5 6 7 8 9 10 11 12; do
-  for w in 1 2 3 4 5 6 7 8 9 10; do
+  for w in 1 2 3 4 5 6 7 8 9 10 11; do
     f="players/t${t}_w${w}.json"
     [ -s "$f" ] && [ "$(head -c 4 "$f")" != '"[]"' ] && continue
     playwright-cli -s=$S goto "https://football.fantasysports.yahoo.com/f1/765761/${t}?week=${w}" >/dev/null 2>&1

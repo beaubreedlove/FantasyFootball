@@ -1,0 +1,1575 @@
+- generic [ref=e3]:
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]:
+            - heading "Yahoo Sports" [level=1] [ref=e14]
+            - link "Yahoo Sports" [ref=e15] [cursor=pointer]:
+              - /url: https://sports.yahoo.com/
+              - img [ref=e16]
+              - text: Yahoo Sports
+          - search [ref=e20]:
+            - generic [ref=e21]: Search query
+            - combobox "Search query" [ref=e22]
+            - generic:
+              - img
+            - button "Search" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+        - navigation [ref=e28]:
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - link "Home" [ref=e31] [cursor=pointer]:
+                - /url: https://www.yahoo.com/
+            - listitem [ref=e32]:
+              - link "News" [ref=e33] [cursor=pointer]:
+                - /url: https://www.yahoo.com/news/
+            - listitem [ref=e34]:
+              - link "Finance" [ref=e35] [cursor=pointer]:
+                - /url: https://finance.yahoo.com/
+            - listitem [ref=e36]:
+              - link "Sports" [ref=e37] [cursor=pointer]:
+                - /url: https://sports.yahoo.com/
+            - listitem [ref=e38]:
+              - button "More" [ref=e39] [cursor=pointer]:
+                - generic [ref=e40]: More
+                - img [ref=e41]
+        - toolbar [ref=e43]:
+          - link "Check your mail" [ref=e47] [cursor=pointer]:
+            - /url: https://mail.yahoo.com/
+            - img [ref=e48]
+            - generic [ref=e51]: Mail
+          - link "Sign in" [ref=e55] [cursor=pointer]:
+            - /url: https://login.yahoo.com/?.lang=en-US&src=sports&.done=https%3A%2F%2Ffootball.fantasysports.yahoo.com%2Ff1%2F765761%2F1%3Fweek%3D6&pspid=782200906&activity=ybar-signin
+      - generic [ref=e58]:
+        - link "Fantasy Football" [ref=e59] [cursor=pointer]:
+          - /url: https://football.fantasysports.yahoo.com
+          - img [ref=e60]
+          - text: Fantasy Football
+        - img [ref=e61]
+        - link "Sign Up Now" [ref=e63] [cursor=pointer]:
+          - /url: /f1/signup
+        - link "2026 Rankings" [ref=e64] [cursor=pointer]:
+          - /url: /f1/draftanalysis
+        - link "Mock Draft Lobby" [ref=e65] [cursor=pointer]:
+          - /url: /f1/mock_lobby
+        - link "More" [ref=e66] [cursor=pointer]:
+          - /url: /f1
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "Fantasy" [ref=e73] [cursor=pointer]:
+              - /url: https://sports.yahoo.com/fantasy/
+              - img [ref=e75]
+              - text: Fantasy
+              - img [ref=e77]
+          - listitem [ref=e79]:
+            - link "Network" [ref=e82] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e84]
+              - text: Network
+              - img [ref=e86]
+          - listitem [ref=e88]:
+            - link "Fantasy Plus" [ref=e92] [cursor=pointer]:
+              - /url: https://fantasysports.yahoo.com/lp/plus?ncid=navbar
+              - img [ref=e93]
+              - generic [ref=e95]: Fantasy Plus
+  - generic [ref=e99]:
+    - banner [ref=e100]:
+      - heading "Yahoo Sports Fantasy Football" [level=2] [ref=e103]:
+        - link "Yahoo Sports Fantasy Football" [ref=e104] [cursor=pointer]:
+          - /url: /f1
+    - generic [ref=e113]:
+      - generic [ref=e122]:
+        - generic [ref=e124]:
+          - img "Team logo" [ref=e127]
+          - generic [ref=e128]:
+            - list [ref=e131]:
+              - listitem [ref=e132]:
+                - generic [ref=e133]: Flowers For Charlie
+            - list [ref=e135]:
+              - listitem [ref=e136]: "--hidden-- (Since '10)"
+              - listitem [ref=e137]:
+                - link "Gold 747 (+15)" [ref=e138] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e139]:
+                - link "Report Team Logo" [ref=e140] [cursor=pointer]:
+                  - /url: /f1/report_logo?tid=1&lid=765761&crumb=Fi4p2Ge.0BA
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - text: 15-7-0
+              - emphasis [ref=e144]:
+                - text: "4"
+                - superscript [ref=e145]: th
+                - text: Place
+            - generic [ref=e146]:
+              - text: 1,287.44
+              - emphasis [ref=e147]:
+                - text: Total Points (5
+                - superscript [ref=e148]: th
+                - text: )
+          - generic [ref=e149]:
+            - list [ref=e150]:
+              - listitem [ref=e151]:
+                - link "VS 1" [ref=e152] [cursor=pointer]:
+                  - /url: "#matchup-1"
+              - listitem [ref=e153]:
+                - link "Median" [ref=e154] [cursor=pointer]:
+                  - /url: "#matchup-median"
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - text: Week 6 vs
+                  - link "Chasing Nabors" [ref=e159] [cursor=pointer]:
+                    - /url: https://football.fantasysports.yahoo.com/f1/765761/6
+                  - text: • 9
+                  - superscript [ref=e160]: th
+                - list [ref=e161]:
+                  - listitem [ref=e162] [cursor=pointer]:
+                    - generic [ref=e163]:
+                      - generic [ref=e165]:
+                        - link "logo" [ref=e169]:
+                          - /url: /f1/765761/1
+                          - img "logo" [ref=e170]
+                        - generic [ref=e172]:
+                          - generic [ref=e173]: "124.11"
+                          - generic [ref=e174]: "132.20"
+                      - generic [ref=e176]: vs
+                      - generic [ref=e178]:
+                        - generic [ref=e180]:
+                          - generic [ref=e181]: "110.46"
+                          - generic [ref=e182]: "88.99"
+                        - link "logo" [ref=e186]:
+                          - /url: /f1/765761/6
+                          - img "logo" [ref=e187]
+              - generic [ref=e189]:
+                - generic [ref=e190]: Won Week 11 vs XXI
+                - link "Recap" [ref=e191] [cursor=pointer]:
+                  - /url: /f1/765761/recap?week=11&mid1=1&mid2=4
+      - generic [ref=e192]:
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic "Week 6" [ref=e198]:
+                - link "" [ref=e199] [cursor=pointer]:
+                  - /url: https://football.fantasysports.yahoo.com/f1/765761/1/team?&week=5
+                - link "Week 6" [ref=e200] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e202]: Week 6
+                - link "" [ref=e203] [cursor=pointer]:
+                  - /url: https://football.fantasysports.yahoo.com/f1/765761/1/team?&week=7
+              - list [ref=e205]:
+                - listitem [ref=e206]:
+                  - link "Stats" [ref=e207] [cursor=pointer]:
+                    - /url: https://football.fantasysports.yahoo.com/f1/765761/1?week=6&stat1=S
+            - generic [ref=e210]:
+              - link "Create Trade" [ref=e211] [cursor=pointer]:
+                - /url: /f1/765761//proposetrade?stage=1&mid2=1
+              - link "Compare My Team" [ref=e212] [cursor=pointer]:
+                - /url: /f1/765761/players?myteam=1&status=1
+          - generic [ref=e214]:
+            - table "Flowers For Charlie's Offense roster for week 6." [ref=e216]:
+              - caption:
+                - generic [ref=e217]: Flowers For Charlie's Offense roster for week 6.
+              - rowgroup [ref=e218]:
+                - row "Fantasy Trends Passing Rushing Receiving Return Misc Fumbles" [ref=e219]:
+                  - columnheader [ref=e220]
+                  - columnheader [ref=e222]
+                  - columnheader "Action" [ref=e224]
+                  - columnheader "Bye" [ref=e226]
+                  - columnheader "Fantasy" [ref=e228]:
+                    - generic [ref=e229]: Fantasy
+                  - columnheader "Trends" [ref=e230]:
+                    - generic [ref=e231]: Trends
+                  - columnheader "Passing" [ref=e232]:
+                    - generic [ref=e233]: Passing
+                  - columnheader "Rushing" [ref=e234]:
+                    - generic [ref=e235]: Rushing
+                  - columnheader "Receiving" [ref=e236]:
+                    - generic [ref=e237]: Receiving
+                  - columnheader "Return" [ref=e238]:
+                    - generic [ref=e239]: Return
+                  - columnheader "Misc" [ref=e240]:
+                    - generic [ref=e241]: Misc
+                  - columnheader "Fumbles" [ref=e242]:
+                    - generic [ref=e243]: Fumbles
+                  - columnheader [ref=e244]
+                - row "Pos Offense Action Bye Fan Pts Proj Pts % Start % Ros Yds TD Int Sack Pick Six 1st Downs Att* Yds TD 1st Downs Tgt* Rec* Yds TD 1st Downs Yds TD 2PT Tot Lost" [ref=e245]:
+                  - columnheader "Pos" [ref=e246]:
+                    - generic [ref=e247]: Pos
+                  - columnheader "Offense" [ref=e248]:
+                    - generic [ref=e249]: Offense
+                  - columnheader "Action" [ref=e250]:
+                    - generic [ref=e251]: Action
+                  - columnheader "Bye" [ref=e252]:
+                    - generic [ref=e253]: Bye
+                  - columnheader "Fan Pts" [ref=e254]:
+                    - generic [ref=e255]: Fan Pts
+                  - columnheader "Proj Pts" [ref=e256]:
+                    - generic [ref=e257]: Proj Pts
+                  - columnheader "% Start" [ref=e258]:
+                    - generic [ref=e259]: "% Start"
+                  - columnheader "% Ros" [ref=e260]:
+                    - generic [ref=e261]: "% Ros"
+                  - columnheader "Yds" [ref=e262]:
+                    - generic [ref=e263]: Yds
+                  - columnheader "TD" [ref=e264]:
+                    - generic [ref=e265]: TD
+                  - columnheader "Int" [ref=e266]:
+                    - generic [ref=e267]: Int
+                  - columnheader "Sack" [ref=e268]:
+                    - generic [ref=e269]: Sack
+                  - columnheader "Pick Six" [ref=e270]:
+                    - generic [ref=e271]: Pick Six
+                  - columnheader "1st Downs" [ref=e272]:
+                    - generic [ref=e273]: 1st Downs
+                  - columnheader "Att*" [ref=e274]:
+                    - generic [ref=e275]: Att*
+                  - columnheader "Yds" [ref=e276]:
+                    - generic [ref=e277]: Yds
+                  - columnheader "TD" [ref=e278]:
+                    - generic [ref=e279]: TD
+                  - columnheader "1st Downs" [ref=e280]:
+                    - generic [ref=e281]: 1st Downs
+                  - columnheader "Tgt*" [ref=e282]:
+                    - generic [ref=e283]: Tgt*
+                  - columnheader "Rec*" [ref=e284]:
+                    - generic [ref=e285]: Rec*
+                  - columnheader "Yds" [ref=e286]:
+                    - generic [ref=e287]: Yds
+                  - columnheader "TD" [ref=e288]:
+                    - generic [ref=e289]: TD
+                  - columnheader "1st Downs" [ref=e290]:
+                    - generic [ref=e291]: 1st Downs
+                  - columnheader "Yds" [ref=e292]:
+                    - generic [ref=e293]: Yds
+                  - columnheader "TD" [ref=e294]:
+                    - generic [ref=e295]: TD
+                  - columnheader "2PT" [ref=e296]:
+                    - generic [ref=e297]: 2PT
+                  - columnheader "Tot" [ref=e298]:
+                    - generic [ref=e299]: Tot
+                  - columnheader "Lost" [ref=e300]:
+                    - generic [ref=e301]: Lost
+                  - columnheader [ref=e302]
+              - rowgroup [ref=e303]:
+                - row "QB Tyler Shough Tyler Shough Open player notes for Tyler Shough NO - QB Final W 34-27 @ NYG   8 29.66 17.34 42% 80% 144 3 0 0 0 7 5 32 1 3 0 0 0 0 0 0 0 0 0 0" [ref=e304]:
+                  - cell "QB" [ref=e305]:
+                    - generic [ref=e307]: QB
+                  - cell "Tyler Shough Tyler Shough Open player notes for Tyler Shough NO - QB Final W 34-27 @ NYG" [ref=e308]:
+                    - generic [ref=e310]:
+                      - img "Tyler Shough" [ref=e312]
+                      - generic [ref=e315]:
+                        - generic [ref=e316]:
+                          - link "Tyler Shough" [ref=e317] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/41825
+                          - link "Open player notes for Tyler Shough" [ref=e319] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/41825/news
+                            - generic "button" [ref=e320]: Player Note
+                          - generic [ref=e321]: NO - QB
+                        - generic [ref=e323]:
+                          - link "Final W 34-27 @" [ref=e324] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/new-orleans-saints-new-york-giants-20261018019/
+                          - link "NYG" [ref=e325] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=QB&ntid=19
+                  - cell "" [ref=e326]:
+                    - generic [ref=e327]: 
+                  - cell "" [ref=e328]:
+                    - link "" [ref=e330] [cursor=pointer]:
+                      - /url: ""
+                  - cell "8" [ref=e331]:
+                    - generic [ref=e332]: "8"
+                  - cell "29.66" [ref=e333]:
+                    - link "29.66" [ref=e335] [cursor=pointer]:
+                      - /url: "#pps-41825"
+                  - cell "17.34" [ref=e336]:
+                    - generic [ref=e337]: "17.34"
+                  - cell "42%" [ref=e338]:
+                    - generic [ref=e339]: 42%
+                  - cell "80%" [ref=e340]:
+                    - generic [ref=e341]: 80%
+                  - cell "144" [ref=e342]:
+                    - generic [ref=e343]: "144"
+                  - cell "3" [ref=e344]:
+                    - generic [ref=e345]: "3"
+                  - cell "0" [ref=e346]:
+                    - generic [ref=e347]: "0"
+                  - cell "0" [ref=e348]:
+                    - generic [ref=e349]: "0"
+                  - cell "0" [ref=e350]:
+                    - generic [ref=e351]: "0"
+                  - cell "7" [ref=e352]:
+                    - generic [ref=e353]: "7"
+                  - cell "5" [ref=e354]:
+                    - generic [ref=e355]: "5"
+                  - cell "32" [ref=e356]:
+                    - generic [ref=e357]: "32"
+                  - cell "1" [ref=e358]:
+                    - generic [ref=e359]: "1"
+                  - cell "3" [ref=e360]:
+                    - generic [ref=e361]: "3"
+                  - cell "0" [ref=e362]:
+                    - generic [ref=e363]: "0"
+                  - cell "0" [ref=e364]:
+                    - generic [ref=e365]: "0"
+                  - cell "0" [ref=e366]:
+                    - generic [ref=e367]: "0"
+                  - cell "0" [ref=e368]:
+                    - generic [ref=e369]: "0"
+                  - cell "0" [ref=e370]:
+                    - generic [ref=e371]: "0"
+                  - cell "0" [ref=e372]:
+                    - generic [ref=e373]: "0"
+                  - cell "0" [ref=e374]:
+                    - generic [ref=e375]: "0"
+                  - cell "0" [ref=e376]:
+                    - generic [ref=e377]: "0"
+                  - cell "0" [ref=e378]:
+                    - generic [ref=e379]: "0"
+                  - cell "0" [ref=e380]:
+                    - generic [ref=e381]: "0"
+                  - cell [ref=e382]
+                - row "RB Christian McCaffrey Christian McCaffrey Video Forecast Open player notes for Christian McCaffrey SF - RB Final W 23-17 vs Was   8 25.70 20.79 100% 100% 0 0 0 0 0 0 16 64 2 5 10 9 53 0 1 0 0 0 1 1" [ref=e383]:
+                  - cell "RB" [ref=e384]:
+                    - generic [ref=e386]: RB
+                  - cell "Christian McCaffrey Christian McCaffrey Video Forecast Open player notes for Christian McCaffrey SF - RB Final W 23-17 vs Was" [ref=e387]:
+                    - generic [ref=e389]:
+                      - img "Christian McCaffrey" [ref=e391]
+                      - generic [ref=e394]:
+                        - generic [ref=e395]:
+                          - link "Christian McCaffrey" [ref=e396] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/30121
+                          - generic [ref=e397]:
+                            - link "Video Forecast" [ref=e399] [cursor=pointer]:
+                              - /url: "#"
+                            - link "Open player notes for Christian McCaffrey" [ref=e400] [cursor=pointer]:
+                              - /url: https://sports.yahoo.com/nfl/players/30121/news
+                              - generic "button" [ref=e401]: Player Note
+                          - generic [ref=e402]: SF - RB
+                        - generic [ref=e404]:
+                          - link "Final W 23-17 vs" [ref=e405] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/washington-commanders-san-francisco-49ers-20261019025/
+                          - link "Was" [ref=e406] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=RB&ntid=28
+                  - cell "" [ref=e407]:
+                    - generic [ref=e408]: 
+                  - cell "" [ref=e409]:
+                    - link "" [ref=e411] [cursor=pointer]:
+                      - /url: ""
+                  - cell "8" [ref=e412]:
+                    - generic [ref=e413]: "8"
+                  - cell "25.70" [ref=e414]:
+                    - link "25.70" [ref=e416] [cursor=pointer]:
+                      - /url: "#pps-30121"
+                  - cell "20.79" [ref=e417]:
+                    - generic [ref=e418]: "20.79"
+                  - cell "100%" [ref=e419]:
+                    - generic [ref=e420]: 100%
+                  - cell "100%" [ref=e421]:
+                    - generic [ref=e422]: 100%
+                  - cell "0" [ref=e423]:
+                    - generic [ref=e424]: "0"
+                  - cell "0" [ref=e425]:
+                    - generic [ref=e426]: "0"
+                  - cell "0" [ref=e427]:
+                    - generic [ref=e428]: "0"
+                  - cell "0" [ref=e429]:
+                    - generic [ref=e430]: "0"
+                  - cell "0" [ref=e431]:
+                    - generic [ref=e432]: "0"
+                  - cell "0" [ref=e433]:
+                    - generic [ref=e434]: "0"
+                  - cell "16" [ref=e435]:
+                    - generic [ref=e436]: "16"
+                  - cell "64" [ref=e437]:
+                    - generic [ref=e438]: "64"
+                  - cell "2" [ref=e439]:
+                    - generic [ref=e440]: "2"
+                  - cell "5" [ref=e441]:
+                    - generic [ref=e442]: "5"
+                  - cell "10" [ref=e443]:
+                    - generic [ref=e444]: "10"
+                  - cell "9" [ref=e445]:
+                    - generic [ref=e446]: "9"
+                  - cell "53" [ref=e447]:
+                    - generic [ref=e448]: "53"
+                  - cell "0" [ref=e449]:
+                    - generic [ref=e450]: "0"
+                  - cell "1" [ref=e451]:
+                    - generic [ref=e452]: "1"
+                  - cell "0" [ref=e453]:
+                    - generic [ref=e454]: "0"
+                  - cell "0" [ref=e455]:
+                    - generic [ref=e456]: "0"
+                  - cell "0" [ref=e457]:
+                    - generic [ref=e458]: "0"
+                  - cell "1" [ref=e459]:
+                    - generic [ref=e460]: "1"
+                  - cell "1" [ref=e461]:
+                    - generic [ref=e462]: "1"
+                  - cell [ref=e463]
+                - row "RB Kyren Williams Kyren Williams Video Forecast Open player notes for Kyren Williams LAR - RB Final L 16-18 vs Ari   11 11.70 22.18 98% 100% 0 0 0 0 0 0 10 50 0 5 6 3 17 0 0 0 0 0 0 0" [ref=e464]:
+                  - cell "RB" [ref=e465]:
+                    - generic [ref=e467]: RB
+                  - cell "Kyren Williams Kyren Williams Video Forecast Open player notes for Kyren Williams LAR - RB Final L 16-18 vs Ari" [ref=e468]:
+                    - generic [ref=e470]:
+                      - img "Kyren Williams" [ref=e472]
+                      - generic [ref=e475]:
+                        - generic [ref=e476]:
+                          - link "Kyren Williams" [ref=e477] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/34120
+                          - generic [ref=e478]:
+                            - link "Video Forecast" [ref=e480] [cursor=pointer]:
+                              - /url: "#"
+                            - link "Open player notes for Kyren Williams" [ref=e481] [cursor=pointer]:
+                              - /url: https://sports.yahoo.com/nfl/players/34120/news
+                              - generic "button" [ref=e482]: New Player Note
+                          - generic [ref=e483]: LAR - RB
+                        - generic [ref=e485]:
+                          - link "Final L 16-18 vs" [ref=e486] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/arizona-cardinals-los-angeles-rams-20261018014/
+                          - link "Ari" [ref=e487] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=RB&ntid=22
+                  - cell "" [ref=e488]:
+                    - generic [ref=e489]: 
+                  - cell "" [ref=e490]:
+                    - link "" [ref=e492] [cursor=pointer]:
+                      - /url: ""
+                  - cell "11" [ref=e493]:
+                    - generic [ref=e494]: "11"
+                  - cell "11.70" [ref=e495]:
+                    - link "11.70" [ref=e497] [cursor=pointer]:
+                      - /url: "#pps-34120"
+                  - cell "22.18" [ref=e498]:
+                    - generic [ref=e499]: "22.18"
+                  - cell "98%" [ref=e500]:
+                    - generic [ref=e501]: 98%
+                  - cell "100%" [ref=e502]:
+                    - generic [ref=e503]: 100%
+                  - cell "0" [ref=e504]:
+                    - generic [ref=e505]: "0"
+                  - cell "0" [ref=e506]:
+                    - generic [ref=e507]: "0"
+                  - cell "0" [ref=e508]:
+                    - generic [ref=e509]: "0"
+                  - cell "0" [ref=e510]:
+                    - generic [ref=e511]: "0"
+                  - cell "0" [ref=e512]:
+                    - generic [ref=e513]: "0"
+                  - cell "0" [ref=e514]:
+                    - generic [ref=e515]: "0"
+                  - cell "10" [ref=e516]:
+                    - generic [ref=e517]: "10"
+                  - cell "50" [ref=e518]:
+                    - generic [ref=e519]: "50"
+                  - cell "0" [ref=e520]:
+                    - generic [ref=e521]: "0"
+                  - cell "5" [ref=e522]:
+                    - generic [ref=e523]: "5"
+                  - cell "6" [ref=e524]:
+                    - generic [ref=e525]: "6"
+                  - cell "3" [ref=e526]:
+                    - generic [ref=e527]: "3"
+                  - cell "17" [ref=e528]:
+                    - generic [ref=e529]: "17"
+                  - cell "0" [ref=e530]:
+                    - generic [ref=e531]: "0"
+                  - cell "0" [ref=e532]:
+                    - generic [ref=e533]: "0"
+                  - cell "0" [ref=e534]:
+                    - generic [ref=e535]: "0"
+                  - cell "0" [ref=e536]:
+                    - generic [ref=e537]: "0"
+                  - cell "0" [ref=e538]:
+                    - generic [ref=e539]: "0"
+                  - cell "0" [ref=e540]:
+                    - generic [ref=e541]: "0"
+                  - cell "0" [ref=e542]:
+                    - generic [ref=e543]: "0"
+                  - cell [ref=e544]
+                - row "WR Mike Evans Mike Evans Video Forecast Open player notes for Mike Evans SF - WR Final W 23-17 vs Was   8 12.40 14.52 73% 97% 0 0 0 0 0 0 0 0 0 0 5 3 94 0 3 0 0 0 0 0" [ref=e545]:
+                  - cell "WR" [ref=e546]:
+                    - generic [ref=e548]: WR
+                  - cell "Mike Evans Mike Evans Video Forecast Open player notes for Mike Evans SF - WR Final W 23-17 vs Was" [ref=e549]:
+                    - generic [ref=e551]:
+                      - img "Mike Evans" [ref=e553]
+                      - generic [ref=e556]:
+                        - generic [ref=e557]:
+                          - link "Mike Evans" [ref=e558] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/27535
+                          - generic [ref=e559]:
+                            - link "Video Forecast" [ref=e561] [cursor=pointer]:
+                              - /url: "#"
+                            - link "Open player notes for Mike Evans" [ref=e562] [cursor=pointer]:
+                              - /url: https://sports.yahoo.com/nfl/players/27535/news
+                              - generic "button" [ref=e563]: Player Note
+                          - generic [ref=e564]: SF - WR
+                        - generic [ref=e566]:
+                          - link "Final W 23-17 vs" [ref=e567] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/washington-commanders-san-francisco-49ers-20261019025/
+                          - link "Was" [ref=e568] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=WR&ntid=28
+                  - cell "" [ref=e569]:
+                    - generic [ref=e570]: 
+                  - cell "" [ref=e571]:
+                    - link "" [ref=e573] [cursor=pointer]:
+                      - /url: ""
+                  - cell "8" [ref=e574]:
+                    - generic [ref=e575]: "8"
+                  - cell "12.40" [ref=e576]:
+                    - link "12.40" [ref=e578] [cursor=pointer]:
+                      - /url: "#pps-27535"
+                  - cell "14.52" [ref=e579]:
+                    - generic [ref=e580]: "14.52"
+                  - cell "73%" [ref=e581]:
+                    - generic [ref=e582]: 73%
+                  - cell "97%" [ref=e583]:
+                    - generic [ref=e584]: 97%
+                  - cell "0" [ref=e585]:
+                    - generic [ref=e586]: "0"
+                  - cell "0" [ref=e587]:
+                    - generic [ref=e588]: "0"
+                  - cell "0" [ref=e589]:
+                    - generic [ref=e590]: "0"
+                  - cell "0" [ref=e591]:
+                    - generic [ref=e592]: "0"
+                  - cell "0" [ref=e593]:
+                    - generic [ref=e594]: "0"
+                  - cell "0" [ref=e595]:
+                    - generic [ref=e596]: "0"
+                  - cell "0" [ref=e597]:
+                    - generic [ref=e598]: "0"
+                  - cell "0" [ref=e599]:
+                    - generic [ref=e600]: "0"
+                  - cell "0" [ref=e601]:
+                    - generic [ref=e602]: "0"
+                  - cell "0" [ref=e603]:
+                    - generic [ref=e604]: "0"
+                  - cell "5" [ref=e605]:
+                    - generic [ref=e606]: "5"
+                  - cell "3" [ref=e607]:
+                    - generic [ref=e608]: "3"
+                  - cell "94" [ref=e609]:
+                    - generic [ref=e610]: "94"
+                  - cell "0" [ref=e611]:
+                    - generic [ref=e612]: "0"
+                  - cell "3" [ref=e613]:
+                    - generic [ref=e614]: "3"
+                  - cell "0" [ref=e615]:
+                    - generic [ref=e616]: "0"
+                  - cell "0" [ref=e617]:
+                    - generic [ref=e618]: "0"
+                  - cell "0" [ref=e619]:
+                    - generic [ref=e620]: "0"
+                  - cell "0" [ref=e621]:
+                    - generic [ref=e622]: "0"
+                  - cell "0" [ref=e623]:
+                    - generic [ref=e624]: "0"
+                  - cell [ref=e625]
+                - row "WR Zay Flowers Zay Flowers Video Forecast Open player notes for Zay Flowers Bal - WR Final L 10-13 @ Cle   13 8.70 14.43 93% 100% 0 0 0 0 0 0 1 1 0 0 11 6 66 0 2 0 0 0 0 0" [ref=e626]:
+                  - cell "WR" [ref=e627]:
+                    - generic [ref=e629]: WR
+                  - cell "Zay Flowers Zay Flowers Video Forecast Open player notes for Zay Flowers Bal - WR Final L 10-13 @ Cle" [ref=e630]:
+                    - generic [ref=e632]:
+                      - img "Zay Flowers" [ref=e634]
+                      - generic [ref=e637]:
+                        - generic [ref=e638]:
+                          - link "Zay Flowers" [ref=e639] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/40039
+                          - generic [ref=e640]:
+                            - link "Video Forecast" [ref=e642] [cursor=pointer]:
+                              - /url: "#"
+                            - link "Open player notes for Zay Flowers" [ref=e643] [cursor=pointer]:
+                              - /url: https://sports.yahoo.com/nfl/players/40039/news
+                              - generic "button" [ref=e644]: Player Note
+                          - generic [ref=e645]: Bal - WR
+                        - generic [ref=e647]:
+                          - link "Final L 10-13 @" [ref=e648] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/baltimore-ravens-cleveland-browns-20261018005/
+                          - link "Cle" [ref=e649] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=WR&ntid=5
+                  - cell "" [ref=e650]:
+                    - generic [ref=e651]: 
+                  - cell "" [ref=e652]:
+                    - link "" [ref=e654] [cursor=pointer]:
+                      - /url: ""
+                  - cell "13" [ref=e655]:
+                    - generic [ref=e656]: "13"
+                  - cell "8.70" [ref=e657]:
+                    - link "8.70" [ref=e659] [cursor=pointer]:
+                      - /url: "#pps-40039"
+                  - cell "14.43" [ref=e660]:
+                    - generic [ref=e661]: "14.43"
+                  - cell "93%" [ref=e662]:
+                    - generic [ref=e663]: 93%
+                  - cell "100%" [ref=e664]:
+                    - generic [ref=e665]: 100%
+                  - cell "0" [ref=e666]:
+                    - generic [ref=e667]: "0"
+                  - cell "0" [ref=e668]:
+                    - generic [ref=e669]: "0"
+                  - cell "0" [ref=e670]:
+                    - generic [ref=e671]: "0"
+                  - cell "0" [ref=e672]:
+                    - generic [ref=e673]: "0"
+                  - cell "0" [ref=e674]:
+                    - generic [ref=e675]: "0"
+                  - cell "0" [ref=e676]:
+                    - generic [ref=e677]: "0"
+                  - cell "1" [ref=e678]:
+                    - generic [ref=e679]: "1"
+                  - cell "1" [ref=e680]:
+                    - generic [ref=e681]: "1"
+                  - cell "0" [ref=e682]:
+                    - generic [ref=e683]: "0"
+                  - cell "0" [ref=e684]:
+                    - generic [ref=e685]: "0"
+                  - cell "11" [ref=e686]:
+                    - generic [ref=e687]: "11"
+                  - cell "6" [ref=e688]:
+                    - generic [ref=e689]: "6"
+                  - cell "66" [ref=e690]:
+                    - generic [ref=e691]: "66"
+                  - cell "0" [ref=e692]:
+                    - generic [ref=e693]: "0"
+                  - cell "2" [ref=e694]:
+                    - generic [ref=e695]: "2"
+                  - cell "0" [ref=e696]:
+                    - generic [ref=e697]: "0"
+                  - cell "0" [ref=e698]:
+                    - generic [ref=e699]: "0"
+                  - cell "0" [ref=e700]:
+                    - generic [ref=e701]: "0"
+                  - cell "0" [ref=e702]:
+                    - generic [ref=e703]: "0"
+                  - cell "0" [ref=e704]:
+                    - generic [ref=e705]: "0"
+                  - cell [ref=e706]
+                - row "TE Dalton Kincaid Dalton KincaidQ Video Forecast Open player notes for Dalton Kincaid Buf - TE Final W 33-30 @ LV   7 4.80 10.76 71% 95% 0 0 0 0 0 0 0 0 0 0 8 7 38 0 1 0 0 0 0 0" [ref=e707]:
+                  - cell "TE" [ref=e708]:
+                    - generic [ref=e710]: TE
+                  - cell "Dalton Kincaid Dalton KincaidQ Video Forecast Open player notes for Dalton Kincaid Buf - TE Final W 33-30 @ LV" [ref=e711]:
+                    - generic [ref=e713]:
+                      - img "Dalton Kincaid" [ref=e715]
+                      - generic [ref=e718]:
+                        - generic [ref=e719]:
+                          - link "Dalton Kincaid" [ref=e720] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/40048
+                          - generic [ref=e721]: Q
+                          - generic [ref=e722]:
+                            - link "Video Forecast" [ref=e724] [cursor=pointer]:
+                              - /url: "#"
+                            - link "Open player notes for Dalton Kincaid" [ref=e725] [cursor=pointer]:
+                              - /url: https://sports.yahoo.com/nfl/players/40048/news
+                              - generic "button" [ref=e726]: New Player Note
+                          - generic [ref=e727]: Buf - TE
+                        - generic [ref=e729]:
+                          - link "Final W 33-30 @" [ref=e730] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/buffalo-bills-las-vegas-raiders-20261018013/
+                          - link "LV" [ref=e731] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=TE&ntid=13
+                  - cell "" [ref=e732]:
+                    - generic [ref=e733]: 
+                  - cell "" [ref=e734]:
+                    - link "" [ref=e736] [cursor=pointer]:
+                      - /url: ""
+                  - cell "7" [ref=e737]:
+                    - generic [ref=e738]: "7"
+                  - cell "4.80" [ref=e739]:
+                    - link "4.80" [ref=e741] [cursor=pointer]:
+                      - /url: "#pps-40048"
+                  - cell "10.76" [ref=e742]:
+                    - generic [ref=e743]: "10.76"
+                  - cell "71%" [ref=e744]:
+                    - generic [ref=e745]: 71%
+                  - cell "95%" [ref=e746]:
+                    - generic [ref=e747]: 95%
+                  - cell "0" [ref=e748]:
+                    - generic [ref=e749]: "0"
+                  - cell "0" [ref=e750]:
+                    - generic [ref=e751]: "0"
+                  - cell "0" [ref=e752]:
+                    - generic [ref=e753]: "0"
+                  - cell "0" [ref=e754]:
+                    - generic [ref=e755]: "0"
+                  - cell "0" [ref=e756]:
+                    - generic [ref=e757]: "0"
+                  - cell "0" [ref=e758]:
+                    - generic [ref=e759]: "0"
+                  - cell "0" [ref=e760]:
+                    - generic [ref=e761]: "0"
+                  - cell "0" [ref=e762]:
+                    - generic [ref=e763]: "0"
+                  - cell "0" [ref=e764]:
+                    - generic [ref=e765]: "0"
+                  - cell "0" [ref=e766]:
+                    - generic [ref=e767]: "0"
+                  - cell "8" [ref=e768]:
+                    - generic [ref=e769]: "8"
+                  - cell "7" [ref=e770]:
+                    - generic [ref=e771]: "7"
+                  - cell "38" [ref=e772]:
+                    - generic [ref=e773]: "38"
+                  - cell "0" [ref=e774]:
+                    - generic [ref=e775]: "0"
+                  - cell "1" [ref=e776]:
+                    - generic [ref=e777]: "1"
+                  - cell "0" [ref=e778]:
+                    - generic [ref=e779]: "0"
+                  - cell "0" [ref=e780]:
+                    - generic [ref=e781]: "0"
+                  - cell "0" [ref=e782]:
+                    - generic [ref=e783]: "0"
+                  - cell "0" [ref=e784]:
+                    - generic [ref=e785]: "0"
+                  - cell "0" [ref=e786]:
+                    - generic [ref=e787]: "0"
+                  - cell [ref=e788]
+                - row "W/R/T Tony Pollard Tony Pollard Video Forecast Open player notes for Tony Pollard Ten - RB Final W 26-20 @ Ind   9 11.60 12.56 57% 90% 0 0 0 0 0 0 19 76 0 4 1 0 0 0 0 0 0 0 0 0" [ref=e789]:
+                  - cell "W/R/T" [ref=e790]:
+                    - generic [ref=e792]: W/R/T
+                  - cell "Tony Pollard Tony Pollard Video Forecast Open player notes for Tony Pollard Ten - RB Final W 26-20 @ Ind" [ref=e793]:
+                    - generic [ref=e795]:
+                      - img "Tony Pollard" [ref=e797]
+                      - generic [ref=e800]:
+                        - generic [ref=e801]:
+                          - link "Tony Pollard" [ref=e802] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/31960
+                          - generic [ref=e803]:
+                            - link "Video Forecast" [ref=e805] [cursor=pointer]:
+                              - /url: "#"
+                            - link "Open player notes for Tony Pollard" [ref=e806] [cursor=pointer]:
+                              - /url: https://sports.yahoo.com/nfl/players/31960/news
+                              - generic "button" [ref=e807]: Player Note
+                          - generic [ref=e808]: Ten - RB
+                        - generic [ref=e810]:
+                          - link "Final W 26-20 @" [ref=e811] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/tennessee-titans-indianapolis-colts-20261018011/
+                          - link "Ind" [ref=e812] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=RB&ntid=11
+                  - cell "" [ref=e813]:
+                    - generic [ref=e814]: 
+                  - cell "" [ref=e815]:
+                    - link "" [ref=e817] [cursor=pointer]:
+                      - /url: ""
+                  - cell "9" [ref=e818]:
+                    - generic [ref=e819]: "9"
+                  - cell "11.60" [ref=e820]:
+                    - link "11.60" [ref=e822] [cursor=pointer]:
+                      - /url: "#pps-31960"
+                  - cell "12.56" [ref=e823]:
+                    - generic [ref=e824]: "12.56"
+                  - cell "57%" [ref=e825]:
+                    - generic [ref=e826]: 57%
+                  - cell "90%" [ref=e827]:
+                    - generic [ref=e828]: 90%
+                  - cell "0" [ref=e829]:
+                    - generic [ref=e830]: "0"
+                  - cell "0" [ref=e831]:
+                    - generic [ref=e832]: "0"
+                  - cell "0" [ref=e833]:
+                    - generic [ref=e834]: "0"
+                  - cell "0" [ref=e835]:
+                    - generic [ref=e836]: "0"
+                  - cell "0" [ref=e837]:
+                    - generic [ref=e838]: "0"
+                  - cell "0" [ref=e839]:
+                    - generic [ref=e840]: "0"
+                  - cell "19" [ref=e841]:
+                    - generic [ref=e842]: "19"
+                  - cell "76" [ref=e843]:
+                    - generic [ref=e844]: "76"
+                  - cell "0" [ref=e845]:
+                    - generic [ref=e846]: "0"
+                  - cell "4" [ref=e847]:
+                    - generic [ref=e848]: "4"
+                  - cell "1" [ref=e849]:
+                    - generic [ref=e850]: "1"
+                  - cell "0" [ref=e851]:
+                    - generic [ref=e852]: "0"
+                  - cell "0" [ref=e853]:
+                    - generic [ref=e854]: "0"
+                  - cell "0" [ref=e855]:
+                    - generic [ref=e856]: "0"
+                  - cell "0" [ref=e857]:
+                    - generic [ref=e858]: "0"
+                  - cell "0" [ref=e859]:
+                    - generic [ref=e860]: "0"
+                  - cell "0" [ref=e861]:
+                    - generic [ref=e862]: "0"
+                  - cell "0" [ref=e863]:
+                    - generic [ref=e864]: "0"
+                  - cell "0" [ref=e865]:
+                    - generic [ref=e866]: "0"
+                  - cell "0" [ref=e867]:
+                    - generic [ref=e868]: "0"
+                  - cell [ref=e869]
+                - row "BN DK Metcalf DK Metcalf Open player notes for DK Metcalf Pit - WR Final W 26-19 @ TB   9 14.30 10.46 64% 93% 0 0 0 0 0 0 0 0 0 0 15 11 93 0 5 0 0 0 0 0" [ref=e870]:
+                  - cell "BN" [ref=e871]:
+                    - generic [ref=e873]: BN
+                  - cell "DK Metcalf DK Metcalf Open player notes for DK Metcalf Pit - WR Final W 26-19 @ TB" [ref=e874]:
+                    - generic [ref=e876]:
+                      - img "DK Metcalf" [ref=e878]
+                      - generic [ref=e881]:
+                        - generic [ref=e882]:
+                          - link "DK Metcalf" [ref=e883] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/31896
+                          - link "Open player notes for DK Metcalf" [ref=e885] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/31896/news
+                            - generic "button" [ref=e886]: Player Note
+                          - generic [ref=e887]: Pit - WR
+                        - generic [ref=e889]:
+                          - link "Final W 26-19 @" [ref=e890] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/pittsburgh-steelers-tampa-bay-buccaneers-20261018027/
+                          - link "TB" [ref=e891] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=WR&ntid=27
+                  - cell "" [ref=e892]:
+                    - generic [ref=e893]: 
+                  - cell "" [ref=e894]:
+                    - link "" [ref=e896] [cursor=pointer]:
+                      - /url: ""
+                  - cell "9" [ref=e897]:
+                    - generic [ref=e898]: "9"
+                  - cell "14.30" [ref=e899]:
+                    - link "14.30" [ref=e901] [cursor=pointer]:
+                      - /url: "#pps-31896"
+                  - cell "10.46" [ref=e902]:
+                    - generic [ref=e903]: "10.46"
+                  - cell "64%" [ref=e904]:
+                    - generic [ref=e905]: 64%
+                  - cell "93%" [ref=e906]:
+                    - generic [ref=e907]: 93%
+                  - cell "0" [ref=e908]:
+                    - generic [ref=e909]: "0"
+                  - cell "0" [ref=e910]:
+                    - generic [ref=e911]: "0"
+                  - cell "0" [ref=e912]:
+                    - generic [ref=e913]: "0"
+                  - cell "0" [ref=e914]:
+                    - generic [ref=e915]: "0"
+                  - cell "0" [ref=e916]:
+                    - generic [ref=e917]: "0"
+                  - cell "0" [ref=e918]:
+                    - generic [ref=e919]: "0"
+                  - cell "0" [ref=e920]:
+                    - generic [ref=e921]: "0"
+                  - cell "0" [ref=e922]:
+                    - generic [ref=e923]: "0"
+                  - cell "0" [ref=e924]:
+                    - generic [ref=e925]: "0"
+                  - cell "0" [ref=e926]:
+                    - generic [ref=e927]: "0"
+                  - cell "15" [ref=e928]:
+                    - generic [ref=e929]: "15"
+                  - cell "11" [ref=e930]:
+                    - generic [ref=e931]: "11"
+                  - cell "93" [ref=e932]:
+                    - generic [ref=e933]: "93"
+                  - cell "0" [ref=e934]:
+                    - generic [ref=e935]: "0"
+                  - cell "5" [ref=e936]:
+                    - generic [ref=e937]: "5"
+                  - cell "0" [ref=e938]:
+                    - generic [ref=e939]: "0"
+                  - cell "0" [ref=e940]:
+                    - generic [ref=e941]: "0"
+                  - cell "0" [ref=e942]:
+                    - generic [ref=e943]: "0"
+                  - cell "0" [ref=e944]:
+                    - generic [ref=e945]: "0"
+                  - cell "0" [ref=e946]:
+                    - generic [ref=e947]: "0"
+                  - cell [ref=e948]
+                - row "BN Jameson Williams Jameson Williams Video Forecast Open player notes for Jameson Williams Det - WR Bye   6 Bye 94% - - - - - - - - - - - - - - - - - - - -" [ref=e949]:
+                  - cell "BN" [ref=e950]:
+                    - generic [ref=e952]: BN
+                  - cell "Jameson Williams Jameson Williams Video Forecast Open player notes for Jameson Williams Det - WR Bye" [ref=e953]:
+                    - generic [ref=e955]:
+                      - img "Jameson Williams" [ref=e957]
+                      - generic [ref=e960]:
+                        - generic [ref=e961]:
+                          - link "Jameson Williams" [ref=e962] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/33967
+                          - generic [ref=e963]:
+                            - link "Video Forecast" [ref=e965] [cursor=pointer]:
+                              - /url: "#"
+                            - link "Open player notes for Jameson Williams" [ref=e966] [cursor=pointer]:
+                              - /url: https://sports.yahoo.com/nfl/players/33967/news
+                              - generic "button" [ref=e967]: Player Note
+                          - generic [ref=e968]: Det - WR
+                        - generic [ref=e969]: Bye
+                  - cell "" [ref=e970]:
+                    - generic [ref=e971]: 
+                  - cell "" [ref=e972]:
+                    - link "" [ref=e974] [cursor=pointer]:
+                      - /url: ""
+                  - cell "6" [ref=e975]:
+                    - generic [ref=e976]: "6"
+                  - cell "Bye" [ref=e977]:
+                    - generic [ref=e978]: Bye
+                  - cell "94%" [ref=e979]:
+                    - generic [ref=e980]: 94%
+                  - cell "-" [ref=e981]:
+                    - generic [ref=e982]: "-"
+                  - cell "-" [ref=e983]:
+                    - generic [ref=e984]: "-"
+                  - cell "-" [ref=e985]:
+                    - generic [ref=e986]: "-"
+                  - cell "-" [ref=e987]:
+                    - generic [ref=e988]: "-"
+                  - cell "-" [ref=e989]:
+                    - generic [ref=e990]: "-"
+                  - cell "-" [ref=e991]:
+                    - generic [ref=e992]: "-"
+                  - cell "-" [ref=e993]:
+                    - generic [ref=e994]: "-"
+                  - cell "-" [ref=e995]:
+                    - generic [ref=e996]: "-"
+                  - cell "-" [ref=e997]:
+                    - generic [ref=e998]: "-"
+                  - cell "-" [ref=e999]:
+                    - generic [ref=e1000]: "-"
+                  - cell "-" [ref=e1001]:
+                    - generic [ref=e1002]: "-"
+                  - cell "-" [ref=e1003]:
+                    - generic [ref=e1004]: "-"
+                  - cell "-" [ref=e1005]:
+                    - generic [ref=e1006]: "-"
+                  - cell "-" [ref=e1007]:
+                    - generic [ref=e1008]: "-"
+                  - cell "-" [ref=e1009]:
+                    - generic [ref=e1010]: "-"
+                  - cell "-" [ref=e1011]:
+                    - generic [ref=e1012]: "-"
+                  - cell "-" [ref=e1013]:
+                    - generic [ref=e1014]: "-"
+                  - cell "-" [ref=e1015]:
+                    - generic [ref=e1016]: "-"
+                  - cell "-" [ref=e1017]:
+                    - generic [ref=e1018]: "-"
+                  - cell "-" [ref=e1019]:
+                    - generic [ref=e1020]: "-"
+                  - cell [ref=e1021]
+                - row "BN T.J. Hockenson T.J. Hockenson Open player notes for T.J. Hockenson Min - TE Bye   6 Bye 31% - - - - - - - - - - - - - - - - - - - -" [ref=e1022]:
+                  - cell "BN" [ref=e1023]:
+                    - generic [ref=e1025]: BN
+                  - cell "T.J. Hockenson T.J. Hockenson Open player notes for T.J. Hockenson Min - TE Bye" [ref=e1026]:
+                    - generic [ref=e1028]:
+                      - img "T.J. Hockenson" [ref=e1030]
+                      - generic [ref=e1033]:
+                        - generic [ref=e1034]:
+                          - link "T.J. Hockenson" [ref=e1035] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/31840
+                          - link "Open player notes for T.J. Hockenson" [ref=e1037] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/31840/news
+                            - generic "button" [ref=e1038]: Player Note
+                          - generic [ref=e1039]: Min - TE
+                        - generic [ref=e1040]: Bye
+                  - cell "" [ref=e1041]:
+                    - generic [ref=e1042]: 
+                  - cell "" [ref=e1043]:
+                    - link "" [ref=e1045] [cursor=pointer]:
+                      - /url: ""
+                  - cell "6" [ref=e1046]:
+                    - generic [ref=e1047]: "6"
+                  - cell "Bye" [ref=e1048]:
+                    - generic [ref=e1049]: Bye
+                  - cell "31%" [ref=e1050]:
+                    - generic [ref=e1051]: 31%
+                  - cell "-" [ref=e1052]:
+                    - generic [ref=e1053]: "-"
+                  - cell "-" [ref=e1054]:
+                    - generic [ref=e1055]: "-"
+                  - cell "-" [ref=e1056]:
+                    - generic [ref=e1057]: "-"
+                  - cell "-" [ref=e1058]:
+                    - generic [ref=e1059]: "-"
+                  - cell "-" [ref=e1060]:
+                    - generic [ref=e1061]: "-"
+                  - cell "-" [ref=e1062]:
+                    - generic [ref=e1063]: "-"
+                  - cell "-" [ref=e1064]:
+                    - generic [ref=e1065]: "-"
+                  - cell "-" [ref=e1066]:
+                    - generic [ref=e1067]: "-"
+                  - cell "-" [ref=e1068]:
+                    - generic [ref=e1069]: "-"
+                  - cell "-" [ref=e1070]:
+                    - generic [ref=e1071]: "-"
+                  - cell "-" [ref=e1072]:
+                    - generic [ref=e1073]: "-"
+                  - cell "-" [ref=e1074]:
+                    - generic [ref=e1075]: "-"
+                  - cell "-" [ref=e1076]:
+                    - generic [ref=e1077]: "-"
+                  - cell "-" [ref=e1078]:
+                    - generic [ref=e1079]: "-"
+                  - cell "-" [ref=e1080]:
+                    - generic [ref=e1081]: "-"
+                  - cell "-" [ref=e1082]:
+                    - generic [ref=e1083]: "-"
+                  - cell "-" [ref=e1084]:
+                    - generic [ref=e1085]: "-"
+                  - cell "-" [ref=e1086]:
+                    - generic [ref=e1087]: "-"
+                  - cell "-" [ref=e1088]:
+                    - generic [ref=e1089]: "-"
+                  - cell "-" [ref=e1090]:
+                    - generic [ref=e1091]: "-"
+                  - cell [ref=e1092]
+                - row "IR Lamar Jackson Lamar JacksonIR Open player notes for Lamar Jackson Bal - QB Final L 10-13 @ Cle   13 0.00 0.00 13% 100% - - - - - - - - - - - - - - - - - - - -" [ref=e1093]:
+                  - cell "IR" [ref=e1094]:
+                    - generic [ref=e1096]: IR
+                  - cell "Lamar Jackson Lamar JacksonIR Open player notes for Lamar Jackson Bal - QB Final L 10-13 @ Cle" [ref=e1097]:
+                    - generic [ref=e1099]:
+                      - img "Lamar Jackson" [ref=e1101]
+                      - generic [ref=e1104]:
+                        - generic [ref=e1105]:
+                          - link "Lamar Jackson" [ref=e1106] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/31002
+                          - generic [ref=e1107]: IR
+                          - link "Open player notes for Lamar Jackson" [ref=e1109] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/31002/news
+                            - generic "button" [ref=e1110]: Player Note
+                          - generic [ref=e1111]: Bal - QB
+                        - generic [ref=e1113]:
+                          - link "Final L 10-13 @" [ref=e1114] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/baltimore-ravens-cleveland-browns-20261018005/
+                          - link "Cle" [ref=e1115] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=QB&ntid=5
+                  - cell "" [ref=e1116]:
+                    - generic [ref=e1117]: 
+                  - cell "" [ref=e1118]:
+                    - link "" [ref=e1120] [cursor=pointer]:
+                      - /url: ""
+                  - cell "13" [ref=e1121]:
+                    - generic [ref=e1122]: "13"
+                  - cell "0.00" [ref=e1123]:
+                    - link "0.00" [ref=e1125] [cursor=pointer]:
+                      - /url: "#pps-31002"
+                  - cell "0.00" [ref=e1126]:
+                    - generic [ref=e1127]: "0.00"
+                  - cell "13%" [ref=e1128]:
+                    - generic [ref=e1129]: 13%
+                  - cell "100%" [ref=e1130]:
+                    - generic [ref=e1131]: 100%
+                  - cell "-" [ref=e1132]:
+                    - generic [ref=e1133]: "-"
+                  - cell "-" [ref=e1134]:
+                    - generic [ref=e1135]: "-"
+                  - cell "-" [ref=e1136]:
+                    - generic [ref=e1137]: "-"
+                  - cell "-" [ref=e1138]:
+                    - generic [ref=e1139]: "-"
+                  - cell "-" [ref=e1140]:
+                    - generic [ref=e1141]: "-"
+                  - cell "-" [ref=e1142]:
+                    - generic [ref=e1143]: "-"
+                  - cell "-" [ref=e1144]:
+                    - generic [ref=e1145]: "-"
+                  - cell "-" [ref=e1146]:
+                    - generic [ref=e1147]: "-"
+                  - cell "-" [ref=e1148]:
+                    - generic [ref=e1149]: "-"
+                  - cell "-" [ref=e1150]:
+                    - generic [ref=e1151]: "-"
+                  - cell "-" [ref=e1152]:
+                    - generic [ref=e1153]: "-"
+                  - cell "-" [ref=e1154]:
+                    - generic [ref=e1155]: "-"
+                  - cell "-" [ref=e1156]:
+                    - generic [ref=e1157]: "-"
+                  - cell "-" [ref=e1158]:
+                    - generic [ref=e1159]: "-"
+                  - cell "-" [ref=e1160]:
+                    - generic [ref=e1161]: "-"
+                  - cell "-" [ref=e1162]:
+                    - generic [ref=e1163]: "-"
+                  - cell "-" [ref=e1164]:
+                    - generic [ref=e1165]: "-"
+                  - cell "-" [ref=e1166]:
+                    - generic [ref=e1167]: "-"
+                  - cell "-" [ref=e1168]:
+                    - generic [ref=e1169]: "-"
+                  - cell "-" [ref=e1170]:
+                    - generic [ref=e1171]: "-"
+                  - cell [ref=e1172]
+                - row "IR Jordan Mason Jordan Mason Video Forecast Open player notes for Jordan Mason Min - RB Bye   6 Bye 67% - - - - - - - - - - - - - - - - - - - -" [ref=e1173]:
+                  - cell "IR" [ref=e1174]:
+                    - generic [ref=e1176]: IR
+                  - cell "Jordan Mason Jordan Mason Video Forecast Open player notes for Jordan Mason Min - RB Bye" [ref=e1177]:
+                    - generic [ref=e1179]:
+                      - img "Jordan Mason" [ref=e1181]
+                      - generic [ref=e1184]:
+                        - generic [ref=e1185]:
+                          - link "Jordan Mason" [ref=e1186] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/34320
+                          - generic [ref=e1187]:
+                            - link "Video Forecast" [ref=e1189] [cursor=pointer]:
+                              - /url: "#"
+                            - link "Open player notes for Jordan Mason" [ref=e1190] [cursor=pointer]:
+                              - /url: https://sports.yahoo.com/nfl/players/34320/news
+                              - generic "button" [ref=e1191]: Player Note
+                          - generic [ref=e1192]: Min - RB
+                        - generic [ref=e1193]: Bye
+                  - cell "" [ref=e1194]:
+                    - generic [ref=e1195]: 
+                  - cell "" [ref=e1196]:
+                    - link "" [ref=e1198] [cursor=pointer]:
+                      - /url: ""
+                  - cell "6" [ref=e1199]:
+                    - generic [ref=e1200]: "6"
+                  - cell "Bye" [ref=e1201]:
+                    - generic [ref=e1202]: Bye
+                  - cell "67%" [ref=e1203]:
+                    - generic [ref=e1204]: 67%
+                  - cell "-" [ref=e1205]:
+                    - generic [ref=e1206]: "-"
+                  - cell "-" [ref=e1207]:
+                    - generic [ref=e1208]: "-"
+                  - cell "-" [ref=e1209]:
+                    - generic [ref=e1210]: "-"
+                  - cell "-" [ref=e1211]:
+                    - generic [ref=e1212]: "-"
+                  - cell "-" [ref=e1213]:
+                    - generic [ref=e1214]: "-"
+                  - cell "-" [ref=e1215]:
+                    - generic [ref=e1216]: "-"
+                  - cell "-" [ref=e1217]:
+                    - generic [ref=e1218]: "-"
+                  - cell "-" [ref=e1219]:
+                    - generic [ref=e1220]: "-"
+                  - cell "-" [ref=e1221]:
+                    - generic [ref=e1222]: "-"
+                  - cell "-" [ref=e1223]:
+                    - generic [ref=e1224]: "-"
+                  - cell "-" [ref=e1225]:
+                    - generic [ref=e1226]: "-"
+                  - cell "-" [ref=e1227]:
+                    - generic [ref=e1228]: "-"
+                  - cell "-" [ref=e1229]:
+                    - generic [ref=e1230]: "-"
+                  - cell "-" [ref=e1231]:
+                    - generic [ref=e1232]: "-"
+                  - cell "-" [ref=e1233]:
+                    - generic [ref=e1234]: "-"
+                  - cell "-" [ref=e1235]:
+                    - generic [ref=e1236]: "-"
+                  - cell "-" [ref=e1237]:
+                    - generic [ref=e1238]: "-"
+                  - cell "-" [ref=e1239]:
+                    - generic [ref=e1240]: "-"
+                  - cell "-" [ref=e1241]:
+                    - generic [ref=e1242]: "-"
+                  - cell "-" [ref=e1243]:
+                    - generic [ref=e1244]: "-"
+                  - cell [ref=e1245]
+                - row "IR Jonah Coleman Jonah Coleman Video Forecast Open player notes for Jonah Coleman Den - RB Final W 17-14 vs Sea   10 0.00 0.00 0% 28% - - - - - - - - - - - - - - - - - - - -" [ref=e1246]:
+                  - cell "IR" [ref=e1247]:
+                    - generic [ref=e1249]: IR
+                  - cell "Jonah Coleman Jonah Coleman Video Forecast Open player notes for Jonah Coleman Den - RB Final W 17-14 vs Sea" [ref=e1250]:
+                    - generic [ref=e1252]:
+                      - img "Jonah Coleman" [ref=e1254]
+                      - generic [ref=e1257]:
+                        - generic [ref=e1258]:
+                          - link "Jonah Coleman" [ref=e1259] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/42730
+                          - generic [ref=e1260]:
+                            - link "Video Forecast" [ref=e1262] [cursor=pointer]:
+                              - /url: "#"
+                            - link "Open player notes for Jonah Coleman" [ref=e1263] [cursor=pointer]:
+                              - /url: https://sports.yahoo.com/nfl/players/42730/news
+                              - generic "button" [ref=e1264]: Player Note
+                          - generic [ref=e1265]: Den - RB
+                        - generic [ref=e1267]:
+                          - link "Final W 17-14 vs" [ref=e1268] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/seattle-seahawks-denver-broncos-20261015007/
+                          - link "Sea" [ref=e1269] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=RB&ntid=26
+                  - cell "" [ref=e1270]:
+                    - generic [ref=e1271]: 
+                  - cell "" [ref=e1272]:
+                    - link "" [ref=e1274] [cursor=pointer]:
+                      - /url: ""
+                  - cell "10" [ref=e1275]:
+                    - generic [ref=e1276]: "10"
+                  - cell "0.00" [ref=e1277]:
+                    - link "0.00" [ref=e1279] [cursor=pointer]:
+                      - /url: "#pps-42730"
+                  - cell "0.00" [ref=e1280]:
+                    - generic [ref=e1281]: "0.00"
+                  - cell "0%" [ref=e1282]:
+                    - generic [ref=e1283]: 0%
+                  - cell "28%" [ref=e1284]:
+                    - generic [ref=e1285]: 28%
+                  - cell "-" [ref=e1286]:
+                    - generic [ref=e1287]: "-"
+                  - cell "-" [ref=e1288]:
+                    - generic [ref=e1289]: "-"
+                  - cell "-" [ref=e1290]:
+                    - generic [ref=e1291]: "-"
+                  - cell "-" [ref=e1292]:
+                    - generic [ref=e1293]: "-"
+                  - cell "-" [ref=e1294]:
+                    - generic [ref=e1295]: "-"
+                  - cell "-" [ref=e1296]:
+                    - generic [ref=e1297]: "-"
+                  - cell "-" [ref=e1298]:
+                    - generic [ref=e1299]: "-"
+                  - cell "-" [ref=e1300]:
+                    - generic [ref=e1301]: "-"
+                  - cell "-" [ref=e1302]:
+                    - generic [ref=e1303]: "-"
+                  - cell "-" [ref=e1304]:
+                    - generic [ref=e1305]: "-"
+                  - cell "-" [ref=e1306]:
+                    - generic [ref=e1307]: "-"
+                  - cell "-" [ref=e1308]:
+                    - generic [ref=e1309]: "-"
+                  - cell "-" [ref=e1310]:
+                    - generic [ref=e1311]: "-"
+                  - cell "-" [ref=e1312]:
+                    - generic [ref=e1313]: "-"
+                  - cell "-" [ref=e1314]:
+                    - generic [ref=e1315]: "-"
+                  - cell "-" [ref=e1316]:
+                    - generic [ref=e1317]: "-"
+                  - cell "-" [ref=e1318]:
+                    - generic [ref=e1319]: "-"
+                  - cell "-" [ref=e1320]:
+                    - generic [ref=e1321]: "-"
+                  - cell "-" [ref=e1322]:
+                    - generic [ref=e1323]: "-"
+                  - cell "-" [ref=e1324]:
+                    - generic [ref=e1325]: "-"
+                  - cell [ref=e1326]
+            - table "Flowers For Charlie's Kickers roster for week 6." [ref=e1328]:
+              - caption:
+                - generic [ref=e1329]: Flowers For Charlie's Kickers roster for week 6.
+              - rowgroup [ref=e1330]:
+                - row "Fantasy Trends Field Goals Missed PAT FGS" [ref=e1331]:
+                  - columnheader [ref=e1332]
+                  - columnheader [ref=e1334]
+                  - columnheader "Action" [ref=e1336]
+                  - columnheader "Bye" [ref=e1338]
+                  - columnheader "Fantasy" [ref=e1340]:
+                    - generic [ref=e1341]: Fantasy
+                  - columnheader "Trends" [ref=e1342]:
+                    - generic [ref=e1343]: Trends
+                  - columnheader "Field Goals Missed" [ref=e1344]:
+                    - generic [ref=e1345]: Field Goals Missed
+                  - columnheader "PAT" [ref=e1346]:
+                    - generic [ref=e1347]: PAT
+                  - columnheader "FGS" [ref=e1348]:
+                    - generic [ref=e1349]: FGS
+                  - columnheader [ref=e1350]
+                - row "Pos Kickers Action Bye Fan Pts Proj Pts % Start % Ros 0‑19 20‑29 30‑39 40‑49 50+ Made Miss Yds" [ref=e1351]:
+                  - columnheader "Pos" [ref=e1352]:
+                    - generic [ref=e1353]: Pos
+                  - columnheader "Kickers" [ref=e1354]:
+                    - generic [ref=e1355]: Kickers
+                  - columnheader "Action" [ref=e1356]:
+                    - generic [ref=e1357]: Action
+                  - columnheader "Bye" [ref=e1358]:
+                    - generic [ref=e1359]: Bye
+                  - columnheader "Fan Pts" [ref=e1360]:
+                    - generic [ref=e1361]: Fan Pts
+                  - columnheader "Proj Pts" [ref=e1362]:
+                    - generic [ref=e1363]: Proj Pts
+                  - columnheader "% Start" [ref=e1364]:
+                    - generic [ref=e1365]: "% Start"
+                  - columnheader "% Ros" [ref=e1366]:
+                    - generic [ref=e1367]: "% Ros"
+                  - columnheader "0‑19" [ref=e1368]:
+                    - generic [ref=e1369]: 0‑19
+                  - columnheader "20‑29" [ref=e1370]:
+                    - generic [ref=e1371]: 20‑29
+                  - columnheader "30‑39" [ref=e1372]:
+                    - generic [ref=e1373]: 30‑39
+                  - columnheader "40‑49" [ref=e1374]:
+                    - generic [ref=e1375]: 40‑49
+                  - columnheader "50+" [ref=e1376]:
+                    - generic [ref=e1377]: 50+
+                  - columnheader "Made" [ref=e1378]:
+                    - generic [ref=e1379]: Made
+                  - columnheader "Miss" [ref=e1380]:
+                    - generic [ref=e1381]: Miss
+                  - columnheader "Yds" [ref=e1382]:
+                    - generic [ref=e1383]: Yds
+                  - columnheader [ref=e1384]
+              - rowgroup [ref=e1385]:
+                - row "K Eddy Pineiro Eddy Pineiro Open player notes for Eddy Pineiro SF - K Final W 23-17 vs Was   8 5.05 9.93 71% 73% 0 0 0 0 0 2 1 33" [ref=e1386]:
+                  - cell "K" [ref=e1387]:
+                    - generic [ref=e1389]: K
+                  - cell "Eddy Pineiro Eddy Pineiro Open player notes for Eddy Pineiro SF - K Final W 23-17 vs Was" [ref=e1390]:
+                    - generic [ref=e1392]:
+                      - img "Eddy Pineiro" [ref=e1394]
+                      - generic [ref=e1397]:
+                        - generic [ref=e1398]:
+                          - link "Eddy Pineiro" [ref=e1399] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/31482
+                          - link "Open player notes for Eddy Pineiro" [ref=e1401] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/players/31482/news
+                            - generic "button" [ref=e1402]: Player Note
+                          - generic [ref=e1403]: SF - K
+                        - generic [ref=e1405]:
+                          - link "Final W 23-17 vs" [ref=e1406] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/washington-commanders-san-francisco-49ers-20261019025/
+                          - link "Was" [ref=e1407] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=K&ntid=28
+                  - cell "" [ref=e1408]:
+                    - generic [ref=e1409]: 
+                  - cell "" [ref=e1410]:
+                    - link "" [ref=e1412] [cursor=pointer]:
+                      - /url: ""
+                  - cell "8" [ref=e1413]:
+                    - generic [ref=e1414]: "8"
+                  - cell "5.05" [ref=e1415]:
+                    - link "5.05" [ref=e1417] [cursor=pointer]:
+                      - /url: "#pps-31482"
+                  - cell "9.93" [ref=e1418]:
+                    - generic [ref=e1419]: "9.93"
+                  - cell "71%" [ref=e1420]:
+                    - generic [ref=e1421]: 71%
+                  - cell "73%" [ref=e1422]:
+                    - generic [ref=e1423]: 73%
+                  - cell "0" [ref=e1424]:
+                    - generic [ref=e1425]: "0"
+                  - cell "0" [ref=e1426]:
+                    - generic [ref=e1427]: "0"
+                  - cell "0" [ref=e1428]:
+                    - generic [ref=e1429]: "0"
+                  - cell "0" [ref=e1430]:
+                    - generic [ref=e1431]: "0"
+                  - cell "0" [ref=e1432]:
+                    - generic [ref=e1433]: "0"
+                  - cell "2" [ref=e1434]:
+                    - generic [ref=e1435]: "2"
+                  - cell "1" [ref=e1436]:
+                    - generic [ref=e1437]: "1"
+                  - cell "33" [ref=e1438]:
+                    - generic [ref=e1439]: "33"
+                  - cell [ref=e1440]
+            - table "Flowers For Charlie's Defense/Special Teams roster for week 6." [ref=e1442]:
+              - caption:
+                - generic [ref=e1443]: Flowers For Charlie's Defense/Special Teams roster for week 6.
+              - rowgroup [ref=e1444]:
+                - row "Fantasy Trends Tackles Turnovers TD Miscellaneous Return Points Allowed" [ref=e1445]:
+                  - columnheader [ref=e1446]
+                  - columnheader [ref=e1448]
+                  - columnheader "Action" [ref=e1450]
+                  - columnheader "Bye" [ref=e1452]
+                  - columnheader "Fantasy" [ref=e1454]:
+                    - generic [ref=e1455]: Fantasy
+                  - columnheader "Trends" [ref=e1456]:
+                    - generic [ref=e1457]: Trends
+                  - columnheader "Tackles" [ref=e1458]:
+                    - generic [ref=e1459]: Tackles
+                  - columnheader "Turnovers" [ref=e1460]:
+                    - generic [ref=e1461]: Turnovers
+                  - columnheader "TD" [ref=e1462]:
+                    - generic [ref=e1463]: TD
+                  - columnheader "Miscellaneous" [ref=e1464]:
+                    - generic [ref=e1465]: Miscellaneous
+                  - columnheader "Return" [ref=e1466]:
+                    - generic [ref=e1467]: Return
+                  - columnheader "Points Allowed" [ref=e1468]:
+                    - generic [ref=e1469]: Points Allowed
+                  - columnheader [ref=e1470]
+                - row "Pos Defense/Special Teams Action Bye Fan Pts Proj Pts % Start % Ros Sack Safe TFL Int Fum Rec TD Blk Kick 4 Dwn Stops Yds Allow* 3 And Outs Yds TD 1‑6 Pts 7‑13 Pts 14‑20 Pts 21‑27 Pts 28‑34 Pts 35+ Pts" [ref=e1471]:
+                  - columnheader "Pos" [ref=e1472]:
+                    - generic [ref=e1473]: Pos
+                  - columnheader "Defense/Special Teams" [ref=e1474]:
+                    - generic [ref=e1475]: Defense/Special Teams
+                  - columnheader "Action" [ref=e1476]:
+                    - generic [ref=e1477]: Action
+                  - columnheader "Bye" [ref=e1478]:
+                    - generic [ref=e1479]: Bye
+                  - columnheader "Fan Pts" [ref=e1480]:
+                    - generic [ref=e1481]: Fan Pts
+                  - columnheader "Proj Pts" [ref=e1482]:
+                    - generic [ref=e1483]: Proj Pts
+                  - columnheader "% Start" [ref=e1484]:
+                    - generic [ref=e1485]: "% Start"
+                  - columnheader "% Ros" [ref=e1486]:
+                    - generic [ref=e1487]: "% Ros"
+                  - columnheader "Sack" [ref=e1488]:
+                    - generic [ref=e1489]: Sack
+                  - columnheader "Safe" [ref=e1490]:
+                    - generic [ref=e1491]: Safe
+                  - columnheader "TFL" [ref=e1492]:
+                    - generic [ref=e1493]: TFL
+                  - columnheader "Int" [ref=e1494]:
+                    - generic [ref=e1495]: Int
+                  - columnheader "Fum Rec" [ref=e1496]:
+                    - generic [ref=e1497]: Fum Rec
+                  - columnheader "TD" [ref=e1498]:
+                    - generic [ref=e1499]: TD
+                  - columnheader "Blk Kick" [ref=e1500]:
+                    - generic [ref=e1501]: Blk Kick
+                  - columnheader "4 Dwn Stops" [ref=e1502]:
+                    - generic [ref=e1503]: 4 Dwn Stops
+                  - columnheader "Yds Allow*" [ref=e1504]:
+                    - generic [ref=e1505]: Yds Allow*
+                  - columnheader "3 And Outs" [ref=e1506]:
+                    - generic [ref=e1507]: 3 And Outs
+                  - columnheader "Yds" [ref=e1508]:
+                    - generic [ref=e1509]: Yds
+                  - columnheader "TD" [ref=e1510]:
+                    - generic [ref=e1511]: TD
+                  - columnheader "1‑6 Pts" [ref=e1512]:
+                    - generic [ref=e1513]: 1‑6 Pts
+                  - columnheader "7‑13 Pts" [ref=e1514]:
+                    - generic [ref=e1515]: 7‑13 Pts
+                  - columnheader "14‑20 Pts" [ref=e1516]:
+                    - generic [ref=e1517]: 14‑20 Pts
+                  - columnheader "21‑27 Pts" [ref=e1518]:
+                    - generic [ref=e1519]: 21‑27 Pts
+                  - columnheader "28‑34 Pts" [ref=e1520]:
+                    - generic [ref=e1521]: 28‑34 Pts
+                  - columnheader "35+ Pts" [ref=e1522]:
+                    - generic [ref=e1523]: 35+ Pts
+                  - columnheader [ref=e1524]
+              - rowgroup [ref=e1525]:
+                - row "DEF Chiefs Chiefs Open player notes for Chiefs KC - DEF Final W 22-6 vs LAC   5 14.50 9.69 82% 86% 4 0 6 1 1 0 0 2 259 4 87 0 1 0 0 0 0 0" [ref=e1526]:
+                  - cell "DEF" [ref=e1527]:
+                    - generic [ref=e1529]: DEF
+                  - cell "Chiefs Chiefs Open player notes for Chiefs KC - DEF Final W 22-6 vs LAC" [ref=e1530]:
+                    - generic [ref=e1532]:
+                      - img "Chiefs" [ref=e1534]
+                      - generic [ref=e1537]:
+                        - generic [ref=e1538]:
+                          - link "Chiefs" [ref=e1539] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/teams/kansas-city/
+                          - link "Open player notes for Chiefs" [ref=e1541] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/teams/kansas-city/
+                            - generic "button" [ref=e1542]: No new player Notes
+                          - generic [ref=e1543]: KC - DEF
+                        - generic [ref=e1545]:
+                          - link "Final W 22-6 vs" [ref=e1546] [cursor=pointer]:
+                            - /url: https://sports.yahoo.com/nfl/los-angeles-chargers-kansas-city-chiefs-20261018012/
+                          - link "LAC" [ref=e1547] [cursor=pointer]:
+                            - /url: /f1/765761/pointsagainst?pos=DEF&ntid=24
+                  - cell "" [ref=e1548]:
+                    - generic [ref=e1549]: 
+                  - cell "" [ref=e1550]:
+                    - link "" [ref=e1552] [cursor=pointer]:
+                      - /url: ""
+                  - cell "5" [ref=e1553]:
+                    - generic [ref=e1554]: "5"
+                  - cell "14.50" [ref=e1555]:
+                    - link "14.50" [ref=e1557] [cursor=pointer]:
+                      - /url: "#pps-100012"
+                  - cell "9.69" [ref=e1558]:
+                    - generic [ref=e1559]: "9.69"
+                  - cell "82%" [ref=e1560]:
+                    - generic [ref=e1561]: 82%
+                  - cell "86%" [ref=e1562]:
+                    - generic [ref=e1563]: 86%
+                  - cell "4" [ref=e1564]:
+                    - generic [ref=e1565]: "4"
+                  - cell "0" [ref=e1566]:
+                    - generic [ref=e1567]: "0"
+                  - cell "6" [ref=e1568]:
+                    - generic [ref=e1569]: "6"
+                  - cell "1" [ref=e1570]:
+                    - generic [ref=e1571]: "1"
+                  - cell "1" [ref=e1572]:
+                    - generic [ref=e1573]: "1"
+                  - cell "0" [ref=e1574]:
+                    - generic [ref=e1575]: "0"
+                  - cell "0" [ref=e1576]:
+                    - generic [ref=e1577]: "0"
+                  - cell "2" [ref=e1578]:
+                    - generic [ref=e1579]: "2"
+                  - cell "259" [ref=e1580]:
+                    - generic [ref=e1581]: "259"
+                  - cell "4" [ref=e1582]:
+                    - generic [ref=e1583]: "4"
+                  - cell "87" [ref=e1584]:
+                    - generic [ref=e1585]: "87"
+                  - cell "0" [ref=e1586]:
+                    - generic [ref=e1587]: "0"
+                  - cell "1" [ref=e1588]:
+                    - generic [ref=e1589]: "1"
+                  - cell "0" [ref=e1590]:
+                    - generic [ref=e1591]: "0"
+                  - cell "0" [ref=e1592]:
+                    - generic [ref=e1593]: "0"
+                  - cell "0" [ref=e1594]:
+                    - generic [ref=e1595]: "0"
+                  - cell "0" [ref=e1596]:
+                    - generic [ref=e1597]: "0"
+                  - cell "0" [ref=e1598]:
+                    - generic [ref=e1599]: "0"
+                  - cell [ref=e1600]
+        - generic [ref=e1603]:
+          - generic [ref=e1604]:
+            - heading "Legends and Glossaries" [level=3] [ref=e1605]
+            - list [ref=e1606]:
+              - listitem [ref=e1607]:
+                - link "Legend " [ref=e1608] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e1609]: Legend
+                  - generic [ref=e1610]: 
+              - listitem [ref=e1611]:
+                - link "Stats " [ref=e1612] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e1613]: Stats
+                  - generic [ref=e1614]: 
+              - listitem [ref=e1615]:
+                - link "Positions " [ref=e1616] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e1617]: Positions
+                  - generic [ref=e1618]: 
+              - listitem [ref=e1619]:
+                - link "Advanced Stats Glossary " [ref=e1620] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e1621]: Advanced Stats Glossary
+                  - generic [ref=e1622]: 
+          - generic [ref=e1623]:
+            - heading "The Fine Print" [level=3] [ref=e1624]
+            - generic [ref=e1625]:
+              - text: Projections Powered by
+              - link "Rotowire." [ref=e1626] [cursor=pointer]:
+                - /url: http://www.rotowire.com/
+              - generic [ref=e1627]:
+                - text: Week 6 stats may change if
+                - link "Stat corrections" [ref=e1628] [cursor=pointer]:
+                  - /url: /f1/765761/statcorrections
+                - text: are applied by Thursday, Oct 22. All game times are shown in EST.
+              - text: Asterisks (*) denote non-scoring stats.
+    - contentinfo [ref=e1633]:
+      - generic [ref=e1640]:
+        - list [ref=e1641]:
+          - listitem [ref=e1642]: Yahoo Sports - NBC Sports Network
+          - listitem [ref=e1643]:
+            - text: "-"
+            - link "Paid Fantasy Terms" [ref=e1644] [cursor=pointer]:
+              - /url: https://legal.yahoo.com/us/en/yahoo/terms/product-atos/paidfantasy/index.html
+          - listitem [ref=e1645]:
+            - text: "-"
+            - link "Feedback" [ref=e1646] [cursor=pointer]:
+              - /url: https://yahoo.uservoice.com/forums/206158?auth=yahoo
+          - listitem [ref=e1647]:
+            - text: "-"
+            - link "Terms" [ref=e1648] [cursor=pointer]:
+              - /url: https://guce.yahoo.com/terms?locale=en-US
+            - text: and
+            - link "Privacy Policy" [ref=e1649] [cursor=pointer]:
+              - /url: https://guce.yahoo.com/privacy-policy?locale=en-US
+          - listitem [ref=e1650]:
+            - text: "-"
+            - link "Your Privacy Choices" [ref=e1651] [cursor=pointer]:
+              - /url: https://guce.yahoo.com/state-controls?locale=en-US&state=TX
+          - listitem [ref=e1652]:
+            - text: "-"
+            - link "About Our Ads" [ref=e1653] [cursor=pointer]:
+              - /url: https://legal.yahoo.com/us/en/yahoo/privacy/adinfo/index.html
+          - listitem [ref=e1654]:
+            - text: "-"
+            - link "Help" [ref=e1655] [cursor=pointer]:
+              - /url: https://help.yahoo.com/kb/index?locale=en_US&page=product&y=PROD_SPORTS_FAN_FOOTUS
+        - paragraph [ref=e1656]: Certain Data by Sportradar, Rotowire, BAKER Engine, THE BLITZ and FTN
+        - paragraph [ref=e1657]: Guillotine trademarks are used with Fantasy Life's permission.
+        - paragraph [ref=e1658]: © 2026 Yahoo Fantasy Sports LLC. All rights reserved.

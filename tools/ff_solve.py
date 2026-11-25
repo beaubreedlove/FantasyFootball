@@ -128,51 +128,63 @@ def minimal_sufficient(T, seed):
 
 
 def compress(minimals):
-    """-> list of {f, k, pool} clauses covering the antichain, fewest clauses first.
+    """-> fewest clauses covering the antichain exactly.
 
-    A clause is "win every game in f, plus any k of pool". A candidate is legal
-    only when EVERY way of choosing k from pool is itself sufficient.
+    A clause is "win every game in f, plus any k from pool". The pool may be any
+    SUBSET of the remaining atoms -- the earlier version only ever tried the full
+    remainder, so it could not express "win W13 plus any one of these four" and
+    fell back to a claim of "any 2", which is false when only 4 of the 15 pairs
+    actually work. A candidate is legal only when every way of choosing k from
+    pool yields a set in the family.
     """
     if not isinstance(minimals, list):
         return minimals
-    mset = {frozenset(s) for s in minimals}
+    fam = {frozenset(s) for s in minimals}
+    n = len(ATOMS)
     cands = []
-    for S in minimals:
-        for r in range(len(S) + 1):
-            for f in combinations(S, r):
-                fs = frozenset(f)
-                need = len(S) - r
-                pool = [a for a in ATOMS if a not in fs]
-                if need == 0:
-                    ok = fs in mset
-                    covers = {fs} if ok else set()
-                else:
-                    covers, ok = set(), True
-                    for X in combinations(pool, need):
-                        c = fs | frozenset(X)
-                        if c in mset:
-                            covers.add(c)
-                        else:
-                            ok = False
-                            break
+    for fmask in range(1 << n):
+        f = frozenset(ATOMS[i] for i in range(n) if fmask >> i & 1)
+        rest = [a for a in ATOMS if a not in f]
+        if f and f in fam:
+            cands.append((f, 0, (), frozenset({f})))
+        for pmask in range(1, 1 << len(rest)):
+            pool = tuple(rest[i] for i in range(len(rest)) if pmask >> i & 1)
+            for k in range(1, len(pool) + 1):
+                covers, ok = set(), True
+                for X in combinations(pool, k):
+                    c = f | frozenset(X)
+                    if c in fam:
+                        covers.add(c)
+                    else:
+                        ok = False
+                        break
                 if ok and covers:
-                    cands.append((fs, need, tuple(pool), frozenset(covers)))
-    # exact minimum cover of the antichain by candidate clauses
+                    cands.append((f, k, pool, frozenset(covers)))
+    # drop a candidate if another covers a superset of the same sets at no
+    # greater cost -- keeps the cover search small
+    cands.sort(key=lambda c: (-len(c[3]), len(c[0]) + c[1]))
     m = cp_model.CpModel()
     use = [m.NewBoolVar(f"c{i}") for i in range(len(cands))]
-    for t in mset:
-        m.Add(sum(use[i] for i, c in enumerate(cands) if t in c[3]) >= 1)
-    m.Minimize(sum(use) * 1000 + sum(use[i] * len(cands[i][0]) for i in range(len(cands))))
-    s = cp_model.CpSolver()
-    s.parameters.num_search_workers = 8
-    s.parameters.max_time_in_seconds = 120
-    s.Solve(m)
+    for t in fam:
+        hit = [use[i] for i, c in enumerate(cands) if t in c[3]]
+        assert hit, f"no clause covers {sorted(t)}"
+        m.Add(sum(hit) >= 1)
+    # fewest clauses first, then the least forced games, then the widest pools
+    m.Minimize(sum(use) * 10000
+               + sum(use[i] * (len(cands[i][0]) + cands[i][1]) * 10 for i in range(len(cands)))
+               - sum(use[i] * len(cands[i][2]) for i in range(len(cands))))
+    sv = cp_model.CpSolver()
+    sv.parameters.num_search_workers = 8
+    sv.parameters.max_time_in_seconds = 120
+    sv.Solve(m)
     out = []
     for i, c in enumerate(cands):
-        if s.Value(use[i]):
-            out.append({"f": sorted(c[0], key=ATOMS.index), "k": c[1],
-                        "pool": list(c[2]) if c[1] and c[1] < len(c[2]) else None,
-                        "rem": len(c[2]), "n": len(c[0]) + c[1]})
+        if sv.Value(use[i]):
+            f, k, pool, _ = c
+            out.append({"f": sorted(f, key=ATOMS.index), "k": k,
+                        "pool": list(pool) if k and k < len(pool) else None,
+                        "rem": len(pool) if pool else len(ATOMS) - len(f),
+                        "n": len(f) + k})
     out.sort(key=lambda d: (d["n"], len(d["f"])))
     return out
 

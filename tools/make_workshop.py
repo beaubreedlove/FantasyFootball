@@ -7,12 +7,13 @@ only that team in the clinching and elimination sections.
 """
 import json
 import os
+import ff_core as F
 import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "page_w10.html")
-OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "workshop_w10.html")
+SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "page_w11.html")
+OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "picker_w11.html")
 
 src = open(SRC).read()
 STAND = json.load(open(os.path.join(HERE, "S_w10.json")))
@@ -164,8 +165,9 @@ cut = src.rfind("</script>")
 tail = src[cut + len("</script>"):]          # </body></html> must survive
 src = src[:cut] + filt + tail
 
-src = src.replace("<title>Playoff Picture — Week 10 Report</title>",
-                  "<title>Playoff Picture — Week 10 (workshop)</title>", 1)
+import re as _re
+src = _re.sub(r'<title>Playoff Picture [^<]*</title>',
+              f'<title>Playoff Picture \u2014 Week {F.REM[0]-1} Report</title>', src, count=1)
 
 for sec in ("stand", "clin", "help", "prizes"):
     assert f'id="{sec}"' in src, f"lost #{sec}"

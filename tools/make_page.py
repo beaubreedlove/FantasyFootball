@@ -106,10 +106,11 @@ P = [["Most points — $100", lead(CORE["pts"][0][0]),
       "No tiebreaker needed; every total is distinct."],
      ["Best worst week — $50", lead(CORE["bworst"][0][0]),
       [f"{t} — {v:.2f} (wk{w})" for t, v, w in CORE["bworst"]],
-      "A floor, so it only moves down. Ties break on the second-worst week, then the third. "
-      "<b>Week 10 changed this one.</b> Rock You Like a Burrowcane had led all season on "
-      "111.08 from week 3, then posted 89.62 — the week's lowest score — and fell to fourth. "
-      "Flush It Down inherits the lead."],
+      "A floor, so it only moves down. Ties break on the second-worst week, then "
+      "the third. <b>Week 11 reshuffled the top again.</b> Flush It Down led on "
+      "100.46 and posted 77.26, dropping to seventh; The Nightman Re-Cometh posted "
+      "65.44 and fell to tenth. Omarion my wayward son inherits it on 97.16 — the "
+      "third different leader in three weeks."],
      ["Best week — $50", lead(CORE["bbest"][0][0]),
       [f"{t} — {v:.2f} (wk{w})" for t, v, w in CORE["bbest"]],
       "Ties break on the second-highest week, then the third."],
@@ -117,14 +118,17 @@ P = [["Most points — $100", lead(CORE["pts"][0][0]),
       [f"{t} — {n} (wk {', '.join(map(str, ws))}) · {p:.2f} pts in those weeks"
        for t, n, ws, p in CORE["mbest"]],
       "Ties break on points scored in the weeks that earned the point. "
-      "<b>It is now a tie.</b> The Nightman Re-Cometh took week 10 with 163.48 to reach "
-      "three, level with Rock You Like a Burrowcane — so the tiebreak decides it, and "
-      "Burrowcane leads 488.68 to 469.30."]]
+      "<b>Flowers For Charlie took week 11 with 139.30</b> to reach two, moving "
+      "into third. The lead is still the Rock You Like a Burrowcane / The Nightman "
+      "Re-Cometh tie at three, where Burrowcane holds it 488.68 to 469.30."]]
 if BWP:
     P.append(["Best worst player — $50", lead(BWP[0][0]),
-              [f"{t} — {p:.2f} ({nm}, {sl}, wk{w})" for t, p, nm, sl, w in BWP],
-              "Only weeks where you filled every roster spot count. "
-              "Ties break on the second-worst player that week."])
+              [f"{t} — {p:.2f} ({nm}, {sl}, wk{w})" for t, p, nm, sl, w, *_ in BWP],
+              "Only weeks where you filled every roster spot count. Ties break on "
+              "the second-worst player that week. <b>That tiebreak was needed for "
+              "the first time this week:</b> Flowers For Charlie and Swap's Team "
+              "both landed on 7.50 in week 11, and Flowers takes the higher spot on "
+              "an 8.80 second-worst against 8.00."])
 
 # ---------- assemble ----------
 src = open(TPL).read()
@@ -148,30 +152,37 @@ swap("P", P)
 src = re.sub(r'<div class="card warn" style="margin:0 0 1\.25rem">.*?</div>', "", src,
              count=1, flags=re.S)
 
+WORDS = {1:"one",2:"two",3:"three",4:"four",5:"five",6:"six",7:"seven",
+         8:"eight",9:"nine",10:"ten",11:"eleven",12:"twelve"}
+PREV = F.REM[0] - 2            # week the template covered
+WK   = F.REM[0] - 1            # week this build covers
+NW   = len(F.REM)              # weeks remaining after WK
+PG   = 2 * (NW + 1)            # games the template said were left
+NG   = 2 * NW                  # games left now
+
 REPL = [
-    ("<title>Playoff Picture — Week 9 (archived)</title>",
-     "<title>Playoff Picture — Week 10 Report</title>"),
-    ("Through Week 9 · Five weeks remain", "Through Week 10 · Four weeks remain"),
-    ("five weeks remain", "four weeks remain"),
-    ("W10 is your week-10 matchup, M13 the week-13 median.",
-     "W11 is your week-11 matchup, M13 the week-13 median."),
-    ("You have ten games left, not five", "You have eight games left, not four"),
-    ("assume they win all\n  five matchups <em>and</em> all five medians",
-     "assume they win all\n  four matchups <em>and</em> all four medians"),
-    ("weeks 10 through 14", "weeks 11 through 14"),
-    ("the final win total out of 28", "the final win total out of 28"),
+    (f"<title>Playoff Picture \u2014 Week {PREV} (archived)</title>",
+     f"<title>Playoff Picture \u2014 Week {WK} Report</title>"),
+    (f"Through Week {PREV} \u00b7 {WORDS[NW+1].capitalize()} weeks remain",
+     f"Through Week {WK} \u00b7 {WORDS[NW].capitalize()} weeks remain"),
+    (f"{WORDS[NW+1].capitalize()} weeks left \u2014\n  {WORDS[PG]} games apiece",
+     f"{WORDS[NW].capitalize()} weeks left \u2014\n  {WORDS[NG]} games apiece"),
+    (f"W{PREV+1} is your week-{PREV+1} matchup",
+     f"W{WK+1} is your week-{WK+1} matchup"),
+    (f"You have {WORDS[PG]} games left, not {WORDS[NW+1]}",
+     f"You have {WORDS[NG]} games left, not {WORDS[NW]}"),
+    (f"assume they win all\n  {WORDS[NW+1]} matchups <em>and</em> all {WORDS[NW+1]} medians",
+     f"assume they win all\n  {WORDS[NW]} matchups <em>and</em> all {WORDS[NW]} medians"),
+    (f"weeks {PREV+1} through 14", f"weeks {WK+1} through 14"),
     ("I simulated one billion ways", f"I simulated {SIMLABEL} ways"),
-    ("from the billion-season simulation", f"from the {SIMLABEL.replace('one ','')}-season simulation"),
-    ('"win out — all 12"', '"win out — all 8"'),
-    ("c.f.length===12?", "c.f.length===8?"),
-    ("c.k===12?", "c.k===8?"),
+    (f'"win out \u2014 all {PG}"', f'"win out \u2014 all {NG}"'),
+    (f"c.f.length==={PG}?", f"c.f.length==={NG}?"),
+    (f"c.k==={PG}?", f"c.k==={NG}?"),
     ("and the odds\n  below are how often each team finished on each seed",
      "and the odds\n  above are how often each team finished on each seed"),
     ('if(el.length) out+=`<span class="chip e">out of ${el.length>1?"seeds "+el.join(", "):"seed "+el[0]}</span>`;',
      'if(el.includes("6")) out+=`<span class="chip e">eliminated from playoff contention</span>`;\n   else if(el.length) out+=`<span class="chip e">out of ${el.length>1?"seeds "+el.join(", "):"seed "+el[0]}</span>`;'),
 ]
-src = re.sub(r'Five weeks left —\s*\n\s*ten games apiece',
-             'Four weeks left —\n  eight games apiece', src, count=1)
 
 for a, b in REPL:
     if a in src:
@@ -213,7 +224,10 @@ rows = "".join(
     f'<td class="n" data-l="Median">{CUT[k]["median"]:g}</td>'
     f'<td class="n" data-l="Mode">{CUT[k]["mode"]:g}</td></tr>'
     for k in ("s1", "s2", "s3", "s6"))
-i, j = card_span(src, src.index('<div class="card"><h3>Where the playoff line falls</h3>'))
+_hdr = ('<div class="card"><h3>Where the playoff line falls</h3>'
+        if '<h3>Where the playoff line falls</h3>' in src
+        else '<div class="card"><h3>Where each line falls</h3>')
+i, j = card_span(src, src.index(_hdr))
 src = src[:i] + (
     '<div class="card"><h3>Where each line falls</h3>'
     '<p>The midpoint between the seed above a line and the seed below it, across '
@@ -222,8 +236,8 @@ src = src[:i] + (
     '<div class="panel" style="padding:2px 10px"><table class="stack">'
     '<thead><tr><th>Line</th><th class="r">Mean</th><th class="r">Median</th>'
     '<th class="r">Mode</th></tr></thead><tbody>' + rows + '</tbody></table></div>'
-    '<p class="lead">Practical read: 15 wins should get you into the playoffs, 14 is a '
-    'coin flip, 13 probably is not enough. The 1 seed has been going for about 20.</p>'
+    f'<p class="lead">Practical read: the playoff line has been landing around '
+    f'{CUT["s6"]["mode"]:g} wins, and the 1 seed around {CUT["s1"]["mode"]:g}.</p>'
     '</div>') + src[j:]
 
 YAHOO = ["Rock You Like a Burrowcane", "Showtime", "Omarion my wayward son",
@@ -246,6 +260,7 @@ src = src[:i] + (
 
 # ---------- clinching section: cards first, explanation underneath ----------
 _i = src.index('<span class="eyebrow">Team by team</span>')
+_already = src.index('id="clin"', _i) < src.index("Notes on notation", _i)
 _sec_end = src.index("</section>", _i)
 _head_end = src.index("</div>", src.index("<h2>", _i)) + len("</div>")
 _panel = src.index('<div class="panel"', _head_end)
@@ -254,7 +269,8 @@ _panel_end = src.index("</div>", _panel_end) + len("</div>")
 _card = src[_panel:_panel_end]
 _prose = src[_head_end:_panel]
 assert 'id="clin"' in _card and "Notes on notation" in _prose
-src = src[:_head_end] + "\n  " + _card + _prose.rstrip() + "\n" + src[_panel_end:]
+if not _already:
+    src = src[:_head_end] + "\n  " + _card + _prose.rstrip() + "\n" + src[_panel_end:]
 assert src.index('id="clin"') < src.index("Notes on notation")
 
 

@@ -1,0 +1,17 @@
+[     274ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://football.fantasysports.yahoo.com/f1/765761/4?week=10:0
+[     291ms] [WARNING] OathGUCE 1.0.748: Banner not enabled for this jurisdiction or host. Unable to continue. Fix: http://yo/guce-js-define @ https://s.yimg.com/oa/consent.js:1
+[     342ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     343ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     344ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     349ms] [WARNING] Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened. @ :0
+[     352ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     514ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://s.yimg.com/du/ay/wnsrvbjmeprtfrnfx.js:222
+[     932ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://s.yimg.com/du/ay/wnsrvbjmeprtfrnfx.js:222
+[    1189ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[    1699ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.sharethrough.com/FGMrCMMc/v1?gdpr=0&gdpr_consent=&us_privacy=1YNN&gpp=DBABLA~BVRqAAAAAmA.QA&gpp_sid=7&redirectUri=https%3A%2F%2Fpbs-yahoo-us.ay.delivery%2Fsetuid%3Fbidder%3Dsharethrough%26gdpr%3D0%26gdpr_consent%3D%26gpp%3DDBABLA~BVRqAAAAAmA.QA%26gpp_sid%3D7%26f%3Di%26uid%3D%24UID:0
+[    1999ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://resources.infolinks.com/js/infolinks_main.js:0
+[    2056ms] SecurityError: Failed to read a named property 'addEventListener' from 'Window': Blocked a frame with origin "https://c0a6577d5a7eb0ecac5341df94ffa7f9.safeframe.googlesyndication.com" from accessing a cross-origin frame.
+    at <anonymous>:1:62694
+    at eval (eval at Ib (:1:66031), <anonymous>:1:100490)

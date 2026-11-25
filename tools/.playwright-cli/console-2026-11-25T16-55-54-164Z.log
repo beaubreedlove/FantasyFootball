@@ -1,0 +1,16 @@
+[     150ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://football.fantasysports.yahoo.com/f1/765761/11?week=11:0
+[     166ms] [WARNING] OathGUCE 1.0.748: Banner not enabled for this jurisdiction or host. Unable to continue. Fix: http://yo/guce-js-define @ https://s.yimg.com/oa/consent.js:1
+[     220ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     222ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     223ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     228ms] [WARNING] Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened. @ :0
+[     231ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     387ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://s.yimg.com/du/ay/wnsrvbjmeprtfrnfx.js:222
+[     445ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.sharethrough.com/FGMrCMMc/v1?gdpr=0&gdpr_consent=&us_privacy=1YNN&gpp=DBABLA~BVRqAAAAAmA.QA&gpp_sid=7&redirectUri=https%3A%2F%2Fpbs-yahoo-us.ay.delivery%2Fsetuid%3Fbidder%3Dsharethrough%26gdpr%3D0%26gdpr_consent%3D%26gpp%3DDBABLA~BVRqAAAAAmA.QA%26gpp_sid%3D7%26f%3Di%26uid%3D%24UID:0
+[     726ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://s.yimg.com/du/ay/wnsrvbjmeprtfrnfx.js:222
+[    1027ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[    3731ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[    3823ms] [ERROR] Access to XMLHttpRequest at 'https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=football.fantasysports.yahoo.com&us_privacy=1YNN&gpp=DBABLA~BVRqAAAAAmA.QA&gpp_sid=7#{%22cw%22:false,%22lsw%22:false,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.7273672087832513%22,%22tld%22:%22football.fantasysports.yahoo.com%22,%22topUrl%22:%22football.fantasysports.yahoo.com%22,%22version%22:%229_53_2%22}' from origin 'https://football.fantasysports.yahoo.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://football.fantasysports.yahoo.com/f1/765761/11?week=11:0
+[    3823ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://gum.criteo.com/syncframe?origin=criteoPrebidAdapter&topUrl=football.fantasysports.yahoo.com&us_privacy=1YNN&gpp=DBABLA~BVRqAAAAAmA.QA&gpp_sid=7#{%22cw%22:false,%22lsw%22:false,%22origin%22:%22criteoPrebidAdapter%22,%22requestId%22:%220.7273672087832513%22,%22tld%22:%22football.fantasysports.yahoo.com%22,%22topUrl%22:%22football.fantasysports.yahoo.com%22,%22version%22:%229_53_2%22}:0

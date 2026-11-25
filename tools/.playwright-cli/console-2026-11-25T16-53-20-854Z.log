@@ -1,0 +1,13 @@
+[     166ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://football.fantasysports.yahoo.com/f1/765761/6?week=3:0
+[     176ms] [WARNING] OathGUCE 1.0.748: Banner not enabled for this jurisdiction or host. Unable to continue. Fix: http://yo/guce-js-define @ https://s.yimg.com/oa/consent.js:1
+[     255ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     257ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     258ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     262ms] [WARNING] Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened. @ :0
+[     265ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0
+[     271ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202611120201/pubads_impl.js:22
+[     612ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://match.sharethrough.com/FGMrCMMc/v1?gdpr=0&gdpr_consent=&us_privacy=1YNN&gpp=DBABLA~BVRqAAAAAmA.QA&gpp_sid=7&redirectUri=https%3A%2F%2Fpbs-yahoo-us.ay.delivery%2Fsetuid%3Fbidder%3Dsharethrough%26gdpr%3D0%26gdpr_consent%3D%26gpp%3DDBABLA~BVRqAAAAAmA.QA%26gpp_sid%3D7%26f%3Di%26uid%3D%24UID:0
+[     854ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://s.yimg.com/du/ay/wnsrvbjmeprtfrnfx.js:222
+[    1108ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ :0

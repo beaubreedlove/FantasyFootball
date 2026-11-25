@@ -1,0 +1,26 @@
+{
+ "s1": {
+  "label": "1 seed",
+  "mean": 20.748,
+  "median": 20.5,
+  "mode": 20.5
+ },
+ "s2": {
+  "label": "2 seed",
+  "mean": 19.259,
+  "median": 19.0,
+  "mode": 19.0
+ },
+ "s3": {
+  "label": "3 seed",
+  "mean": 17.979,
+  "median": 18.0,
+  "mode": 18.0
+ },
+ "s6": {
+  "label": "playoff",
+  "mean": 13.789,
+  "median": 14.0,
+  "mode": 14.0
+ }
+}

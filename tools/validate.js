@@ -66,7 +66,10 @@ const checks = {
   "any 0 of": (all.match(/any 0\b/g) || []).length,
   "sci notation": (all.match(/\de-\d/g) || []).length,
   "trailing-zero odds": (all.match(/\d\.\d*?0{4,}%/g) || []).length,
-  "100.0% conditions": (all.match(/>100(\.0+)?%</g) || []).length,
+  // a clinched team legitimately shows 100%; what must never appear is a
+  // *condition* that is certain, so only the elimination section is checked
+  "100% conditions": ((store.help || "").match(/>100(\.\d+)?%</g) || []).length,
+  "padded 100.0%": (all.match(/>100\.0+%</g) || []).length,
 };
 for (const [k, v] of Object.entries(checks)) {
   if (v) bad++;
