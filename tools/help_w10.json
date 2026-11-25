@@ -1,110 +1,39 @@
 {
- "Chasing Nabors": {
-  "rec": "8-14",
-  "N": 3,
-  "perm": [
-   "Flowers For Charlie",
-   "Omarion my wayward son",
-   "Rock You Like a Burrowcane",
-   "Showtime"
-  ],
-  "things": [
-   [
-    "XXI",
-    1,
-    13
-   ],
-   [
-    "Jahmyrs For Fears",
-    2,
-    null
-   ],
-   [
-    "The Nightman Re-Cometh",
-    4,
-    12
-   ],
-   [
-    "Flush It Down",
-    5,
-    14
-   ]
-  ]
- },
- "It's Allen The Hips": {
-  "rec": "3-19",
-  "dead": true
- },
  "Jahmyrs For Fears": {
   "rec": "9-13",
-  "N": 2,
+  "N": 1,
   "perm": [
-   "Omarion my wayward son",
    "Rock You Like a Burrowcane",
    "Showtime"
   ],
   "things": [
    [
-    "XXI",
-    1,
-    null
-   ],
-   [
     "The Nightman Re-Cometh",
-    4,
+    3,
     null
    ],
    [
     "Flush It Down",
-    5,
+    4,
     null
    ],
    [
     "Flowers For Charlie",
     6,
     14
-   ]
-  ]
- },
- "Swap's Team": {
-  "rec": "7-15",
-  "N": 4,
-  "perm": [
-   "Flowers For Charlie",
-   "Flush It Down",
-   "Omarion my wayward son",
-   "Rock You Like a Burrowcane",
-   "Showtime"
-  ],
-  "things": [
-   [
-    "Chasing Nabors",
-    2,
-    null
    ],
    [
-    "Jahmyrs For Fears",
-    2,
-    13
-   ],
-   [
-    "XXI",
-    3,
-    null
-   ],
-   [
-    "The Nightman Re-Cometh",
+    "Omarion my wayward son",
     6,
     null
    ]
-  ]
+  ],
+  "impossible": false
  },
  "XXI": {
   "rec": "9-13",
   "N": 2,
   "perm": [
-   "Flowers For Charlie",
-   "Omarion my wayward son",
    "Rock You Like a Burrowcane",
    "Showtime"
   ],
@@ -123,41 +52,127 @@
     "Flush It Down",
     4,
     12
+   ],
+   [
+    "Flowers For Charlie",
+    6,
+    null
+   ],
+   [
+    "Omarion my wayward son",
+    6,
+    null
    ]
-  ]
+  ],
+  "impossible": false
+ },
+ "Chasing Nabors": {
+  "rec": "8-14",
+  "N": 2,
+  "perm": [
+   "Flowers For Charlie",
+   "Omarion my wayward son",
+   "Rock You Like a Burrowcane",
+   "Showtime"
+  ],
+  "things": [
+   [
+    "Jahmyrs For Fears",
+    1,
+    null
+   ],
+   [
+    "The Nightman Re-Cometh",
+    4,
+    12
+   ],
+   [
+    "Flush It Down",
+    5,
+    14
+   ]
+  ],
+  "impossible": false
+ },
+ "Swap's Team": {
+  "rec": "7-15",
+  "N": 4,
+  "perm": [
+   "Flowers For Charlie",
+   "Omarion my wayward son",
+   "Rock You Like a Burrowcane",
+   "Showtime"
+  ],
+  "things": [
+   [
+    "Chasing Nabors",
+    1,
+    null
+   ],
+   [
+    "Jahmyrs For Fears",
+    2,
+    13
+   ],
+   [
+    "XXI",
+    2,
+    null
+   ],
+   [
+    "The Nightman Re-Cometh",
+    5,
+    null
+   ],
+   [
+    "Flush It Down",
+    6,
+    null
+   ]
+  ],
+  "impossible": false
  },
  "You Give Love A Brad Name": {
   "rec": "6-16",
-  "N": null,
+  "N": 5,
   "perm": [
    "Flowers For Charlie",
    "Flush It Down",
    "Omarion my wayward son",
    "Rock You Like a Burrowcane",
-   "Showtime",
-   "The Nightman Re-Cometh"
+   "Showtime"
   ],
   "things": [
    [
     "Swap's Team",
-    2,
+    1,
     null
    ],
    [
     "Chasing Nabors",
-    3,
+    2,
     null
    ],
    [
     "Jahmyrs For Fears",
-    4,
+    3,
     null
    ],
    [
     "XXI",
-    4,
+    3,
+    null
+   ],
+   [
+    "The Nightman Re-Cometh",
+    6,
     null
    ]
-  ]
+  ],
+  "impossible": false
+ },
+ "It's Allen The Hips": {
+  "rec": "3-19",
+  "dead": true
  }
 }

@@ -20,6 +20,7 @@ NW = len(F.REM)                  # 4
 CF = json.load(open(os.path.join(HERE, "cf_w10.json")))
 HELP = json.load(open(os.path.join(HERE, "help_w10.json")))
 HODDS = json.load(open(os.path.join(HERE, "help_odds_w10.json")))
+OVER = json.load(open(os.path.join(HERE, "help_overall_w10.json")))
 STAND = json.load(open(os.path.join(HERE, "S_w10.json")))
 CORE = json.load(open(os.path.join(HERE, "prizes_core_w10.json")))
 CUT = json.load(open(os.path.join(HERE, "cutoff_w10.json")))
@@ -66,6 +67,17 @@ for t in ORDER:
                 "odds": v["odds"], "oneins": v.get("oneins", {}), "seeds": seeds}
 
 # ---------- H: elimination / help cards ----------
+def _pc(x):
+    """percent with three significant figures of whichever side is small"""
+    import math
+    p = 100.0 * x
+    tail = 100.0 - p
+    ref = min(p, tail) if 0 < tail < 100 else (p if p > 0 else 1e-9)
+    d = max(1, 2 - int(math.floor(math.log10(ref)))) if ref > 0 else 1
+    s = f"{p:.{d}f}".rstrip("0").rstrip(".")
+    return (s if "." in s else s + ".0") + "%"
+
+
 H = []
 for t in ORDER:
     if t not in HELP:
@@ -73,7 +85,7 @@ for t in ORDER:
     v = HELP[t]
     if v.get("dead"):
         H.append([t, v["rec"], "warn", "Eliminated from playoff contention.", [],
-                  "No combination of remaining results can put them in the top six."])
+                  "No combination of remaining results can put them in the top six.", ""])
         continue
     rows = HODDS[t]
     k, N = len(rows), v["N"]
@@ -84,17 +96,25 @@ for t in ORDER:
         if l >= G:
             s = f"{u} loses all {G} <span class='pc'>{shown}</span>"
             if w:
-                s += (f" <span class='mini'>one of those is your wk{w} game</span>")
+                s += f" <span class='mini'>one of those is your wk{w} game</span>"
         else:
-            s = f"{u} loses ≥{l} of {G} <span class='pc'>{shown}</span>"
+            s = f"{u} loses \u2265{l} of {G} <span class='pc'>{shown}</span>"
             if w and l - 1 > 0:
                 s += f" <span class='mini'>you beat them in wk{w}, so {l-1} more</span>"
         items.append(s)
     note = ""
     if v["perm"]:
-        note = (", ".join(v["perm"]) + " will finish above them regardless — "
+        note = (", ".join(v["perm"]) + " will finish above them regardless \u2014 "
                 "nothing can change that, so they'd get in behind them.")
-    H.append([t, v["rec"], "", hdr, items, note])
+    o = OVER.get(t)
+    overall = ""
+    if o:
+        allodds = CF[t]["odds"][3]
+        overall = (f"Win out \u2014 itself a {_pc(o['p_winout'])} shot \u2014 and enough of "
+                   f"this falls into place {_pc(o['p_enough_given_winout'])} of the time. "
+                   f"Counting every path, including ones where they drop a game, "
+                   f"their playoff odds are {allodds}.")
+    H.append([t, v["rec"], "", hdr, items, note, overall])
 
 # ---------- P: the five prizes ----------
 def lead(t):
@@ -178,6 +198,8 @@ REPL = [
     (f'"win out \u2014 all {PG}"', f'"win out \u2014 all {NG}"'),
     (f"c.f.length==={PG}?", f"c.f.length==={NG}?"),
     (f"c.k==={PG}?", f"c.k==={NG}?"),
+    ('document.getElementById("help").innerHTML=H.map(([n,r,c,h,items,note])=>\n `<div class="card ${c}"><h3>${n}<span class="rec">${r}</span></h3>\n  <p><span class="pill ${c==="good"?"in":"out"}">${h}</span></p>\n  <ul class="tight">${items.map(i=>`<li>${i}</li>`).join("")}</ul>\n  ${note?`<p>${note}</p>`:""}</div>`).join("");',
+     'document.getElementById("help").innerHTML=H.map(([n,r,c,h,items,note,over])=>\n `<div class="card ${c}"><h3>${n}<span class="rec">${r}</span></h3>\n  <p><span class="pill ${c==="good"?"in":"out"}">${h}</span></p>\n  <ul class="tight">${items.map(i=>`<li>${i}</li>`).join("")}</ul>\n  ${over?`<p class="lead">${over}</p>`:""}\n  ${note?`<p>${note}</p>`:""}</div>`).join("");'),
     ("and the odds\n  below are how often each team finished on each seed",
      "and the odds\n  above are how often each team finished on each seed"),
     ('if(el.length) out+=`<span class="chip e">out of ${el.length>1?"seeds "+el.join(", "):"seed "+el[0]}</span>`;',

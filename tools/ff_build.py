@@ -65,48 +65,9 @@ def routes(T, seed):
     return out
 
 
-# ---------- help: what the teams who can't clinch still need ----------
-def help_for(T):
-    """Assume T wins out; who must be held below them, and how many suffice."""
-    tot = cur[T] + F.GAMES
-    plays = {}
-    for w in F.REM:
-        for a, b in sched[w]:
-            if T in (a, b):
-                plays[b if a == T else a] = w
-    raw = []
-    for u in names:
-        if u == T:
-            continue
-        ceil = cur[u] + (F.GAMES - 1 if u in plays else F.GAMES)
-        if ceil < tot:
-            continue                      # already below T's ceiling
-        # strictly below T, not merely tied -- a tie goes to the adversary
-        need = ceil - tot + 1
-        raw.append((u, need, plays.get(u)))
-    cap = sorted([(u, l, w) for u, l, w in raw if l <= F.GAMES], key=lambda x: x[1])
-    perm = [u for u, l, _w in raw if l > F.GAMES]
-
-    def ok(group):
-        m, ab, rem, key = S.build(T, tuple(A))
-        for u, l, _w in group:
-            m.Add(rem[u] <= F.GAMES - l)
-        v = S._solve(m, sum(ab), "max")
-        # infeasible: that combination of losses cannot physically occur, so the
-        # implication holds vacuously and must not block a smaller N
-        return True if v is None else v <= 5
-
-    if ok(()):
-        return None                       # controls own destiny
-    N = None
-    for k in range(1, len(cap) + 1):
-        subs = list(combinations(cap, k))
-        if subs and all(ok(g) for g in subs):
-            N = k
-            break
-    return {"rec": f"{cur[T]}-{2*len(F.PLAYED)-cur[T]}", "N": N, "perm": perm,
-            "things": [[u, l, w] for u, l, w in cap]}
-
+# Elimination scenarios live in ff_help.py. An older copy of help_for lived
+# here too and, because this module runs last, it silently overwrote the
+# corrected output -- which is how 'any None of 5' reached the page.
 
 def main():
     z = np.load(SIM, allow_pickle=True)
@@ -145,23 +106,7 @@ def main():
                     break
     json.dump(CF, open("cf_w10.json", "w"), indent=1)
 
-    H = {}
-    for T in names:
-        if status[T]["6"] == "eliminated":
-            H[T] = {"rec": f"{cur[T]}-{2*len(F.PLAYED)-cur[T]}", "dead": True}
-            continue
-        h = help_for(T)
-        if h:
-            H[T] = h
-    json.dump(H, open("help_w10.json", "w"), indent=1)
-    print("\nhelp needed:")
-    for T, v in H.items():
-        if v.get("dead"):
-            print(f"  {T:28s} ELIMINATED")
-        else:
-            lab = "all" if v["N"] == len(v["things"]) else f"any {v['N']}"
-            print(f"  {T:28s} {lab} of {len(v['things'])}"
-                  + (f"  (+{len(v['perm'])} permanent)" if v["perm"] else ""))
+    print("\n(elimination scenarios: run ff_help.py)")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,32 @@
+{
+ "Jahmyrs For Fears": {
+  "p_winout": 0.05766641,
+  "p_in_given_winout": 0.8588704123133959,
+  "p_enough_given_winout": 0.8588704123133959,
+  "samples": 17299923
+ },
+ "XXI": {
+  "p_winout": 0.05768436,
+  "p_in_given_winout": 0.9467458770453551,
+  "p_enough_given_winout": 0.9467458770453551,
+  "samples": 17305308
+ },
+ "Chasing Nabors": {
+  "p_winout": 0.05768361,
+  "p_in_given_winout": 0.7252890956951781,
+  "p_enough_given_winout": 0.7252890956951781,
+  "samples": 17305083
+ },
+ "Swap's Team": {
+  "p_winout": 0.05767053666666667,
+  "p_in_given_winout": 0.1513351040430177,
+  "p_enough_given_winout": 0.1513351040430177,
+  "samples": 17301161
+ },
+ "You Give Love A Brad Name": {
+  "p_winout": 0.057670393333333334,
+  "p_in_given_winout": 0.009132820202717535,
+  "p_enough_given_winout": 0.009132820202717535,
+  "samples": 17301118
+ }
+}
