@@ -107,13 +107,9 @@ for t in ORDER:
         note = (", ".join(v["perm"]) + " will finish above them regardless \u2014 "
                 "nothing can change that, so they'd get in behind them.")
     o = OVER.get(t)
-    overall = ""
-    if o:
-        allodds = CF[t]["odds"][3]
-        overall = (f"Win out \u2014 itself a {_pc(o['p_winout'])} shot \u2014 and enough of "
-                   f"this falls into place {_pc(o['p_enough_given_winout'])} of the time. "
-                   f"Counting every path, including ones where they drop a game, "
-                   f"their playoff odds are {allodds}.")
+    overall = ("" if not o else
+               f"Win out and enough of this falls into place "
+               f"{_pc(o['p_enough_given_winout'])} of the time.")
     H.append([t, v["rec"], "", hdr, items, note, overall])
 
 # ---------- P: the five prizes ----------
